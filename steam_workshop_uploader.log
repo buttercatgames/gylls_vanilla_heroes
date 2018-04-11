@@ -1,0 +1,99 @@
+
+-------------------------------------------------------------------------------
+Parsing project file - C:\Program Files (x86)\Darkest Dungeon\mods\gylls_vanilla_heroes\project.xml
+Mod Data Directory = C:/Program Files (x86)/Darkest Dungeon/mods/gylls_vanilla_heroes/
+
+-------------------------------------------------------------------------------
+Processing Map Files files...
+
+-------------------------------------------------------------------------------
+Running Localization...
+Parsing localization/gylls_vanilla.string_table.xml
+Parsing localization/gylls_vanilla_overwrites.string_table.xml
+
+Building Languages
+Exporting .loc files
+
+-------------------------------------------------------------------------------
+Searching for preview icon file C:/Program Files (x86)/Darkest Dungeon/mods/gylls_vanilla_heroes/preview_icon.png...FOUND!
+<UploadMode> - Set to direct_upload
+
+
+-------------------------------------------------------------------------------
+Modded files...
+
+heroes/antiquarian/fx/antiquarian.sprite.invigorating_vapours.png
+heroes/antiquarian/fx/antiquarian.sprite.invigorating_vapours_target.png
+panels/icons_equip/supply/inv_supply+antiq_blue.png
+panels/icons_equip/supply/inv_supply+antiq_orange.png
+audio/secondary_banks/dark_dunge.bank
+campaign/provision/gylls_vanilla.provision.json
+fx/antiq_blue/antiq_blue.sprite.atlas
+fx/antiq_blue/antiq_blue.sprite.png
+fx/antiq_blue/antiq_blue.sprite.skel
+fx/antiq_orange/antiq_orange.sprite.atlas
+fx/antiq_orange/antiq_orange.sprite.png
+fx/antiq_orange/antiq_orange.sprite.skel
+heroes/abomination/abomination.art.darkest
+heroes/abomination/abomination.info.darkest
+heroes/antiquarian/antiquarian.ability.rapturous.png
+heroes/antiquarian/antiquarian.art.darkest
+heroes/antiquarian/antiquarian.info.darkest
+heroes/arbalest/arbalest.art.darkest
+heroes/arbalest/arbalest.info.darkest
+heroes/bounty_hunter/bounty_hunter.ability.hook.png
+heroes/bounty_hunter/bounty_hunter.art.darkest
+heroes/bounty_hunter/bounty_hunter.info.darkest
+heroes/crusader/crusader.ability.cleave.png
+heroes/crusader/crusader.ability.scroll.png
+heroes/crusader/crusader.ability.smite.png
+heroes/crusader/crusader.art.darkest
+heroes/crusader/crusader.info.darkest
+heroes/grave_robber/grave_robber.art.darkest
+heroes/grave_robber/grave_robber.info.darkest
+heroes/hellion/hellion.art.darkest
+heroes/hellion/hellion.info.darkest
+heroes/highwayman/highwayman.ability.coldblood.png
+heroes/highwayman/highwayman.art.darkest
+heroes/highwayman/highwayman.info.darkest
+heroes/houndmaster/houndmaster.ability.lick.png
+heroes/houndmaster/houndmaster.ability.pull.png
+heroes/houndmaster/houndmaster.art.darkest
+heroes/houndmaster/houndmaster.info.darkest
+heroes/jester/jester.art.darkest
+heroes/jester/jester.info.darkest
+heroes/leper/leper.ability.overpower.png
+heroes/leper/leper.ability.revenge.png
+heroes/leper/leper.ability.withstand.png
+heroes/leper/leper.art.darkest
+heroes/leper/leper.info.darkest
+heroes/man_at_arms/man_at_arms.art.darkest
+heroes/man_at_arms/man_at_arms.info.darkest
+heroes/occultist/occultist.art.darkest
+heroes/occultist/occultist.info.darkest
+heroes/plague_doctor/plague_doctor.ability.amputate.png
+heroes/plague_doctor/plague_doctor.ability.concoction.png
+heroes/plague_doctor/plague_doctor.ability.explosion.png
+heroes/plague_doctor/plague_doctor.art.darkest
+heroes/plague_doctor/plague_doctor.info.darkest
+heroes/vestal/vestal.ability.chastise.png
+heroes/vestal/vestal.ability.hand.png
+heroes/vestal/vestal.art.darkest
+heroes/vestal/vestal.info.darkest
+shared/buffs/dark_dunge.buffs.json
+audio/dark_dunge.campaign.guid_overrides.json
+audio/dark_dunge.campaign.load_order.json
+effects/dark_dunge.effects.darkest
+inventory/gylls_vanilla.inventory.extra_stack_limits.darkest
+inventory/gylls_vanilla.supply.inventory.items.darkest
+localization/1354446999_english.loc
+localization/gylls_vanilla.string_table.xml
+localization/gylls_vanilla_overwrites.string_table.xml
+loot/dark_dunge.loot.json
+modfiles.txt
+preview_icon.png
+project.xml
+
+Submitting...............................................................................Submitted.
+Saving project file C:\Program Files (x86)\Darkest Dungeon\mods\gylls_vanilla_heroes\project.xml
+

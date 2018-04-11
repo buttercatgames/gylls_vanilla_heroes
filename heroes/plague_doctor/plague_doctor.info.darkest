@@ -1,0 +1,46 @@
+resistances: .stun 20% .poison 60% .bleed 20% .disease 50% .move 20% .debuff 50% .death_blow 67% .trap 20%
+
+weapon: .name "plague_doctor_weapon_0" .atk 0% .dmg 4 7 .crit 2.5% .spd 5
+weapon: .name "plague_doctor_weapon_1" .atk 0% .dmg 5 8 .crit 3% .spd 7 .upgradeRequirementCode 0
+weapon: .name "plague_doctor_weapon_2" .atk 0% .dmg 6 10 .crit 3.5% .spd 8 .upgradeRequirementCode 1
+weapon: .name "plague_doctor_weapon_3" .atk 0% .dmg 6 11 .crit 4% .spd 8 .upgradeRequirementCode 2
+weapon: .name "plague_doctor_weapon_4" .atk 0% .dmg 7 13 .crit 4.5% .spd 9 .upgradeRequirementCode 3
+
+armour: .name "plague_doctor_armour_0" .def 5% .prot 0 .hp 22 .spd 0
+armour: .name "plague_doctor_armour_1" .def 10% .prot 0 .hp 26 .spd 0 .upgradeRequirementCode 0
+armour: .name "plague_doctor_armour_2" .def 15% .prot 0 .hp 30 .spd 0 .upgradeRequirementCode 1
+armour: .name "plague_doctor_armour_3" .def 20% .prot 0 .hp 34 .spd 0 .upgradeRequirementCode 2
+armour: .name "plague_doctor_armour_4" .def 25% .prot 0 .hp 38 .spd 0 .upgradeRequirementCode 3
+
+// Noxious Blast
+combat_skill: .id "noxious_blast" .level 0 .type "ranged" .atk 95% .dmg -80% .crit 0% .launch 432 .target 12 .is_crit_valid True .effect "PD Single Blight 1" .generation_guaranteed true
+
+// Plague Grenade
+combat_skill: .id "plague_grenade" .level 0 .type "ranged" .atk 95% .dmg -90% .crit 0% .launch 43 .target ~34 .is_crit_valid True .effect "PD Blight 1"
+
+// Blinding Gas
+combat_skill: .id "blinding_gas" .level 0 .type "ranged" .atk 90% .dmg -100% .crit 0% .launch 43 .target ~34 .is_crit_valid False .effect "Stun 1"
+
+// Incision
+combat_skill: .id "incision" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .launch 321 .target 12 .is_crit_valid True .effect "Minor Bleed 1" "DNG_PD_PoisonKiller"
+
+// Battlefield Medicine
+combat_skill: .id "battlefield_medicine" .level 0 .heal 1 2 .launch 432 .target @1234 .effect "DNG_Cure_Bleed" "DNG_Cure_Blight"
+
+// Potent Concoction
+combat_skill: .id "emboldening_vapours" .level 0 .launch 4321 .target @1234 .effect "DNG_PD_Buff_Target" "DNG_PD_Buff_Self"
+
+// Corpse Explosion
+combat_skill: .id "disorienting_blast" .level 0 .type "ranged" .atk 95% .dmg 0% .crit 5% .launch 43 .target 234 .is_crit_valid True .effect "DNG_PD_Corpse_Only" "DNG_PD_2_Corpses" "DNG_PD_3_Corpses" "DNG_Tooltip_PD_Corpse_Explosion" "DNG_Clear_Corpses"
+
+combat_move_skill: .id "move" .level 0 .type "move" .move 1 1 .launch 4321
+
+tag: .id "light"
+tag: .id "non-religious"
+tag: .id "library"
+
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 4
+id_index: .index 2
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 5 .card_chance 1.0

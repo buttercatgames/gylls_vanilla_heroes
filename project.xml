@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<PreviewIconFile>preview_icon.png</PreviewIconFile>
+	<ItemDescriptionShort/>
+	<ModDataPath>C:/Program Files (x86)/Darkest Dungeon/mods/gylls_vanilla_heroes/</ModDataPath>
+	<Title>Gyll&apos;s Vanilla - Heroes</Title>
+	<Language>english</Language>
+	<UpdateDetails/>
+	<Visibility>private</Visibility>
+	<UploadMode>direct_upload</UploadMode>
+	<VersionMajor>0</VersionMajor>
+	<VersionMinor>1</VersionMinor>
+	<TargetBuild>21142</TargetBuild>
+	<Tags>
+		<Tags>Overhauls</Tags>
+		<Tags>Gameplay Tweaks</Tags>
+	</Tags>
+	<ItemDescription>Test steam workshop upload</ItemDescription>
+	<PublishedFileId>1354446999</PublishedFileId>
+</project>
+

@@ -1,0 +1,16 @@
+{
+   "loot_tables" :
+   [
+      {
+         "id" : "DNG_ANTIQ",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+			{ "type" : "nothing", "chances" : 3, "data" : { }},
+            { "type" : "item", "chances" : 35, "data" : { "type" : "supply", "id" : "antiq_blue", "amount" : 1 }},
+            { "type" : "item", "chances" : 35, "data" : { "type" : "supply", "id" : "antiq_orange", "amount" : 1 }}
+         ]
+      }
+   ]
+}

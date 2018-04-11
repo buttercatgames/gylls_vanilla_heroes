@@ -1,0 +1,47 @@
+resistances: .stun 30% .poison 30% .bleed 30% .disease 30% .move 30% .debuff 30% .death_blow 67% .trap 40%
+
+weapon: .name "highwayman_weapon_0" .atk 0% .dmg 6 12 .crit 5% .spd 5
+weapon: .name "highwayman_weapon_1" .atk 0% .dmg 6 12 .crit 5.5% .spd 5 .upgradeRequirementCode 0
+weapon: .name "highwayman_weapon_2" .atk 0% .dmg 7 13 .crit 6% .spd 6 .upgradeRequirementCode 1
+weapon: .name "highwayman_weapon_3" .atk 0% .dmg 8 15 .crit 6.5% .spd 6 .upgradeRequirementCode 2
+weapon: .name "highwayman_weapon_4" .atk 0% .dmg 9 16 .crit 7% .spd 7 .upgradeRequirementCode 3
+
+armour: .name "highwayman_armour_0" .def 10% .prot 0 .hp 23 .spd 0
+armour: .name "highwayman_armour_1" .def 15% .prot 0 .hp 28 .spd 0 .upgradeRequirementCode 0
+armour: .name "highwayman_armour_2" .def 20% .prot 0 .hp 33 .spd 0 .upgradeRequirementCode 1
+armour: .name "highwayman_armour_3" .def 25% .prot 0 .hp 38 .spd 0 .upgradeRequirementCode 2
+armour: .name "highwayman_armour_4" .def 30% .prot 0 .hp 43 .spd 0 .upgradeRequirementCode 3
+
+// Wicked Slice
+combat_skill: .id "wicked_slice" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .launch 321 .target 12 .is_crit_valid True .effect "DNG_HWM_Dodge_Buff" .generation_guaranteed true
+
+// Open Vein
+combat_skill: .id "opened_vein" .level 0 .type "melee" .atk 85% .dmg -25% .crit 2% .launch 321 .target 12 .is_crit_valid True .effect "Bleed 1"
+
+// Point Blank Shot
+combat_skill: .id "point_blank_shot" .level 0 .type "ranged" .atk 95% .dmg 25% .crit 0% .move 1 0 .launch 1 .target 1 .is_crit_valid True .effect "Push 1A"
+
+// Grapeshot Blast
+combat_skill: .id "grape_shot_blast" .level 0 .type "ranged" .atk 80% .dmg -60% .crit -5% .launch 23 .target ~123 .is_crit_valid True
+
+// Duelist's Advance
+combat_skill: .id "duelist_advance" .level 0 .type "melee" .atk 85% .dmg -50% .crit 2% .move 0 1 .launch 432 .target 12 .is_crit_valid True .effect "DNG_HWM_Riposte" "DNG_Tooltip_HWM_Riposte"
+
+// Cold Blood
+combat_skill: .id "take_aim" .level 0 .type "ranged" .atk 95% .dmg -25% .crit 10% .launch 321 .target 1234 .is_crit_valid True .effect "DNG_HWM_Bleed_Killer" "DNG_HWM_Mark_Killer" "DNG_HWM_Untag_Target"
+
+// Gut Shot
+combat_skill: .id "pistol_shot" .level 0 .type "ranged" .atk 75% .dmg -70% .crit -5% .per_battle_limit 1 .launch 321 .target 123 .is_crit_valid True .effect "DNG_HWM_Exhaust" "DNG_Mark_Target_1" .is_continue_turn true .per_battle_limit 1
+
+combat_move_skill: .id "move" .level 0 .type "move" .move 2 2 .launch 4321
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 85% .dmg -25% .crit 2% .launch 1234 .target 1234 .is_crit_valid True 
+
+tag: .id "light"
+tag: .id "non-religious"
+tag: .id "house_of_the_yellow_hand"
+
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 1
+id_index: .index 1
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 5 .card_chance 1.0

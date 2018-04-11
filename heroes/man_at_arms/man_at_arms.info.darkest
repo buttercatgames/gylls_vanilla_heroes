@@ -1,0 +1,34 @@
+resistances: .stun 50% .poison 30% .bleed 40% .disease 30% .move 50% .debuff 30% .death_blow 67% .trap 10%
+
+weapon: .name "man_at_arms_weapon_0" .atk 0% .dmg 5 10 .crit 3.75% .spd 3
+weapon: .name "man_at_arms_weapon_1" .atk 0% .dmg 6 12 .crit 4.25% .spd 3 .upgradeRequirementCode 0
+weapon: .name "man_at_arms_weapon_2" .atk 0% .dmg 7 13 .crit 4.75% .spd 4 .upgradeRequirementCode 1
+weapon: .name "man_at_arms_weapon_3" .atk 0% .dmg 7 15 .crit 5.25% .spd 4 .upgradeRequirementCode 2
+weapon: .name "man_at_arms_weapon_4" .atk 0% .dmg 8 16 .crit 5.75% .spd 5 .upgradeRequirementCode 3
+
+armour: .name "man_at_arms_armour_0" .def 5% .prot 0 .hp 31 .spd 0
+armour: .name "man_at_arms_armour_1" .def 10% .prot 0 .hp 37 .spd 0 .upgradeRequirementCode 0
+armour: .name "man_at_arms_armour_2" .def 15% .prot 0 .hp 43 .spd 0 .upgradeRequirementCode 1
+armour: .name "man_at_arms_armour_3" .def 20% .prot 0 .hp 49 .spd 0 .upgradeRequirementCode 2
+armour: .name "man_at_arms_armour_4" .def 25% .prot 0 .hp 55 .spd 0 .upgradeRequirementCode 3
+
+combat_skill: .id "crush" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .launch 12 .target 123 .is_crit_valid True  .generation_guaranteed true
+combat_skill: .id "rampart" .level 0 .type "melee" .atk 90% .dmg -60% .crit 5% .move 0 1 .launch 123 .target 123 .is_crit_valid True  .effect "Push 1A" "Stun 1"
+combat_skill: .id "bellow" .level 0 .type "ranged" .atk 90% .dmg -90% .crit 0% .launch 123 .target ~1234 .is_crit_valid True  .effect "Disrupt 1"
+combat_skill: .id "defender" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 1234 .target @1234 .is_crit_valid True  .effect "Clear Guard Performer" "Clear Guard Target" "MAA Guard 1" "Defender 1"
+combat_skill: .id "retribution" .level 0 .type "melee" .atk 85% .dmg -75% .crit 0% .launch 123 .target 123 .is_crit_valid True  .effect "MAA Riposte 1" "Mark Self"
+combat_skill: .id "command" .level 0 .type "ranged" .atk 100% .dmg -100% .crit 0% .launch 4321 .target 1234 .is_crit_valid False .effect "DNG_MAA_Command_Buff" "DNG_Mark_Target_3" 
+combat_skill: .id "bolster" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target ~@1234 .is_crit_valid True  .effect "Bolster 1"
+
+combat_move_skill: .id "move" .level 0 .type "move" .move 2 2 .launch 4321
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 90% .dmg -40% .crit 0% .launch 1234 .target 1234 .is_crit_valid True 
+
+tag: .id "heavy"
+tag: .id "non-religious"
+tag: .id "training_ring"
+
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 1
+id_index: .index 11
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 5 .card_chance 1.0

@@ -1,0 +1,46 @@
+resistances: .stun 40% .poison 30% .bleed 30% .disease 30% .move 40% .debuff 30% .death_blow 67% .trap 10%
+
+weapon: .name "crusader_weapon_0" .atk 0% .dmg 6 12 .crit 5% .spd 1
+weapon: .name "crusader_weapon_1" .atk 0% .dmg 7 14 .crit 5.5% .spd 1 .upgradeRequirementCode 0
+weapon: .name "crusader_weapon_2" .atk 0% .dmg 8 16 .crit 6% .spd 2 .upgradeRequirementCode 1
+weapon: .name "crusader_weapon_3" .atk 0% .dmg 9 17 .crit 6.5% .spd 2 .upgradeRequirementCode 2
+weapon: .name "crusader_weapon_4" .atk 0% .dmg 10 19 .crit 7% .spd 3 .upgradeRequirementCode 3
+
+armour: .name "crusader_armour_0" .def 5% .prot 0 .hp 33 .spd 0
+armour: .name "crusader_armour_1" .def 10% .prot 0 .hp 40 .spd 0 .upgradeRequirementCode 0
+armour: .name "crusader_armour_2" .def 15% .prot 0 .hp 47 .spd 0 .upgradeRequirementCode 1
+armour: .name "crusader_armour_3" .def 20% .prot 0 .hp 54 .spd 0 .upgradeRequirementCode 2
+armour: .name "crusader_armour_4" .def 25% .prot 0 .hp 61 .spd 0 .upgradeRequirementCode 3
+
+// Smite
+combat_skill: .id "smite" .level 0 .type "melee" .atk 85% .dmg 0% .crit 2% .launch 21 .target 12 .is_crit_valid True  .effect "Unholy Killer 1" .generation_guaranteed true
+
+// Cleave
+combat_skill: .id "zealous_accusation" .level 0 .type "melee" .atk 85% .dmg -40% .crit 0% .launch 21 .target ~12 .is_crit_valid True 
+
+// Stunning Blow
+combat_skill: .id "stunning_blow" .level 0 .type "melee" .atk 90% .dmg -75% .crit 0% .launch 21 .target 12 .is_crit_valid True  .effect "Stun 1"
+
+// Holy Lance
+combat_skill: .id "holy_lance" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .move 0 2 .launch 43 .target 34 .is_crit_valid True .effect "Unholy Killer 1"
+
+// Inspiring Cry
+combat_skill: .id "inspiring_cry" .level 0 .heal 1 1 .launch 4321 .target @1234 .effect "Crusader HealStress 1" "Crusader Light 1"
+
+// Battle Heal
+combat_skill: .id "battle_heal" .level 0 .launch 21 .target @1234 .effect "DNG_Crusader_Heal_Target" "DNG_Crusader_Heal_Self"
+
+// Last Rites
+combat_skill: .id "bulwark_of_faith" .level 0 .type "ranged" .atk 95% .dmg -100% .crit 0% .launch 21 .target 1234 .is_crit_valid False .effect "DNG_Crusader_Speed_Debuff" "DNG_Clear_Corpses"
+
+combat_move_skill: .id "move" .level 0 .type "move" .move 1 1 .launch 4321
+
+tag: .id "heavy"
+tag: .id "religious"
+tag: .id "altar_of_light"
+
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 1
+id_index: .index 0
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 5 .card_chance 1.0
