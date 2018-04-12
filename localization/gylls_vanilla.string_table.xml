@@ -23,7 +23,6 @@
 		<!-- Houndmaster -->
 		<entry id="upgrade_tree_name_houndmaster.hounds_harry"><![CDATA[Go Fetch]]></entry>
 		<entry id="combat_skill_name_houndmaster_hounds_harry"><![CDATA[Go Fetch]]></entry>
-		<entry id="str_skill_mode_info_hound"><![CDATA[]]></entry>
 		<entry id="actor_mode_name_hound"><![CDATA[Hound]]></entry>
 		
 		<!-- Houndmaster Limit -->
@@ -38,7 +37,6 @@
 		<entry id="effect_tooltip_cure_bleed"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}]]></entry>
 		<entry id="effect_tooltip_cure_poison"><![CDATA[Cure {colour_start|blight}Blight{colour_end}]]></entry>
 		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Cure {colour_start|skill_pip_default}Horror{colour_end}]]></entry>
-		<entry id="buff_rule_data_tooltip_action_type_human"><![CDATA[{colour_start|attacktype}Human{colour_end}]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if vs. %s (%d+)]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if vs. no %ss]]></entry>
 		<entry id="effect_tooltip_target_enemy_group"><![CDATA[Enemy Party:]]></entry>
@@ -52,6 +50,8 @@ Triggers on MISS/DODGE only]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no Corpses
 +100%% DMG if 2+ Corpses
 +100%% DMG if 3+ Corpses]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_consume_mark"><![CDATA[Consume {colour_start|mark}Mark{colour_end}]]></entry>
+
 	</language>
 </root>
 

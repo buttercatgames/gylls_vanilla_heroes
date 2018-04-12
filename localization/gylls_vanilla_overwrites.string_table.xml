@@ -13,7 +13,7 @@
 		<entry id="upgrade_tree_name_crusader.zealous_accusation"><![CDATA[Cleave]]></entry>
 		<entry id="combat_skill_name_crusader_bulwark_of_faith"><![CDATA[Last Rites]]></entry>
 		<entry id="upgrade_tree_name_crusader.bulwark_of_faith"><![CDATA[Last Rites]]></entry>
-
+		
 		<!-- Hellion -->
 	    <entry id="combat_skill_name_hellion_adrenaline_rush"><![CDATA[Indomitable Will]]></entry>
 		<entry id="upgrade_tree_name_hellion.adrenaline_rush"><![CDATA[Indomitable Will]]></entry>
@@ -45,10 +45,7 @@
 		<entry id="upgrade_tree_name_vestal.mace_bash"><![CDATA[Chastise]]></entry>
 
 		
-		<!-- Misc -->
-		<entry id="effect_tooltip_stun"><![CDATA[{colour_start|stun}Stun{colour_end}]]></entry>
-		<entry id="effect_tooltip_unstun"><![CDATA[Clear {colour_start|stun}Stun{colour_end}]]></entry>
-		
+		<!-- Misc -->	
 		<entry id="str_stat_attack_bonus"><![CDATA[ACC]]></entry>
 		<entry id="str_stat_base_armour"><![CDATA[Armor]]></entry>
 		<entry id="str_stat_base_attack"><![CDATA[ACC]]></entry>
@@ -79,10 +76,6 @@
 		<entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% DMG Received]]></entry>
 	    <entry id="effect_base_chance_format"><![CDATA[{colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>
 		<entry id="effect_tooltip_move_forward"><![CDATA[{colour_start|move}Pull{colour_end} %d]]></entry>
-		
-	    <entry id="buff_stat_tooltip_stress_dmg_percent"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end} Inflicted]]></entry>
-	    <entry id="buff_stat_tooltip_ignore_protection"><![CDATA[Pierce %d%% PROT]]></entry>
-		<entry id="buff_stat_tooltip_crit_received_chance"><![CDATA[Crits Received: %+d%%]]></entry>
 	</language>
 </root>
 

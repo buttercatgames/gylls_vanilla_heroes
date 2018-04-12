@@ -28,7 +28,7 @@ combat_skill: .id "grape_shot_blast" .level 0 .type "ranged" .atk 80% .dmg -60% 
 combat_skill: .id "duelist_advance" .level 0 .type "melee" .atk 85% .dmg -50% .crit 2% .move 0 1 .launch 432 .target 12 .is_crit_valid True .effect "DNG_HWM_Riposte" "DNG_Tooltip_HWM_Riposte"
 
 // Cold Blood
-combat_skill: .id "take_aim" .level 0 .type "ranged" .atk 95% .dmg -25% .crit 10% .launch 321 .target 1234 .is_crit_valid True .effect "DNG_HWM_Bleed_Killer" "DNG_HWM_Mark_Killer" "DNG_HWM_Untag_Target"
+combat_skill: .id "take_aim" .level 0 .type "ranged" .atk 95% .dmg -25% .crit 10% .launch 321 .target 1234 .is_crit_valid True .effect "DNG_HWM_Bleed_Killer" "DNG_HWM_Mark_Killer" "DNG_HWM_Untag_Target" "DNG_Tooltip_Consume_Mark"
 
 // Gut Shot
 combat_skill: .id "pistol_shot" .level 0 .type "ranged" .atk 75% .dmg -70% .crit -5% .per_battle_limit 1 .launch 321 .target 123 .is_crit_valid True .effect "DNG_HWM_Exhaust" "DNG_Mark_Target_1" .is_continue_turn true .per_battle_limit 1
