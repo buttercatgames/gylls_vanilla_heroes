@@ -28,7 +28,7 @@ combat_skill: .id "if_it_bleeds" .level 0 .type "melee" .atk 85% .dmg -35% .crit
 combat_skill: .id "breakthru" .level 0 .type "melee" .atk 85% .dmg -55% .crit 0% .move 0 1 .launch 4321 .target ~123 .is_crit_valid True  .effect "Hellion Exhaust"
 
 // Adrenaline Rush
-combat_skill: .id "adrenaline_rush" .level 0 .heal 1 2 .launch 21 .target @1234 .effect "DNG_Cure_Stun" "DNG_Cure_Blight" "DNG_Cure_Stacking_Heal"
+combat_skill: .id "adrenaline_rush" .level 0 .heal 1 2 .launch 21 .target @1234 .effect "GV_Cure_Stun" "GV_Cure_Blight" "GV_Cure_Stacking_Heal"
 
 // Bleed Out
 combat_skill: .id "bleed_out" .level 0 .type "melee" .atk 85% .dmg 15% .crit 5% .launch 1 .target 1 .is_crit_valid True  .effect "Strong Bleed 1" "Hellion Exhaust"

@@ -2,7 +2,7 @@
    "buffs":
    [
       {
-         "id" : "DNG_Abom_Stressed_Crit_Buff",
+         "id" : "GV_Abom_Stressed_Crit_Buff",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "crit_chance",
          "amount" : 0.05,
@@ -15,7 +15,7 @@
          }
       },
       {
-         "id" : "DNG_Abom_Stressed_Crit_Buff_Mega",
+         "id" : "GV_Abom_Stressed_Crit_Buff_Mega",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "crit_chance",
          "amount" : 0.10,
@@ -28,7 +28,7 @@
          }
       },
       {
-         "id" : "DNG_Abom_SPD",
+         "id" : "GV_Abom_SPD",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "speed_rating",
          "amount" : 2,
@@ -43,7 +43,7 @@
          }
       },
       {
-         "id" : "DNG_Abom_DMGL",
+         "id" : "GV_Abom_DMGL",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
          "amount" : 0.20,
@@ -58,7 +58,7 @@
          }
       },
       {
-         "id" : "DNG_Abom_DMGH",
+         "id" : "GV_Abom_DMGH",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : 0.20,
@@ -73,7 +73,7 @@
          }
       },
       {
-         "id" : "DNG_Antiq_Buff_Heal",
+         "id" : "GV_Antiq_Buff_Heal",
          "stat_type" : "hp_heal_percent",
          "stat_sub_type" : "",
          "amount" : 1.0,
@@ -86,7 +86,7 @@
          }
       },
       {
-         "id" : "DNG_Antiq_Flashpowder_Dmg_L",
+         "id" : "GV_Antiq_Flashpowder_Dmg_L",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
          "amount" : 1.0,
@@ -99,7 +99,7 @@
          }
       },
       {
-         "id" : "DNG_Antiq_Flashpowder_Dmg_H",
+         "id" : "GV_Antiq_Flashpowder_Dmg_H",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : 1.0,
@@ -112,7 +112,7 @@
          }
       },
       {
-         "id" : "DNG_Antiq_Flashpowder_Move_Skill_Buff",
+         "id" : "GV_Antiq_Flashpowder_Move_Skill_Buff",
          "stat_type" : "move_chance",
          "stat_sub_type" : "",
          "amount" : 1.25,
@@ -125,7 +125,7 @@
          }
       },
       {
-         "id" : "DNG_Antiq_Blight_Skill_Buff",
+         "id" : "GV_Antiq_Blight_Skill_Buff",
          "stat_type" : "poison_chance",
          "stat_sub_type" : "",
          "amount" : 1.0,
@@ -138,7 +138,7 @@
          }
       },
 	  {
-         "id" : "DNG_Antiq_Stab_Buff_Acc",
+         "id" : "GV_Antiq_Stab_Buff_Acc",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
          "amount" : 0.25,
@@ -151,7 +151,7 @@
          }
       },
 	  {
-         "id" : "DNG_Antiq_Stab_Buff_Crit",
+         "id" : "GV_Antiq_Stab_Buff_Crit",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "crit_chance",
          "amount" : 0.5,
@@ -164,7 +164,7 @@
          }
       },
 	  {
-         "id" : "DNG_Antiq_Stress_Free_Buff",
+         "id" : "GV_Antiq_Stress_Free_Buff",
          "stat_type" : "stress_dmg_percent",
          "stat_sub_type" : "",
          "amount" : -1.0,
@@ -177,7 +177,7 @@
          }
       },
 	  {
-         "id" : "DNG_Antiq_Stress_Free_Get_Down",
+         "id" : "GV_Antiq_Stress_Free_Get_Down",
          "stat_type" : "stress_dmg_percent",
          "stat_sub_type" : "",
          "amount" : -1.0,
@@ -190,7 +190,7 @@
          }
       },
 	  {
-         "id" : "DNG_Antiq_Stress_Free_Get_Down_Pos_1",
+         "id" : "GV_Antiq_Stress_Free_Get_Down_Pos_1",
          "stat_type" : "stress_dmg_percent",
          "stat_sub_type" : "",
          "amount" : -1.0,
@@ -203,7 +203,7 @@
          }
       },
 	  {
-         "id" : "DNG_Antiq_Stress_Free_Get_Down_Pos_2",
+         "id" : "GV_Antiq_Stress_Free_Get_Down_Pos_2",
          "stat_type" : "stress_dmg_percent",
          "stat_sub_type" : "",
          "amount" : -1.0,
@@ -216,7 +216,7 @@
          }
       },
 	  {
-         "id" : "DNG_Antiq_Protect_Me_Buff",
+         "id" : "GV_Antiq_Protect_Me_Buff",
          "stat_type" : "stress_dmg_received_percent",
          "stat_sub_type" : "",
          "amount" : -0.25,
@@ -229,7 +229,7 @@
          }
       },
       {
-         "id" : "DNG_BH_Speed_Debuff",
+         "id" : "GV_BH_Speed_Debuff",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "speed_rating",
          "amount" : -3,
@@ -242,7 +242,7 @@
          }
       },
       {
-         "id" : "DNG_BH_Move_Res_Debuff",
+         "id" : "GV_BH_Move_Res_Debuff",
          "stat_type" : "resistance",
          "stat_sub_type" : "move",
          "amount" : -0.25,
@@ -255,7 +255,7 @@
          }
       },
 	  {
-         "id" : "DNG_Hellion_Giant_Killer",
+         "id" : "GV_Hellion_Giant_Killer",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
          "amount" : 1.0,
@@ -268,7 +268,7 @@
          }
       },
 	  {
-         "id" : "DNG_HM_Super_Mark_L",
+         "id" : "GV_HM_Super_Mark_L",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
          "amount" : 1.0,
@@ -281,7 +281,7 @@
          }
       },
 	  {
-         "id" : "DNG_HM_Super_Mark_H",
+         "id" : "GV_HM_Super_Mark_H",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : 1.0,
@@ -294,7 +294,7 @@
          }
       },
 	  {
-         "id" : "DNG_HM_Super_Mark_Debuff",
+         "id" : "GV_HM_Super_Mark_Debuff",
          "stat_type" : "damage_received_percent",
          "stat_sub_type" : "",
          "amount" : 1.0,
@@ -307,7 +307,7 @@
          }
       },
 	  {
-         "id" : "DNG_HM_Debuff_Chance_vs_Not_Marked",
+         "id" : "GV_HM_Debuff_Chance_vs_Not_Marked",
          "stat_type" : "debuff_chance",
          "stat_sub_type" : "",
          "amount" : -100.0,
@@ -320,7 +320,7 @@
          }
       },
       {
-         "id" : "DNG_HM_Bleed_if_Marked",
+         "id" : "GV_HM_Bleed_if_Marked",
          "stat_type" : "bleed_chance",
          "stat_sub_type" : "",
          "amount" : 1.0,
@@ -333,7 +333,7 @@
          }
       },
       {
-         "id" : "DNG_HM_Pull_if_Marked",
+         "id" : "GV_HM_Pull_if_Marked",
          "stat_type" : "move_chance",
          "stat_sub_type" : "",
          "amount" : 1.35,
@@ -346,7 +346,7 @@
          }
       },
 	  {
-         "id" : "DNG_Jester_Stress_Healing_Buff",
+         "id" : "GV_Jester_Stress_Healing_Buff",
          "stat_type" : "stress_heal_percent",
          "stat_sub_type" : "",
          "amount" : 0.5,
@@ -359,7 +359,7 @@
          }
       },
 	  {
-         "id" : "DNG_Jester_Rank_Buff_L",
+         "id" : "GV_Jester_Rank_Buff_L",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
          "amount" : 0.25,
@@ -372,7 +372,7 @@
          }
       },
 	  {
-         "id" : "DNG_Jester_Rank_Buff_H",
+         "id" : "GV_Jester_Rank_Buff_H",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : 0.25,
@@ -385,7 +385,7 @@
          }
       },
 	  {
-         "id" : "DNG_Jester_Rank_Speed",
+         "id" : "GV_Jester_Rank_Speed",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "speed_rating",
          "amount" : 3,
@@ -398,7 +398,7 @@
          }
       },
 	  {
-         "id" : "DNG_Jester_Solo_Damage_L",
+         "id" : "GV_Jester_Solo_Damage_L",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
          "amount" : 1.0,
@@ -411,7 +411,7 @@
          }
       },
 	  {
-         "id" : "DNG_Jester_Solo_Damage_H",
+         "id" : "GV_Jester_Solo_Damage_H",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : 1.0,
@@ -424,7 +424,7 @@
          }
       },
 	  {
-         "id" : "DNG_Jester_Crit_Buff",
+         "id" : "GV_Jester_Crit_Buff",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "crit_chance",
          "amount" : 0.03,
@@ -437,7 +437,7 @@
          }
       },
   	  {
-         "id" : "DNG_Jester_Finale_Debuff_L",
+         "id" : "GV_Jester_Finale_Debuff_L",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
          "amount" : -0.5,
@@ -450,7 +450,7 @@
          }
       },
   	  {
-         "id" : "DNG_Jester_Finale_Debuff_H",
+         "id" : "GV_Jester_Finale_Debuff_H",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : -0.5,
@@ -463,7 +463,7 @@
          }
       },
 	  {
-         "id" : "DNG_Jester_Finale_Speed_Debuff",
+         "id" : "GV_Jester_Finale_Speed_Debuff",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "speed_rating",
          "amount" : -7,
@@ -476,7 +476,7 @@
          }
       },
       {
-         "id" : "DNG_Leper_AP",
+         "id" : "GV_Leper_AP",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
          "amount" : 0.25,
@@ -491,7 +491,7 @@
          }
       },
       {
-         "id" : "DNG_Leper_DMG_L",
+         "id" : "GV_Leper_DMG_L",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
          "amount" : 0.25,
@@ -506,7 +506,7 @@
          }
       },
       {
-         "id" : "DNG_Leper_DMG_H",
+         "id" : "GV_Leper_DMG_H",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : 0.25,
@@ -521,7 +521,7 @@
          }
       },
       {
-         "id" : "DNG_Leper_Stress_Resist",
+         "id" : "GV_Leper_Stress_Resist",
          "stat_type" : "stress_dmg_received_percent",
          "stat_sub_type" : "",
          "amount" : -0.20,
@@ -534,7 +534,7 @@
          }
       },
       {
-         "id" : "DNG_MAA_Command_Buff_L",
+         "id" : "GV_MAA_Command_Buff_L",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
          "amount" : 0.25,
@@ -548,7 +548,7 @@
          }
       },
       {
-         "id" : "DNG_MAA_Command_Buff_H",
+         "id" : "GV_MAA_Command_Buff_H",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : 0.25,
@@ -562,7 +562,7 @@
          }
       },
       {
-         "id" : "DNG_MAA_Command_Buff_Acc",
+         "id" : "GV_MAA_Command_Buff_Acc",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
          "amount" : 0.10,
@@ -575,7 +575,7 @@
          }
       },
 	  {
-         "id" : "DNG_PD_Corpse_Only",
+         "id" : "GV_PD_Corpse_Only",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "attack_rating",
          "amount" : -1.0,
@@ -588,7 +588,7 @@
          }
       },
 	  {
-         "id" : "DNG_PD_2_Corpses_L",
+         "id" : "GV_PD_2_Corpses_L",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
          "amount" : 1.0,
@@ -601,7 +601,7 @@
          }
       },
 	  {
-         "id" : "DNG_PD_2_Corpses_H",
+         "id" : "GV_PD_2_Corpses_H",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : 1.0,
@@ -614,7 +614,7 @@
          }
       },
 	  {
-         "id" : "DNG_PD_3_Corpses_L",
+         "id" : "GV_PD_3_Corpses_L",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
          "amount" : 1.0,
@@ -627,7 +627,7 @@
          }
       },
 	  {
-         "id" : "DNG_PD_3_Corpses_H",
+         "id" : "GV_PD_3_Corpses_H",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : 1.0,
@@ -640,7 +640,7 @@
          }
       },
 	  {
-         "id" : "DNG_Vestal_Healing_Buff",
+         "id" : "GV_Vestal_Healing_Buff",
          "stat_type" : "hp_heal_percent",
          "stat_sub_type" : "",
          "amount" : 0.25,
@@ -653,7 +653,7 @@
          }
       },
   	  {
-         "id" : "DNG_Pierce_Armor_15",
+         "id" : "GV_Pierce_Armor_15",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
          "amount" : 0.15,
@@ -666,7 +666,7 @@
          }
       },
       {
-         "id" : "DNG_Blight_Soften",
+         "id" : "GV_Blight_Soften",
          "stat_type" : "resistance",
          "stat_sub_type" : "poison",
          "amount" : -0.2,
@@ -679,7 +679,7 @@
          }
       },
       {
-         "id" : "DNG_Bleed_Soften",
+         "id" : "GV_Bleed_Soften",
          "stat_type" : "resistance",
          "stat_sub_type" : "bleed",
          "amount" : -0.2,
@@ -692,7 +692,7 @@
          }
       },
       {
-         "id" : "DNG_Tooltip_PD_Corpse_Explosion",
+         "id" : "GV_Tooltip_PD_Corpse_Explosion",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "corpse_explosion",
          "amount" : -0,
@@ -705,7 +705,7 @@
          }
       },
 	  {
-         "id" : "DNG_Tooltip_HWM_Riposte",
+         "id" : "GV_Tooltip_HWM_Riposte",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "hwm_riposte",
          "amount" : -0,
@@ -718,7 +718,7 @@
          }
       },
 	  {
-         "id" : "DNG_Tooltip_Leper_Sacrifice",
+         "id" : "GV_Tooltip_Leper_Sacrifice",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "leper_sacrifice",
          "amount" : -0,
@@ -731,7 +731,7 @@
          }
       },
 	  {
-         "id" : "DNG_Tooltip_Consume_Mark",
+         "id" : "GV_Tooltip_Consume_Mark",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "consume_mark",
          "amount" : -0,

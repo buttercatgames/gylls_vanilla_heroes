@@ -2,14 +2,14 @@
 // Abomination Effects
 //-------------------------
 // Transform -- Human > Beast Effects
-effect: .name "DNG_Abom_Transform_To_Beast" .target "performer" .set_mode beast .chance 100% .on_hit true .on_miss false .queue false .has_description false
-effect: .name "DNG_Abom_XF_Stress" .target "performer_group_other" .chance 100% .stress 4 .on_hit true .on_miss false .queue true
-effect: .name "DNG_Abom_XF_Buff" .target "performer" .chance 100% .buff_ids "DNG_Abom_DMGL" "DNG_Abom_DMGH" "DNG_Abom_SPD" .on_hit true .on_miss false
+effect: .name "GV_Abom_Transform_To_Beast" .target "performer" .set_mode beast .chance 100% .on_hit true .on_miss false .queue false .has_description false
+effect: .name "GV_Abom_XF_Stress" .target "performer_group_other" .chance 100% .stress 4 .on_hit true .on_miss false .queue true
+effect: .name "GV_Abom_XF_Buff" .target "performer" .chance 100% .buff_ids "GV_Abom_DMGL" "GV_Abom_DMGH" "GV_Abom_SPD" .on_hit true .on_miss false
 
 // Transform -- Beast > Human Effects
-effect: .name "DNG_Abom_Transform_To_Human" .target "performer" .set_mode human .chance 100% .on_hit true .on_miss false .queue false .has_description false
-effect: .name "DNG_Abom_XF_Stress_Heal" .target "performer_group_other" .chance 100% .healstress 1 .on_hit true .on_miss false .queue true
-effect: .name "DNG_Abom_XF_Debuff" .target "performer" .chance 100% .combat_stat_buff 1 .speed_rating_add -7 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false
+effect: .name "GV_Abom_Transform_To_Human" .target "performer" .set_mode human .chance 100% .on_hit true .on_miss false .queue false .has_description false
+effect: .name "GV_Abom_XF_Stress_Heal" .target "performer_group_other" .chance 100% .healstress 1 .on_hit true .on_miss false .queue true
+effect: .name "GV_Abom_XF_Debuff" .target "performer" .chance 100% .combat_stat_buff 1 .speed_rating_add -7 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false
 
 // Manacles
 
@@ -18,55 +18,55 @@ effect: .name "DNG_Abom_XF_Debuff" .target "performer" .chance 100% .combat_stat
 
 
 // Absolution
-effect: .name "DNG_Abom_Absolution_Healstress"  .target "performer" .chance 100% .healstress 8 .on_hit true .on_miss false .queue true
-effect: .name "DNG_Abom_Absolution_Heal" .target "performer" .chance 100% .heal 4 .on_hit true .on_miss false .queue false .source_heal_type hero_skill
+effect: .name "GV_Abom_Absolution_Healstress"  .target "performer" .chance 100% .healstress 8 .on_hit true .on_miss false .queue true
+effect: .name "GV_Abom_Absolution_Heal" .target "performer" .chance 100% .heal 4 .on_hit true .on_miss false .queue false .source_heal_type hero_skill
 
 // Rake
 
 
 // Slam
-effect: .name "DNG_Abom_Slam_Debuff" .target "target" .chance 100% .combat_stat_buff 1 .speed_rating_add -4 .duration 2 .on_hit true .on_miss false
+effect: .name "GV_Abom_Slam_Debuff" .target "target" .chance 100% .combat_stat_buff 1 .speed_rating_add -4 .duration 2 .on_hit true .on_miss false
 
 // Transform
 
 
 // *Stressed Damage Buff*
-effect: .name "DNG_Abom_Stressed_Crit_Buff" .target "performer" .skill_instant true .chance 100% .buff_ids "DNG_Abom_Stressed_Crit_Buff" .on_hit true .on_miss false .apply_once true
-effect: .name "DNG_Abom_Stressed_Crit_Buff_Mega" .target "performer" .skill_instant true .chance 100% .buff_ids "DNG_Abom_Stressed_Crit_Buff_Mega" .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Abom_Stressed_Crit_Buff" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Abom_Stressed_Crit_Buff" .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Abom_Stressed_Crit_Buff_Mega" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Abom_Stressed_Crit_Buff_Mega" .on_hit true .on_miss false .apply_once true
 
 
 // Antiquarian Effects
 //-------------------------
 // Nervous Stab
-effect: .name "DNG_Antiq_Self_Stress_Heal" .target "performer" .chance 100% .healstress 4 .on_hit true .on_miss false .queue true
+effect: .name "GV_Antiq_Self_Stress_Heal" .target "performer" .chance 100% .healstress 4 .on_hit true .on_miss false .queue true
 
 // Protect Me
-effect: .name "DNG_Antiq_Protect_Me_Buff" .target "performer" .chance 100% .buff_ids "DNG_Antiq_Protect_Me_Buff" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_Antiq_Protect_Me_Buff" .target "performer" .chance 100% .buff_ids "GV_Antiq_Protect_Me_Buff" .duration 3 .on_hit true .on_miss false .queue true
 
 // Rapturous Vapours
-effect: .name "DNG_Antiq_Buff" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 60% .damage_high_multiply 60% .speed_rating_add 3 .on_hit true .on_miss false
-effect: .name "DNG_Antiq_Stress" .target "performer" .chance 100% .stress 8 .on_hit true .on_miss false .queue true
+effect: .name "GV_Antiq_Buff" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 60% .damage_high_multiply 60% .speed_rating_add 3 .on_hit true .on_miss false
+effect: .name "GV_Antiq_Stress" .target "performer" .chance 100% .stress 8 .on_hit true .on_miss false .queue true
 
 // Restorative Vapours
-effect: .name "DNG_Antiq_Heal" .target "performer_group" .chance 100% .heal 1 .can_crit_heal false .on_hit true .on_miss false .queue true .source_heal_type hero_skill_multi_target
+effect: .name "GV_Antiq_Heal" .target "performer_group" .chance 100% .heal 1 .can_crit_heal false .on_hit true .on_miss false .queue true .source_heal_type hero_skill_multi_target
 
 // Festering Vapours
-effect: .name "DNG_Antiq_Blight" .target "target" .chance 100% .dotPoison 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
-effect: .name "DNG_Antiq_Super_Blight" .target "target_group" .chance 0% .dotPoison 2 .duration 3 .on_hit true .on_miss true .can_apply_on_death true
+effect: .name "GV_Antiq_Blight" .target "target" .chance 100% .dotPoison 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "GV_Antiq_Super_Blight" .target "target_group" .chance 0% .dotPoison 2 .duration 3 .on_hit true .on_miss true .can_apply_on_death true
 
 // Flashpowder
-effect: .name "DNG_Antiq_Distract" .target "target" .chance 125% .combat_stat_buff 1 .attack_rating_add -20% .duration 2 .on_hit true .on_miss false .queue true
-effect: .name "DNG_Antiq_Super_Distract" .target "target" .chance 0% .combat_stat_buff 1 .speed_rating_add -6 .duration 2 .on_hit true .on_miss false .queue true
-effect: .name "DNG_Antiq_Push" .target "target" .push 1 .chance 0% .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "GV_Antiq_Distract" .target "target" .chance 125% .combat_stat_buff 1 .attack_rating_add -20% .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "GV_Antiq_Super_Distract" .target "target" .chance 0% .combat_stat_buff 1 .speed_rating_add -6 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "GV_Antiq_Push" .target "target" .push 1 .chance 0% .on_hit true .on_miss false .can_apply_on_death true
 
 // Get Down!
-effect: .name "DNG_Antiq_Get_Down_Buff" .target "performer_group_other" .chance 100% .combat_stat_buff 1 .speed_rating_add 2 .defense_rating_add 8% .duration 3 .on_hit true .on_miss true .queue true .apply_once true
-effect: .name "DNG_Antiq_Stress_Small" .target "performer" .chance 100% .stress 4 .on_hit true .on_miss false .queue true
-effect: .name "DNG_Antiq_Stress_Free_Get_Down" .target "performer" .skill_instant true .chance 100% .buff_ids "DNG_Antiq_Stress_Free_Get_Down_Pos_1" "DNG_Antiq_Stress_Free_Get_Down_Pos_2" .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Antiq_Get_Down_Buff" .target "performer_group_other" .chance 100% .combat_stat_buff 1 .speed_rating_add 2 .defense_rating_add 8% .duration 3 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "GV_Antiq_Stress_Small" .target "performer" .chance 100% .stress 4 .on_hit true .on_miss false .queue true
+effect: .name "GV_Antiq_Stress_Free_Get_Down" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Antiq_Stress_Free_Get_Down_Pos_1" "GV_Antiq_Stress_Free_Get_Down_Pos_2" .on_hit true .on_miss false .apply_once true
 
 // *Items*
-effect: .name "antiq_blue" .target "global" .item 1 .chance 100% .buff_ids "DNG_Antiq_Buff_Heal" "DNG_Antiq_Stress_Free_Buff" "DNG_Antiq_Stress_Free_Get_Down" .duration 1 .on_hit true .on_miss true .apply_once true
-effect: .name "antiq_orange" .target "global" .item 1 .chance 100% .buff_ids "DNG_Antiq_Stab_Buff_Acc" "DNG_Antiq_Stab_Buff_Crit" "DNG_Antiq_Blight_Skill_Buff" "DNG_Antiq_Flashpowder_Move_Skill_Buff" "DNG_Antiq_Flashpowder_Dmg_L" "DNG_Antiq_Flashpowder_Dmg_H" .duration 1 .on_hit true .on_miss true .apply_once true
+effect: .name "antiq_blue" .target "global" .item 1 .chance 100% .buff_ids "GV_Antiq_Buff_Heal" "GV_Antiq_Stress_Free_Buff" "GV_Antiq_Stress_Free_Get_Down" .duration 1 .on_hit true .on_miss true .apply_once true
+effect: .name "antiq_orange" .target "global" .item 1 .chance 100% .buff_ids "GV_Antiq_Stab_Buff_Acc" "GV_Antiq_Stab_Buff_Crit" "GV_Antiq_Blight_Skill_Buff" "GV_Antiq_Flashpowder_Move_Skill_Buff" "GV_Antiq_Flashpowder_Dmg_L" "GV_Antiq_Flashpowder_Dmg_H" .duration 1 .on_hit true .on_miss true .apply_once true
 
 
 // Arbalest Effects
@@ -75,13 +75,13 @@ effect: .name "antiq_orange" .target "global" .item 1 .chance 100% .buff_ids "DN
 
 
 // Suppressing Fire
-effect: .name "DNG_Arb_Suppression_Debuff" .target "target" .chance 100% .combat_stat_buff 1 .attack_rating_add -15% .on_hit true .on_miss false
+effect: .name "GV_Arb_Suppression_Debuff" .target "target" .chance 100% .combat_stat_buff 1 .attack_rating_add -15% .on_hit true .on_miss false
 
 // Sniper's Mark
-effect: .name "DNG_Arb_Mark_Debuff" .target "target" .chance 100% .buff_type crit_received_chance .buff_amount 10% .on_hit true .on_miss false
+effect: .name "GV_Arb_Mark_Debuff" .target "target" .chance 100% .buff_type crit_received_chance .buff_amount 10% .on_hit true .on_miss false
 
 // Bola
-effect: .name "DNG_Arb_Bola_Debuff" .target "target" .chance 100% .combat_stat_buff 1 .speed_rating_add -2 .on_hit true .on_miss false
+effect: .name "GV_Arb_Bola_Debuff" .target "target" .chance 100% .combat_stat_buff 1 .speed_rating_add -2 .on_hit true .on_miss false
 
 // Blindfire
 
@@ -90,35 +90,35 @@ effect: .name "DNG_Arb_Bola_Debuff" .target "target" .chance 100% .combat_stat_b
 
 
 // Rallying Flare
-effect: .name "DNG_Arb_Flare_Buff" .target "target" .chance 100% .combat_stat_buff 1 .attack_rating_add 10% .defense_rating_add 10% .buff_duration_type combat_end .duration 1 .on_hit true .on_miss false
-effect: .name "DNG_Arb_Flare_Clear" .target "target" .chance 100% .unstun 1 .untag 1 .on_hit true .on_miss false
-effect: .name "DNG_Destealth_Enemies" .target "target_enemy_group" .chance 100% .unstealth 1 .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Arb_Flare_Buff" .target "target" .chance 100% .combat_stat_buff 1 .attack_rating_add 10% .defense_rating_add 10% .buff_duration_type combat_end .duration 1 .on_hit true .on_miss false
+effect: .name "GV_Arb_Flare_Clear" .target "target" .chance 100% .unstun 1 .untag 1 .on_hit true .on_miss false
+effect: .name "GV_Destealth_Enemies" .target "target_enemy_group" .chance 100% .unstealth 1 .on_hit true .on_miss false .apply_once true
 
 
 // Bounty Hunter Effects
 //-------------------------
 // Collect Bounty
-effect: .name "DNG_BH_Dmg_Marked" .target "performer" .chance 100% .curio_result_type "positive" .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 50% .damage_high_multiply 50%	.on_hit true .on_miss false
+effect: .name "GV_BH_Dmg_Marked" .target "performer" .chance 100% .curio_result_type "positive" .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 50% .damage_high_multiply 50%	.on_hit true .on_miss false
 
 // Mark for Death
-effect: .name "DNG_BH_Mark_Target" .target "target" .chance 100% .tag 1 .combat_stat_buff 1 .protection_rating_add -20% .duration 3	.on_hit true .on_miss true .queue true
+effect: .name "GV_BH_Mark_Target" .target "target" .chance 100% .tag 1 .combat_stat_buff 1 .protection_rating_add -20% .duration 3	.on_hit true .on_miss true .queue true
 
 
 // Come Hither
 
 
 // Uppercut
-effect: .name "DNG_BH_Speed_Buff_Self" .target "performer" .chance 100% .combat_stat_buff 1 .speed_rating_add 2 .on_hit true on_miss true
+effect: .name "GV_BH_Speed_Buff_Self" .target "performer" .chance 100% .combat_stat_buff 1 .speed_rating_add 2 .on_hit true on_miss true
 
 // Flashbang
 
 
 // Finish Him
-effect: .name "DNG_BH_Stun_Killer" .target "performer" .chance 100% .keyStatus "stunned" .combat_stat_buff 1 .damage_low_multiply 50% .damage_high_multiply 50% .on_hit true .on_miss false
-effect: .name "DNG_BH_Bleed_Killer" .target "performer" .chance 100% .keyStatus "bleeding" .combat_stat_buff 1 .crit_chance_add 15% .on_hit true .on_miss false
+effect: .name "GV_BH_Stun_Killer" .target "performer" .chance 100% .keyStatus "stunned" .combat_stat_buff 1 .damage_low_multiply 50% .damage_high_multiply 50% .on_hit true .on_miss false
+effect: .name "GV_BH_Bleed_Killer" .target "performer" .chance 100% .keyStatus "bleeding" .combat_stat_buff 1 .crit_chance_add 15% .on_hit true .on_miss false
 
 // Caltrops
-effect: .name "DNG_BH_Caltrops_Debuff" .target "target" .chance 125% .buff_ids "DNG_BH_Speed_Debuff" "DNG_BH_Move_Res_Debuff" .duration 3 .on_hit true .on_miss false
+effect: .name "GV_BH_Caltrops_Debuff" .target "target" .chance 125% .buff_ids "GV_BH_Speed_Debuff" "GV_BH_Move_Res_Debuff" .duration 3 .on_hit true .on_miss false
 
 
 // Crusader Effects
@@ -139,11 +139,11 @@ effect: .name "DNG_BH_Caltrops_Debuff" .target "target" .chance 125% .buff_ids "
 
 
 // Battle Heal
-effect: .name "DNG_Crusader_Heal_Self" .target "performer" .chance 100% .heal 2 .on_hit true .on_miss false .source_heal_type hero_skill
-effect: .name "DNG_Crusader_Heal_Target" .target "target" .chance 100% .heal 2 .on_hit true .on_miss false .source_heal_type hero_skill
+effect: .name "GV_Crusader_Heal_Self" .target "performer" .chance 100% .heal 2 .on_hit true .on_miss false .source_heal_type hero_skill
+effect: .name "GV_Crusader_Heal_Target" .target "target" .chance 100% .heal 2 .on_hit true .on_miss false .source_heal_type hero_skill
 
 // Last Rites
-effect: .name "DNG_Crusader_Speed_Debuff" .target "target" .curio_result_type "negative" .chance 125% .combat_stat_buff 1 .speed_rating_add -4 .duration 2 .apply_once true .on_hit true .on_miss false
+effect: .name "GV_Crusader_Speed_Debuff" .target "target" .curio_result_type "negative" .chance 125% .combat_stat_buff 1 .speed_rating_add -4 .duration 2 .apply_once true .on_hit true .on_miss false
 
 
 // Grave Robber Effects
@@ -151,7 +151,7 @@ effect: .name "DNG_Crusader_Speed_Debuff" .target "target" .curio_result_type "n
 // Toxin Trickery
 
 // Pick to the Face
-effect: .name "DNG_GR_Chip_Armor" .target "target" .chance 125% .combat_stat_buff 1 .protection_rating_add -10% .buff_duration_type combat_end .duration 1 .on_hit true .on_miss false
+effect: .name "GV_GR_Chip_Armor" .target "target" .chance 125% .combat_stat_buff 1 .protection_rating_add -10% .buff_duration_type combat_end .duration 1 .on_hit true .on_miss false
 
 // Poison Dart
 
@@ -168,7 +168,7 @@ effect: .name "DNG_GR_Chip_Armor" .target "target" .chance 125% .combat_stat_buf
 
 
 // If It Bleeds
-effect: .name "DNG_Hellion_Bleed_Giant_Killer" .target "performer" .chance 100% .skill_instant true .buff_ids "DNG_Hellion_Giant_Killer" .on_hit true .on_miss false
+effect: .name "GV_Hellion_Bleed_Giant_Killer" .target "performer" .chance 100% .skill_instant true .buff_ids "GV_Hellion_Giant_Killer" .on_hit true .on_miss false
 
 // Breakthrough
 
@@ -182,7 +182,7 @@ effect: .name "DNG_Hellion_Bleed_Giant_Killer" .target "performer" .chance 100% 
 // Highwayman Effects
 //-------------------------
 // Wicked Slice
-effect: .name "DNG_HWM_Dodge_Buff" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add 5% .on_hit true .on_miss true
+effect: .name "GV_HWM_Dodge_Buff" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add 5% .on_hit true .on_miss true
 
 // Open Vein
 
@@ -194,15 +194,15 @@ effect: .name "DNG_HWM_Dodge_Buff" .target "performer" .chance 100% .combat_stat
 
 
 // Duelist's Advance
-effect: .name "DNG_HWM_Riposte" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 0% .riposte_on_miss_chance_add 100% .duration 2  .on_hit true .on_miss true .has_description false
+effect: .name "GV_HWM_Riposte" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 0% .riposte_on_miss_chance_add 100% .duration 2  .on_hit true .on_miss true .has_description false
 
 // Cold Blood
-effect: .name "DNG_HWM_Bleed_Killer" .target "performer" .chance 100% .keyStatus "bleeding" .combat_stat_buff 1 .damage_low_multiply 100% .damage_high_multiply 100% .on_hit true .on_miss false
-effect: .name "DNG_HWM_Mark_Killer" .target "performer" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .crit_chance_add 15% .on_hit true .on_miss false
-effect: .name "DNG_HWM_Untag_Target" .target "target" .chance 100% .untag 1	.on_hit true .on_miss false .has_description false .queue true
+effect: .name "GV_HWM_Bleed_Killer" .target "performer" .chance 100% .keyStatus "bleeding" .combat_stat_buff 1 .damage_low_multiply 100% .damage_high_multiply 100% .on_hit true .on_miss false
+effect: .name "GV_HWM_Mark_Killer" .target "performer" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .crit_chance_add 15% .on_hit true .on_miss false
+effect: .name "GV_HWM_Untag_Target" .target "target" .chance 100% .untag 1	.on_hit true .on_miss false .has_description false .queue true
 
 // Gut Shot
-effect: .name "DNG_HWM_Exhaust" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add -10% .speed_rating_add -5 .duration 1 .buff_duration_type combat_end .apply_once true .on_hit true .on_miss true
+effect: .name "GV_HWM_Exhaust" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add -10% .speed_rating_add -5 .duration 1 .buff_duration_type combat_end .apply_once true .on_hit true .on_miss true
 
 // Duelist's Advance
 
@@ -213,61 +213,61 @@ effect: .name "DNG_HWM_Exhaust" .target "performer" .chance 100% .combat_stat_bu
 
 
 // Target Whistle
-effect: .name "DNG_HM_Short_Mark" .target "target" .chance 100% .tag 1 .duration 2 .on_hit true .on_miss false .queue true
-effect: .name "DNG_HM_Super_Mark_Debuff" .target "target" .chance 500% .buff_ids "DNG_HM_Super_Mark_Debuff" .duration 1 .on_hit true .on_miss false .queue true .crit_doesnt_apply_to_roll true
-effect: .name "DNG_HM_Debuff_Chance_vs_Not_Marked" .target "performer" .skill_instant true .chance 100% .buff_ids "DNG_HM_Debuff_Chance_vs_Not_Marked" .on_hit true .on_miss true .queue false
+effect: .name "GV_HM_Short_Mark" .target "target" .chance 100% .tag 1 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "GV_HM_Super_Mark_Debuff" .target "target" .chance 500% .buff_ids "GV_HM_Super_Mark_Debuff" .duration 1 .on_hit true .on_miss false .queue true .crit_doesnt_apply_to_roll true
+effect: .name "GV_HM_Debuff_Chance_vs_Not_Marked" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_HM_Debuff_Chance_vs_Not_Marked" .on_hit true .on_miss true .queue false
 
 // Guard Dog
-effect: .name "DNG_Guard_Dog_Buff" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 5% .duration 3 .on_hit true .on_miss false .queue true 
+effect: .name "GV_Guard_Dog_Buff" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 5% .duration 3 .on_hit true .on_miss false .queue true 
 
 // Hound's Rush
-effect: .name "DNG_HM_Dmg_Marked_1" .target "performer" .chance 100% .curio_result_type "positive" .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 50% .damage_high_multiply 50% .on_hit true .on_miss false
-effect: .name "DNG_HM_Beast_Killer" .target "performer" .chance 100% .monsterType "beast" .combat_stat_buff 1 .crit_chance_add 2% .on_hit true .on_miss false
-effect: .name "DNG_HM_Bleed_1" .target "target" .curio_result_type "negative" .chance 100%  .dotBleed 1 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "GV_HM_Dmg_Marked_1" .target "performer" .chance 100% .curio_result_type "positive" .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 50% .damage_high_multiply 50% .on_hit true .on_miss false
+effect: .name "GV_HM_Beast_Killer" .target "performer" .chance 100% .monsterType "beast" .combat_stat_buff 1 .crit_chance_add 2% .on_hit true .on_miss false
+effect: .name "GV_HM_Bleed_1" .target "target" .curio_result_type "negative" .chance 100%  .dotBleed 1 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
 
 // Go Fetch
-effect: .name "DNG_HM_Pull" .target "target" .pull 1 .chance 100% .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "DNG_HM_Bleed" .target "target" .chance 0% .dotBleed 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
-effect: .name "DNG_HM_Bleed_if_Marked" .target "performer" .skill_instant true .buff_ids "DNG_HM_Bleed_if_Marked" .on_hit true .on_miss false
+effect: .name "GV_HM_Pull" .target "target" .pull 1 .chance 100% .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "GV_HM_Bleed" .target "target" .chance 0% .dotBleed 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "GV_HM_Bleed_if_Marked" .target "performer" .skill_instant true .buff_ids "GV_HM_Bleed_if_Marked" .on_hit true .on_miss false
 
 // Cry Havoc
-effect: .name "DNG_HM_Stress_Heal_Base" .target "target" .curio_result_type "positive" .chance 100% .healstress 4 .on_hit true .on_miss false
-effect: .name "DNG_HM_Stress_Heal_Splash" .target "target_group_other" .chance 66% .healstress 1 .on_hit true .on_miss false
+effect: .name "GV_HM_Stress_Heal_Base" .target "target" .curio_result_type "positive" .chance 100% .healstress 4 .on_hit true .on_miss false
+effect: .name "GV_HM_Stress_Heal_Splash" .target "target_group_other" .chance 66% .healstress 1 .on_hit true .on_miss false
 
 // Lick Wounds
-effect: .name "DNG_Lick_Wounds_Heal" .target "performer" .curio_result_type "positive" .chance 100% .heal 4 .on_hit true .on_miss true .source_heal_type hero_skill .queue false
-effect: .name "DNG_Lick_Wounds_Buff" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 10% .duration 3 .on_hit true .on_miss false .queue true 
+effect: .name "GV_Lick_Wounds_Heal" .target "performer" .curio_result_type "positive" .chance 100% .heal 4 .on_hit true .on_miss true .source_heal_type hero_skill .queue false
+effect: .name "GV_Lick_Wounds_Buff" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 10% .duration 3 .on_hit true .on_miss false .queue true 
 
 // *Transform*
-effect: .name "DNG_Switch_Mode_Hound_Self_Queue" .target "performer" .set_mode hound .chance 100% .on_hit true .on_miss true .queue true .has_description false
-effect: .name "DNG_Switch_Mode_Human_Self_Queue" .target "performer" .set_mode human .chance 100% .on_hit true .on_miss true .queue true .has_description false
+effect: .name "GV_Switch_Mode_Hound_Self_Queue" .target "performer" .set_mode hound .chance 100% .on_hit true .on_miss true .queue true .has_description false
+effect: .name "GV_Switch_Mode_Human_Self_Queue" .target "performer" .set_mode human .chance 100% .on_hit true .on_miss true .queue true .has_description false
 
 
 // Jester Effects
 //-------------------------
 // Dirk Stab
-effect: .name "DNG_Jester_Prot_Debuff" .target "target" .chance 125% .duration 3 .combat_stat_buff 1 .protection_rating_add -15% .on_hit true .on_miss false .queue true
-effect: .name "DNG_Jester_Stab_Buff" .target "performer" .chance 100% .buff_ids "DNG_Jester_Solo_Damage_L" "DNG_Jester_Solo_Damage_H" .duration 2 .on_hit true .on_miss true .apply_once true
+effect: .name "GV_Jester_Prot_Debuff" .target "target" .chance 125% .duration 3 .combat_stat_buff 1 .protection_rating_add -15% .on_hit true .on_miss false .queue true
+effect: .name "GV_Jester_Stab_Buff" .target "performer" .chance 100% .buff_ids "GV_Jester_Solo_Damage_L" "GV_Jester_Solo_Damage_H" .duration 2 .on_hit true .on_miss true .apply_once true
 
 // Harvest
 
 
 // Finale
-effect: .name "DNG_Jester_Finale_Buff" .target "performer" .chance 100% .buff_ids "DNG_Jester_Stress_Healing_Buff" .duration 3 .on_hit true .on_miss false .queue true
-effect: .name "DNG_Jester_Finale_Debuff" .target "performer" .chance 100% .buff_ids "DNG_Jester_Finale_Debuff_L" "DNG_Jester_Finale_Debuff_H" "DNG_Jester_Finale_Speed_Debuff" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_Jester_Finale_Buff" .target "performer" .chance 100% .buff_ids "GV_Jester_Stress_Healing_Buff" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_Jester_Finale_Debuff" .target "performer" .chance 100% .buff_ids "GV_Jester_Finale_Debuff_L" "GV_Jester_Finale_Debuff_H" "GV_Jester_Finale_Speed_Debuff" .duration 3 .on_hit true .on_miss false .queue true
 
 // Solo
-effect: .name "DNG_Jester_Solo_Buff" .target "performer" .chance 100% .buff_ids "DNG_Jester_Solo_Damage_L" "DNG_Jester_Solo_Damage_H" .duration 2 .on_hit true .on_miss true .apply_once true
-effect: .name "DNG_Jester_Solo_Debuff" .target "target" .chance 100% .combat_stat_buff 1 .defense_rating_add -10% .speed_rating_add -2 .duration 2 .on_hit true .on_miss false
+effect: .name "GV_Jester_Solo_Buff" .target "performer" .chance 100% .buff_ids "GV_Jester_Solo_Damage_L" "GV_Jester_Solo_Damage_H" .duration 2 .on_hit true .on_miss true .apply_once true
+effect: .name "GV_Jester_Solo_Debuff" .target "target" .chance 100% .combat_stat_buff 1 .defense_rating_add -10% .speed_rating_add -2 .duration 2 .on_hit true .on_miss false
 
 // Slice Off
 
 
 // Battle Ballad
-effect: .name "DNG_Jester_Group_Buff" .target "target" .chance 100% .buff_ids "DNG_Jester_Rank_Buff_L" "DNG_Jester_Rank_Buff_H" "DNG_Jester_Rank_Speed" "DNG_Jester_Crit_Buff" .duration 3 .on_hit true .on_miss false
+effect: .name "GV_Jester_Group_Buff" .target "target" .chance 100% .buff_ids "GV_Jester_Rank_Buff_L" "GV_Jester_Rank_Buff_H" "GV_Jester_Rank_Speed" "GV_Jester_Crit_Buff" .duration 3 .on_hit true .on_miss false
 
 // Inspiring Tune
-effect: .name "DNG_Jester_Stress_Heal" .target "target" .curio_result_type "positive" .chance 100% .healstress 10 .on_hit true .on_miss false .queue true
+effect: .name "GV_Jester_Stress_Heal" .target "target" .curio_result_type "positive" .chance 100% .healstress 10 .on_hit true .on_miss false .queue true
 
 
 // Leper Effects
@@ -276,56 +276,56 @@ effect: .name "DNG_Jester_Stress_Heal" .target "target" .curio_result_type "posi
 
 
 // Hew
-effect: .name "DNG_Corpse_Killer" .target "performer" .chance 100% .monsterType "corpse" .combat_stat_buff 1 .damage_low_multiply 50% .damage_high_multiply 50% .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Corpse_Killer" .target "performer" .chance 100% .monsterType "corpse" .combat_stat_buff 1 .damage_low_multiply 50% .damage_high_multiply 50% .on_hit true .on_miss false .apply_once true
 
 // Revenge
-effect: .name "DNG_Leper_Revenge_Buff" .target "performer" .chance 100% .buff_ids "ACC10" "DNG_Leper_AP" "DNG_Leper_DMG_L" "DNG_Leper_DMG_H" .on_hit true .on_miss false
+effect: .name "GV_Leper_Revenge_Buff" .target "performer" .chance 100% .buff_ids "ACC10" "GV_Leper_AP" "GV_Leper_DMG_L" "GV_Leper_DMG_H" .on_hit true .on_miss false
 
 // Hamstring
-effect: .name "DNG_Leper_Cripple_Debuff" .target "target" .chance 125% .combat_stat_buff 1 .speed_rating_add -4 .duration 2 .on_hit true .on_miss false
-effect: .name "DNG_Leper_Clear_Guarding" .target "target" .chance 100% .clearguarding 1 .on_hit true .on_miss false
+effect: .name "GV_Leper_Cripple_Debuff" .target "target" .chance 125% .combat_stat_buff 1 .speed_rating_add -4 .duration 2 .on_hit true .on_miss false
+effect: .name "GV_Leper_Clear_Guarding" .target "target" .chance 100% .clearguarding 1 .on_hit true .on_miss false
 
 // Withstand
-effect: .name "DNG_Leper_Stress_Resist_Buff" .target "performer" .curio_result_type "positive" .chance 100% .duration 2 .buff_ids "DNG_Leper_Stress_Resist" .on_hit true .on_miss true
+effect: .name "GV_Leper_Stress_Resist_Buff" .target "performer" .curio_result_type "positive" .chance 100% .duration 2 .buff_ids "GV_Leper_Stress_Resist" .on_hit true .on_miss true
 
 // Solemnity
-effect: .name "DNG_Leper_Heal_Self" .target "performer" .chance 100% .heal 6 .on_hit true .on_miss false .queue false .source_heal_type hero_skill
-effect: .name "DNG_Leper_Self_Stress_Heal" .target "performer" .chance 100% .healstress 4 .on_hit true .on_miss true
+effect: .name "GV_Leper_Heal_Self" .target "performer" .chance 100% .heal 6 .on_hit true .on_miss false .queue false .source_heal_type hero_skill
+effect: .name "GV_Leper_Self_Stress_Heal" .target "performer" .chance 100% .healstress 4 .on_hit true .on_miss true
 
 // Sacrifice
-effect: .name "DNG_Leper_Sac_Hurt_Self" .target "performer" .chance 100% .health_damage 6 .on_hit true .on_miss false .has_description false
-effect: .name "DNG_Leper_Sac_Heal_Others" .target "performer_group_other" .chance 100% .heal 2 .on_hit true .on_miss false .source_heal_type hero_skill_multi_target
+effect: .name "GV_Leper_Sac_Hurt_Self" .target "performer" .chance 100% .health_damage 6 .on_hit true .on_miss false .has_description false
+effect: .name "GV_Leper_Sac_Heal_Others" .target "performer_group_other" .chance 100% .heal 2 .on_hit true .on_miss false .source_heal_type hero_skill_multi_target
 
 
 // Man-At-Arms Effects
 //-------------------------
 // Command
-effect: .name "DNG_MAA_Command_Buff" .target "performer_group" .chance 100% .buff_ids "DNG_MAA_Command_Buff_L" "DNG_MAA_Command_Buff_H" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_MAA_Command_Buff" .target "performer_group" .chance 100% .buff_ids "GV_MAA_Command_Buff_L" "GV_MAA_Command_Buff_H" .duration 3 .on_hit true .on_miss false .queue true
 
 // Bellow
-effect: .name "DNG_MAA_Bellow_Debuff" .target "target_group_other" .chance 100% .combat_stat_buff 1 .speed_rating_add -3 .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_MAA_Bellow_Debuff" .target "target_group_other" .chance 100% .combat_stat_buff 1 .speed_rating_add -3 .duration 3 .on_hit true .on_miss false .queue true
 
 // Guard
-effect: .name "DNG_MAA_Defender" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 20%	.on_hit true .on_miss true .queue true
+effect: .name "GV_MAA_Defender" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 20%	.on_hit true .on_miss true .queue true
 
 //Retribution
-effect: .name "DNG_MAA_Riposte"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true .crit_chance_add 0%
+effect: .name "GV_MAA_Riposte"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true .crit_chance_add 0%
 
 //Bolster
-effect: .name "DNG_MAA_Bolster" .target "performer_group" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 10%  .speed_rating_add 2 .on_hit true .on_miss true	.queue true
+effect: .name "GV_MAA_Bolster" .target "performer_group" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 10%  .speed_rating_add 2 .on_hit true .on_miss true	.queue true
 
 
 // Occultist Effects
 //-------------------------
-effect: .name "DNG_Occ_Bleed" .target "target" .curio_result_type "negative" .chance 100%  .dotBleed 1 .duration 3	.on_hit true .on_miss true .queue true .can_apply_on_death true
+effect: .name "GV_Occ_Bleed" .target "target" .curio_result_type "negative" .chance 100%  .dotBleed 1 .duration 3	.on_hit true .on_miss true .queue true .can_apply_on_death true
 
-effect: .name "DNG_Occ_Horror" .target "performer" .curio_result_type "negative" .chance 100% .dotStress 2 .duration 3 .on_hit true .on_miss true .queue true .apply_once true .can_apply_on_death true
+effect: .name "GV_Occ_Horror" .target "performer" .curio_result_type "negative" .chance 100% .dotStress 2 .duration 3 .on_hit true .on_miss true .queue true .apply_once true .can_apply_on_death true
 
-effect: .name "DNG_Occ_Stun_Self" .target "performer" .chance 100% .stun 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "GV_Occ_Stun_Self" .target "performer" .chance 100% .stun 1 .on_hit true .on_miss false .queue true .apply_once true
 
-effect: .name "DNG_Occ_Riposte" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true
+effect: .name "GV_Occ_Riposte" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true
 
-effect: .name "DNG_Occ_Stress_Team" .target "target" .chance 100% .stress 2 .on_hit true .on_miss false	.queue true
+effect: .name "GV_Occ_Stress_Team" .target "target" .chance 100% .stress 2 .on_hit true .on_miss false	.queue true
 
 
 // Plague Doctor Effects
@@ -340,20 +340,20 @@ effect: .name "DNG_Occ_Stress_Team" .target "target" .chance 100% .stress 2 .on_
 
 
 // Incision
-effect: .name "DNG_PD_PoisonKiller"	.target "performer" .chance 100% .keyStatus "poisoned" .combat_stat_buff 1 .damage_low_multiply 50% .damage_high_multiply 50% .on_hit true .on_miss false
+effect: .name "GV_PD_PoisonKiller"	.target "performer" .chance 100% .keyStatus "poisoned" .combat_stat_buff 1 .damage_low_multiply 50% .damage_high_multiply 50% .on_hit true .on_miss false
 
 
 // Battlefield Medicine
 
 
 // Potent Concoction
-effect: .name "DNG_PD_Buff_Target" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .on_hit true .on_miss false
-effect: .name "DNG_PD_Buff_Self" .target "performer" .chance 100% .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .on_hit true .on_miss false
+effect: .name "GV_PD_Buff_Target" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .on_hit true .on_miss false
+effect: .name "GV_PD_Buff_Self" .target "performer" .chance 100% .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .on_hit true .on_miss false
 
 // Corpse Explosion
-effect: .name "DNG_PD_Corpse_Only" .target "performer" .chance 100% .skill_instant true .buff_ids "DNG_PD_Corpse_Only" .on_hit true .on_miss false .apply_once true .has_description false
-effect: .name "DNG_PD_2_Corpses" .target "performer" .chance 100% .skill_instant true .buff_ids "DNG_PD_2_Corpses_L" "DNG_PD_2_Corpses_H" .on_hit true .on_miss false .apply_once true .has_description false
-effect: .name "DNG_PD_3_Corpses" .target "performer" .chance 100% .skill_instant true .buff_ids "DNG_PD_3_Corpses_L" "DNG_PD_3_Corpses_H" .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "GV_PD_Corpse_Only" .target "performer" .chance 100% .skill_instant true .buff_ids "GV_PD_Corpse_Only" .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "GV_PD_2_Corpses" .target "performer" .chance 100% .skill_instant true .buff_ids "GV_PD_2_Corpses_L" "GV_PD_2_Corpses_H" .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "GV_PD_3_Corpses" .target "performer" .chance 100% .skill_instant true .buff_ids "GV_PD_3_Corpses_L" "GV_PD_3_Corpses_H" .on_hit true .on_miss false .apply_once true .has_description false
 
 
 // Vestal Effects
@@ -371,62 +371,62 @@ effect: .name "DNG_PD_3_Corpses" .target "performer" .chance 100% .skill_instant
 
 
 // Illumination
-effect: .name "DNG_Vestal_Dodge_Debuff" .target "target" .chance 100% .combat_stat_buff 1 .defense_rating_add -15% .on_hit true .on_miss false
+effect: .name "GV_Vestal_Dodge_Debuff" .target "target" .chance 100% .combat_stat_buff 1 .defense_rating_add -15% .on_hit true .on_miss false
 
 // Chastise
-effect: .name "DNG_Vestal_Healing_Buff" .curio_result_type "positive" .target "performer" .chance 100% .buff_ids "DNG_Vestal_Healing_Buff" .duration 3 .on_hit true .on_miss true
+effect: .name "GV_Vestal_Healing_Buff" .curio_result_type "positive" .target "performer" .chance 100% .buff_ids "GV_Vestal_Healing_Buff" .duration 3 .on_hit true .on_miss true
 
 // Hand of Light
-effect: .name "DNG_Vestal_Prot_Debuff" .target "target" .chance 100% .duration 3 .combat_stat_buff 1 .protection_rating_add -25% .on_hit true .on_miss false
+effect: .name "GV_Vestal_Prot_Debuff" .target "target" .chance 100% .duration 3 .combat_stat_buff 1 .protection_rating_add -25% .on_hit true .on_miss false
 
 
 // Reusable Effects
 //-------------------------
 // Heal
-effect: .name "DNG_Heal_Target_1" .target "target" .curio_result_type "positive" .chance 100% .heal 1 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
-effect: .name "DNG_Heal_Target_2" .target "target" .curio_result_type "positive" .chance 100% .heal 2 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
-effect: .name "DNG_Heal_Target_3" .target "target" .curio_result_type "positive" .chance 100% .heal 3 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
-effect: .name "DNG_Heal_Target_4" .target "target" .curio_result_type "positive" .chance 100% .heal 4 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
-effect: .name "DNG_Heal_Target_5" .target "target" .curio_result_type "positive" .chance 100% .heal 5 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "GV_Heal_Target_1" .target "target" .curio_result_type "positive" .chance 100% .heal 1 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "GV_Heal_Target_2" .target "target" .curio_result_type "positive" .chance 100% .heal 2 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "GV_Heal_Target_3" .target "target" .curio_result_type "positive" .chance 100% .heal 3 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "GV_Heal_Target_4" .target "target" .curio_result_type "positive" .chance 100% .heal 4 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "GV_Heal_Target_5" .target "target" .curio_result_type "positive" .chance 100% .heal 5 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
 
 // Guard
-effect: .name "DNG_Guard_1"  .target "target" .guard 1 .duration 1 .on_hit true .on_miss true 
-effect: .name "DNG_Guard_2"  .target "target" .guard 1 .duration 2 .on_hit true .on_miss true 
+effect: .name "GV_Guard_1"  .target "target" .guard 1 .duration 1 .on_hit true .on_miss true 
+effect: .name "GV_Guard_2"  .target "target" .guard 1 .duration 2 .on_hit true .on_miss true 
 
 // Mark
-effect: .name "DNG_Mark_Target_1" .target "target" .chance 100% .tag 1 .duration 1 .on_hit true .on_miss false
-effect: .name "DNG_Mark_Target_2" .target "target" .chance 100% .tag 1 .duration 2 .on_hit true .on_miss false
-effect: .name "DNG_Mark_Target_3" .target "target" .chance 100% .tag 1 .duration 3 .on_hit true .on_miss false
+effect: .name "GV_Mark_Target_1" .target "target" .chance 100% .tag 1 .duration 1 .on_hit true .on_miss false
+effect: .name "GV_Mark_Target_2" .target "target" .chance 100% .tag 1 .duration 2 .on_hit true .on_miss false
+effect: .name "GV_Mark_Target_3" .target "target" .chance 100% .tag 1 .duration 3 .on_hit true .on_miss false
 
 // Light
-effect: .name "DNG_Light_10" .target "global" .chance 100% .curio_result_type "positive" .torch_increase 10	.on_hit true .on_miss true .apply_once true .queue true 
+effect: .name "GV_Light_10" .target "global" .chance 100% .curio_result_type "positive" .torch_increase 10	.on_hit true .on_miss true .apply_once true .queue true 
 
 // Soften
-effect: .name "DNG_Blight_Soften" .target "target" .chance 100% .duration 3 .buff_ids "DNG_Blight_Soften" .on_hit true .on_miss false
-effect: .name "DNG_Bleed_Soften" .target "target" .chance 100% .duration 3 .buff_ids "DNG_Bleed_Soften" .on_hit true .on_miss false
+effect: .name "GV_Blight_Soften" .target "target" .chance 100% .duration 3 .buff_ids "GV_Blight_Soften" .on_hit true .on_miss false
+effect: .name "GV_Bleed_Soften" .target "target" .chance 100% .duration 3 .buff_ids "GV_Bleed_Soften" .on_hit true .on_miss false
 
 // Cures
-effect: .name "DNG_Cure_Bleed" .target "target" .chance 100% .cure_bleed 1 .on_hit true .on_miss false
-effect: .name "DNG_Cure_Blight" .target "target" .chance 100% .cure_poison 1 .on_hit true .on_miss false
-effect: .name "DNG_Cure_Horror" .target "target" .chance 100% .clearDotStress 1 .on_hit true .on_miss false
-effect: .name "DNG_Cure_Stun" .target "target" .chance 100% .unstun 1 .on_hit true .on_miss false
+effect: .name "GV_Cure_Bleed" .target "target" .chance 100% .cure_bleed 1 .on_hit true .on_miss false
+effect: .name "GV_Cure_Blight" .target "target" .chance 100% .cure_poison 1 .on_hit true .on_miss false
+effect: .name "GV_Cure_Horror" .target "target" .chance 100% .clearDotStress 1 .on_hit true .on_miss false
+effect: .name "GV_Cure_Stun" .target "target" .chance 100% .unstun 1 .on_hit true .on_miss false
 
 // Stacking Heals
-effect: .name "DNG_Cure_Stacking_Heal" .target "target" .chance 100% .buff_type hp_heal_received_percent .buff_amount 25% .on_hit true .on_miss false
+effect: .name "GV_Cure_Stacking_Heal" .target "target" .chance 100% .buff_type hp_heal_received_percent .buff_amount 25% .on_hit true .on_miss false
 
 // Clear Corpses no tooltip
-effect: .name "DNG_Clear_Corpses" .target "target_group" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss true .can_apply_on_death true
-effect: .name "DNG_Clear_Corpse_Target" .target "target" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss true .can_apply_on_death true
+effect: .name "GV_Clear_Corpses" .target "target_group" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss true .can_apply_on_death true
+effect: .name "GV_Clear_Corpse_Target" .target "target" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss true .can_apply_on_death true
 
 
 // Tooltip Hacks
 //-------------------------
 // Tooltip Hacks
-effect: .name "DNG_Tooltip_PD_Corpse_Explosion" .target "performer" .skill_instant true .chance 100% .buff_ids "DNG_Tooltip_PD_Corpse_Explosion" .on_hit true .on_miss false .apply_once true
-effect: .name "DNG_Tooltip_Leper_Sacrifice" .target "performer" .skill_instant true .chance 100% .buff_ids "DNG_Tooltip_Leper_Sacrifice" .on_hit true .on_miss false .apply_once true
-effect: .name "DNG_Tooltip_HWM_Riposte" .target "performer" .skill_instant true .chance 100% .buff_ids "DNG_Tooltip_HWM_Riposte" .on_hit true .on_miss false .apply_once true
-effect: .name "DNG_Tooltip_Consume_Mark" .target "performer" .skill_instant true .chance 100% .buff_ids "DNG_Tooltip_Consume_Mark" .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Tooltip_PD_Corpse_Explosion" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_PD_Corpse_Explosion" .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Tooltip_Leper_Sacrifice" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_Leper_Sacrifice" .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Tooltip_HWM_Riposte" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_HWM_Riposte" .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Tooltip_Consume_Mark" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_Consume_Mark" .on_hit true .on_miss false .apply_once true
 
 // Armor Piercing
 //--------------------------------------------------
-effect: .name "DNG_Pierce_Armor_15" .target "performer" .chance 100% .skill_instant true .buff_ids "DNG_Pierce_Armor_15" .on_hit true .on_miss false
+effect: .name "GV_Pierce_Armor_15" .target "performer" .chance 100% .skill_instant true .buff_ids "GV_Pierce_Armor_15" .on_hit true .on_miss false

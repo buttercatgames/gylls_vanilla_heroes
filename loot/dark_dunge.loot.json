@@ -2,7 +2,7 @@
    "loot_tables" :
    [
       {
-         "id" : "DNG_ANTIQ",
+         "id" : "GV_ANTIQ",
          "difficulty" : 0,
          "dungeon" : "",
          "entries" :
