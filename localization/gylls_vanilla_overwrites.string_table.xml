@@ -27,10 +27,10 @@
 		<!-- Houndmaster -->
 		
 		<!-- Leper -->
-		<entry id="combat_skill_name_leper_focus"><![CDATA[Sacrificial Strike]]></entry>
-		<entry id="upgrade_tree_name_leper.focus"><![CDATA[Sacrificial Strike]]></entry>
-		<entry id="combat_skill_name_leper_intimidate"><![CDATA[Overpower]]></entry>
-		<entry id="upgrade_tree_name_leper.intimidate"><![CDATA[Overpower]]></entry>
+		<entry id="combat_skill_name_leper_focus"><![CDATA[Overpower]]></entry>
+		<entry id="upgrade_tree_name_leper.focus"><![CDATA[Overpower]]></entry>
+		<entry id="combat_skill_name_leper_intimidate"><![CDATA[Dismantle]]></entry>
+		<entry id="upgrade_tree_name_leper.intimidate"><![CDATA[Dismantle]]></entry>
 
 		<!-- Plague Doctor -->
 		<entry id="combat_skill_name_plague_doctor_incision"><![CDATA[Amputate]]></entry>

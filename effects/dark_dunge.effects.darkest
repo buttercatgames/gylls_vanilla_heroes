@@ -41,7 +41,7 @@ effect: .name "GV_Abom_Stressed_Crit_Buff_Mega" .target "performer" .skill_insta
 effect: .name "GV_Antiq_Self_Stress_Heal" .target "performer" .chance 100% .healstress 4 .on_hit true .on_miss false .queue true
 
 // Protect Me
-effect: .name "GV_Antiq_Protect_Me_Buff" .target "performer" .chance 100% .buff_ids "GV_Antiq_Protect_Me_Buff" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_Antiq_Protect_Me_Buff" .target "performer" .chance 100%  .combat_stat_buff 1 .defense_rating_add 5% .protection_rating_add 20% .duration 2 .on_hit true .on_miss false .queue true
 
 // Rapturous Vapours
 effect: .name "GV_Antiq_Buff" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 60% .damage_high_multiply 60% .speed_rating_add 3 .on_hit true .on_miss false
@@ -218,7 +218,7 @@ effect: .name "GV_HM_Super_Mark_Debuff" .target "target" .chance 500% .buff_ids 
 effect: .name "GV_HM_Debuff_Chance_vs_Not_Marked" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_HM_Debuff_Chance_vs_Not_Marked" .on_hit true .on_miss true .queue false
 
 // Guard Dog
-effect: .name "GV_Guard_Dog_Buff" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 5% .duration 3 .on_hit true .on_miss false .queue true 
+effect: .name "GV_Guard_Dog_Buff" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 5% .duration 2 .on_hit true .on_miss false .queue true 
 
 // Hound's Rush
 effect: .name "GV_HM_Dmg_Marked_1" .target "performer" .chance 100% .curio_result_type "positive" .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 50% .damage_high_multiply 50% .on_hit true .on_miss false
@@ -236,7 +236,7 @@ effect: .name "GV_HM_Stress_Heal_Splash" .target "target_group_other" .chance 66
 
 // Lick Wounds
 effect: .name "GV_Lick_Wounds_Heal" .target "performer" .curio_result_type "positive" .chance 100% .heal 4 .on_hit true .on_miss true .source_heal_type hero_skill .queue false
-effect: .name "GV_Lick_Wounds_Buff" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 10% .duration 3 .on_hit true .on_miss false .queue true 
+effect: .name "GV_Lick_Wounds_Buff" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 10% .duration 2 .on_hit true .on_miss false .queue true 
 
 // *Transform*
 effect: .name "GV_Switch_Mode_Hound_Self_Queue" .target "performer" .set_mode hound .chance 100% .on_hit true .on_miss true .queue true .has_description false
@@ -281,20 +281,20 @@ effect: .name "GV_Corpse_Killer" .target "performer" .chance 100% .monsterType "
 // Revenge
 effect: .name "GV_Leper_Revenge_Buff" .target "performer" .chance 100% .buff_ids "ACC10" "GV_Leper_AP" "GV_Leper_DMG_L" "GV_Leper_DMG_H" .on_hit true .on_miss false
 
-// Hamstring
+// Overpower
 effect: .name "GV_Leper_Cripple_Debuff" .target "target" .chance 125% .combat_stat_buff 1 .speed_rating_add -4 .duration 2 .on_hit true .on_miss false
 effect: .name "GV_Leper_Clear_Guarding" .target "target" .chance 100% .clearguarding 1 .on_hit true .on_miss false
 
+// Intimidate
+effect: .name "GV_Leper_Intimidate" .target "target" .chance 125% .buff_ids "GV_Leper_Debuff_DMG_L" "GV_Leper_Debuff_DMG_H" .duration 2 .on_hit true .on_miss false
+effect: .name "GV_Leper_Group_Stress_Resist" .target "performer_group" .chance 100% .buff_ids "GV_Leper_Group_Stress_Resist" .duration 2 .on_hit true .on_miss true
+
 // Withstand
-effect: .name "GV_Leper_Stress_Resist_Buff" .target "performer" .curio_result_type "positive" .chance 100% .duration 2 .buff_ids "GV_Leper_Stress_Resist" .on_hit true .on_miss true
+effect: .name "GV_Leper_Stress_Resist_Buff" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "GV_Leper_Stress_Resist" .duration 2 .on_hit true .on_miss true
 
 // Solemnity
 effect: .name "GV_Leper_Heal_Self" .target "performer" .chance 100% .heal 6 .on_hit true .on_miss false .queue false .source_heal_type hero_skill
 effect: .name "GV_Leper_Self_Stress_Heal" .target "performer" .chance 100% .healstress 4 .on_hit true .on_miss true
-
-// Sacrifice
-effect: .name "GV_Leper_Sac_Hurt_Self" .target "performer" .chance 100% .health_damage 6 .on_hit true .on_miss false .has_description false
-effect: .name "GV_Leper_Sac_Heal_Others" .target "performer_group_other" .chance 100% .heal 2 .on_hit true .on_miss false .source_heal_type hero_skill_multi_target
 
 
 // Man-At-Arms Effects
@@ -415,7 +415,6 @@ effect: .name "GV_Cure_Stun" .target "target" .chance 100% .unstun 1 .on_hit tru
 effect: .name "GV_Cure_Stacking_Heal" .target "target" .chance 100% .buff_type hp_heal_received_percent .buff_amount 25% .on_hit true .on_miss false
 
 // Clear Corpses no tooltip
-effect: .name "GV_Clear_Corpses" .target "target_group" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss true .can_apply_on_death true
 effect: .name "GV_Clear_Corpse_Target" .target "target" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss true .can_apply_on_death true
 
 

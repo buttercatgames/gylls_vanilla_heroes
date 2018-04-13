@@ -18,11 +18,11 @@ combat_skill: .id "chop" .level 0 .type "melee" .atk 70% .dmg 0% .crit 2% .launc
 // Hew
 combat_skill: .id "hew" .level 0 .type "melee" .atk 70% .dmg -40% .crit 2% .launch 21 .target ~12 .is_crit_valid True .effect "GV_Corpse_Killer"
 
-// Finesse
-combat_skill: .id "focus" .level 0 .launch 21 .target .is_crit_valid True .effect "GV_Leper_Sac_Hurt_Self" "GV_Leper_Sac_Heal_Others" "GV_Tooltip_Leper_Sacrifice" .is_continue_turn true .per_turn_limit 1
-
 // Overpower
-combat_skill: .id "intimidate" .level 0 .type "melee" .atk 95% .dmg -75% .crit 0% .launch 321 .target 12 .move 0 1 .is_crit_valid True .effect "GV_Leper_Cripple_Debuff" "Push 2E" "GV_Leper_Clear_Guarding"
+combat_skill: .id "focus" .level 0 .type "melee" .atk 95% .dmg -75% .crit 0% .launch 321 .target 12 .move 0 1 .is_crit_valid True .effect "GV_Leper_Cripple_Debuff" "Push 2E" "GV_Leper_Clear_Guarding"
+
+// Intimidate
+combat_skill: .id "intimidate" .level 0 .type "melee" .atk 95% .dmg -90% .crit 0% .launch 1 .target 12 .is_crit_valid True .effect "GV_Leper_Intimidate" "GV_Leper_Group_Stress_Resist"
 
 // Withstand
 combat_skill: .id "withstand" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 4321 .target @1234 .is_crit_valid False .effect "Clear Guard Performer" "Clear Guard Target" "GV_Guard_2" "GV_Leper_Stress_Resist_Buff"

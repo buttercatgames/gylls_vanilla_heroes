@@ -62,7 +62,7 @@ heroes/houndmaster/houndmaster.art.darkest
 heroes/houndmaster/houndmaster.info.darkest
 heroes/jester/jester.art.darkest
 heroes/jester/jester.info.darkest
-heroes/leper/leper.ability.overpower.png
+heroes/leper/leper.ability.intimidate.png
 heroes/leper/leper.ability.revenge.png
 heroes/leper/leper.ability.withstand.png
 heroes/leper/leper.art.darkest
@@ -90,10 +90,9 @@ localization/1354446999_english.loc
 localization/gylls_vanilla.string_table.xml
 localization/gylls_vanilla_overwrites.string_table.xml
 loot/dark_dunge.loot.json
-modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting............................................................................Submitted.
+Submitting.............................................................................................Submitted.
 Saving project file C:\Program Files (x86)\Darkest Dungeon\mods\gylls_vanilla_heroes\project.xml
 

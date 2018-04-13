@@ -24,6 +24,7 @@
 		<entry id="upgrade_tree_name_houndmaster.hounds_harry"><![CDATA[Go Fetch]]></entry>
 		<entry id="combat_skill_name_houndmaster_hounds_harry"><![CDATA[Go Fetch]]></entry>
 		<entry id="actor_mode_name_hound"><![CDATA[Hound]]></entry>
+		<entry id="str_skill_mode_info_hound"><![CDATA[]]></entry>
 		
 		<!-- Houndmaster Limit -->
 		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[Down girl!]]></entry>
