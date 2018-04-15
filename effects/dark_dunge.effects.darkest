@@ -1,3 +1,13 @@
+// *********** Experimental Effects *********** \\
+
+// Transform -- Human > Zone Effects
+effect: .name "GV_GR_Riposte" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 0% .duration 1 .on_hit true .on_miss true .damage_low_multiply 0% .damage_high_multiply 0% .crit_chance_add 0% .has_description false
+
+effect: .name "GV_GR_Zone_Buffs" .target "performer" .chance 100% .buff_ids "GV_GR_Zone_Acc" "GV_GR_Zone_Damage_L" "GV_GR_Zone_Damage_H" "GV_GR_Zone_Crit" .duration 2 .on_hit true .on_miss false .apply_once true
+
+effect: .name "GV_GR_Stun_Self" .target "performer" .chance 125% .stun 1 .on_hit true .on_miss true .queue true
+
+
 // *********** Hero Effects *********** \\
 // Abomination Effects
 //-------------------------
@@ -48,11 +58,11 @@ effect: .name "GV_Antiq_Buff" .target "target" .chance 100% .combat_stat_buff 1 
 effect: .name "GV_Antiq_Stress" .target "performer" .chance 100% .stress 8 .on_hit true .on_miss false .queue true
 
 // Restorative Vapours
-effect: .name "GV_Antiq_Heal" .target "performer_group" .chance 100% .heal 1 .can_crit_heal false .on_hit true .on_miss false .queue true .source_heal_type hero_skill_multi_target
+effect: .name "GV_Antiq_Heal" .target "target_group_other" .chance 100% .heal 1 .can_crit_heal false .on_hit true .on_miss false .queue true .source_heal_type hero_skill_multi_target
 
 // Festering Vapours
-effect: .name "GV_Antiq_Blight" .target "target" .chance 100% .dotPoison 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
-effect: .name "GV_Antiq_Super_Blight" .target "target_group" .chance 0% .dotPoison 2 .duration 3 .on_hit true .on_miss true .can_apply_on_death true
+effect: .name "GV_Antiq_Blight" .target "target" .chance 100% .dotPoison 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "GV_Antiq_Super_Blight" .target "target_group_other" .chance 0% .dotPoison 2 .duration 3 .on_hit true .on_miss true .can_apply_on_death true
 
 // Flashpowder
 effect: .name "GV_Antiq_Distract" .target "target" .chance 125% .combat_stat_buff 1 .attack_rating_add -20% .duration 2 .on_hit true .on_miss false .queue true
@@ -66,7 +76,7 @@ effect: .name "GV_Antiq_Stress_Free_Get_Down" .target "performer" .skill_instant
 
 // *Items*
 effect: .name "antiq_blue" .target "global" .item 1 .chance 100% .buff_ids "GV_Antiq_Buff_Heal" "GV_Antiq_Stress_Free_Buff" "GV_Antiq_Stress_Free_Get_Down" .duration 1 .on_hit true .on_miss true .apply_once true
-effect: .name "antiq_orange" .target "global" .item 1 .chance 100% .buff_ids "GV_Antiq_Stab_Buff_Acc" "GV_Antiq_Stab_Buff_Crit" "GV_Antiq_Blight_Skill_Buff" "GV_Antiq_Flashpowder_Move_Skill_Buff" "GV_Antiq_Flashpowder_Dmg_L" "GV_Antiq_Flashpowder_Dmg_H" .duration 1 .on_hit true .on_miss true .apply_once true
+effect: .name "antiq_orange" .target "global" .item 1 .chance 100% .buff_ids "GV_Antiq_Stab_Buff_Acc" "GV_Antiq_Stab_Buff_Crit" "GV_Antiq_Blight_Skill_Buff" "GV_Antiq_Flashpowder_Move_Skill_Buff" "GV_Antiq_Flashpowder_Dmg_L" "GV_Antiq_Flashpowder_Dmg_H" "GV_Antiq_Vapours_Dmg_L" "GV_Antiq_Vapours_Dmg_H" .duration 1 .on_hit true .on_miss true .apply_once true
 
 
 // Arbalest Effects
@@ -136,7 +146,7 @@ effect: .name "GV_BH_Caltrops_Debuff" .target "target" .chance 125% .buff_ids "G
 
 
 // Inspiring Cry
-
+effect: .name "GV_Crusader_Inspiring_Cry_Buff" .target "target" .chance 100% .combat_stat_buff 1 .protection_rating_add 10% .on_hit true .on_miss true
 
 // Battle Heal
 effect: .name "GV_Crusader_Heal_Self" .target "performer" .chance 100% .heal 2 .on_hit true .on_miss false .source_heal_type hero_skill
@@ -254,7 +264,7 @@ effect: .name "GV_Jester_Stab_Buff" .target "performer" .chance 100% .buff_ids "
 
 // Finale
 effect: .name "GV_Jester_Finale_Buff" .target "performer" .chance 100% .buff_ids "GV_Jester_Stress_Healing_Buff" .duration 3 .on_hit true .on_miss false .queue true
-effect: .name "GV_Jester_Finale_Debuff" .target "performer" .chance 100% .buff_ids "GV_Jester_Finale_Debuff_L" "GV_Jester_Finale_Debuff_H" "GV_Jester_Finale_Speed_Debuff" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_Jester_Finale_Debuff" .target "performer" .chance 100% .buff_ids "GV_Jester_Finale_Debuff_Acc" "GV_Jester_Finale_Debuff_Dodge" .duration 3 .on_hit true .on_miss false .queue true
 
 // Solo
 effect: .name "GV_Jester_Solo_Buff" .target "performer" .chance 100% .buff_ids "GV_Jester_Solo_Damage_L" "GV_Jester_Solo_Damage_H" .duration 2 .on_hit true .on_miss true .apply_once true
@@ -267,7 +277,7 @@ effect: .name "GV_Jester_Solo_Debuff" .target "target" .chance 100% .combat_stat
 effect: .name "GV_Jester_Group_Buff" .target "target" .chance 100% .buff_ids "GV_Jester_Rank_Buff_L" "GV_Jester_Rank_Buff_H" "GV_Jester_Rank_Speed" "GV_Jester_Crit_Buff" .duration 3 .on_hit true .on_miss false
 
 // Inspiring Tune
-effect: .name "GV_Jester_Stress_Heal" .target "target" .curio_result_type "positive" .chance 100% .healstress 10 .on_hit true .on_miss false .queue true
+effect: .name "GV_Jester_Stress_Heal" .target "target" .curio_result_type "positive" .chance 100% .healstress 8 .on_hit true .on_miss false .queue true
 
 
 // Leper Effects
@@ -299,6 +309,9 @@ effect: .name "GV_Leper_Self_Stress_Heal" .target "performer" .chance 100% .heal
 
 // Man-At-Arms Effects
 //-------------------------
+// Defender
+effect: .name "GV_MAA_Defender_1" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 25% .on_hit true .on_miss true .queue true
+
 // Command
 effect: .name "GV_MAA_Command_Buff" .target "performer_group" .chance 100% .buff_ids "GV_MAA_Command_Buff_L" "GV_MAA_Command_Buff_H" .duration 3 .on_hit true .on_miss false .queue true
 
@@ -423,6 +436,7 @@ effect: .name "GV_Clear_Corpse_Target" .target "target" .chance 100% .kill_enemy
 // Tooltip Hacks
 effect: .name "GV_Tooltip_PD_Corpse_Explosion" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_PD_Corpse_Explosion" .on_hit true .on_miss false .apply_once true
 effect: .name "GV_Tooltip_Leper_Sacrifice" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_Leper_Sacrifice" .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Tooltip_GR_Riposte" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_GR_Riposte" .on_hit true .on_miss false .apply_once true
 effect: .name "GV_Tooltip_HWM_Riposte" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_HWM_Riposte" .on_hit true .on_miss false .apply_once true
 effect: .name "GV_Tooltip_Consume_Mark" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_Consume_Mark" .on_hit true .on_miss false .apply_once true
 

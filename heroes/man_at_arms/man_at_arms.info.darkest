@@ -15,7 +15,7 @@ armour: .name "man_at_arms_armour_4" .def 25% .prot 0 .hp 55 .spd 0 .upgradeRequ
 combat_skill: .id "crush" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .launch 12 .target 123 .is_crit_valid True  .generation_guaranteed true
 combat_skill: .id "rampart" .level 0 .type "melee" .atk 90% .dmg -60% .crit 5% .move 0 1 .launch 123 .target 123 .is_crit_valid True  .effect "Push 1A" "Stun 1"
 combat_skill: .id "bellow" .level 0 .type "ranged" .atk 90% .dmg -90% .crit 0% .launch 123 .target ~1234 .is_crit_valid True  .effect "Disrupt 1"
-combat_skill: .id "defender" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 1234 .target @1234 .is_crit_valid True  .effect "Clear Guard Performer" "Clear Guard Target" "MAA Guard 1" "Defender 1"
+combat_skill: .id "defender" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 1234 .target @1234 .is_crit_valid True  .effect "Clear Guard Performer" "Clear Guard Target" "GV_Guard_1" "GV_MAA_Defender_1"
 combat_skill: .id "retribution" .level 0 .type "melee" .atk 85% .dmg -75% .crit 0% .launch 123 .target 123 .is_crit_valid True  .effect "MAA Riposte 1" "Mark Self"
 combat_skill: .id "command" .level 0 .type "ranged" .atk 100% .dmg -100% .crit 0% .launch 4321 .target 1234 .is_crit_valid False .effect "GV_MAA_Command_Buff" "GV_Mark_Target_3" 
 combat_skill: .id "bolster" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target ~@1234 .is_crit_valid True  .effect "Bolster 1"

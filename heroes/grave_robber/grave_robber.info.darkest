@@ -19,7 +19,7 @@ combat_skill: .id "pick" .level 0 .type "melee" .atk 95% .dmg 0% .crit 2% .launc
 combat_skill: .id "lunge" .level 0 .type "melee" .atk 95% .dmg 40% .crit 10% .move 0 2 .launch 43 .target 123 .is_crit_valid True
 
 // Flashing Daggers
-combat_skill: .id "flashing_daggers" .level 0 .type "ranged" .atk 70% .dmg 0% .crit 2% .launch 432 .target ~23 .is_crit_valid True .effect "GV_Blight_Soften"
+combat_skill: .id "flashing_daggers" .level 0 .type "ranged" .atk 70% .dmg -20% .crit 2% .launch 432 .target ~23 .is_crit_valid True
 
 // Shadow Fade
 combat_skill: .id "shadow_fade" .level 0 .type "melee" .atk 95% .dmg -100% .crit 0% .move 1 0 .launch 21 .target 12 .is_crit_valid False .effect "Stun 1" "Dodge 1"
@@ -31,9 +31,10 @@ combat_skill: .id "thrown_dagger" .level 0 .type "ranged" .atk 90% .dmg 0% .crit
 combat_skill: .id "poison_dart" .level 0 .type "ranged" .atk 95% .dmg -50% .crit 2% .launch 43 .target 1234 .is_crit_valid True .effect "GR Blight 1"
 
 // Toxin Trickery
-combat_skill: .id "toxin_trickery" .level 0 .atk 0% .dmg 0% .crit 0% .launch 4321 .target .is_crit_valid False .effect "Shadow Blood 1" "GR Self Speed 1"
+combat_skill: .id "toxin_trickery" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 43 .target .is_crit_valid True .effect "GV_GR_Riposte" "GV_Tooltip_GR_Riposte" "GV_GR_Zone_Buffs" .is_continue_turn true .per_battle_limit 1
 
 combat_move_skill: .id "move" .level 0 .type "move" .move 2 2 .launch 4321
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 95% .dmg -80% .crit 0% .launch 1234 .target 1234 .is_crit_valid True .effect "GV_GR_Stun_Self" "clear_riposte_performer"
 
 tag: .id "light"
 tag: .id "non-religious"

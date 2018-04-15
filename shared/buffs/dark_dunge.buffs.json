@@ -2,6 +2,58 @@
    "buffs":
    [
       {
+         "id" : "GV_GR_Zone_Damage_L",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "zone"
+         }
+      },
+      {
+         "id" : "GV_GR_Zone_Damage_H",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_GR_Zone_Crit",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_GR_Zone_Acc",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
          "id" : "GV_Abom_Stressed_Crit_Buff",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "crit_chance",
@@ -109,6 +161,32 @@
          "rule_data" : {
             "float" : 0,
             "string" : "flashpowder"
+         }
+      },
+      {
+         "id" : "GV_Antiq_Flashpowder_Dmg_L",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "festering_vapours"
+         }
+      },
+      {
+         "id" : "GV_Antiq_Flashpowder_Dmg_H",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "festering_vapours"
          }
       },
       {
@@ -336,7 +414,7 @@
          "id" : "GV_Jester_Stress_Healing_Buff",
          "stat_type" : "stress_heal_percent",
          "stat_sub_type" : "",
-         "amount" : 0.5,
+         "amount" : 0.25,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -375,7 +453,7 @@
          "id" : "GV_Jester_Rank_Speed",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "speed_rating",
-         "amount" : 3,
+         "amount" : 4,
          "remove_if_not_active" : false,
          "rule_type" : "in_rank",
          "is_false_rule" : false,
@@ -414,7 +492,7 @@
          "id" : "GV_Jester_Crit_Buff",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "crit_chance",
-         "amount" : 0.03,
+         "amount" : 0.04,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -424,36 +502,23 @@
          }
       },
   	  {
-         "id" : "GV_Jester_Finale_Debuff_L",
+         "id" : "GV_Jester_Finale_Debuff_Acc",
          "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : -0.5,
+         "stat_sub_type" : "attack_rating",
+         "amount" : -1.0,
          "remove_if_not_active" : false,
-         "rule_type" : "always",
+         "rule_type" : "skill",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : ""
+            "string" : "heroic_end"
          }
       },
   	  {
-         "id" : "GV_Jester_Finale_Debuff_H",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : -0.5,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "GV_Jester_Finale_Speed_Debuff",
+         "id" : "GV_Jester_Finale_Debuff_Dodge",
          "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "speed_rating",
-         "amount" : -7,
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.15,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -747,6 +812,19 @@
          "id" : "GV_Tooltip_HWM_Riposte",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "hwm_riposte",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_GR_Riposte",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "gr_riposte",
          "amount" : -0,
          "remove_if_not_active" : false,
          "rule_type" : "always",
