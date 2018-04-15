@@ -32,6 +32,13 @@
 		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[Heel! Heel! That's a friend!]]></entry>
 		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[The pups are on edge. Best keep them separate.]]></entry>
 		
+		<!-- Grave Robber -->
+		<entry id="str_skill_mode_info_nozone"><![CDATA[Otherwise:]]></entry>
+		<entry id="str_skill_mode_info_zone"><![CDATA[In the Zone:]]></entry>
+		<entry id="actor_mode_name_zone"><![CDATA[In the Zone]]></entry>
+		<entry id="actor_mode_name_nozone"><![CDATA[Not In the Zone]]></entry>
+		<entry id="buff_rule_data_tooltip_zone"><![CDATA[In the Zone]]></entry>
+		
 		<!-- Misc -->
 		<entry id="buff_rule_data_tooltip_corpse"><![CDATA[Corpse]]></entry>
 		<entry id="effect_tooltip_target_group_other"><![CDATA[Others:]]></entry>
@@ -44,10 +51,13 @@
 		<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s vs. NOT %s]]></entry>
 
 		<!-- Tooltip Hack Strings -->
-<entry id="buff_stat_tooltip_upgrade_discount_leper_sacrifice"><![CDATA[Self:
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_sacrifice"><![CDATA[Self:
 Take 6 DMG]]></entry>
-<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
-Triggers on MISS/DODGE only]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on MISS/DODGE Only]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on HIT Only
+{colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no Corpses
 +100%% DMG if 2+ Corpses
 +100%% DMG if 3+ Corpses]]></entry>
