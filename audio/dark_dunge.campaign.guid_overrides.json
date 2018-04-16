@@ -26,7 +26,7 @@
 		{"event_id": "event:/char/ally/crusader_inspiring_cry",      "guid_override":"{94e7ddc3-5f3b-4c29-9c62-98be9df2192a}"},
 		{"event_id": "event:/char/ally/crusader_inspiring_cry_miss",      "guid_override":"{2888fd54-4bd4-4f09-a41a-ab5fd7eb80b5}"},
 		{"event_id": "event:/char/ally/plague_doctor_disorienting_blast",	"guid_override":"{92d36f75-f421-496e-87ad-ddde5d09d58c}"},
-		{"event_id": "event:/char/ally/grave_robber_riposte1",	"guid_override":"{5e6192df-9e62-44a0-8e08-1494bbebfb16}"},
-		{"event_id": "event:/char/ally/grave_robber_riposte1_miss",	"guid_override":"{68fa967d-cfd3-4996-a726-4a8d13861de1}"}
+		{"event_id": "event:/char/ally/grave_robber_riposte1",	"guid_override":"{0ec07f3b-1d46-4075-8453-dd317668b25c}"},
+		{"event_id": "event:/char/ally/grave_robber_riposte1_miss",	"guid_override":"{84544d80-da50-49cd-99f9-7832706a4414}"}
 	]
 }

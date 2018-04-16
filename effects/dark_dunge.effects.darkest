@@ -146,7 +146,8 @@ effect: .name "GV_BH_Caltrops_Debuff" .target "target" .chance 125% .buff_ids "G
 
 
 // Inspiring Cry
-effect: .name "GV_Crusader_Inspiring_Cry_Buff" .target "target" .chance 100% .combat_stat_buff 1 .protection_rating_add 10% .on_hit true .on_miss true
+effect: .name "GV_Crusader_Battle_Buff_Target" .target "target" .chance 100% .combat_stat_buff 1 .protection_rating_add 10% .on_hit true .on_miss true
+effect: .name "GV_Crusader_Battle_Buff_Self" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 10% .on_hit true .on_miss true
 
 // Battle Heal
 effect: .name "GV_Crusader_Heal_Self" .target "performer" .chance 100% .heal 2 .on_hit true .on_miss false .source_heal_type hero_skill
@@ -296,8 +297,7 @@ effect: .name "GV_Leper_Cripple_Debuff" .target "target" .chance 125% .combat_st
 effect: .name "GV_Leper_Clear_Guarding" .target "target" .chance 100% .clearguarding 1 .on_hit true .on_miss false
 
 // Intimidate
-effect: .name "GV_Leper_Intimidate" .target "target" .chance 125% .buff_ids "GV_Leper_Debuff_DMG_L" "GV_Leper_Debuff_DMG_H" .duration 2 .on_hit true .on_miss false
-effect: .name "GV_Leper_Group_Stress_Resist" .target "performer_group" .chance 100% .buff_ids "GV_Leper_Group_Stress_Resist" .duration 2 .on_hit true .on_miss true
+effect: .name "GV_Leper_Intimidate" .target "target" .chance 110% .buff_ids .combat_stat_buff 1 .damage_low_multiply -30% .damage_high_multiply -30% .crit_chance_add -5% .duration 2 .on_hit true .on_miss false
 
 // Withstand
 effect: .name "GV_Leper_Stress_Resist_Buff" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "GV_Leper_Stress_Resist" .duration 2 .on_hit true .on_miss true
@@ -334,11 +334,9 @@ effect: .name "GV_Occ_Bleed" .target "target" .curio_result_type "negative" .cha
 
 effect: .name "GV_Occ_Horror" .target "performer" .curio_result_type "negative" .chance 100% .dotStress 2 .duration 3 .on_hit true .on_miss true .queue true .apply_once true .can_apply_on_death true
 
-effect: .name "GV_Occ_Stun_Self" .target "performer" .chance 100% .stun 1 .on_hit true .on_miss false .queue true .apply_once true
-
-effect: .name "GV_Occ_Riposte" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true
-
 effect: .name "GV_Occ_Stress_Team" .target "target" .chance 100% .stress 2 .on_hit true .on_miss false	.queue true
+
+effect: .name "GV_Occ_Weaken" .target "target" .chance 110% .buff_ids .combat_stat_buff 1 .damage_low_multiply -30% .damage_high_multiply -30% .crit_chance_add -5% .duration 2 .on_hit true .on_miss false
 
 
 // Plague Doctor Effects
