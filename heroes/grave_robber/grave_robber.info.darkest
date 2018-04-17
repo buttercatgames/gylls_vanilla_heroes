@@ -13,13 +13,13 @@ armour: .name "grave_robber_armour_3" .def 25% .prot 0 .hp 32 .spd 0 .upgradeReq
 armour: .name "grave_robber_armour_4" .def 30% .prot 0 .hp 36 .spd 0 .upgradeRequirementCode 3
 
 // Pick to the Face
-combat_skill: .id "pick" .level 0 .type "melee" .atk 95% .dmg 0% .crit 2% .launch 321 .target 123 .is_crit_valid True .effect "GV_GR_Chip_Armor"
+combat_skill: .id "pick" .level 0 .type "melee" .atk 85% .dmg 0% .crit 2% .launch 321 .target 12 .is_crit_valid True .effect "GV_GR_Weak_Blight_Killer"
 
 // Lunge
 combat_skill: .id "lunge" .level 0 .type "melee" .atk 95% .dmg 40% .crit 10% .move 0 2 .launch 43 .target 123 .is_crit_valid True
 
 // Flashing Daggers
-combat_skill: .id "flashing_daggers" .level 0 .type "ranged" .atk 70% .dmg -20% .crit 2% .launch 432 .target ~23 .is_crit_valid True
+combat_skill: .id "flashing_daggers" .level 0 .type "ranged" .atk 70% .dmg 0% .crit 2% .launch 432 .target ~23 .is_crit_valid True
 
 // Shadow Fade
 combat_skill: .id "shadow_fade" .level 0 .type "melee" .atk 95% .dmg -100% .crit 0% .move 1 0 .launch 21 .target 12 .is_crit_valid False .effect "Stun 1" "Dodge 1"
@@ -28,7 +28,7 @@ combat_skill: .id "shadow_fade" .level 0 .type "melee" .atk 95% .dmg -100% .crit
 combat_skill: .id "thrown_dagger" .level 0 .type "ranged" .atk 90% .dmg 0% .crit 5% .launch 432 .target 234 .is_crit_valid True .effect "GR Acc Buff 1" "GR Dagger Dmg Marked" .generation_guaranteed true
 
 // Poison Dart
-combat_skill: .id "poison_dart" .level 0 .type "ranged" .atk 95% .dmg -50% .crit 2% .launch 43 .target 1234 .is_crit_valid True .effect "GR Blight 1"
+combat_skill: .id "poison_dart" .level 0 .type "ranged" .atk 95% .dmg -50% .crit 2% .launch 43 .target 1234 .is_crit_valid True .effect "GR Blight 1" "GV_GR_Chip_Armor"
 
 // Toxin Trickery
 combat_skill: .id "toxin_trickery" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 43 .target .is_crit_valid True .effect "GV_GR_Riposte" "GV_Tooltip_GR_Riposte" "GV_GR_Zone_Buffs" .is_continue_turn true .per_battle_limit 1

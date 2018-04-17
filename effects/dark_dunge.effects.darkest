@@ -1,13 +1,3 @@
-// *********** Experimental Effects *********** \\
-
-// Transform -- Human > Zone Effects
-effect: .name "GV_GR_Riposte" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 0% .duration 1 .on_hit true .on_miss true .damage_low_multiply 0% .damage_high_multiply 0% .crit_chance_add 0% .has_description false
-
-effect: .name "GV_GR_Zone_Buffs" .target "performer" .chance 100% .buff_ids "GV_GR_Zone_Acc" "GV_GR_Zone_Damage_L" "GV_GR_Zone_Damage_H" "GV_GR_Zone_Crit" .duration 2 .on_hit true .on_miss false .apply_once true
-
-effect: .name "GV_GR_Stun_Self" .target "performer" .chance 125% .stun 1 .on_hit true .on_miss true .queue true
-
-
 // *********** Hero Effects *********** \\
 // Abomination Effects
 //-------------------------
@@ -51,7 +41,7 @@ effect: .name "GV_Abom_Stressed_Crit_Buff_Mega" .target "performer" .skill_insta
 effect: .name "GV_Antiq_Self_Stress_Heal" .target "performer" .chance 100% .healstress 4 .on_hit true .on_miss false .queue true
 
 // Protect Me
-effect: .name "GV_Antiq_Protect_Me_Buff" .target "performer" .chance 100%  .combat_stat_buff 1 .defense_rating_add 5% .protection_rating_add 20% .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "GV_Antiq_Protect_Me_Buff" .target "target" .chance 100%  .combat_stat_buff 1 .defense_rating_add 5% .protection_rating_add 20% .duration 2 .on_hit true .on_miss false .queue true
 
 // Rapturous Vapours
 effect: .name "GV_Antiq_Buff" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 60% .damage_high_multiply 60% .speed_rating_add 3 .on_hit true .on_miss false
@@ -70,13 +60,13 @@ effect: .name "GV_Antiq_Super_Distract" .target "target" .chance 0% .combat_stat
 effect: .name "GV_Antiq_Push" .target "target" .push 1 .chance 0% .on_hit true .on_miss false .can_apply_on_death true
 
 // Get Down!
-effect: .name "GV_Antiq_Get_Down_Buff" .target "performer_group_other" .chance 100% .combat_stat_buff 1 .speed_rating_add 2 .defense_rating_add 8% .duration 3 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "GV_Antiq_Get_Down_Buff" .target "performer_group_other" .chance 100% .combat_stat_buff 1 .speed_rating_add 2 .defense_rating_add 10% .duration 3 .on_hit true .on_miss true .queue true .apply_once true
 effect: .name "GV_Antiq_Stress_Small" .target "performer" .chance 100% .stress 4 .on_hit true .on_miss false .queue true
 effect: .name "GV_Antiq_Stress_Free_Get_Down" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Antiq_Stress_Free_Get_Down_Pos_1" "GV_Antiq_Stress_Free_Get_Down_Pos_2" .on_hit true .on_miss false .apply_once true
 
 // *Items*
 effect: .name "antiq_blue" .target "global" .item 1 .chance 100% .buff_ids "GV_Antiq_Buff_Heal" "GV_Antiq_Stress_Free_Buff" "GV_Antiq_Stress_Free_Get_Down" .duration 1 .on_hit true .on_miss true .apply_once true
-effect: .name "antiq_orange" .target "global" .item 1 .chance 100% .buff_ids "GV_Antiq_Stab_Buff_Acc" "GV_Antiq_Stab_Buff_Crit" "GV_Antiq_Blight_Skill_Buff" "GV_Antiq_Flashpowder_Move_Skill_Buff" "GV_Antiq_Flashpowder_Dmg_L" "GV_Antiq_Flashpowder_Dmg_H" "GV_Antiq_Vapours_Dmg_L" "GV_Antiq_Vapours_Dmg_H" .duration 1 .on_hit true .on_miss true .apply_once true
+effect: .name "antiq_orange" .target "global" .item 1 .chance 100% .buff_ids "GV_Antiq_Stab_Buff_Acc" "GV_Antiq_Stab_Buff_Crit" "GV_Antiq_Blight_Skill_Buff" "GV_Antiq_Flashpowder_Move_Skill_Buff" "GV_Antiq_Flashpowder_Dmg_L" "GV_Antiq_Flashpowder_Dmg_H" .duration 1 .on_hit true .on_miss true .apply_once true
 
 
 // Arbalest Effects
@@ -118,7 +108,7 @@ effect: .name "GV_BH_Mark_Target" .target "target" .chance 100% .tag 1 .combat_s
 
 
 // Uppercut
-effect: .name "GV_BH_Speed_Buff_Self" .target "performer" .chance 100% .combat_stat_buff 1 .speed_rating_add 2 .on_hit true on_miss true
+effect: .name "GV_BH_Speed_Buff_Self" .target "performer" .chance 100% .combat_stat_buff 1 .speed_rating_add 2 .duration 2 .on_hit true on_miss true
 
 // Flashbang
 
@@ -128,7 +118,7 @@ effect: .name "GV_BH_Stun_Killer" .target "performer" .chance 100% .keyStatus "s
 effect: .name "GV_BH_Bleed_Killer" .target "performer" .chance 100% .keyStatus "bleeding" .combat_stat_buff 1 .crit_chance_add 15% .on_hit true .on_miss false
 
 // Caltrops
-effect: .name "GV_BH_Caltrops_Debuff" .target "target" .chance 125% .buff_ids "GV_BH_Speed_Debuff" "GV_BH_Move_Res_Debuff" .duration 3 .on_hit true .on_miss false
+effect: .name "GV_BH_Caltrops_Debuff" .target "target" .chance 125% .buff_ids "GV_BH_Dodge_Debuff" "GV_BH_Move_Res_Debuff" .duration 3 .on_hit true .on_miss false
 
 
 // Crusader Effects
@@ -150,8 +140,8 @@ effect: .name "GV_Crusader_Battle_Buff_Target" .target "target" .chance 100% .co
 effect: .name "GV_Crusader_Battle_Buff_Self" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 10% .on_hit true .on_miss true
 
 // Battle Heal
-effect: .name "GV_Crusader_Heal_Self" .target "performer" .chance 100% .heal 2 .on_hit true .on_miss false .source_heal_type hero_skill
-effect: .name "GV_Crusader_Heal_Target" .target "target" .chance 100% .heal 2 .on_hit true .on_miss false .source_heal_type hero_skill
+effect: .name "GV_Crusader_Heal_Self" .target "performer" .chance 100% .heal 2 .on_hit true .on_miss false .source_heal_type hero_skill_multi_target
+effect: .name "GV_Crusader_Heal_Target" .target "target" .chance 100% .heal 2 .on_hit true .on_miss false .source_heal_type hero_skill_multi_target
 
 // Last Rites
 effect: .name "GV_Crusader_Speed_Debuff" .target "target" .curio_result_type "negative" .chance 125% .combat_stat_buff 1 .speed_rating_add -4 .duration 2 .apply_once true .on_hit true .on_miss false
@@ -160,11 +150,17 @@ effect: .name "GV_Crusader_Speed_Debuff" .target "target" .curio_result_type "ne
 // Grave Robber Effects
 //-------------------------
 // Toxin Trickery
+effect: .name "GV_GR_Riposte" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 0% .duration 1 .on_hit true .on_miss true .damage_low_multiply 0% .damage_high_multiply 0% .crit_chance_add 0% .has_description false
+
+effect: .name "GV_GR_Zone_Buffs" .target "performer" .chance 100% .buff_ids "GV_GR_Zone_Acc" "GV_GR_Zone_Damage_L" "GV_GR_Zone_Damage_H" "GV_GR_Zone_Crit" .duration 2 .on_hit true .on_miss false .apply_once true
+
+effect: .name "GV_GR_Stun_Self" .target "performer" .chance 125% .stun 1 .on_hit true .on_miss true .queue true
 
 // Pick to the Face
-effect: .name "GV_GR_Chip_Armor" .target "target" .chance 125% .combat_stat_buff 1 .protection_rating_add -10% .buff_duration_type combat_end .duration 1 .on_hit true .on_miss false
+effect: .name "GV_GR_Weak_Blight_Killer" .target "performer" .chance 100% .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .on_hit true .on_miss false
 
 // Poison Dart
+effect: .name "GV_GR_Chip_Armor" .target "target" .chance 125% .combat_stat_buff 1 .protection_rating_add -10% .buff_duration_type combat_end .duration 1 .on_hit true .on_miss false
 
 
 // Hellion Effects
@@ -176,7 +172,7 @@ effect: .name "GV_GR_Chip_Armor" .target "target" .chance 125% .combat_stat_buff
 
 
 // Barbaric YAWP
-
+effect: .name "GV_Hellion_Weak_Stun" .target "target" .chance 90% .stun 1 .on_hit true .on_miss false .queue true
 
 // If It Bleeds
 effect: .name "GV_Hellion_Bleed_Giant_Killer" .target "performer" .chance 100% .skill_instant true .buff_ids "GV_Hellion_Giant_Killer" .on_hit true .on_miss false
@@ -278,7 +274,7 @@ effect: .name "GV_Jester_Solo_Debuff" .target "target" .chance 100% .combat_stat
 effect: .name "GV_Jester_Group_Buff" .target "target" .chance 100% .buff_ids "GV_Jester_Rank_Buff_L" "GV_Jester_Rank_Buff_H" "GV_Jester_Rank_Speed" "GV_Jester_Crit_Buff" .duration 3 .on_hit true .on_miss false
 
 // Inspiring Tune
-effect: .name "GV_Jester_Stress_Heal" .target "target" .curio_result_type "positive" .chance 100% .healstress 8 .on_hit true .on_miss false .queue true
+effect: .name "GV_Jester_Stress_Heal" .target "target" .curio_result_type "positive" .chance 100% .healstress 10 .on_hit true .on_miss false .queue true
 
 
 // Leper Effects
@@ -313,7 +309,7 @@ effect: .name "GV_Leper_Self_Stress_Heal" .target "performer" .chance 100% .heal
 effect: .name "GV_MAA_Defender_1" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 25% .on_hit true .on_miss true .queue true
 
 // Command
-effect: .name "GV_MAA_Command_Buff" .target "performer_group" .chance 100% .buff_ids "GV_MAA_Command_Buff_L" "GV_MAA_Command_Buff_H" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_MAA_Command_Buff" .target "performer_group" .chance 100% .buff_ids "GV_MAA_Command_Buff_Acc" "GV_MAA_Command_Buff_Crit" .duration 3 .on_hit true .on_miss false .queue true
 
 // Bellow
 effect: .name "GV_MAA_Bellow_Debuff" .target "target_group_other" .chance 100% .combat_stat_buff 1 .speed_rating_add -3 .duration 3 .on_hit true .on_miss false .queue true
@@ -322,7 +318,7 @@ effect: .name "GV_MAA_Bellow_Debuff" .target "target_group_other" .chance 100% .
 effect: .name "GV_MAA_Defender" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 20%	.on_hit true .on_miss true .queue true
 
 //Retribution
-effect: .name "GV_MAA_Riposte"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true .crit_chance_add 0%
+effect: .name "GV_MAA_Riposte"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .on_hit true .on_miss true .damage_low_multiply 0% .damage_high_multiply 0% .crit_chance_add 0%
 
 //Bolster
 effect: .name "GV_MAA_Bolster" .target "performer_group" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 10%  .speed_rating_add 2 .on_hit true .on_miss true	.queue true
