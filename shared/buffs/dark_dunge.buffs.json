@@ -245,7 +245,7 @@
          "id" : "GV_BH_Dodge_Debuff",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
-         "amount" : -5,
+         "amount" : -0.05,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -489,10 +489,23 @@
          }
       },
 	  {
+         "id" : "GV_Jester_Acc_Buff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
          "id" : "GV_Jester_Crit_Buff",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "crit_chance",
-         "amount" : 0.04,
+         "amount" : 0.02,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,

@@ -136,15 +136,35 @@ effect: .name "GV_BH_Caltrops_Debuff" .target "target" .chance 125% .buff_ids "G
 
 
 // Inspiring Cry
-effect: .name "GV_Crusader_Battle_Buff_Target" .target "target" .chance 100% .combat_stat_buff 1 .protection_rating_add 10% .on_hit true .on_miss true
-effect: .name "GV_Crusader_Battle_Buff_Self" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 10% .on_hit true .on_miss true
+
 
 // Battle Heal
-effect: .name "GV_Crusader_Heal_Self" .target "performer" .chance 100% .heal 2 .on_hit true .on_miss false .source_heal_type hero_skill_multi_target
-effect: .name "GV_Crusader_Heal_Target" .target "target" .chance 100% .heal 2 .on_hit true .on_miss false .source_heal_type hero_skill_multi_target
+effect: .name "GV_Cru_Heal_Self_2" .target "performer" .chance 100% .heal 2 .on_hit true .on_miss false .source_heal_type hero_skill_multi_target
+effect: .name "GV_Cru_Heal_Self_3" .target "performer" .chance 100% .heal 3 .on_hit true .on_miss false .source_heal_type hero_skill_multi_target
+effect: .name "GV_Cru_Heal_Self_4" .target "performer" .chance 100% .heal 4 .on_hit true .on_miss false .source_heal_type hero_skill_multi_target
+
+effect: .name "GV_Cru_Heal_Target_2" .target "target" .chance 100% .heal 2 .on_hit true .on_miss false .source_heal_type hero_skill_multi_target
+effect: .name "GV_Cru_Heal_Target_3" .target "target" .chance 100% .heal 3 .on_hit true .on_miss false .source_heal_type hero_skill_multi_target
+effect: .name "GV_Cru_Heal_Target_4" .target "target" .chance 100% .heal 4 .on_hit true .on_miss false .source_heal_type hero_skill_multi_target
+
+effect: .name "GV_Cru_Battle_Buff_Target_1" .target "target" .chance 100% .combat_stat_buff 1 .protection_rating_add 10% .on_hit true .on_miss false
+effect: .name "GV_Cru_Battle_Buff_Target_2" .target "target" .chance 100% .combat_stat_buff 1 .protection_rating_add 12% .on_hit true .on_miss false
+effect: .name "GV_Cru_Battle_Buff_Target_3" .target "target" .chance 100% .combat_stat_buff 1 .protection_rating_add 14% .on_hit true .on_miss false
+effect: .name "GV_Cru_Battle_Buff_Target_4" .target "target" .chance 100% .combat_stat_buff 1 .protection_rating_add 16% .on_hit true .on_miss false
+effect: .name "GV_Cru_Battle_Buff_Target_5" .target "target" .chance 100% .combat_stat_buff 1 .protection_rating_add 20% .on_hit true .on_miss false
+
+effect: .name "GV_Cru_Battle_Buff_Self_1" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 10% .on_hit true .on_miss false
+effect: .name "GV_Cru_Battle_Buff_Self_2" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 12% .on_hit true .on_miss false
+effect: .name "GV_Cru_Battle_Buff_Self_3" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 14% .on_hit true .on_miss false
+effect: .name "GV_Cru_Battle_Buff_Self_4" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 16% .on_hit true .on_miss false
+effect: .name "GV_Cru_Battle_Buff_Self_5" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 20% .on_hit true .on_miss false
 
 // Last Rites
-effect: .name "GV_Crusader_Speed_Debuff" .target "target" .curio_result_type "negative" .chance 125% .combat_stat_buff 1 .speed_rating_add -4 .duration 2 .apply_once true .on_hit true .on_miss false
+effect: .name "GV_Cru_Speed_Debuff_1" .target "target" .chance 125% .combat_stat_buff 1 .speed_rating_add -4 .duration 2 .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Cru_Speed_Debuff_2" .target "target" .chance 135% .combat_stat_buff 1 .speed_rating_add -5 .duration 2 .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Cru_Speed_Debuff_3" .target "target" .chance 145% .combat_stat_buff 1 .speed_rating_add -6 .duration 2 .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Cru_Speed_Debuff_4" .target "target" .chance 155% .combat_stat_buff 1 .speed_rating_add -7 .duration 2 .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Cru_Speed_Debuff_5" .target "target" .chance 165% .combat_stat_buff 1 .speed_rating_add -8 .duration 2 .on_hit true .on_miss false .apply_once true
 
 
 // Grave Robber Effects
@@ -160,7 +180,7 @@ effect: .name "GV_GR_Stun_Self" .target "performer" .chance 125% .stun 1 .on_hit
 effect: .name "GV_GR_Weak_Blight_Killer" .target "performer" .chance 100% .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .on_hit true .on_miss false
 
 // Poison Dart
-effect: .name "GV_GR_Chip_Armor" .target "target" .chance 125% .combat_stat_buff 1 .protection_rating_add -10% .buff_duration_type combat_end .duration 1 .on_hit true .on_miss false
+effect: .name "GV_GR_Chip_Armor" .target "target" .chance 125% .combat_stat_buff 1 .protection_rating_add -10% .duration 3 .on_hit true .on_miss false
 
 
 // Hellion Effects
@@ -271,7 +291,7 @@ effect: .name "GV_Jester_Solo_Debuff" .target "target" .chance 100% .combat_stat
 
 
 // Battle Ballad
-effect: .name "GV_Jester_Group_Buff" .target "target" .chance 100% .buff_ids "GV_Jester_Rank_Buff_L" "GV_Jester_Rank_Buff_H" "GV_Jester_Rank_Speed" "GV_Jester_Crit_Buff" .duration 3 .on_hit true .on_miss false
+effect: .name "GV_Jester_Group_Buff" .target "target" .chance 100% .buff_ids "GV_Jester_Acc_Buff" "GV_Jester_Crit_Buff" "GV_Jester_Rank_Speed" "GV_Jester_Rank_Buff_L" "GV_Jester_Rank_Buff_H" .duration 3 .on_hit true .on_miss false
 
 // Inspiring Tune
 effect: .name "GV_Jester_Stress_Heal" .target "target" .curio_result_type "positive" .chance 100% .healstress 10 .on_hit true .on_miss false .queue true
@@ -296,7 +316,7 @@ effect: .name "GV_Leper_Clear_Guarding" .target "target" .chance 100% .clearguar
 effect: .name "GV_Leper_Intimidate" .target "target" .chance 110% .buff_ids .combat_stat_buff 1 .damage_low_multiply -30% .damage_high_multiply -30% .crit_chance_add -5% .duration 2 .on_hit true .on_miss false
 
 // Withstand
-effect: .name "GV_Leper_Stress_Resist_Buff" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "GV_Leper_Stress_Resist" .duration 2 .on_hit true .on_miss true
+effect: .name "GV_Leper_Stress_Resist_Buff" .target "performer" .chance 100% .buff_ids "GV_Leper_Stress_Resist" .duration 2 .on_hit true .on_miss true
 
 // Solemnity
 effect: .name "GV_Leper_Heal_Self" .target "performer" .chance 100% .heal 6 .on_hit true .on_miss false .queue false .source_heal_type hero_skill
@@ -354,8 +374,17 @@ effect: .name "GV_PD_PoisonKiller"	.target "performer" .chance 100% .keyStatus "
 
 
 // Potent Concoction
-effect: .name "GV_PD_Buff_Target" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .on_hit true .on_miss false
-effect: .name "GV_PD_Buff_Self" .target "performer" .chance 100% .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .on_hit true .on_miss false
+effect: .name "GV_PD_Buff_Target_1" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .speed_rating_add 1 .on_hit true .on_miss false
+effect: .name "GV_PD_Buff_Target_2" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 27% .damage_high_multiply 27% .speed_rating_add 1 .on_hit true .on_miss false
+effect: .name "GV_PD_Buff_Target_3" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 29% .damage_high_multiply 29% .speed_rating_add 2 .on_hit true .on_miss false
+effect: .name "GV_PD_Buff_Target_4" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 31% .damage_high_multiply 31% .speed_rating_add 2 .on_hit true .on_miss false
+effect: .name "GV_PD_Buff_Target_5" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 33% .damage_high_multiply 33% .speed_rating_add 3 .on_hit true .on_miss false
+
+effect: .name "GV_PD_Buff_Self_1" .target "performer" .chance 100% .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .speed_rating_add 1 .on_hit true .on_miss false
+effect: .name "GV_PD_Buff_Self_2" .target "performer" .chance 100% .combat_stat_buff 1 .damage_low_multiply 27% .damage_high_multiply 27% .speed_rating_add 1 .on_hit true .on_miss false
+effect: .name "GV_PD_Buff_Self_3" .target "performer" .chance 100% .combat_stat_buff 1 .damage_low_multiply 29% .damage_high_multiply 29% .speed_rating_add 2 .on_hit true .on_miss false
+effect: .name "GV_PD_Buff_Self_4" .target "performer" .chance 100% .combat_stat_buff 1 .damage_low_multiply 31% .damage_high_multiply 31% .speed_rating_add 2 .on_hit true .on_miss false
+effect: .name "GV_PD_Buff_Self_5" .target "performer" .chance 100% .combat_stat_buff 1 .damage_low_multiply 33% .damage_high_multiply 33% .speed_rating_add 3 .on_hit true .on_miss false
 
 // Corpse Explosion
 effect: .name "GV_PD_Corpse_Only" .target "performer" .chance 100% .skill_instant true .buff_ids "GV_PD_Corpse_Only" .on_hit true .on_miss false .apply_once true .has_description false
@@ -419,7 +448,11 @@ effect: .name "GV_Cure_Horror" .target "target" .chance 100% .clearDotStress 1 .
 effect: .name "GV_Cure_Stun" .target "target" .chance 100% .unstun 1 .on_hit true .on_miss false
 
 // Stacking Heals
-effect: .name "GV_Cure_Stacking_Heal" .target "target" .chance 100% .buff_type hp_heal_received_percent .buff_amount 25% .on_hit true .on_miss false
+effect: .name "GV_Stacking_Heal_1" .target "target" .chance 100% .buff_type hp_heal_received_percent .buff_amount 20% .on_hit true .on_miss false .queue true
+effect: .name "GV_Stacking_Heal_2" .target "target" .chance 100% .buff_type hp_heal_received_percent .buff_amount 25% .on_hit true .on_miss false .queue true
+effect: .name "GV_Stacking_Heal_3" .target "target" .chance 100% .buff_type hp_heal_received_percent .buff_amount 30% .on_hit true .on_miss false .queue true
+effect: .name "GV_Stacking_Heal_4" .target "target" .chance 100% .buff_type hp_heal_received_percent .buff_amount 35% .on_hit true .on_miss false .queue true
+effect: .name "GV_Stacking_Heal_5" .target "target" .chance 100% .buff_type hp_heal_received_percent .buff_amount 40% .on_hit true .on_miss false .queue true
 
 // Clear Corpses no tooltip
 effect: .name "GV_Clear_Corpse_Target" .target "target" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss true .can_apply_on_death true

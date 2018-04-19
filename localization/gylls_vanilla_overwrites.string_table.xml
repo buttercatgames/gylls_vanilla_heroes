@@ -25,6 +25,7 @@
 		<entry id="upgrade_tree_name_highwayman.take_aim"><![CDATA[Cold Blood]]></entry>
 		
 		<!-- Houndmaster -->
+
 		
 		<!-- Leper -->
 		<entry id="combat_skill_name_leper_focus"><![CDATA[Overpower]]></entry>
@@ -70,6 +71,8 @@
 		<entry id="str_skill_tooltip_dmg_mod"><![CDATA[DMG: %+.0f%%]]></entry>
 		
 	    <entry id="effect_tooltip_stress_heal_format"><![CDATA[{colour_start|stress}Heal{colour_end} %d Stress]]></entry>
+		<entry id="buff_stat_tooltip_stress_dmg_percent"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end} Inflicted]]></entry>
+		<entry id="buff_stat_tooltip_stress_dmg_received_percent"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end}]]></entry>
 		
 		<entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% DMG Received]]></entry>
 	    <entry id="effect_base_chance_format"><![CDATA[{colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>
