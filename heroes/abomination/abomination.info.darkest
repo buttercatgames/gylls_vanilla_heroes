@@ -55,11 +55,11 @@ combat_skill: .id "rake" .level 3 .type "melee" .atk 105% .dmg -40% .crit 3% .la
 combat_skill: .id "rake" .level 4 .type "melee" .atk 110% .dmg -40% .crit 4% .launch 21 .target ~12 .is_crit_valid True .effect "rakebuff_5" "GV_Abom_Stressed_Crit_5" "GV_Abom_Stressed_Mega_Crit_5" .valid_modes beast
 
 // Slam
-combat_skill: .id "slam" .level 0 .type "melee" .atk 80% .dmg -25% .crit 2% .move 0 1 .launch 4321 .target 12 .is_crit_valid True .effect "Push 2A" "GV_Abom_Slam_Debuff_1" .valid_modes beast
-combat_skill: .id "slam" .level 1 .type "melee" .atk 85% .dmg -25% .crit 2% .move 0 1 .launch 4321 .target 12 .is_crit_valid True .effect "Push 2B" "GV_Abom_Slam_Debuff_2" .valid_modes beast
-combat_skill: .id "slam" .level 2 .type "melee" .atk 90% .dmg -25% .crit 3% .move 0 1 .launch 4321 .target 12 .is_crit_valid True .effect "Push 2C" "GV_Abom_Slam_Debuff_3" .valid_modes beast
-combat_skill: .id "slam" .level 3 .type "melee" .atk 95% .dmg -25% .crit 3% .move 0 1 .launch 4321 .target 12 .is_crit_valid True .effect "Push 2D" "GV_Abom_Slam_Debuff_4" .valid_modes beast
-combat_skill: .id "slam" .level 4 .type "melee" .atk 100% .dmg -25% .crit 4% .move 0 1 .launch 4321 .target 12 .is_crit_valid True .effect "Push 2E" "GV_Abom_Slam_Debuff_5" .valid_modes beast
+combat_skill: .id "slam" .level 0 .type "melee" .atk 80% .dmg -25% .crit 2% .move 0 1 .launch 4321 .target 12 .is_crit_valid True  .effect "Push 2A" "Slam Debuff 1" .valid_modes beast
+combat_skill: .id "slam" .level 1 .type "melee" .atk 85% .dmg -25% .crit 3% .move 0 1 .launch 4321 .target 12 .is_crit_valid True  .effect "Push 2B" "Slam Debuff 2" .valid_modes beast
+combat_skill: .id "slam" .level 2 .type "melee" .atk 90% .dmg -25% .crit 4% .move 0 1 .launch 4321 .target 12 .is_crit_valid True  .effect "Push 2C" "Slam Debuff 3" .valid_modes beast
+combat_skill: .id "slam" .level 3 .type "melee" .atk 95% .dmg -25% .crit 4% .move 0 1 .launch 4321 .target 12 .is_crit_valid True  .effect "Push 2D" "Slam Debuff 4" .valid_modes beast
+combat_skill: .id "slam" .level 4 .type "melee" .atk 100% .dmg -25% .crit 4% .move 0 1 .launch 4321 .target 12 .is_crit_valid True  .effect "Push 2E" "Slam Debuff 5" .valid_modes beast
 
 combat_move_skill: .id "move" .level 0 .type "move" .move 2 1 .launch 4321
 
