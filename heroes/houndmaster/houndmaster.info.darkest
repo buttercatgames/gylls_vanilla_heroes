@@ -1,10 +1,10 @@
 resistances: .stun 40% .poison 40% .bleed 40% .disease 30% .move 40% .debuff 30% .death_blow 67% .trap 40%
 
-weapon: .name "houndmaster_weapon_0" .atk 0% .dmg 2 4 .crit 5% .spd 6
-weapon: .name "houndmaster_weapon_1" .atk 0% .dmg 2 4 .crit 5.5% .spd 6 .upgradeRequirementCode 0
-weapon: .name "houndmaster_weapon_2" .atk 0% .dmg 2 4 .crit 6% .spd 7 .upgradeRequirementCode 1
-weapon: .name "houndmaster_weapon_3" .atk 0% .dmg 2 4 .crit 6.5% .spd 7 .upgradeRequirementCode 2
-weapon: .name "houndmaster_weapon_4" .atk 0% .dmg 2 4 .crit 7% .spd 8 .upgradeRequirementCode 3
+weapon: .name "houndmaster_weapon_0" .atk 0% .dmg 4 7 .crit 5% .spd 6
+weapon: .name "houndmaster_weapon_1" .atk 0% .dmg 5 8 .crit 5.5% .spd 6 .upgradeRequirementCode 0
+weapon: .name "houndmaster_weapon_2" .atk 0% .dmg 6 10 .crit 6% .spd 7 .upgradeRequirementCode 1
+weapon: .name "houndmaster_weapon_3" .atk 0% .dmg 6 11 .crit 6.5% .spd 7 .upgradeRequirementCode 2
+weapon: .name "houndmaster_weapon_4" .atk 0% .dmg 7 13 .crit 7% .spd 8 .upgradeRequirementCode 3
 
 armour: .name "houndmaster_armour_0" .def 10% .prot 0 .hp 21 .spd 0
 armour: .name "houndmaster_armour_1" .def 15% .prot 0 .hp 25 .spd 0 .upgradeRequirementCode 0
@@ -13,25 +13,45 @@ armour: .name "houndmaster_armour_3" .def 25% .prot 0 .hp 33 .spd 0 .upgradeRequ
 armour: .name "houndmaster_armour_4" .def 30% .prot 0 .hp 37 .spd 0 .upgradeRequirementCode 3
 
 // Blackjack
-combat_skill: .id "blackjack" .level 0 .type "melee" .atk 85% .dmg -50% .crit 0% .launch 321 .target 12 .is_crit_valid True .effect "Stun 1" .human_effects GV_Switch_Mode_Hound_Self_Queue .valid_modes human .is_continue_turn true
+combat_skill: .id "blackjack" .level 0 .type "melee" .atk 85% .dmg -75% .crit 0% .launch 321 .target 12 .is_crit_valid True .effect "GV_Weak_Stun_1" .human_effects GV_Switch_Mode_Hound_Self_Queue .valid_modes human .is_continue_turn true
+combat_skill: .id "blackjack" .level 1 .type "melee" .atk 90% .dmg -75% .crit 0% .launch 321 .target 12 .is_crit_valid True .effect "GV_Weak_Stun_2" .human_effects GV_Switch_Mode_Hound_Self_Queue .valid_modes human .is_continue_turn true
+combat_skill: .id "blackjack" .level 2 .type "melee" .atk 95% .dmg -75% .crit 1% .launch 321 .target 12 .is_crit_valid True .effect "GV_Weak_Stun_3" .human_effects GV_Switch_Mode_Hound_Self_Queue .valid_modes human .is_continue_turn true
+combat_skill: .id "blackjack" .level 3 .type "melee" .atk 100% .dmg -75% .crit 1% .launch 321 .target 12 .is_crit_valid True .effect "GV_Weak_Stun_4" .human_effects GV_Switch_Mode_Hound_Self_Queue .valid_modes human .is_continue_turn true
+combat_skill: .id "blackjack" .level 4 .type "melee" .atk 105% .dmg -75% .crit 2% .launch 321 .target 12 .is_crit_valid True .effect "GV_Weak_Stun_5" .human_effects GV_Switch_Mode_Hound_Self_Queue .valid_modes human .is_continue_turn true
 
 // Target Whistle
 combat_skill: .id "whistle" .level 0 .type "human" .type "ranged" .atk 100% .dmg -100% .crit -100% .launch 321 .target 1234 .is_crit_valid False .effect "GV_HM_Debuff_Chance_vs_Not_Marked" "GV_HM_Super_Mark_Debuff" "GV_HM_Short_Mark" .human_effects GV_Switch_Mode_Hound_Self_Queue .valid_modes human .is_continue_turn true
 
 // Guard Dog
-combat_skill: .id "guard_dog" .level 0 .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 432 .target @1234 .is_crit_valid True .effect "Clear Guard Performer" "Clear Guard Target" "GV_Guard_1" "GV_Guard_Dog_Buff" .human_effects GV_Switch_Mode_Hound_Self_Queue .valid_modes human .is_continue_turn true
+combat_skill: .id "guard_dog" .level 0 .launch 432 .target @1234 .self_target_valid false .is_crit_valid False .effect "Clear Guard Performer" "Clear Guard Target" "GV_Guard_1" "GV_Guard_Dog_Buff_1" .human_effects GV_Switch_Mode_Hound_Self_Queue .valid_modes human .is_continue_turn true
+combat_skill: .id "guard_dog" .level 1 .launch 432 .target @1234 .self_target_valid false .is_crit_valid False .effect "Clear Guard Performer" "Clear Guard Target" "GV_Guard_1" "GV_Guard_Dog_Buff_2" .human_effects GV_Switch_Mode_Hound_Self_Queue .valid_modes human .is_continue_turn true
+combat_skill: .id "guard_dog" .level 2 .launch 432 .target @1234 .self_target_valid false .is_crit_valid False .effect "Clear Guard Performer" "Clear Guard Target" "GV_Guard_1" "GV_Guard_Dog_Buff_3" .human_effects GV_Switch_Mode_Hound_Self_Queue .valid_modes human .is_continue_turn true
+combat_skill: .id "guard_dog" .level 3 .launch 432 .target @1234 .self_target_valid false .is_crit_valid False .effect "Clear Guard Performer" "Clear Guard Target" "GV_Guard_1" "GV_Guard_Dog_Buff_4" .human_effects GV_Switch_Mode_Hound_Self_Queue .valid_modes human .is_continue_turn true
+combat_skill: .id "guard_dog" .level 4 .launch 432 .target @1234 .self_target_valid false .is_crit_valid False .effect "Clear Guard Performer" "Clear Guard Target" "GV_Guard_1" "GV_Guard_Dog_Buff_5" .human_effects GV_Switch_Mode_Hound_Self_Queue .valid_modes human .is_continue_turn true
 
 // Hound's Rush
-combat_skill: .id "hounds_rush" .level 0 .type "ranged" .atk 85% .dmg 0% .crit 2% .launch 321 .target 123 .is_crit_valid True .effect "GV_HM_Dmg_Marked_1" "GV_HM_Bleed_1" "GV_HM_Beast_Killer" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound
+combat_skill: .id "hounds_rush" .level 0 .type "ranged" .atk 85% .dmg -50% .crit 2% .launch 321 .target 123 .is_crit_valid True .effect "GV_HM_Dmg_Marked_1" "GV_HM_Bleed_1" "GV_HM_Beast_Killer" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound
 
 // Go Fetch
-combat_skill: .id "hounds_harry" .level 0 .type "ranged" .atk 95% .dmg -50% .crit 0% .launch 32 .target 234 .is_crit_valid False .effect "GV_HM_Bleed_if_Marked" "GV_HM_Pull" "GV_HM_Bleed" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound
+combat_skill: .id "hounds_harry" .level 0 .type "ranged" .atk 95% .dmg -75% .crit 0% .launch 32 .target 234 .is_crit_valid True .effect "GV_HM_Bleed_if_Marked" "GV_HM_Pull_1" "GV_HM_Bleed_1" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound
+combat_skill: .id "hounds_harry" .level 1 .type "ranged" .atk 100% .dmg -75% .crit 0% .launch 32 .target 234 .is_crit_valid True .effect "GV_HM_Bleed_if_Marked" "GV_HM_Pull_2" "GV_HM_Bleed_2" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound
+combat_skill: .id "hounds_harry" .level 2 .type "ranged" .atk 105% .dmg -75% .crit 1% .launch 32 .target 234 .is_crit_valid True .effect "GV_HM_Bleed_if_Marked" "GV_HM_Pull_3" "GV_HM_Bleed_3" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound
+combat_skill: .id "hounds_harry" .level 3 .type "ranged" .atk 110% .dmg -75% .crit 1% .launch 32 .target 234 .is_crit_valid True .effect "GV_HM_Bleed_if_Marked" "GV_HM_Pull_4" "GV_HM_Bleed_4" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound
+combat_skill: .id "hounds_harry" .level 4 .type "ranged" .atk 115% .dmg -75% .crit 2% .launch 32 .target 234 .is_crit_valid True .effect "GV_HM_Bleed_if_Marked" "GV_HM_Pull_5" "GV_HM_Bleed_5" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound
 
 // Cry Havoc
-combat_skill: .id "howl" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 432 .target @1234 .is_crit_valid True .effect "GV_HM_Stress_Heal_Base" "GV_HM_Stress_Heal_Splash" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound
+combat_skill: .id "howl" .level 0 .launch 432 .target @1234 .is_crit_valid True .effect "GV_HM_Stress_Heal_Base_1" "GV_HM_Stress_Heal_Splash_1" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound
+combat_skill: .id "howl" .level 1 .launch 432 .target @1234 .is_crit_valid True .effect "GV_HM_Stress_Heal_Base_2" "GV_HM_Stress_Heal_Splash_1" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound
+combat_skill: .id "howl" .level 2 .launch 432 .target @1234 .is_crit_valid True .effect "GV_HM_Stress_Heal_Base_2" "GV_HM_Stress_Heal_Splash_2" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound
+combat_skill: .id "howl" .level 3 .launch 432 .target @1234 .is_crit_valid True .effect "GV_HM_Stress_Heal_Base_3" "GV_HM_Stress_Heal_Splash_2" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound
+combat_skill: .id "howl" .level 4 .launch 432 .target @1234 .is_crit_valid True .effect "GV_HM_Stress_Heal_Base_3" "GV_HM_Stress_Heal_Splash_3" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound
 
 // Lick Wounds
-combat_skill: .id "lick_wounds" .level 0 .atk 0% .dmg 0% .crit 0% .launch 4321 .target .is_crit_valid False .effect "GV_Lick_Wounds_Buff" "GV_Switch_Mode_Human_Self_Queue" .valid_modes human hound .human_effects GV_Lick_Wounds_Heal
+combat_skill: .id "lick_wounds" .level 0 .launch 4321 .target .is_crit_valid True .effect "GV_Lick_Wounds_Buff" "GV_Switch_Mode_Human_Self_Queue" .valid_modes human hound .human_effects GV_Lick_Wounds_Heal_1
+combat_skill: .id "lick_wounds" .level 1 .launch 4321 .target .is_crit_valid True .effect "GV_Lick_Wounds_Buff" "GV_Switch_Mode_Human_Self_Queue" .valid_modes human hound .human_effects GV_Lick_Wounds_Heal_2
+combat_skill: .id "lick_wounds" .level 2 .launch 4321 .target .is_crit_valid True .effect "GV_Lick_Wounds_Buff" "GV_Switch_Mode_Human_Self_Queue" .valid_modes human hound .human_effects GV_Lick_Wounds_Heal_3
+combat_skill: .id "lick_wounds" .level 3 .launch 4321 .target .is_crit_valid True .effect "GV_Lick_Wounds_Buff" "GV_Switch_Mode_Human_Self_Queue" .valid_modes human hound .human_effects GV_Lick_Wounds_Heal_4
+combat_skill: .id "lick_wounds" .level 4 .launch 4321 .target .is_crit_valid True .effect "GV_Lick_Wounds_Buff" "GV_Switch_Mode_Human_Self_Queue" .valid_modes human hound .human_effects GV_Lick_Wounds_Heal_5
 
 combat_move_skill: .id "move" .level 0 .type "move" .move 2 2 .launch 4321
 

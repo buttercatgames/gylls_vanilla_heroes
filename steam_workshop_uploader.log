@@ -7,13 +7,33 @@ Mod Data Directory = C:/Program Files (x86)/Darkest Dungeon/mods/gylls_vanilla_h
 Processing Map Files files...
 
 -------------------------------------------------------------------------------
+Running Localization...
+Parsing localization/gylls_vanilla.string_table.xml
+Parsing localization/gylls_vanilla_overwrites.string_table.xml
+
+Building Languages
+Exporting .loc files
+
+-------------------------------------------------------------------------------
 Searching for preview icon file C:/Program Files (x86)/Darkest Dungeon/mods/gylls_vanilla_heroes/preview_icon.png...FOUND!
 <UploadMode> - Set to direct_upload
 
 
 -------------------------------------------------------------------------------
+Detected 4 unchanged files
+The following files are unchanged and will be uploaded...
+C:/Program Files (x86)/Darkest Dungeon/mods/gylls_vanilla_heroes/dlc/580100_crimson_court/features/flagellant/heroes/flagellant/flagellant.art.darkest
+C:/Program Files (x86)/Darkest Dungeon/mods/gylls_vanilla_heroes/dlc/580100_crimson_court/features/flagellant/heroes/flagellant/flagellant.info.darkest
+C:/Program Files (x86)/Darkest Dungeon/mods/gylls_vanilla_heroes/dlc/702540_shieldbreaker/heroes/shieldbreaker/shieldbreaker.art.darkest
+C:/Program Files (x86)/Darkest Dungeon/mods/gylls_vanilla_heroes/dlc/702540_shieldbreaker/heroes/shieldbreaker/shieldbreaker.info.darkest
+
+-------------------------------------------------------------------------------
 Modded files...
 
+dlc/580100_crimson_court/features/flagellant/shared/buffs/gv_heroes_flagellant.buffs.json
+dlc/580100_crimson_court/features/flagellant/effects/gv_heroes_flagellant.effects.darkest
+dlc/702540_shieldbreaker/shared/buffs/gv_heroes_shieldbreaker.buffs.json
+dlc/702540_shieldbreaker/effects/gv_heroes_shieldbreaker.effects.darkest
 heroes/antiquarian/fx/antiquarian.sprite.invigorating_vapours.png
 heroes/antiquarian/fx/antiquarian.sprite.invigorating_vapours_target.png
 panels/icons_equip/supply/inv_supply+antiq_blue.png
@@ -80,11 +100,13 @@ colours/gv_heroes.colours.darkest
 effects/dark_dunge.effects.darkest
 inventory/gylls_vanilla.inventory.extra_stack_limits.darkest
 inventory/gylls_vanilla.supply.inventory.items.darkest
+localization/1354446999_english.loc
+localization/gylls_vanilla.string_table.xml
+localization/gylls_vanilla_overwrites.string_table.xml
 loot/dark_dunge.loot.json
-modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting.....................................................................................Submitted.
+Submitting..........................................................................................Submitted.
 Saving project file C:\Program Files (x86)\Darkest Dungeon\mods\gylls_vanilla_heroes\project.xml
 

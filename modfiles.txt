@@ -1,3 +1,7 @@
+dlc/580100_crimson_court/features/flagellant/shared/buffs/gv_heroes_flagellant.buffs.json 0
+dlc/580100_crimson_court/features/flagellant/effects/gv_heroes_flagellant.effects.darkest 0
+dlc/702540_shieldbreaker/shared/buffs/gv_heroes_shieldbreaker.buffs.json 9203
+dlc/702540_shieldbreaker/effects/gv_heroes_shieldbreaker.effects.darkest 14039
 heroes/antiquarian/fx/antiquarian.sprite.invigorating_vapours.png 129538
 heroes/antiquarian/fx/antiquarian.sprite.invigorating_vapours_target.png 201386
 panels/icons_equip/supply/inv_supply+antiq_blue.png 11600
@@ -35,7 +39,7 @@ heroes/highwayman/highwayman.info.darkest 8510
 heroes/houndmaster/houndmaster.ability.lick.png 9220
 heroes/houndmaster/houndmaster.ability.pull.png 11202
 heroes/houndmaster/houndmaster.art.darkest 1870
-heroes/houndmaster/houndmaster.info.darkest 4199
+heroes/houndmaster/houndmaster.info.darkest 8963
 heroes/jester/jester.art.darkest 1934
 heroes/jester/jester.info.darkest 7823
 heroes/leper/leper.ability.intimidate.png 9592
@@ -61,10 +65,12 @@ shared/buffs/dark_dunge.buffs.json 54595
 audio/dark_dunge.campaign.guid_overrides.json 3847
 audio/dark_dunge.campaign.load_order.json 80
 colours/gv_heroes.colours.darkest 97
-effects/dark_dunge.effects.darkest 53969
+effects/dark_dunge.effects.darkest 55226
 inventory/gylls_vanilla.inventory.extra_stack_limits.darkest 103
 inventory/gylls_vanilla.supply.inventory.items.darkest 240
+localization/1354446999_english.loc 8309
+localization/gylls_vanilla.string_table.xml 5076
+localization/gylls_vanilla_overwrites.string_table.xml 4772
 loot/dark_dunge.loot.json 472
-modfiles.txt 3285
 preview_icon.png 155800
 project.xml 680

@@ -32,13 +32,6 @@
 		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[Heel! Heel! That's a friend!]]></entry>
 		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[The pups are on edge. Best keep them separate.]]></entry>
 		
-		<!-- Grave Robber -->
-		<entry id="str_skill_mode_info_nozone"><![CDATA[Otherwise:]]></entry>
-		<entry id="str_skill_mode_info_zone"><![CDATA[In the Zone:]]></entry>
-		<entry id="actor_mode_name_zone"><![CDATA[In the Zone]]></entry>
-		<entry id="actor_mode_name_nozone"><![CDATA[Not In the Zone]]></entry>
-		<entry id="buff_rule_data_tooltip_zone"><![CDATA[In the Zone]]></entry>
-		
 		<!-- Misc -->
 		<entry id="buff_rule_data_tooltip_corpse"><![CDATA[Corpse]]></entry>
 		<entry id="effect_tooltip_target_group_other"><![CDATA[Others:]]></entry>
@@ -53,8 +46,22 @@
 		<!-- Tooltip Hack Strings -->
 		<entry id="buff_stat_tooltip_upgrade_discount_leper_sacrifice"><![CDATA[Self:
 Take 6 DMG]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
-Triggers on MISS/DODGE Only]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on MISS/DODGE Only
+-20%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_2"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on MISS/DODGE Only
+-15%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_3"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on MISS/DODGE Only
+-10%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_4"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on MISS/DODGE Only
++1%% CRIT when {colour_start|riposte}Riposte{colour_end}
+-5%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_5"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on MISS/DODGE Only
++2%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
 Triggers on HIT Only
 {colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
