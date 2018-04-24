@@ -7,14 +7,6 @@ Mod Data Directory = C:/Program Files (x86)/Darkest Dungeon/mods/gylls_vanilla_h
 Processing Map Files files...
 
 -------------------------------------------------------------------------------
-Running Localization...
-Parsing localization/gylls_vanilla.string_table.xml
-Parsing localization/gylls_vanilla_overwrites.string_table.xml
-
-Building Languages
-Exporting .loc files
-
--------------------------------------------------------------------------------
 Searching for preview icon file C:/Program Files (x86)/Darkest Dungeon/mods/gylls_vanilla_heroes/preview_icon.png...FOUND!
 <UploadMode> - Set to direct_upload
 
@@ -38,8 +30,8 @@ heroes/antiquarian/fx/antiquarian.sprite.invigorating_vapours.png
 heroes/antiquarian/fx/antiquarian.sprite.invigorating_vapours_target.png
 panels/icons_equip/supply/inv_supply+antiq_blue.png
 panels/icons_equip/supply/inv_supply+antiq_orange.png
-audio/secondary_banks/dark_dunge.bank
-campaign/provision/gylls_vanilla.provision.json
+audio/secondary_banks/gv_heroes.bank
+campaign/provision/gv_heroes.provision.json
 fx/antiq_blue/antiq_blue.sprite.atlas
 fx/antiq_blue/antiq_blue.sprite.png
 fx/antiq_blue/antiq_blue.sprite.skel
@@ -93,20 +85,17 @@ heroes/vestal/vestal.ability.chastise.png
 heroes/vestal/vestal.ability.hand.png
 heroes/vestal/vestal.art.darkest
 heroes/vestal/vestal.info.darkest
-shared/buffs/dark_dunge.buffs.json
-audio/dark_dunge.campaign.guid_overrides.json
-audio/dark_dunge.campaign.load_order.json
+shared/buffs/gv_heroes.buffs.json
+audio/gv_heroes.campaign.guid_overrides.json
+audio/gv_heroes.campaign.load_order.json
 colours/gv_heroes.colours.darkest
-effects/dark_dunge.effects.darkest
-inventory/gylls_vanilla.inventory.extra_stack_limits.darkest
-inventory/gylls_vanilla.supply.inventory.items.darkest
-localization/1354446999_english.loc
-localization/gylls_vanilla.string_table.xml
-localization/gylls_vanilla_overwrites.string_table.xml
-loot/dark_dunge.loot.json
+effects/gv_heroes.effects.darkest
+inventory/gv_heroes.inventory.extra_stack_limits.darkest
+inventory/gv_heroes.supply.inventory.items.darkest
+loot/gv_heroes.loot.json
 preview_icon.png
 project.xml
 
-Submitting..........................................................................................Submitted.
+Submitting...................................................................................Submitted.
 Saving project file C:\Program Files (x86)\Darkest Dungeon\mods\gylls_vanilla_heroes\project.xml
 
