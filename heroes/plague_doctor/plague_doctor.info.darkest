@@ -34,11 +34,11 @@ combat_skill: .id "blinding_gas" .level 3 .type "ranged" .atk 105% .dmg -100% .c
 combat_skill: .id "blinding_gas" .level 4 .type "ranged" .atk 110% .dmg -100% .crit 0% .launch 43 .target ~34 .is_crit_valid False .effect "Stun 5"
 
 // Incision
-combat_skill: .id "incision" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .launch 321 .target 12 .is_crit_valid True .effect "Minor Bleed 1" "GV_PD_PoisonKiller"
-combat_skill: .id "incision" .level 1 .type "melee" .atk 90% .dmg 0% .crit 5% .launch 321 .target 12 .is_crit_valid True .effect "Minor Bleed 2" "GV_PD_PoisonKiller"
-combat_skill: .id "incision" .level 2 .type "melee" .atk 95% .dmg 0% .crit 6% .launch 321 .target 12 .is_crit_valid True .effect "Minor Bleed 3" "GV_PD_PoisonKiller"
-combat_skill: .id "incision" .level 3 .type "melee" .atk 100% .dmg 0% .crit 6% .launch 321 .target 12 .is_crit_valid True .effect "Minor Bleed 4" "GV_PD_PoisonKiller"
-combat_skill: .id "incision" .level 4 .type "melee" .atk 105% .dmg 0% .crit 7% .launch 321 .target 12 .is_crit_valid True .effect "Minor Bleed 5" "GV_PD_PoisonKiller"
+combat_skill: .id "incision" .level 0 .type "melee" .atk 85% .dmg -20% .crit 5% .launch 321 .target 12 .is_crit_valid True .effect "Minor Bleed 1" "GV_PD_PoisonKiller"
+combat_skill: .id "incision" .level 1 .type "melee" .atk 90% .dmg -20% .crit 5% .launch 321 .target 12 .is_crit_valid True .effect "Minor Bleed 2" "GV_PD_PoisonKiller"
+combat_skill: .id "incision" .level 2 .type "melee" .atk 95% .dmg -20% .crit 6% .launch 321 .target 12 .is_crit_valid True .effect "Minor Bleed 3" "GV_PD_PoisonKiller"
+combat_skill: .id "incision" .level 3 .type "melee" .atk 100% .dmg -20% .crit 6% .launch 321 .target 12 .is_crit_valid True .effect "Minor Bleed 4" "GV_PD_PoisonKiller"
+combat_skill: .id "incision" .level 4 .type "melee" .atk 105% .dmg -20% .crit 7% .launch 321 .target 12 .is_crit_valid True .effect "Minor Bleed 5" "GV_PD_PoisonKiller"
 
 // Battlefield Medicine
 combat_skill: .id "battlefield_medicine" .level 0 .heal 1 1 .launch 432 .target @1234 .effect "Cure" "GV_Stacking_Heal_1"

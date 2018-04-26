@@ -6,8 +6,9 @@
             "item_lists": 
             [
                 { "type": "supply", "id": "antiq_blue", "amount": 0 },
-                { "type": "supply", "id": "antiq_orange", "amount": 0 }
+                { "type": "supply", "id": "antiq_orange", "amount": 0 },
+                { "type": "supply", "id": "antiq_personal", "amount": 1 }
 			]
-        }
+		}
 	]
 }

@@ -30,14 +30,14 @@ combat_skill: .id "guard_dog" .level 3 .launch 432 .target @1234 .self_target_va
 combat_skill: .id "guard_dog" .level 4 .launch 432 .target @1234 .self_target_valid false .is_crit_valid False .effect "Clear Guard Performer" "Clear Guard Target" "GV_Guard_1" "GV_Guard_Dog_Buff_5" .human_effects GV_Switch_Mode_Hound_Self_Queue .valid_modes human .is_continue_turn true
 
 // Hound's Rush
-combat_skill: .id "hounds_rush" .level 0 .type "ranged" .atk 85% .dmg -50% .crit 2% .launch 321 .target 123 .is_crit_valid True .effect "GV_HM_Dmg_Marked_1" "GV_HM_Bleed_1" "GV_HM_Beast_Killer" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound
+combat_skill: .id "hounds_rush" .level 0 .type "ranged" .atk 85% .dmg -50% .crit 2% .launch 321 .target 123 .is_crit_valid True .effect "GV_HM_Dmg_Marked_1" "GV_HM_Rush_Bleed_1" "GV_HM_Beast_Killer" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound
 
 // Go Fetch
-combat_skill: .id "hounds_harry" .level 0 .type "ranged" .atk 95% .dmg -75% .crit 0% .launch 32 .target 234 .is_crit_valid True .effect "GV_HM_Bleed_if_Marked" "GV_HM_Pull_1" "GV_HM_Bleed_1" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound
-combat_skill: .id "hounds_harry" .level 1 .type "ranged" .atk 100% .dmg -75% .crit 0% .launch 32 .target 234 .is_crit_valid True .effect "GV_HM_Bleed_if_Marked" "GV_HM_Pull_2" "GV_HM_Bleed_2" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound
-combat_skill: .id "hounds_harry" .level 2 .type "ranged" .atk 105% .dmg -75% .crit 1% .launch 32 .target 234 .is_crit_valid True .effect "GV_HM_Bleed_if_Marked" "GV_HM_Pull_3" "GV_HM_Bleed_3" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound
-combat_skill: .id "hounds_harry" .level 3 .type "ranged" .atk 110% .dmg -75% .crit 1% .launch 32 .target 234 .is_crit_valid True .effect "GV_HM_Bleed_if_Marked" "GV_HM_Pull_4" "GV_HM_Bleed_4" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound
-combat_skill: .id "hounds_harry" .level 4 .type "ranged" .atk 115% .dmg -75% .crit 2% .launch 32 .target 234 .is_crit_valid True .effect "GV_HM_Bleed_if_Marked" "GV_HM_Pull_5" "GV_HM_Bleed_5" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound
+combat_skill: .id "hounds_harry" .level 0 .type "ranged" .atk 95% .dmg -75% .crit 0% .launch 32 .target 234 .is_crit_valid True .effect "GV_HM_Bleed_if_Marked" "GV_HM_Pull_1" "GV_HM_Fetch_Bleed_1" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound
+combat_skill: .id "hounds_harry" .level 1 .type "ranged" .atk 100% .dmg -75% .crit 0% .launch 32 .target 234 .is_crit_valid True .effect "GV_HM_Bleed_if_Marked" "GV_HM_Pull_2" "GV_HM_Fetch_Bleed_2" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound
+combat_skill: .id "hounds_harry" .level 2 .type "ranged" .atk 105% .dmg -75% .crit 1% .launch 32 .target 234 .is_crit_valid True .effect "GV_HM_Bleed_if_Marked" "GV_HM_Pull_3" "GV_HM_Fetch_Bleed_3" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound
+combat_skill: .id "hounds_harry" .level 3 .type "ranged" .atk 110% .dmg -75% .crit 1% .launch 32 .target 234 .is_crit_valid True .effect "GV_HM_Bleed_if_Marked" "GV_HM_Pull_4" "GV_HM_Fetch_Bleed_4" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound
+combat_skill: .id "hounds_harry" .level 4 .type "ranged" .atk 115% .dmg -75% .crit 2% .launch 32 .target 234 .is_crit_valid True .effect "GV_HM_Bleed_if_Marked" "GV_HM_Pull_5" "GV_HM_Fetch_Bleed_5" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound
 
 // Cry Havoc
 combat_skill: .id "howl" .level 0 .launch 432 .target @1234 .is_crit_valid True .effect "GV_HM_Stress_Heal_Base_1" "GV_HM_Stress_Heal_Splash_1" .hound_effects GV_Switch_Mode_Human_Self_Queue .valid_modes hound

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<language id="english">
+		<!-- Antiquarian -->
+		<entry id="str_inventory_title_supplyantiq_blue"><![CDATA[Strange Blue Powder]]></entry>
+		<entry id="str_inventory_title_supplyantiq_orange"><![CDATA[Strange Red Powder]]></entry>
+		<entry id="str_inventory_title_supplyantiq_personal"><![CDATA[Personal Stash]]></entry>
+		<entry id="str_inventory_description_supplyantiq_blue"><![CDATA[Use to empower the Antiquarian's defensive abilities.
+{colour_start|inventory_tooltip_gold_value}[Value: 500 Gold Each]{colour_end}]]></entry>
+		<entry id="str_inventory_description_supplyantiq_orange"><![CDATA[Use to empower the Antiquarian's offensive abilities.
+{colour_start|inventory_tooltip_gold_value}[Value: 500 Gold Each]{colour_end}]]></entry>
+		<entry id="str_inventory_description_supplyantiq_personal"><![CDATA[Use to empower the Antiquarian's abilities.]]></entry>
+		<entry id="buff_rule_data_tooltip_fortifying_vapours"><![CDATA[Restorative Vapours]]></entry>
+		<entry id="buff_rule_data_tooltip_invigorating_vapours"><![CDATA[Rapturous Vapours]]></entry>
+		<entry id="buff_rule_data_tooltip_flashpowder"><![CDATA[Flashpowder]]></entry>
+		<entry id="buff_rule_data_tooltip_festering_vapours"><![CDATA[Festering Vapours]]></entry>
+		<entry id="buff_rule_data_tooltip_cower"><![CDATA[Get Down!]]></entry>
+		<entry id="buff_rule_data_tooltip_nervous_stab"><![CDATA[Nervous Stab]]></entry>
+
+		<!-- Jester -->
+		<entry id="buff_rule_data_tooltip_solo"><![CDATA[Solo]]></entry>
+		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[Finale]]></entry>
+		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[Inspiring Tune]]></entry>
+		
+		<!-- Houndmaster -->
+		<entry id="upgrade_tree_name_houndmaster.hounds_harry"><![CDATA[Go Fetch]]></entry>
+		<entry id="combat_skill_name_houndmaster_hounds_harry"><![CDATA[Go Fetch]]></entry>
+		<entry id="actor_mode_name_hound"><![CDATA[Hound]]></entry>
+		<entry id="str_skill_mode_info_hound"><![CDATA[]]></entry>
+		
+		<!-- Houndmaster Limit -->
+		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[Down girl!]]></entry>
+		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[The old girl doesn't play well with others, I'm afraid.]]></entry>
+		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[Heel! Heel! That's a friend!]]></entry>
+		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[The pups are on edge. Best keep them separate.]]></entry>
+		
+		<!-- Misc -->
+		<entry id="buff_rule_data_tooltip_corpse"><![CDATA[Corpse]]></entry>
+		<entry id="effect_tooltip_target_group_other"><![CDATA[Others:]]></entry>
+		<entry id="effect_tooltip_cure_bleed"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}]]></entry>
+		<entry id="effect_tooltip_cure_poison"><![CDATA[Cure {colour_start|blight}Blight{colour_end}]]></entry>
+		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Cure {colour_start|skill_pip_default}Horror{colour_end}]]></entry>
+		<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if vs. %s (%d+)]]></entry>
+		<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if vs. no %ss]]></entry>
+		<entry id="effect_tooltip_target_enemy_group"><![CDATA[Enemy Party:]]></entry>
+		<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s vs. NOT %s]]></entry>
+
+		<!-- Tooltip Hack Strings -->
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_sacrifice"><![CDATA[Self:
+Take 6 DMG]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on MISS/DODGE Only
+-20%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_2"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on MISS/DODGE Only
+-15%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_3"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on MISS/DODGE Only
+-10%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_4"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on MISS/DODGE Only
++1%% CRIT when {colour_start|riposte}Riposte{colour_end}
+-5%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_5"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on MISS/DODGE Only
++2%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on HIT Only
+{colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no Corpses
++100%% DMG if 2+ Corpses
++100%% DMG if 3+ Corpses]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_consume_mark"><![CDATA[Consume {colour_start|mark}Mark{colour_end}]]></entry>
+
+	</language>
+</root>
+

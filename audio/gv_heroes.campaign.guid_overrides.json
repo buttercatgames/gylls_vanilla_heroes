@@ -19,6 +19,7 @@
         {"event_id": "event:/char/ally/houndmaster_lick_wounds_miss_hound",      "guid_override":"{d91c4a47-4064-463b-8f00-bc20af92625c}"},
 		{"event_id": "event:/general/items/antiq_orange",      "guid_override":"{94465f68-8b85-4b60-a5ee-592869ba52c6}"},
 		{"event_id": "event:/general/items/antiq_blue",      "guid_override":"{94465f68-8b85-4b60-a5ee-592869ba52c6}"},
+		{"event_id": "event:/general/items/antiq_personal",      "guid_override":"{94465f68-8b85-4b60-a5ee-592869ba52c6}"},
 		{"event_id": "event:/char/ally/crusader_zealous_accusation",      "guid_override":"{4db31fa5-c968-40a4-9c00-2d3a61da9285}"},
 		{"event_id": "event:/char/ally/crusader_zealous_accusation_miss",      "guid_override":"{9fcbf3e1-d29c-425c-a5fb-7ff15a7fd09c}"},
 		{"event_id": "event:/char/ally/crusader_bulwark_of_faith",      "guid_override":"{98925d5d-85aa-4d37-8707-4ff1056f1ca4}"},
