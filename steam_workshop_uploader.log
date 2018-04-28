@@ -61,7 +61,7 @@ heroes/highwayman/highwayman.ability.coldblood.png
 heroes/highwayman/highwayman.art.darkest
 heroes/highwayman/highwayman.info.darkest
 heroes/houndmaster/houndmaster.ability.lick.png
-heroes/houndmaster/houndmaster.ability.pull.png
+heroes/houndmaster/houndmaster.ability.rush.png
 heroes/houndmaster/houndmaster.art.darkest
 heroes/houndmaster/houndmaster.info.darkest
 heroes/jester/jester.art.darkest
@@ -96,10 +96,9 @@ localization/1354446999_english.loc
 localization/gylls_vanilla.string_table.xml
 localization/gylls_vanilla_overwrites.string_table.xml
 loot/gv_heroes.loot.json
-modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting..............................................................................................Submitted.
+Submitting.......................................................................................................Submitted.
 Saving project file C:\Program Files (x86)\Darkest Dungeon\mods\gylls_vanilla_heroes\project.xml
 

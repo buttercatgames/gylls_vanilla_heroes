@@ -27,18 +27,18 @@ combat_skill: .id "protect_me" .level 3 .launch 43 .target @1234 .self_target_va
 combat_skill: .id "protect_me" .level 4 .launch 43 .target @1234 .self_target_valid false .is_crit_valid False .effect "GV_Antiq_Protect_Me_Buff_5" "Antiq ProtectMe ClearGuardsPerformer" "Antiq ProtectMe ClearGuardsTarget" "Antiq ProtectMe Guard"
 
 // Restorative Vapours
-combat_skill: .id "fortifying_vapours" .level 0 .heal 1 2 .launch 43 .target @1234 .is_crit_valid True .effect "GV_Antiq_Heal_Others_1" .generation_guaranteed true
-combat_skill: .id "fortifying_vapours" .level 1 .heal 2 3 .launch 43 .target @1234 .is_crit_valid True .effect "GV_Antiq_Heal_Others_1" .generation_guaranteed true
-combat_skill: .id "fortifying_vapours" .level 2 .heal 2 3 .launch 43 .target @1234 .is_crit_valid True .effect "GV_Antiq_Heal_Others_1" "GV_Antiq_Heal_Others_Half" .generation_guaranteed true
-combat_skill: .id "fortifying_vapours" .level 3 .heal 3 4 .launch 43 .target @1234 .is_crit_valid True .effect "GV_Antiq_Heal_Others_1" "GV_Antiq_Heal_Others_Half" .generation_guaranteed true
-combat_skill: .id "fortifying_vapours" .level 4 .heal 3 4 .launch 43 .target @1234 .is_crit_valid True .effect "GV_Antiq_Heal_Others_2" .generation_guaranteed true
+combat_skill: .id "fortifying_vapours" .level 0 .launch 43 .target @1234 .is_crit_valid True .effect "GV_Heal_Target_For_2" "GV_Antiq_Heal_Others_1" .generation_guaranteed true
+combat_skill: .id "fortifying_vapours" .level 1 .launch 43 .target @1234 .is_crit_valid True .effect "GV_Heal_Target_For_3" "GV_Antiq_Heal_Others_1" .generation_guaranteed true
+combat_skill: .id "fortifying_vapours" .level 2 .launch 43 .target @1234 .is_crit_valid True .effect "GV_Heal_Target_For_3" "GV_Antiq_Heal_Others_1" "GV_Antiq_Heal_Others_Half" .generation_guaranteed true
+combat_skill: .id "fortifying_vapours" .level 3 .launch 43 .target @1234 .is_crit_valid True .effect "GV_Heal_Target_For_4" "GV_Antiq_Heal_Others_1" "GV_Antiq_Heal_Others_Half" .generation_guaranteed true
+combat_skill: .id "fortifying_vapours" .level 4 .launch 43 .target @1234 .is_crit_valid True .effect "GV_Heal_Target_For_4" "GV_Antiq_Heal_Others_2" .generation_guaranteed true
 
 // Festering Vapours
-combat_skill: .id "festering_vapours" .level 0 .type "ranged" .atk 95% .dmg -50% .crit 0% .launch 43 .target 1234 .is_crit_valid True .effect "GV_Antiq_Blight_1" "GV_Antiq_Super_Blight_1"
-combat_skill: .id "festering_vapours" .level 1 .type "ranged" .atk 100% .dmg -50% .crit 0% .launch 43 .target 1234 .is_crit_valid True .effect "GV_Antiq_Blight_2" "GV_Antiq_Super_Blight_2"
-combat_skill: .id "festering_vapours" .level 2 .type "ranged" .atk 105% .dmg -50% .crit 1% .launch 43 .target 1234 .is_crit_valid True .effect "GV_Antiq_Blight_3" "GV_Antiq_Super_Blight_3"
-combat_skill: .id "festering_vapours" .level 3 .type "ranged" .atk 110% .dmg -50% .crit 1% .launch 43 .target 1234 .is_crit_valid True .effect "GV_Antiq_Blight_4" "GV_Antiq_Super_Blight_4"
-combat_skill: .id "festering_vapours" .level 4 .type "ranged" .atk 115% .dmg -50% .crit 2% .launch 43 .target 1234 .is_crit_valid True .effect "GV_Antiq_Blight_5" "GV_Antiq_Super_Blight_5"
+combat_skill: .id "festering_vapours" .level 0 .type "ranged" .atk 95% .dmg -100% .crit 0% .launch 43 .target 1234 .is_crit_valid False .effect "GV_Antiq_Blight_1" "GV_Antiq_Super_Blight_1"
+combat_skill: .id "festering_vapours" .level 1 .type "ranged" .atk 100% .dmg -100% .crit 0% .launch 43 .target 1234 .is_crit_valid False .effect "GV_Antiq_Blight_2" "GV_Antiq_Super_Blight_2"
+combat_skill: .id "festering_vapours" .level 2 .type "ranged" .atk 105% .dmg -100% .crit 1% .launch 43 .target 1234 .is_crit_valid False .effect "GV_Antiq_Blight_3" "GV_Antiq_Super_Blight_3"
+combat_skill: .id "festering_vapours" .level 3 .type "ranged" .atk 110% .dmg -100% .crit 1% .launch 43 .target 1234 .is_crit_valid False .effect "GV_Antiq_Blight_4" "GV_Antiq_Super_Blight_4"
+combat_skill: .id "festering_vapours" .level 4 .type "ranged" .atk 115% .dmg -100% .crit 2% .launch 43 .target 1234 .is_crit_valid False .effect "GV_Antiq_Blight_5" "GV_Antiq_Super_Blight_5"
 
 // Flashpowder
 combat_skill: .id "flashpowder" .level 0 .type "ranged" .atk 95% .dmg -50% .crit 0% .launch 43 .target 123 .is_crit_valid False .effect "GV_Antiq_Distract_1" "GV_Antiq_Push_1"
@@ -48,11 +48,11 @@ combat_skill: .id "flashpowder" .level 3 .type "ranged" .atk 110% .dmg -50% .cri
 combat_skill: .id "flashpowder" .level 4 .type "ranged" .atk 115% .dmg -50% .crit 2% .launch 43 .target 123 .is_crit_valid False .effect "GV_Antiq_Distract_5" "GV_Antiq_Push_5"
 
 // Get Down!
-combat_skill: .id "cower" .level 0 .move 2 0 .launch 4321 .target .effect "GV_Antiq_Stress_Free_Get_Down" "GV_Antiq_Stress_Small" "GV_Antiq_Get_Down_Buff_1"
-combat_skill: .id "cower" .level 1 .move 2 0 .launch 4321 .target .effect "GV_Antiq_Stress_Free_Get_Down" "GV_Antiq_Stress_Small" "GV_Antiq_Get_Down_Buff_2"
-combat_skill: .id "cower" .level 2 .move 2 0 .launch 4321 .target .effect "GV_Antiq_Stress_Free_Get_Down" "GV_Antiq_Stress_Small" "GV_Antiq_Get_Down_Buff_3"
-combat_skill: .id "cower" .level 3 .move 2 0 .launch 4321 .target .effect "GV_Antiq_Stress_Free_Get_Down" "GV_Antiq_Stress_Small" "GV_Antiq_Get_Down_Buff_4"
-combat_skill: .id "cower" .level 4 .move 2 0 .launch 4321 .target .effect "GV_Antiq_Stress_Free_Get_Down" "GV_Antiq_Stress_Small" "GV_Antiq_Get_Down_Buff_5"
+combat_skill: .id "cower" .level 0 .move 2 0 .launch 4321 .target .effect "GV_Antiq_Stress_Free_Get_Down" "GV_Antiq_Stress" "GV_Antiq_Get_Down_Buff_1"
+combat_skill: .id "cower" .level 1 .move 2 0 .launch 4321 .target .effect "GV_Antiq_Stress_Free_Get_Down" "GV_Antiq_Stress" "GV_Antiq_Get_Down_Buff_2"
+combat_skill: .id "cower" .level 2 .move 2 0 .launch 4321 .target .effect "GV_Antiq_Stress_Free_Get_Down" "GV_Antiq_Stress" "GV_Antiq_Get_Down_Buff_3"
+combat_skill: .id "cower" .level 3 .move 2 0 .launch 4321 .target .effect "GV_Antiq_Stress_Free_Get_Down" "GV_Antiq_Stress" "GV_Antiq_Get_Down_Buff_4"
+combat_skill: .id "cower" .level 4 .move 2 0 .launch 4321 .target .effect "GV_Antiq_Stress_Free_Get_Down" "GV_Antiq_Stress" "GV_Antiq_Get_Down_Buff_5"
 
 // Rapturous Vapours
 combat_skill: .id "invigorating_vapours" .level 0 .launch 43 .target @1234 .effect "GV_Antiq_Stress" "GV_Antiq_Buff_1"

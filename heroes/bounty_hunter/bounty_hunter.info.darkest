@@ -55,11 +55,11 @@ combat_skill: .id "finish_him" .level 3 .type "melee" .atk 85% .dmg 0% .crit 3% 
 combat_skill: .id "finish_him" .level 4 .type "melee" .atk 85% .dmg 0% .crit 4% .launch 321 .target 123 .is_crit_valid True .effect "GV_BH_Stun_Killer" "GV_BH_Bleed_Killer_5"
 
 // Caltrops
-combat_skill: .id "hook_and_slice" .level 0 .type "ranged" .atk 90% .dmg -90% .crit 0% .launch 432 .target ~34 .is_crit_valid True .effect "Strong Bleed 1" "GV_BH_Caltrops_Debuff_1"
-combat_skill: .id "hook_and_slice" .level 1 .type "ranged" .atk 95% .dmg -90% .crit 0% .launch 432 .target ~34 .is_crit_valid True .effect "Strong Bleed 2" "GV_BH_Caltrops_Debuff_2"
-combat_skill: .id "hook_and_slice" .level 2 .type "ranged" .atk 100% .dmg -90% .crit 1% .launch 432 .target ~34 .is_crit_valid True .effect "Strong Bleed 3" "GV_BH_Caltrops_Debuff_3"
-combat_skill: .id "hook_and_slice" .level 3 .type "ranged" .atk 105% .dmg -90% .crit 1% .launch 432 .target ~34 .is_crit_valid True .effect "Strong Bleed 4" "GV_BH_Caltrops_Debuff_4"
-combat_skill: .id "hook_and_slice" .level 4 .type "ranged" .atk 110% .dmg -90% .crit 2% .launch 432 .target ~34 .is_crit_valid True .effect "Strong Bleed 5" "GV_BH_Caltrops_Debuff_5"
+combat_skill: .id "hook_and_slice" .level 0 .type "ranged" .atk 95% .dmg -90% .crit 0% .launch 432 .target ~34 .is_crit_valid True .effect "Strong Bleed 1" "GV_BH_Caltrops_Debuff_1"
+combat_skill: .id "hook_and_slice" .level 1 .type "ranged" .atk 100% .dmg -90% .crit 0% .launch 432 .target ~34 .is_crit_valid True .effect "Strong Bleed 2" "GV_BH_Caltrops_Debuff_2"
+combat_skill: .id "hook_and_slice" .level 2 .type "ranged" .atk 105% .dmg -90% .crit 1% .launch 432 .target ~34 .is_crit_valid True .effect "Strong Bleed 3" "GV_BH_Caltrops_Debuff_3"
+combat_skill: .id "hook_and_slice" .level 3 .type "ranged" .atk 110% .dmg -90% .crit 1% .launch 432 .target ~34 .is_crit_valid True .effect "Strong Bleed 4" "GV_BH_Caltrops_Debuff_4"
+combat_skill: .id "hook_and_slice" .level 4 .type "ranged" .atk 115% .dmg -90% .crit 2% .launch 432 .target ~34 .is_crit_valid True .effect "Strong Bleed 5" "GV_BH_Caltrops_Debuff_5"
 
 combat_move_skill: .id "move" .level 0 .type "move" .move 2 2 .launch 4321
 

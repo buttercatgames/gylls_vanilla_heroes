@@ -327,7 +327,7 @@
          }
       },
       {
-         "id" : "GV_Antiq_Buff_Heal",
+         "id" : "GV_Antiq_Healing",
          "stat_type" : "hp_heal_percent",
          "stat_sub_type" : "",
          "amount" : 1.0,
@@ -366,36 +366,10 @@
          }
       },
       {
-         "id" : "GV_Antiq_Vapours_Dmg_L",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 1.0,
-         "remove_if_not_active" : false,
-         "rule_type" : "skill",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "festering_vapours"
-         }
-      },
-      {
-         "id" : "GV_Antiq_Vapours_Dmg_H",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 1.0,
-         "remove_if_not_active" : false,
-         "rule_type" : "skill",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "festering_vapours"
-         }
-      },
-      {
-         "id" : "GV_Antiq_Flashpowder_Move_Skill_Buff",
+         "id" : "GV_Antiq_Flashpowder_Move_Skill",
          "stat_type" : "move_chance",
          "stat_sub_type" : "",
-         "amount" : 1.25,
+         "amount" : 0.5,
          "remove_if_not_active" : false,
          "rule_type" : "skill",
          "is_false_rule" : false,
@@ -405,7 +379,20 @@
          }
       },
       {
-         "id" : "GV_Antiq_Blight_Skill_Buff",
+         "id" : "GV_Antiq_Flashpowder_Debuff_Skill",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "flashpowder"
+         }
+      },
+      {
+         "id" : "GV_Antiq_Blight_Skill",
          "stat_type" : "poison_chance",
          "stat_sub_type" : "",
          "amount" : 1.25,
@@ -418,7 +405,7 @@
          }
       },
 	  {
-         "id" : "GV_Antiq_Stab_Buff_Acc",
+         "id" : "GV_Antiq_Stab_Acc",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
          "amount" : 0.25,
@@ -431,7 +418,7 @@
          }
       },
 	  {
-         "id" : "GV_Antiq_Stab_Buff_Crit",
+         "id" : "GV_Antiq_Stab_Crit",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "crit_chance",
          "amount" : 0.5,
@@ -639,33 +626,7 @@
          }
       },
 	  {
-         "id" : "GV_HM_Super_Mark_L",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 1.0,
-         "remove_if_not_active" : false,
-		 "rule_type" : "actorStatus",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "tagged"
-         }
-      },
-	  {
-         "id" : "GV_HM_Super_Mark_H",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 1.0,
-         "remove_if_not_active" : false,
-		 "rule_type" : "actorStatus",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "tagged"
-         }
-      },
-	  {
-         "id" : "GV_HM_Super_Mark_Debuff",
+         "id" : "GV_HM_Super_Mark_Dmg",
          "stat_type" : "damage_received_percent",
          "stat_sub_type" : "",
          "amount" : 1.0,
@@ -678,10 +639,75 @@
          }
       },
 	  {
+         "id" : "GV_HM_Super_Mark_Crit_1",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+		 "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "hounds_rush"
+         }
+      },
+	  {
+         "id" : "GV_HM_Super_Mark_Crit_2",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+		 "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "hounds_rush"
+         }
+      },
+	  {
+         "id" : "GV_HM_Super_Mark_Crit_3",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+		 "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "hounds_rush"
+         }
+      },
+	  {
+         "id" : "GV_HM_Super_Mark_Crit_4",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+		 "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "hounds_rush"
+         }
+      },
+	  {
+         "id" : "GV_HM_Super_Mark_Crit_5",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+		 "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "hounds_rush"
+         }
+      },
+	  {
          "id" : "GV_HM_Debuff_Chance_vs_Not_Marked",
          "stat_type" : "debuff_chance",
          "stat_sub_type" : "",
-         "amount" : -6.0,
+         "amount" : -900.0,
          "remove_if_not_active" : false,
          "rule_type" : "actorStatus",
          "is_false_rule" : true,
@@ -1410,7 +1436,7 @@
          "id" : "GV_Leper_Crit_1",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "crit_chance",
-         "amount" : 0.06,
+         "amount" : 0.05,
          "duration_type" : "combat_end",
          "duration" : 1,
          "remove_if_not_active" : false,
@@ -1425,7 +1451,7 @@
          "id" : "GV_Leper_Crit_2",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "crit_chance",
-         "amount" : 0.07,
+         "amount" : 0.06,
          "duration_type" : "combat_end",
          "duration" : 1,
          "remove_if_not_active" : false,
@@ -1440,7 +1466,7 @@
          "id" : "GV_Leper_Crit_3",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "crit_chance",
-         "amount" : 0.08,
+         "amount" : 0.07,
          "duration_type" : "combat_end",
          "duration" : 1,
          "remove_if_not_active" : false,
@@ -1455,7 +1481,7 @@
          "id" : "GV_Leper_Crit_4",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "crit_chance",
-         "amount" : 0.09,
+         "amount" : 0.08,
          "duration_type" : "combat_end",
          "duration" : 1,
          "remove_if_not_active" : false,
@@ -1799,6 +1825,19 @@
          "id" : "GV_Tooltip_PD_Corpse_Explosion",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "corpse_explosion",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_HM_Already_Marked",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "hm_already_marked",
          "amount" : -0,
          "remove_if_not_active" : false,
          "rule_type" : "always",
