@@ -12,7 +12,7 @@ armour: .name "antiquarian_armour_2" .icon "eqp_armour_2.png"
 armour: .name "antiquarian_armour_3" .icon "eqp_armour_3.png"
 armour: .name "antiquarian_armour_4" .icon "eqp_armour_4.png"
 
-combat_skill: .id "kris_stab" .icon "one" .anim "attack_melee" .fx "kris_stab" .targchestfx "blood_splatter" .condensed_tooltip_stats true
+combat_skill: .id "kris_stab" .icon "stab" .anim "attack_melee" .fx "kris_stab" .targchestfx "blood_splatter" .condensed_tooltip_stats true
 combat_skill: .id "festering_vapours" .icon "two" .anim "attack_censer" .fx "festering_vapours" .targchestfx "festering_vapours_target" .condensed_tooltip_stats true .condensed_tooltip_effects false
 combat_skill: .id "cower" .icon "three" .anim "defend" .fx "cower" .condensed_tooltip_stats true
 combat_skill: .id "flashpowder" .icon "four" .anim "attack_ranged" .fx "flashpowder" .targfx "flashpowder_target" .condensed_tooltip_stats true

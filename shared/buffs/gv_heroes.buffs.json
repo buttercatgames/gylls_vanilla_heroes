@@ -561,7 +561,7 @@
          }
       },
       {
-         "id" : "GV_GR_Zone_Damage_L",
+         "id" : "GV_GR_Zone_Damage_L_1",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
          "amount" : 0.20,
@@ -574,7 +574,59 @@
          }
       },
       {
-         "id" : "GV_GR_Zone_Damage_H",
+         "id" : "GV_GR_Zone_Damage_L_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "zone"
+         }
+      },
+      {
+         "id" : "GV_GR_Zone_Damage_L_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "zone"
+         }
+      },
+      {
+         "id" : "GV_GR_Zone_Damage_L_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "zone"
+         }
+      },
+      {
+         "id" : "GV_GR_Zone_Damage_L_5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.40,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "zone"
+         }
+      },
+      {
+         "id" : "GV_GR_Zone_Damage_H_1",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : 0.20,
@@ -587,10 +639,10 @@
          }
       },
       {
-         "id" : "GV_GR_Zone_Crit",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "crit_chance",
-         "amount" : 0.02,
+         "id" : "GV_GR_Zone_Damage_H_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.25,
          "remove_if_not_active" : false,
          "rule_type" : "rangedonly",
          "is_false_rule" : false,
@@ -600,10 +652,140 @@
          }
       },
       {
-         "id" : "GV_GR_Zone_Acc",
+         "id" : "GV_GR_Zone_Damage_H_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_GR_Zone_Damage_H_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_GR_Zone_Damage_H_5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.40,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },	  
+      {
+         "id" : "GV_GR_Zone_Crit_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_GR_Zone_Crit_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_GR_Zone_Crit_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_GR_Zone_Acc_1",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
          "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_GR_Zone_Acc_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_GR_Zone_Acc_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_GR_Zone_Acc_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_GR_Zone_Acc_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.10,
          "remove_if_not_active" : false,
          "rule_type" : "rangedonly",
          "is_false_rule" : false,
@@ -642,7 +824,7 @@
          "id" : "GV_HM_Super_Mark_Crit_1",
          "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
-         "amount" : 0.01,
+         "amount" : 0.02,
          "remove_if_not_active" : false,
 		 "rule_type" : "skill",
          "is_false_rule" : false,
@@ -655,7 +837,7 @@
          "id" : "GV_HM_Super_Mark_Crit_2",
          "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
-         "amount" : 0.02,
+         "amount" : 0.03,
          "remove_if_not_active" : false,
 		 "rule_type" : "skill",
          "is_false_rule" : false,
@@ -668,7 +850,7 @@
          "id" : "GV_HM_Super_Mark_Crit_3",
          "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
-         "amount" : 0.03,
+         "amount" : 0.04,
          "remove_if_not_active" : false,
 		 "rule_type" : "skill",
          "is_false_rule" : false,
@@ -681,7 +863,7 @@
          "id" : "GV_HM_Super_Mark_Crit_4",
          "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
-         "amount" : 0.04,
+         "amount" : 0.05,
          "remove_if_not_active" : false,
 		 "rule_type" : "skill",
          "is_false_rule" : false,
@@ -694,7 +876,7 @@
          "id" : "GV_HM_Super_Mark_Crit_5",
          "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
-         "amount" : 0.05,
+         "amount" : 0.06,
          "remove_if_not_active" : false,
 		 "rule_type" : "skill",
          "is_false_rule" : false,
@@ -707,10 +889,10 @@
          "id" : "GV_HM_Debuff_Chance_vs_Not_Marked",
          "stat_type" : "debuff_chance",
          "stat_sub_type" : "",
-         "amount" : -900.0,
+         "amount" : 500.0,
          "remove_if_not_active" : false,
          "rule_type" : "actorStatus",
-         "is_false_rule" : true,
+         "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : "tagged"
@@ -1796,10 +1978,10 @@
          }
       },
       {
-         "id" : "GV_Blight_Soften",
+         "id" : "GV_Blight_Soften_1",
          "stat_type" : "resistance",
          "stat_sub_type" : "poison",
-         "amount" : -0.2,
+         "amount" : -0.20,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -1809,10 +1991,114 @@
          }
       },
       {
-         "id" : "GV_Bleed_Soften",
+         "id" : "GV_Blight_Soften_2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : -0.23,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_Blight_Soften_3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : -0.26,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_Blight_Soften_4",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : -0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_Blight_Soften_5",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : -0.33,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_Bleed_Soften_1",
          "stat_type" : "resistance",
          "stat_sub_type" : "bleed",
-         "amount" : -0.2,
+         "amount" : -0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_Bleed_Soften_2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : -0.23,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_Bleed_Soften_3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : -0.26,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_Bleed_Soften_4",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : -0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_Bleed_Soften_5",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : -0.33,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,

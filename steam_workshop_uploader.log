@@ -41,6 +41,7 @@ fx/antiq_personal/antiq_personal.sprite.skel
 heroes/abomination/abomination.art.darkest
 heroes/abomination/abomination.info.darkest
 heroes/antiquarian/antiquarian.ability.rapturous.png
+heroes/antiquarian/antiquarian.ability.stab.png
 heroes/antiquarian/antiquarian.art.darkest
 heroes/antiquarian/antiquarian.info.darkest
 heroes/arbalest/arbalest.art.darkest
@@ -53,17 +54,23 @@ heroes/crusader/crusader.ability.scroll.png
 heroes/crusader/crusader.ability.smite.png
 heroes/crusader/crusader.art.darkest
 heroes/crusader/crusader.info.darkest
+heroes/grave_robber/grave_robber.ability.flashing.png
+heroes/grave_robber/grave_robber.ability.pick.png
+heroes/grave_robber/grave_robber.ability.zone.png
 heroes/grave_robber/grave_robber.art.darkest
 heroes/grave_robber/grave_robber.info.darkest
 heroes/hellion/hellion.art.darkest
 heroes/hellion/hellion.info.darkest
 heroes/highwayman/highwayman.ability.coldblood.png
+heroes/highwayman/highwayman.ability.pbs.png
+heroes/highwayman/highwayman.ability.slice.png
 heroes/highwayman/highwayman.art.darkest
 heroes/highwayman/highwayman.info.darkest
 heroes/houndmaster/houndmaster.ability.lick.png
 heroes/houndmaster/houndmaster.ability.rush.png
 heroes/houndmaster/houndmaster.art.darkest
 heroes/houndmaster/houndmaster.info.darkest
+heroes/jester/jester.ability.finale.png
 heroes/jester/jester.art.darkest
 heroes/jester/jester.info.darkest
 heroes/leper/leper.ability.intimidate.png
@@ -99,6 +106,6 @@ loot/gv_heroes.loot.json
 preview_icon.png
 project.xml
 
-Submitting.......................................................................................................Submitted.
+Submitting...............................................................................................Submitted.
 Saving project file C:\Program Files (x86)\Darkest Dungeon\mods\gylls_vanilla_heroes\project.xml
 

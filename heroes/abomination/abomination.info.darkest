@@ -27,11 +27,11 @@ combat_skill: .id "manacles" .level 3 .type "ranged" .atk 110% .dmg -60% .crit 1
 combat_skill: .id "manacles" .level 4 .type "ranged" .atk 115% .dmg -60% .crit 2% .launch 32 .target 123 .is_crit_valid True .effect "Stun 5" .valid_modes human
 
 // Beast's Bile
-combat_skill: .id "vomit" .level 0 .type "ranged" .atk 95% .dmg -90% .crit 0% .launch 32 .target ~23 .is_crit_valid True .effect "Strong Blight 1" .valid_modes human
-combat_skill: .id "vomit" .level 1 .type "ranged" .atk 100% .dmg -90% .crit 0% .launch 32 .target ~23 .is_crit_valid True .effect "Strong Blight 2" .valid_modes human
-combat_skill: .id "vomit" .level 2 .type "ranged" .atk 105% .dmg -90% .crit 1% .launch 32 .target ~23 .is_crit_valid True .effect "Strong Blight 3" .valid_modes human
-combat_skill: .id "vomit" .level 3 .type "ranged" .atk 110% .dmg -90% .crit 1% .launch 32 .target ~23 .is_crit_valid True .effect "Strong Blight 4" .valid_modes human
-combat_skill: .id "vomit" .level 4 .type "ranged" .atk 115% .dmg -90% .crit 2% .launch 32 .target ~23 .is_crit_valid True .effect "Strong Blight 5" .valid_modes human
+combat_skill: .id "vomit" .level 0 .type "ranged" .atk 95% .dmg -90% .crit 0% .launch 32 .target ~23 .is_crit_valid True .effect "Strong Blight 1" "GV_Blight_Soften_1" .valid_modes human
+combat_skill: .id "vomit" .level 1 .type "ranged" .atk 100% .dmg -90% .crit 0% .launch 32 .target ~23 .is_crit_valid True .effect "Strong Blight 2" "GV_Blight_Soften_2" .valid_modes human
+combat_skill: .id "vomit" .level 2 .type "ranged" .atk 105% .dmg -90% .crit 1% .launch 32 .target ~23 .is_crit_valid True .effect "Strong Blight 3" "GV_Blight_Soften_3" .valid_modes human
+combat_skill: .id "vomit" .level 3 .type "ranged" .atk 110% .dmg -90% .crit 1% .launch 32 .target ~23 .is_crit_valid True .effect "Strong Blight 4" "GV_Blight_Soften_4" .valid_modes human
+combat_skill: .id "vomit" .level 4 .type "ranged" .atk 115% .dmg -90% .crit 2% .launch 32 .target ~23 .is_crit_valid True .effect "Strong Blight 5" "GV_Blight_Soften_5" .valid_modes human
 
 // Absolution
 combat_skill: .id "absolution" .level 0 .launch 4321 .target .is_crit_valid True .effect "Absolution HealStress 1" "Absolution Heal 1" .valid_modes human

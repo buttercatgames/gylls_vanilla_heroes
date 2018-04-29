@@ -5,9 +5,9 @@
 		<entry id="str_inventory_title_supplyantiq_blue"><![CDATA[Strange Blue Powder]]></entry>
 		<entry id="str_inventory_title_supplyantiq_orange"><![CDATA[Strange Red Powder]]></entry>
 		<entry id="str_inventory_title_supplyantiq_personal"><![CDATA[Personal Stash]]></entry>
-		<entry id="str_inventory_description_supplyantiq_blue"><![CDATA[Use to empower the Antiquarian's defensive abilities.
+		<entry id="str_inventory_description_supplyantiq_blue"><![CDATA[Use to empower the Antiquarian's team-targeting abilities.
 {colour_start|inventory_tooltip_gold_value}[Value: 500 Gold Each]{colour_end}]]></entry>
-		<entry id="str_inventory_description_supplyantiq_orange"><![CDATA[Use to empower the Antiquarian's offensive abilities.
+		<entry id="str_inventory_description_supplyantiq_orange"><![CDATA[Use to empower the Antiquarian's enemy-targeting abilities.
 {colour_start|inventory_tooltip_gold_value}[Value: 500 Gold Each]{colour_end}]]></entry>
 		<entry id="str_inventory_description_supplyantiq_personal"><![CDATA[Use to empower the Antiquarian's abilities.]]></entry>
 		<entry id="buff_rule_data_tooltip_fortifying_vapours"><![CDATA[Restorative Vapours]]></entry>
@@ -48,6 +48,7 @@
 		<!-- Tooltip Hack Strings -->
 		<entry id="buff_stat_tooltip_upgrade_discount_leper_sacrifice"><![CDATA[Self:
 Take 6 DMG]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hm_already_marked"><![CDATA[If Target is already {colour_start|mark}Marked{colour_end}:]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
 Triggers on MISS/DODGE Only
 -20%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
@@ -71,7 +72,6 @@ Triggers on HIT Only
 +100%% DMG if 2+ Corpses
 +100%% DMG if 3+ Corpses]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_consume_mark"><![CDATA[Consume {colour_start|mark}Mark{colour_end}]]></entry>
-
 	</language>
 </root>
 
