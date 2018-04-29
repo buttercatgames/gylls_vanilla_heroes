@@ -41,18 +41,18 @@ combat_skill: .id "divine_grace" .level 3 .heal 6 8 .launch 432 .target @4321
 combat_skill: .id "divine_grace" .level 4 .heal 7 9 .launch 432 .target @4321 
 
 // Illumination
-combat_skill: .id "gods_illumination" .level 0 .type "ranged" .atk 100% .dmg -40% .crit 0% .launch 32 .target ~34 .is_crit_valid True .effect "GV_Vestal_Dodge_Debuff_1" "Destealth"
-combat_skill: .id "gods_illumination" .level 1 .type "ranged" .atk 105% .dmg -40% .crit 0% .launch 32 .target ~34 .is_crit_valid True .effect "GV_Vestal_Dodge_Debuff_2" "Destealth"
-combat_skill: .id "gods_illumination" .level 2 .type "ranged" .atk 110% .dmg -40% .crit 0% .launch 32 .target ~34 .is_crit_valid True .effect "GV_Vestal_Dodge_Debuff_3" "Destealth"
-combat_skill: .id "gods_illumination" .level 3 .type "ranged" .atk 115% .dmg -40% .crit 0% .launch 32 .target ~34 .is_crit_valid True .effect "GV_Vestal_Dodge_Debuff_4" "Destealth"
-combat_skill: .id "gods_illumination" .level 4 .type "ranged" .atk 120% .dmg -40% .crit 0% .launch 32 .target ~34 .is_crit_valid True .effect "GV_Vestal_Dodge_Debuff_5" "Destealth"
+combat_skill: .id "gods_illumination" .level 0 .type "ranged" .atk 100% .dmg -50% .crit 0% .launch 32 .target ~34 .is_crit_valid True .effect "GV_Vestal_Dodge_Debuff_1" "Destealth"
+combat_skill: .id "gods_illumination" .level 1 .type "ranged" .atk 105% .dmg -50% .crit 0% .launch 32 .target ~34 .is_crit_valid True .effect "GV_Vestal_Dodge_Debuff_2" "Destealth"
+combat_skill: .id "gods_illumination" .level 2 .type "ranged" .atk 110% .dmg -50% .crit 1% .launch 32 .target ~34 .is_crit_valid True .effect "GV_Vestal_Dodge_Debuff_3" "Destealth"
+combat_skill: .id "gods_illumination" .level 3 .type "ranged" .atk 115% .dmg -50% .crit 1% .launch 32 .target ~34 .is_crit_valid True .effect "GV_Vestal_Dodge_Debuff_4" "Destealth"
+combat_skill: .id "gods_illumination" .level 4 .type "ranged" .atk 120% .dmg -50% .crit 2% .launch 32 .target ~34 .is_crit_valid True .effect "GV_Vestal_Dodge_Debuff_5" "Destealth"
 
 // Chastise
-combat_skill: .id "mace_bash" .level 0 .type "melee" .atk 85% .dmg 0% .crit 2% .launch 21 .target 12 .is_crit_valid True .effect "GV_Vestal_Healing_Buff"
-combat_skill: .id "mace_bash" .level 1 .type "melee" .atk 90% .dmg 0% .crit 2% .launch 21 .target 12 .is_crit_valid True .effect "GV_Vestal_Healing_Buff"
-combat_skill: .id "mace_bash" .level 2 .type "melee" .atk 95% .dmg 0% .crit 3% .launch 21 .target 12 .is_crit_valid True .effect "GV_Vestal_Healing_Buff"
-combat_skill: .id "mace_bash" .level 3 .type "melee" .atk 100% .dmg 0% .crit 3% .launch 21 .target 12 .is_crit_valid True .effect "GV_Vestal_Healing_Buff"
-combat_skill: .id "mace_bash" .level 4 .type "melee" .atk 105% .dmg 0% .crit 4% .launch 21 .target 12 .is_crit_valid True .effect "GV_Vestal_Healing_Buff"
+combat_skill: .id "mace_bash" .level 0 .type "melee" .atk 85% .dmg 0% .crit 2% .launch 21 .target 12 .is_crit_valid True .effect "GV_Vestal_Healing_Buff_1"
+combat_skill: .id "mace_bash" .level 1 .type "melee" .atk 90% .dmg 0% .crit 2% .launch 21 .target 12 .is_crit_valid True .effect "GV_Vestal_Healing_Buff_2"
+combat_skill: .id "mace_bash" .level 2 .type "melee" .atk 95% .dmg 0% .crit 3% .launch 21 .target 12 .is_crit_valid True .effect "GV_Vestal_Healing_Buff_3"
+combat_skill: .id "mace_bash" .level 3 .type "melee" .atk 100% .dmg 0% .crit 3% .launch 21 .target 12 .is_crit_valid True .effect "GV_Vestal_Healing_Buff_4"
+combat_skill: .id "mace_bash" .level 4 .type "melee" .atk 105% .dmg 0% .crit 4% .launch 21 .target 12 .is_crit_valid True .effect "GV_Vestal_Healing_Buff_5"
 
 // Hand of Light
 combat_skill: .id "gods_hand" .level 0 .type "ranged" .atk 90% .dmg -100% .crit 0% .launch 21 .target 12 .is_crit_valid False .effect "Stun 1" "GV_Vestal_Prot_Debuff_1"

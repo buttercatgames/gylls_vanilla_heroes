@@ -9,6 +9,7 @@ Processing Map Files files...
 -------------------------------------------------------------------------------
 Running Localization...
 Parsing localization/gylls_vanilla.string_table.xml
+Parsing localization/gylls_vanilla_flagellant.string_table.xml
 Parsing localization/gylls_vanilla_overwrites.string_table.xml
 
 Building Languages
@@ -38,6 +39,7 @@ fx/antiq_orange/antiq_orange.sprite.skel
 fx/antiq_personal/antiq_personal.sprite.atlas
 fx/antiq_personal/antiq_personal.sprite.png
 fx/antiq_personal/antiq_personal.sprite.skel
+heroes/abomination/abomination.ability.rake.png
 heroes/abomination/abomination.art.darkest
 heroes/abomination/abomination.info.darkest
 heroes/antiquarian/antiquarian.ability.rapturous.png
@@ -101,11 +103,12 @@ inventory/gv_heroes.inventory.extra_stack_limits.darkest
 inventory/gv_heroes.supply.inventory.items.darkest
 localization/1354446999_english.loc
 localization/gylls_vanilla.string_table.xml
+localization/gylls_vanilla_flagellant.string_table.xml
 localization/gylls_vanilla_overwrites.string_table.xml
 loot/gv_heroes.loot.json
 preview_icon.png
 project.xml
 
-Submitting...............................................................................................Submitted.
+Submitting..................................................................................Submitted.
 Saving project file C:\Program Files (x86)\Darkest Dungeon\mods\gylls_vanilla_heroes\project.xml
 

@@ -482,6 +482,201 @@
             "string" : ""
          }
       },
+  	  {
+         "id" : "GV_Arb_Mark_Dodge_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+  	  {
+         "id" : "GV_Arb_Mark_Dodge_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+  	  {
+         "id" : "GV_Arb_Mark_Dodge_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+  	  {
+         "id" : "GV_Arb_Mark_Dodge_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+  	  {
+         "id" : "GV_Arb_Mark_Dodge_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+  	  {
+         "id" : "GV_Arb_Mark_Crit_1",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+  	  {
+         "id" : "GV_Arb_Mark_Crit_2",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+  	  {
+         "id" : "GV_Arb_Mark_Crit_3",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+  	  {
+         "id" : "GV_Arb_Mark_Crit_4",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.17,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+  	  {
+         "id" : "GV_Arb_Mark_Crit_5",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+  	  {
+         "id" : "GV_Arb_Stress_Resist_1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+  	  {
+         "id" : "GV_Arb_Stress_Resist_2",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.17,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+  	  {
+         "id" : "GV_Arb_Stress_Resist_3",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+  	  {
+         "id" : "GV_Arb_Stress_Resist_4",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.22,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+  	  {
+         "id" : "GV_Arb_Stress_Resist_5",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
       {
          "id" : "GV_BH_Dodge_Debuff_1",
          "stat_type" : "combat_stat_add",
@@ -577,7 +772,7 @@
          "id" : "GV_GR_Zone_Damage_L_2",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : 0.25,
+         "amount" : 0.21,
          "remove_if_not_active" : false,
          "rule_type" : "rangedonly",
          "is_false_rule" : false,
@@ -590,7 +785,7 @@
          "id" : "GV_GR_Zone_Damage_L_3",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : 0.30,
+         "amount" : 0.22,
          "remove_if_not_active" : false,
          "rule_type" : "rangedonly",
          "is_false_rule" : false,
@@ -603,7 +798,7 @@
          "id" : "GV_GR_Zone_Damage_L_4",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : 0.35,
+         "amount" : 0.23,
          "remove_if_not_active" : false,
          "rule_type" : "rangedonly",
          "is_false_rule" : false,
@@ -616,7 +811,7 @@
          "id" : "GV_GR_Zone_Damage_L_5",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : 0.40,
+         "amount" : 0.25,
          "remove_if_not_active" : false,
          "rule_type" : "rangedonly",
          "is_false_rule" : false,
@@ -642,7 +837,7 @@
          "id" : "GV_GR_Zone_Damage_H_2",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : 0.25,
+         "amount" : 0.21,
          "remove_if_not_active" : false,
          "rule_type" : "rangedonly",
          "is_false_rule" : false,
@@ -655,7 +850,7 @@
          "id" : "GV_GR_Zone_Damage_H_3",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : 0.30,
+         "amount" : 0.22,
          "remove_if_not_active" : false,
          "rule_type" : "rangedonly",
          "is_false_rule" : false,
@@ -668,7 +863,7 @@
          "id" : "GV_GR_Zone_Damage_H_4",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : 0.35,
+         "amount" : 0.23,
          "remove_if_not_active" : false,
          "rule_type" : "rangedonly",
          "is_false_rule" : false,
@@ -681,7 +876,7 @@
          "id" : "GV_GR_Zone_Damage_H_5",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : 0.40,
+         "amount" : 0.25,
          "remove_if_not_active" : false,
          "rule_type" : "rangedonly",
          "is_false_rule" : false,
@@ -1900,7 +2095,59 @@
          }
       },
 	  {
-         "id" : "GV_Vestal_Healing_Buff",
+         "id" : "GV_Vestal_Healing_Buff_1",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Vestal_Healing_Buff_2",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.17,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Vestal_Healing_Buff_3",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Vestal_Healing_Buff_4",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.22,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Vestal_Healing_Buff_5",
          "stat_type" : "hp_heal_percent",
          "stat_sub_type" : "",
          "amount" : 0.25,

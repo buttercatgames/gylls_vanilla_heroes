@@ -13,25 +13,50 @@ armour: .name "arbalest_armour_3" .def 15% .prot 0 .hp 42 .spd 0 .upgradeRequire
 armour: .name "arbalest_armour_4" .def 20% .prot 0 .hp 47 .spd 0 .upgradeRequirementCode 3
 
 // Sniper Shot
-combat_skill: .id "sniper_shot" .level 0 .type "ranged" .atk 95% .dmg 0% .crit 5% .launch 43 .target 234 .is_crit_valid True .effect "Sniper Damage 1" .generation_guaranteed true
+combat_skill: .id "sniper_shot" .level 0 .type "ranged" .atk 95% .dmg 0% .crit 5% .launch 43 .target 234 .is_crit_valid True .effect "GV_Arb_Sniper_Buffs_1" .generation_guaranteed true
+combat_skill: .id "sniper_shot" .level 1 .type "ranged" .atk 100% .dmg 0% .crit 5% .launch 43 .target 234 .is_crit_valid True .effect "GV_Arb_Sniper_Buffs_2"
+combat_skill: .id "sniper_shot" .level 2 .type "ranged" .atk 105% .dmg 0% .crit 6% .launch 43 .target 234 .is_crit_valid True .effect "GV_Arb_Sniper_Buffs_3"
+combat_skill: .id "sniper_shot" .level 3 .type "ranged" .atk 110% .dmg 0% .crit 6% .launch 43 .target 234 .is_crit_valid True .effect "GV_Arb_Sniper_Buffs_4"
+combat_skill: .id "sniper_shot" .level 4 .type "ranged" .atk 115% .dmg 0% .crit 7% .launch 43 .target 234 .is_crit_valid True .effect "GV_Arb_Sniper_Buffs_5"
 
 // Suppressing Fire
-combat_skill: .id "suppressing_fire" .level 0 .type "ranged" .atk 85% .dmg -75% .crit 0% .launch 43 .target ~34 .is_crit_valid True .effect "GV_Arb_Suppression_Debuff"
+combat_skill: .id "suppressing_fire" .level 0 .type "ranged" .atk 90% .dmg -75% .crit 0% .launch 43 .target ~34 .is_crit_valid True .effect "GV_Arb_Suppression_Debuff_1"
+combat_skill: .id "suppressing_fire" .level 1 .type "ranged" .atk 95% .dmg -75% .crit 0% .launch 43 .target ~34 .is_crit_valid True .effect "GV_Arb_Suppression_Debuff_2"
+combat_skill: .id "suppressing_fire" .level 2 .type "ranged" .atk 100% .dmg -75% .crit 1% .launch 43 .target ~34 .is_crit_valid True .effect "GV_Arb_Suppression_Debuff_3"
+combat_skill: .id "suppressing_fire" .level 3 .type "ranged" .atk 105% .dmg -75% .crit 1% .launch 43 .target ~34 .is_crit_valid True .effect "GV_Arb_Suppression_Debuff_4"
+combat_skill: .id "suppressing_fire" .level 4 .type "ranged" .atk 110% .dmg -75% .crit 2% .launch 43 .target ~34 .is_crit_valid True .effect "GV_Arb_Suppression_Debuff_5"
 
 // Sniper's Mark
-combat_skill: .id "sniper_mark" .level 0 .type "ranged" .atk 100% .dmg -100% .crit 0% .launch 43 .target 234 .is_crit_valid False .effect "GV_Mark_Target_3" "GV_Arb_Mark_Debuff"
+combat_skill: .id "sniper_mark" .level 0 .type "ranged" .atk 100% .dmg -100% .crit 0% .launch 43 .target 1234 .is_crit_valid False .effect "GV_Mark_Target_3" "GV_Arb_Mark_Debuff_1"
+combat_skill: .id "sniper_mark" .level 1 .type "ranged" .atk 105% .dmg -100% .crit 0% .launch 43 .target 1234 .is_crit_valid False .effect "GV_Mark_Target_3" "GV_Arb_Mark_Debuff_2"
+combat_skill: .id "sniper_mark" .level 2 .type "ranged" .atk 110% .dmg -100% .crit 0% .launch 43 .target 1234 .is_crit_valid False .effect "GV_Mark_Target_3" "GV_Arb_Mark_Debuff_3"
+combat_skill: .id "sniper_mark" .level 3 .type "ranged" .atk 115% .dmg -100% .crit 0% .launch 43 .target 1234 .is_crit_valid False .effect "GV_Mark_Target_3" "GV_Arb_Mark_Debuff_4"
+combat_skill: .id "sniper_mark" .level 4 .type "ranged" .atk 120% .dmg -100% .crit 0% .launch 43 .target 1234 .is_crit_valid False .effect "GV_Mark_Target_3" "GV_Arb_Mark_Debuff_5"
 
 // Bola
-combat_skill: .id "bola" .level 0 .type "ranged" .atk 95% .dmg -50% .crit 2% .launch 43 .target ~12 .is_crit_valid True .effect "GV_Arb_Bola_Debuff" "Push 1B"
+combat_skill: .id "bola" .level 0 .type "ranged" .atk 95% .dmg -75% .crit 0% .launch 43 .target ~12 .is_crit_valid True .effect "GV_Arb_Bola_Push_1" "GV_Arb_Bola_Debuff_1"
+combat_skill: .id "bola" .level 1 .type "ranged" .atk 100% .dmg -75% .crit 0% .launch 43 .target ~12 .is_crit_valid True .effect "GV_Arb_Bola_Push_2" "GV_Arb_Bola_Debuff_1"
+combat_skill: .id "bola" .level 2 .type "ranged" .atk 105% .dmg -75% .crit 1% .launch 43 .target ~12 .is_crit_valid True .effect "GV_Arb_Bola_Push_3" "GV_Arb_Bola_Debuff_2"
+combat_skill: .id "bola" .level 3 .type "ranged" .atk 110% .dmg -75% .crit 1% .launch 43 .target ~12 .is_crit_valid True .effect "GV_Arb_Bola_Push_4" "GV_Arb_Bola_Debuff_2"
+combat_skill: .id "bola" .level 4 .type "ranged" .atk 115% .dmg -75% .crit 2% .launch 43 .target ~12 .is_crit_valid True .effect "GV_Arb_Bola_Push_5" "GV_Arb_Bola_Debuff_3"
 
 // Blindfire
-combat_skill: .id "blindfire" .level 0 .type "ranged" .atk 80% .dmg -10% .crit 0% .launch 4321 .target ?1234 .is_crit_valid True .effect "Arb Self Speed 1"
+combat_skill: .id "blindfire" .level 0 .type "ranged" .atk 80% .dmg -10% .crit 2% .launch 4321 .target ?1234 .is_crit_valid True .effect "Arb Self Speed 1"
+combat_skill: .id "blindfire" .level 1 .type "ranged" .atk 85% .dmg -10% .crit 2% .launch 4321 .target ?1234 .is_crit_valid True .effect "Arb Self Speed 2"
+combat_skill: .id "blindfire" .level 2 .type "ranged" .atk 90% .dmg -10% .crit 3% .launch 4321 .target ?1234 .is_crit_valid True .effect "Arb Self Speed 3"
+combat_skill: .id "blindfire" .level 3 .type "ranged" .atk 95% .dmg -10% .crit 3% .launch 4321 .target ?1234 .is_crit_valid True .effect "Arb Self Speed 4"
+combat_skill: .id "blindfire" .level 4 .type "ranged" .atk 100% .dmg -10% .crit 4% .launch 4321 .target ?1234 .is_crit_valid True .effect "Arb Self Speed 5"
 
 // Battlefield Bandage
 combat_skill: .id "battlefield_bandage" .level 0 .heal 2 3 .launch 43 .target @1234 .effect "GV_Cure_Bleed" "GV_Stacking_Heal_1"
+combat_skill: .id "battlefield_bandage" .level 1 .heal 3 3 .launch 43 .target @1234 .effect "GV_Cure_Bleed" "GV_Stacking_Heal_2"
+combat_skill: .id "battlefield_bandage" .level 2 .heal 3 4 .launch 43 .target @1234 .effect "GV_Cure_Bleed" "GV_Stacking_Heal_3"
+combat_skill: .id "battlefield_bandage" .level 3 .heal 4 4 .launch 43 .target @1234 .effect "GV_Cure_Bleed" "GV_Stacking_Heal_4"
+combat_skill: .id "battlefield_bandage" .level 4 .heal 4 5 .launch 43 .target @1234 .effect "GV_Cure_Bleed" "GV_Stacking_Heal_5"
 
 // Rallying Flare
-combat_skill: .id "flare" .level 0 .launch 43 .target @~1234 .is_crit_valid False .effect "GV_Arb_Flare_Clear" "GV_Arb_Flare_Buff" "GV_Destealth_Enemies" .per_battle_limit 1
+combat_skill: .id "flare" .level 0 .launch 43 .target .is_crit_valid False .effect "FlareLight 5" "GV_Arb_Destealth_Enemies" "GV_Arb_Mark_Enemies" .per_battle_limit 1
+
 
 combat_move_skill: .id "move" .level 0 .type "move" .move 2 0 .launch 4321
 

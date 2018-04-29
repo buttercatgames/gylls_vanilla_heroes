@@ -48,11 +48,11 @@ combat_skill: .id "flashbang" .level 3 .type "ranged" .atk 110% .dmg -100% .crit
 combat_skill: .id "flashbang" .level 4 .type "ranged" .atk 115% .dmg -100% .crit 0% .launch 432 .target 1234 .is_crit_valid False .effect "Stun 5" "Disorient 5"
 
 // Finish Him
-combat_skill: .id "finish_him" .level 0 .type "melee" .atk 85% .dmg 0% .crit 2% .launch 321 .target 123 .is_crit_valid True .effect "GV_BH_Stun_Killer" "GV_BH_Bleed_Killer_1"
-combat_skill: .id "finish_him" .level 1 .type "melee" .atk 85% .dmg 0% .crit 2% .launch 321 .target 123 .is_crit_valid True .effect "GV_BH_Stun_Killer" "GV_BH_Bleed_Killer_2"
-combat_skill: .id "finish_him" .level 2 .type "melee" .atk 85% .dmg 0% .crit 3% .launch 321 .target 123 .is_crit_valid True .effect "GV_BH_Stun_Killer" "GV_BH_Bleed_Killer_3"
-combat_skill: .id "finish_him" .level 3 .type "melee" .atk 85% .dmg 0% .crit 3% .launch 321 .target 123 .is_crit_valid True .effect "GV_BH_Stun_Killer" "GV_BH_Bleed_Killer_4"
-combat_skill: .id "finish_him" .level 4 .type "melee" .atk 85% .dmg 0% .crit 4% .launch 321 .target 123 .is_crit_valid True .effect "GV_BH_Stun_Killer" "GV_BH_Bleed_Killer_5"
+combat_skill: .id "finish_him" .level 0 .type "melee" .atk 85% .dmg 0% .crit 2% .launch 321 .target 12 .is_crit_valid True .effect "GV_BH_Stun_Killer" "GV_BH_Bleed_Killer_1"
+combat_skill: .id "finish_him" .level 1 .type "melee" .atk 85% .dmg 0% .crit 2% .launch 321 .target 12 .is_crit_valid True .effect "GV_BH_Stun_Killer" "GV_BH_Bleed_Killer_2"
+combat_skill: .id "finish_him" .level 2 .type "melee" .atk 85% .dmg 0% .crit 3% .launch 321 .target 12 .is_crit_valid True .effect "GV_BH_Stun_Killer" "GV_BH_Bleed_Killer_3"
+combat_skill: .id "finish_him" .level 3 .type "melee" .atk 85% .dmg 0% .crit 3% .launch 321 .target 12 .is_crit_valid True .effect "GV_BH_Stun_Killer" "GV_BH_Bleed_Killer_4"
+combat_skill: .id "finish_him" .level 4 .type "melee" .atk 85% .dmg 0% .crit 4% .launch 321 .target 12 .is_crit_valid True .effect "GV_BH_Stun_Killer" "GV_BH_Bleed_Killer_5"
 
 // Caltrops
 combat_skill: .id "hook_and_slice" .level 0 .type "ranged" .atk 95% .dmg -90% .crit 0% .launch 432 .target ~34 .is_crit_valid True .effect "Strong Bleed 1" "GV_BH_Caltrops_Debuff_1"
