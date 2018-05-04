@@ -183,6 +183,8 @@ effect: .name "GV_Arb_Flare_Buff_3" .target "target" .chance 100% .buff_ids "GV_
 effect: .name "GV_Arb_Flare_Buff_4" .target "target" .chance 100% .buff_ids "GV_Arb_Stress_Resist_4" .on_hit true .on_miss false
 effect: .name "GV_Arb_Flare_Buff_5" .target "target" .chance 100% .buff_ids "GV_Arb_Stress_Resist_5" .on_hit true .on_miss false
 
+effect: .name "GV_Arb_Flare_Light" .target "global" .chance 100% .torch_increase 10 .on_hit true .on_miss true .apply_once true .queue true 
+
 
 // Bounty Hunter Effects
 //-------------------------
@@ -312,7 +314,7 @@ effect: .name "GV_GR_Zone_Buffs_5" .target "performer" .chance 100% .buff_ids "G
 effect: .name "GV_Hellion_Weak_Stun" .target "target" .chance 90% .stun 1 .on_hit true .on_miss false .queue true
 
 // If It Bleeds
-effect: .name "GV_Hellion_Bleed_Giant_Killer" .target "performer" .chance 100% .skill_instant true .buff_ids "GV_Hellion_Giant_Killer" .on_hit true .on_miss false
+effect: .name "GV_Hellion_Bleed_Giant_Killer" .target "performer_group" .chance 100% .buff_ids "GV_Hellion_Giant_Killer" .on_hit true .on_miss false
 
 // Breakthrough
 
@@ -321,6 +323,10 @@ effect: .name "GV_Hellion_Bleed_Giant_Killer" .target "performer" .chance 100% .
 
 
 // Bleed Out
+
+
+// *Hellion Exhaust*
+effect: .name "GV_Hellion_Exhaust" .target "performer" .chance 100% .buff_ids "GV_Hellion_Exhaust_Dmg_L" "GV_Hellion_Exhaust_Dmg_H" "GV_Hellion_Exhaust_Bleed" .on_hit true .on_miss true .apply_once true
 
 
 // Highwayman Effects
@@ -541,34 +547,65 @@ effect: .name "GV_Leper_Stress_Heal_Self_5" .target "performer" .chance 100% .he
 
 // Man-At-Arms Effects
 //-------------------------
-// Defender
-effect: .name "GV_MAA_Defender_1" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 25% .on_hit true .on_miss true .queue true
+// Crush
+effect: .name "GV_Stun_Soften_1" .target "target" .chance 100% .duration 3 .buff_ids "GV_Stun_Soften_1" .on_hit true .on_miss false
+effect: .name "GV_Stun_Soften_2" .target "target" .chance 110% .duration 3 .buff_ids "GV_Stun_Soften_2" .on_hit true .on_miss false
+effect: .name "GV_Stun_Soften_3" .target "target" .chance 120% .duration 3 .buff_ids "GV_Stun_Soften_3" .on_hit true .on_miss false
+effect: .name "GV_Stun_Soften_4" .target "target" .chance 130% .duration 3 .buff_ids "GV_Stun_Soften_4" .on_hit true .on_miss false
+effect: .name "GV_Stun_Soften_5" .target "target" .chance 140% .duration 3 .buff_ids "GV_Stun_Soften_5" .on_hit true .on_miss false
 
-// Command
-effect: .name "GV_MAA_Command_Buff" .target "performer_group" .chance 100% .buff_ids "GV_MAA_Command_Buff_Acc" "GV_MAA_Command_Buff_Crit" .duration 3 .on_hit true .on_miss false .queue true
+// Rampart
+
 
 // Bellow
-effect: .name "GV_MAA_Bellow_Debuff" .target "target_group_other" .chance 100% .combat_stat_buff 1 .speed_rating_add -3 .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_MAA_Bellow_Debuff_1" .target "target" .chance 100% .combat_stat_buff 1 .attack_rating_add -5% .speed_rating_add -4 .duration 3 .on_hit true .on_miss false
+effect: .name "GV_MAA_Bellow_Debuff_2" .target "target" .chance 110% .combat_stat_buff 1 .attack_rating_add -6% .speed_rating_add -4 .duration 3 .on_hit true .on_miss false
+effect: .name "GV_MAA_Bellow_Debuff_3" .target "target" .chance 120% .combat_stat_buff 1 .attack_rating_add -7% .speed_rating_add -5 .duration 3 .on_hit true .on_miss false
+effect: .name "GV_MAA_Bellow_Debuff_4" .target "target" .chance 130% .combat_stat_buff 1 .attack_rating_add -8% .speed_rating_add -5 .duration 3 .on_hit true .on_miss false
+effect: .name "GV_MAA_Bellow_Debuff_5" .target "target" .chance 140% .combat_stat_buff 1 .attack_rating_add -10% .speed_rating_add -6 .duration 3 .on_hit true .on_miss false
 
-// Guard
-effect: .name "GV_MAA_Defender" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 20%	.on_hit true .on_miss true .queue true
+// Defender
+effect: .name "GV_MAA_Defender_1" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 25% .duration 2 .on_hit true .on_miss true .queue true
+effect: .name "GV_MAA_Defender_2" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 27% .duration 2 .on_hit true .on_miss true .queue true
+effect: .name "GV_MAA_Defender_3" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 30% .duration 2 .on_hit true .on_miss true .queue true
+effect: .name "GV_MAA_Defender_4" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 32% .duration 2 .on_hit true .on_miss true .queue true
+effect: .name "GV_MAA_Defender_5" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 35% .duration 2 .on_hit true .on_miss true .queue true
 
 //Retribution
 effect: .name "GV_MAA_Riposte"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .on_hit true .on_miss true .damage_low_multiply 0% .damage_high_multiply 0% .crit_chance_add 0%
 
+// Command
+
+
 //Bolster
-effect: .name "GV_MAA_Bolster" .target "performer_group" .chance 100% .combat_stat_buff 1 .defense_rating_add 10%  .speed_rating_add 2 .on_hit true .on_miss true	.queue true
+effect: .name "GV_MAA_Mark_Buff_1" .target "performer_group" .chance 100% .buff_ids "GV_MAA_Mark_Buff_Acc_1" "GV_MAA_Mark_Buff_Dmg_L_1" "GV_MAA_Mark_Buff_Dmg_H_1" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_MAA_Mark_Buff_2" .target "performer_group" .chance 100% .buff_ids "GV_MAA_Mark_Buff_Acc_2" "GV_MAA_Mark_Buff_Dmg_L_2" "GV_MAA_Mark_Buff_Dmg_H_2" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_MAA_Mark_Buff_3" .target "performer_group" .chance 100% .buff_ids "GV_MAA_Mark_Buff_Acc_3" "GV_MAA_Mark_Buff_Dmg_L_3" "GV_MAA_Mark_Buff_Dmg_H_3" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_MAA_Mark_Buff_4" .target "performer_group" .chance 100% .buff_ids "GV_MAA_Mark_Buff_Acc_4" "GV_MAA_Mark_Buff_Dmg_L_4" "GV_MAA_Mark_Buff_Dmg_H_4" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_MAA_Mark_Buff_5" .target "performer_group" .chance 100% .buff_ids "GV_MAA_Mark_Buff_Acc_5" "GV_MAA_Mark_Buff_Dmg_L_5" "GV_MAA_Mark_Buff_Dmg_H_5" .duration 3 .on_hit true .on_miss false .queue true
 
 
 // Occultist Effects
 //-------------------------
-effect: .name "GV_Occ_Bleed" .target "target" .chance 100%  .dotBleed 1 .duration 3	.on_hit true .on_miss true .queue true .can_apply_on_death true
+effect: .name "GV_Occ_Bleed_1" .target "target" .chance 100% .dotBleed 1 .duration 3 .on_hit true .on_miss true .queue true .can_apply_on_death true
+effect: .name "GV_Occ_Bleed_2" .target "target" .chance 110% .dotBleed 1 .duration 3 .on_hit true .on_miss true .queue true .can_apply_on_death true
+effect: .name "GV_Occ_Bleed_3" .target "target" .chance 120% .dotBleed 1 .duration 3 .on_hit true .on_miss true .queue true .can_apply_on_death true
+effect: .name "GV_Occ_Bleed_4" .target "target" .chance 130% .dotBleed 1 .duration 3 .on_hit true .on_miss true .queue true .can_apply_on_death true
+effect: .name "GV_Occ_Bleed_5" .target "target" .chance 140% .dotBleed 1 .duration 3 .on_hit true .on_miss true .queue true .can_apply_on_death true
 
-effect: .name "GV_Occ_Horror" .target "performer" .chance 100% .dotStress 2 .duration 3 .on_hit true .on_miss true .queue true .apply_once true .can_apply_on_death true
+effect: .name "GV_Occ_Horror" .target "performer" .chance 66% .dotStress 1 .duration 5 .on_hit true .on_miss true .queue true .apply_once true .can_apply_on_death true
 
-effect: .name "GV_Occ_Stress_Team" .target "target" .chance 100% .stress 2 .on_hit true .on_miss false	.queue true
+effect: .name "GV_Occ_Weaken_1" .target "target" .chance 110% .buff_ids .combat_stat_buff 1 .damage_low_multiply -30% .damage_high_multiply -30% .crit_chance_add -4% .duration 2 .on_hit true .on_miss false
+effect: .name "GV_Occ_Weaken_2" .target "target" .chance 120% .buff_ids .combat_stat_buff 1 .damage_low_multiply -32% .damage_high_multiply -32% .crit_chance_add -5% .duration 2 .on_hit true .on_miss false
+effect: .name "GV_Occ_Weaken_3" .target "target" .chance 130% .buff_ids .combat_stat_buff 1 .damage_low_multiply -35% .damage_high_multiply -35% .crit_chance_add -6% .duration 2 .on_hit true .on_miss false
+effect: .name "GV_Occ_Weaken_4" .target "target" .chance 140% .buff_ids .combat_stat_buff 1 .damage_low_multiply -37% .damage_high_multiply -37% .crit_chance_add -7% .duration 2 .on_hit true .on_miss false
+effect: .name "GV_Occ_Weaken_5" .target "target" .chance 150% .buff_ids .combat_stat_buff 1 .damage_low_multiply -40% .damage_high_multiply -40% .crit_chance_add -8% .duration 2 .on_hit true .on_miss false
 
-effect: .name "GV_Occ_Weaken" .target "target" .chance 110% .buff_ids .combat_stat_buff 1 .damage_low_multiply -30% .damage_high_multiply -30% .crit_chance_add -5% .duration 2 .on_hit true .on_miss false
+effect: .name "GV_Occ_Dmg_Buff_1" .target "performer" .chance 100% .buff_ids "GV_Occ_Dmg_L_1" "GV_Occ_Dmg_H_1" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_Occ_Dmg_Buff_2" .target "performer" .chance 100% .buff_ids "GV_Occ_Dmg_L_2" "GV_Occ_Dmg_H_2" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_Occ_Dmg_Buff_3" .target "performer" .chance 100% .buff_ids "GV_Occ_Dmg_L_3" "GV_Occ_Dmg_H_3" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_Occ_Dmg_Buff_4" .target "performer" .chance 100% .buff_ids "GV_Occ_Dmg_L_4" "GV_Occ_Dmg_H_4" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_Occ_Dmg_Buff_5" .target "performer" .chance 100% .buff_ids "GV_Occ_Dmg_L_5" "GV_Occ_Dmg_H_5" .duration 3 .on_hit true .on_miss false .queue true
 
 
 // Plague Doctor Effects
@@ -690,6 +727,7 @@ effect: .name "GV_Blight_Soften_3" .target "target" .chance 120% .duration 3 .bu
 effect: .name "GV_Blight_Soften_4" .target "target" .chance 130% .duration 3 .buff_ids "GV_Blight_Soften_4" .on_hit true .on_miss false
 effect: .name "GV_Blight_Soften_5" .target "target" .chance 140% .duration 3 .buff_ids "GV_Blight_Soften_5" .on_hit true .on_miss false
 
+// Bleed Soften
 effect: .name "GV_Bleed_Soften_1" .target "target" .chance 100% .duration 3 .buff_ids "GV_Bleed_Soften_1" .on_hit true .on_miss false
 effect: .name "GV_Bleed_Soften_2" .target "target" .chance 110% .duration 3 .buff_ids "GV_Bleed_Soften_2" .on_hit true .on_miss false
 effect: .name "GV_Bleed_Soften_3" .target "target" .chance 120% .duration 3 .buff_ids "GV_Bleed_Soften_3" .on_hit true .on_miss false
