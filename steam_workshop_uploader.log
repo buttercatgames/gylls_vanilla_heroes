@@ -95,6 +95,7 @@ heroes/vestal/vestal.ability.chastise.png
 heroes/vestal/vestal.ability.hand.png
 heroes/vestal/vestal.art.darkest
 heroes/vestal/vestal.info.darkest
+raid/camping/default.camping_skills.json
 shared/buffs/gv_heroes.buffs.json
 audio/gv_heroes.campaign.guid_overrides.json
 audio/gv_heroes.campaign.load_order.json
@@ -102,14 +103,25 @@ colours/gv_heroes.colours.darkest
 effects/gv_heroes.effects.darkest
 inventory/gv_heroes.inventory.extra_stack_limits.darkest
 inventory/gv_heroes.supply.inventory.items.darkest
+localization/1354446999_brazilian.loc
+localization/1354446999_czech.loc
 localization/1354446999_english.loc
+localization/1354446999_french.loc
+localization/1354446999_german.loc
+localization/1354446999_italian.loc
+localization/1354446999_koreana.loc
+localization/1354446999_polish.loc
+localization/1354446999_russian.loc
+localization/1354446999_schinese.loc
+localization/1354446999_spanish.loc
+localization/1354446999_tchinese.loc
 localization/gylls_vanilla.string_table.xml
 localization/gylls_vanilla_overwrites.string_table.xml
+localization/missing_files.txt
 loot/gv_heroes.loot.json
-modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting.........................................................................................Submitted.
+Submitting..........................................................................................................................Submitted.
 Saving project file C:\Program Files (x86)\Darkest Dungeon\mods\gylls_vanilla_heroes\project.xml
 

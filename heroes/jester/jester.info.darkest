@@ -20,7 +20,7 @@ combat_skill: .id "slice_off" .level 3 .type "melee" .atk 110% .dmg -33% .crit 9
 combat_skill: .id "slice_off" .level 4 .type "melee" .atk 115% .dmg -33% .crit 10% .launch 32 .target 23 .is_crit_valid True .effect "Strong Bleed 5"
 
 // Harvest
-combat_skill: .id "harvest" .level 0 .type "melee" .atk 90% .dmg -50% .crit 0% .launch 32 .target ~23 .is_crit_valid True .effect "Bleed 1" 
+combat_skill: .id "harvest" .level 0 .type "melee" .atk 90% .dmg -50% .crit 0% .launch 32 .target ~23 .is_crit_valid True .effect "Bleed 1"
 combat_skill: .id "harvest" .level 1 .type "melee" .atk 95% .dmg -50% .crit 0% .launch 32 .target ~23 .is_crit_valid True .effect "Bleed 2"
 combat_skill: .id "harvest" .level 2 .type "melee" .atk 100% .dmg -50% .crit 1% .launch 32 .target ~23 .is_crit_valid True .effect "Bleed 3"
 combat_skill: .id "harvest" .level 3 .type "melee" .atk 105% .dmg -50% .crit 1% .launch 32 .target ~23 .is_crit_valid True .effect "Bleed 4"

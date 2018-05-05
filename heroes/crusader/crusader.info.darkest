@@ -20,11 +20,11 @@ combat_skill: .id "smite" .level 3 .type "melee" .atk 100% .dmg 0% .crit 3% .lau
 combat_skill: .id "smite" .level 4 .type "melee" .atk 105% .dmg 0% .crit 4% .launch 21 .target 12 .is_crit_valid True .effect "Unholy Killer 5"
 
 // Cleave
-combat_skill: .id "zealous_accusation" .level 0 .type "melee" .atk 85% .dmg -40% .crit 0% .launch 21 .target ~12 .is_crit_valid True 
-combat_skill: .id "zealous_accusation" .level 1 .type "ranged" .atk 90% .dmg -40% .crit 0% .launch 21 .target ~12 .is_crit_valid True 
-combat_skill: .id "zealous_accusation" .level 2 .type "ranged" .atk 95% .dmg -40% .crit 1% .launch 21 .target ~12 .is_crit_valid True 
-combat_skill: .id "zealous_accusation" .level 3 .type "ranged" .atk 100% .dmg -40% .crit 1% .launch 21 .target ~12 .is_crit_valid True 
-combat_skill: .id "zealous_accusation" .level 4 .type "ranged" .atk 105% .dmg -40% .crit 2% .launch 21 .target ~12 .is_crit_valid True 
+combat_skill: .id "zealous_accusation" .level 0 .type "melee" .atk 85% .dmg -40% .crit 0% .launch 21 .target ~12 .is_crit_valid True
+combat_skill: .id "zealous_accusation" .level 1 .type "ranged" .atk 90% .dmg -40% .crit 1% .launch 21 .target ~12 .is_crit_valid True
+combat_skill: .id "zealous_accusation" .level 2 .type "ranged" .atk 95% .dmg -40% .crit 2% .launch 21 .target ~12 .is_crit_valid True
+combat_skill: .id "zealous_accusation" .level 3 .type "ranged" .atk 100% .dmg -40% .crit 3% .launch 21 .target ~12 .is_crit_valid True
+combat_skill: .id "zealous_accusation" .level 4 .type "ranged" .atk 105% .dmg -40% .crit 4% .launch 21 .target ~12 .is_crit_valid True
 
 // Stunning Blow
 combat_skill: .id "stunning_blow" .level 0 .type "melee" .atk 90% .dmg -75% .crit 0% .launch 21 .target 12 .is_crit_valid True .effect "Stun 1"

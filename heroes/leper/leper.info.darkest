@@ -14,10 +14,10 @@ armour: .name "leper_armour_4" .def 20% .prot 0 .hp 63 .spd 0 .upgradeRequiremen
 
 // Chop
 combat_skill: .id "chop" .level 0 .type "melee" .atk 70% .dmg 0% .crit 2% .launch 21 .target 12 .is_crit_valid True .generation_guaranteed true
-combat_skill: .id "chop" .level 1 .type "melee" .atk 75% .dmg 0% .crit 2% .launch 21 .target 12 .is_crit_valid True
-combat_skill: .id "chop" .level 2 .type "melee" .atk 80% .dmg 0% .crit 3% .launch 21 .target 12 .is_crit_valid True
-combat_skill: .id "chop" .level 3 .type "melee" .atk 85% .dmg 0% .crit 3% .launch 21 .target 12 .is_crit_valid True
-combat_skill: .id "chop" .level 4 .type "melee" .atk 90% .dmg 0% .crit 4% .launch 21 .target 12 .is_crit_valid True
+combat_skill: .id "chop" .level 1 .type "melee" .atk 75% .dmg 0% .crit 3% .launch 21 .target 12 .is_crit_valid True
+combat_skill: .id "chop" .level 2 .type "melee" .atk 80% .dmg 0% .crit 4% .launch 21 .target 12 .is_crit_valid True
+combat_skill: .id "chop" .level 3 .type "melee" .atk 85% .dmg 0% .crit 5% .launch 21 .target 12 .is_crit_valid True
+combat_skill: .id "chop" .level 4 .type "melee" .atk 90% .dmg 0% .crit 6% .launch 21 .target 12 .is_crit_valid True
 
 // Hew
 combat_skill: .id "hew" .level 0 .type "melee" .atk 70% .dmg -40% .crit 2% .launch 21 .target ~12 .is_crit_valid True .effect "GV_Corpse_Killer"

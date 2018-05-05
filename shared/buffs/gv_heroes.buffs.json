@@ -1029,16 +1029,146 @@
          }
       },
 	  {
-         "id" : "GV_Hellion_Giant_Killer",
-         "stat_type" : "ignore_protection",
-         "stat_sub_type" : "",
-         "amount" : 0.15,
+         "id" : "GV_Hellion_Adrenaline_Acc_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.05,
          "remove_if_not_active" : false,
-         "rule_type" : "actorStatus",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "bleeding"
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Hellion_Adrenaline_Acc_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Hellion_Adrenaline_Acc_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Hellion_Adrenaline_Acc_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Hellion_Adrenaline_Acc_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Hellion_Adrenaline_Crit_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Hellion_Adrenaline_Crit_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Hellion_Adrenaline_Crit_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Hellion_Adrenaline_Dmg_L",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Hellion_Adrenaline_Dmg_H",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Hellion_Adrenaline_Bleed",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
          }
       },
 	  {
@@ -2277,11 +2407,11 @@
          "stat_sub_type" : "",
          "amount" : 0.20,
          "remove_if_not_active" : false,
-         "rule_type" : "skill",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "daemons_pull"
+            "string" : ""
          }
       },
  	  {
@@ -2290,17 +2420,316 @@
          "stat_sub_type" : "",
          "amount" : 0.25,
          "remove_if_not_active" : false,
-         "rule_type" : "skill",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "daemons_pull"
+            "string" : ""
          }
       },
  	  {
          "id" : "GV_Occ_Move_Skill_3",
          "stat_type" : "move_chance",
          "stat_sub_type" : "",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+ 	  {
+         "id" : "GV_Occ_Move_Skill_4",
+         "stat_type" : "move_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+ 	  {
+         "id" : "GV_Occ_Move_Skill_5",
+         "stat_type" : "move_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.40,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+ 	  {
+         "id" : "GV_Occ_Dmg_L_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+ 	  {
+         "id" : "GV_Occ_Dmg_L_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.17,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+ 	  {
+         "id" : "GV_Occ_Dmg_L_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+ 	  {
+         "id" : "GV_Occ_Dmg_L_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.22,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+ 	  {
+         "id" : "GV_Occ_Dmg_L_5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+ 	  {
+         "id" : "GV_Occ_Dmg_H_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+ 	  {
+         "id" : "GV_Occ_Dmg_H_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.17,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+ 	  {
+         "id" : "GV_Occ_Dmg_H_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+ 	  {
+         "id" : "GV_Occ_Dmg_H_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.22,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+ 	  {
+         "id" : "GV_Occ_Dmg_H_5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+ 	  {
+         "id" : "GV_Occ_AA_Dmg_L_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "abyssal_artillery"
+         }
+      },
+ 	  {
+         "id" : "GV_Occ_AA_Dmg_L_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.17,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "abyssal_artillery"
+         }
+      },
+ 	  {
+         "id" : "GV_Occ_AA_Dmg_L_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "abyssal_artillery"
+         }
+      },
+ 	  {
+         "id" : "GV_Occ_AA_Dmg_L_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.22,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "abyssal_artillery"
+         }
+      },
+ 	  {
+         "id" : "GV_Occ_AA_Dmg_L_5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "abyssal_artillery"
+         }
+      },
+ 	  {
+         "id" : "GV_Occ_AA_Dmg_H_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "abyssal_artillery"
+         }
+      },
+ 	  {
+         "id" : "GV_Occ_AA_Dmg_H_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.17,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "abyssal_artillery"
+         }
+      },
+ 	  {
+         "id" : "GV_Occ_AA_Dmg_H_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "abyssal_artillery"
+         }
+      },
+ 	  {
+         "id" : "GV_Occ_AA_Dmg_H_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.22,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "abyssal_artillery"
+         }
+      },
+ 	  {
+         "id" : "GV_Occ_AA_Dmg_H_5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "abyssal_artillery"
+         }
+      },
+ 	  {
+         "id" : "GV_Occ_Pull_Dmg_L_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
          "amount" : 0.30,
          "remove_if_not_active" : false,
          "rule_type" : "skill",
@@ -2311,10 +2740,10 @@
          }
       },
  	  {
-         "id" : "GV_Occ_Move_Skill_4",
-         "stat_type" : "move_chance",
-         "stat_sub_type" : "",
-         "amount" : 0.35,
+         "id" : "GV_Occ_Pull_Dmg_L_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.34,
          "remove_if_not_active" : false,
          "rule_type" : "skill",
          "is_false_rule" : false,
@@ -2324,9 +2753,9 @@
          }
       },
  	  {
-         "id" : "GV_Occ_Move_Skill_5",
-         "stat_type" : "move_chance",
-         "stat_sub_type" : "",
+         "id" : "GV_Occ_Pull_Dmg_L_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
          "amount" : 0.40,
          "remove_if_not_active" : false,
          "rule_type" : "skill",
@@ -2337,133 +2766,94 @@
          }
       },
  	  {
-         "id" : "GV_Occ_Dmg_L_1",
+         "id" : "GV_Occ_Pull_Dmg_L_4",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : 0.15,
+         "amount" : 0.44,
          "remove_if_not_active" : false,
          "rule_type" : "skill",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "abyssal_artillery"
+            "string" : "daemons_pull"
          }
       },
  	  {
-         "id" : "GV_Occ_Dmg_L_2",
+         "id" : "GV_Occ_Pull_Dmg_L_5",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : 0.17,
+         "amount" : 0.50,
          "remove_if_not_active" : false,
          "rule_type" : "skill",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "abyssal_artillery"
+            "string" : "daemons_pull"
          }
       },
  	  {
-         "id" : "GV_Occ_Dmg_L_3",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.20,
-         "remove_if_not_active" : false,
-         "rule_type" : "skill",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "abyssal_artillery"
-         }
-      },
- 	  {
-         "id" : "GV_Occ_Dmg_L_4",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.22,
-         "remove_if_not_active" : false,
-         "rule_type" : "skill",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "abyssal_artillery"
-         }
-      },
- 	  {
-         "id" : "GV_Occ_Dmg_L_5",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.25,
-         "remove_if_not_active" : false,
-         "rule_type" : "skill",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "abyssal_artillery"
-         }
-      },
- 	  {
-         "id" : "GV_Occ_Dmg_H_1",
+         "id" : "GV_Occ_Pull_Dmg_H_1",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : 0.15,
+         "amount" : 0.30,
          "remove_if_not_active" : false,
          "rule_type" : "skill",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "abyssal_artillery"
+            "string" : "daemons_pull"
          }
       },
  	  {
-         "id" : "GV_Occ_Dmg_H_2",
+         "id" : "GV_Occ_Pull_Dmg_H_2",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : 0.17,
+         "amount" : 0.34,
          "remove_if_not_active" : false,
          "rule_type" : "skill",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "abyssal_artillery"
+            "string" : "daemons_pull"
          }
       },
  	  {
-         "id" : "GV_Occ_Dmg_H_3",
+         "id" : "GV_Occ_Pull_Dmg_H_3",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : 0.20,
+         "amount" : 0.40,
          "remove_if_not_active" : false,
          "rule_type" : "skill",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "abyssal_artillery"
+            "string" : "daemons_pull"
          }
       },
  	  {
-         "id" : "GV_Occ_Dmg_H_4",
+         "id" : "GV_Occ_Pull_Dmg_H_4",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : 0.22,
+         "amount" : 0.44,
          "remove_if_not_active" : false,
          "rule_type" : "skill",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "abyssal_artillery"
+            "string" : "daemons_pull"
          }
       },
  	  {
-         "id" : "GV_Occ_Dmg_H_5",
+         "id" : "GV_Occ_Pull_Dmg_H_5",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : 0.25,
+         "amount" : 0.50,
          "remove_if_not_active" : false,
          "rule_type" : "skill",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "abyssal_artillery"
+            "string" : "daemons_pull"
          }
       },
 	  {

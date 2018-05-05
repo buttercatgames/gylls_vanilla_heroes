@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
 	<PreviewIconFile>preview_icon.png</PreviewIconFile>
-	<ItemDescriptionShort>Gyll’s Vanilla: Heroes redesigns or rebalances all 15 original hero classes</ItemDescriptionShort>
+	<ItemDescriptionShort>Redesigns or rebalances all 15 original hero classes</ItemDescriptionShort>
 	<ModDataPath>C:/Program Files (x86)/Darkest Dungeon/mods/gylls_vanilla_heroes/</ModDataPath>
 	<Title>Gyll&apos;s Vanilla: Heroes</Title>
 	<Language>english</Language>
 	<UpdateDetails/>
-	<Visibility>private</Visibility>
-	<UploadMode>copy_and_upload</UploadMode>
+	<Visibility>friends</Visibility>
+	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>0</VersionMajor>
 	<VersionMinor>0</VersionMinor>
 	<TargetBuild>21142</TargetBuild>
@@ -15,7 +15,19 @@
 		<Tags>Overhauls</Tags>
 		<Tags>Gameplay Tweaks</Tags>
 	</Tags>
-	<ItemDescription>Test steam workshop upload</ItemDescription>
+	<ItemDescription>[b]Gyll’s Vanilla: Heroes[/b] redesigns or rebalances all 15 original hero classes. [i]Flagellant &amp; Shieldbreaker redesigns are in the works and will be released as separate mods when ready.[/i]
+
+[h1][b]Design Goals[/b][/h1]
+- Increase the number of viable skill builds for each class
+- Ensure that no class is consistently outshined by any other
+- Deliver mechanically on the promise of the original art &amp; character designs
+- In general, simplify skills &amp; tooltips
+- Ensure that remaining effects are impactful, both in terms of feel and in how they affect your decisions
+
+[h1][b]About Gyll’s Vanilla[/b][/h1]
+[b]Gyll’s Vanilla[/b] is a collection of mods for Darkest Dungeon, each of which redesigns a single aspect of the game. These mods are balanced against the vanilla base game and designed for maximum compatibility, creating a solid foundation for your modded campaigns. [i]Heroes is currently the only mod in the series, Quirks and Monsters are planned as the next two.[/i]
+
+</ItemDescription>
 	<PublishedFileId>1354446999</PublishedFileId>
 </project>
 

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<language id="english">
+		<!-- Translated -->
+		<entry id="buff_rule_data_tooltip_fortifying_vapours"><![CDATA[Restorative Vapours]]></entry>
+		<entry id="buff_rule_data_tooltip_invigorating_vapours"><![CDATA[Rapturous Vapours]]></entry>
+		<entry id="buff_rule_data_tooltip_flashpowder"><![CDATA[Flashpowder]]></entry>
+		<entry id="buff_rule_data_tooltip_festering_vapours"><![CDATA[Festering Vapours]]></entry>
+		<entry id="buff_rule_data_tooltip_cower"><![CDATA[Get Down!]]></entry>
+		<entry id="buff_rule_data_tooltip_kris_stab"><![CDATA[Nervous Stab]]></entry>
+
+		<entry id="buff_rule_data_tooltip_solo"><![CDATA[Solo]]></entry>
+		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[Finale]]></entry>
+		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[Inspiring Tune]]></entry>
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_consume_mark"><![CDATA[Consume {colour_start|mark}Mark{colour_end}]]></entry>
+		<entry id="effect_tooltip_cure_bleed"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}]]></entry>
+
+		
+		<!-- Antiquarian -->
+		<entry id="str_inventory_title_supplyantiq_blue"><![CDATA[Strange Blue Powder]]></entry>
+		<entry id="str_inventory_title_supplyantiq_orange"><![CDATA[Strange Red Powder]]></entry>
+		<entry id="str_inventory_title_supplyantiq_personal"><![CDATA[Personal Stash]]></entry>
+		<entry id="str_inventory_description_supplyantiq_blue"><![CDATA[Use to empower the Antiquarian's team-targeted abilities.
+{colour_start|inventory_tooltip_gold_value}[Value: 500 Gold Each]{colour_end}]]></entry>
+		<entry id="str_inventory_description_supplyantiq_orange"><![CDATA[Use to empower the Antiquarian's enemy-targeted abilities.
+{colour_start|inventory_tooltip_gold_value}[Value: 500 Gold Each]{colour_end}]]></entry>
+		<entry id="str_inventory_description_supplyantiq_personal"><![CDATA[Use to empower the Antiquarian's abilities.]]></entry>
+		<entry id="camping_skill_effect_loot_GV_ANTIQ_CAMP_POWDERS"><![CDATA[Produces powder from the personal stash.]]></entry>
+		<entry id="camping_skill_effect_loot_GV_ANTIQ_CAMP_BONUS_POWDERS"><![CDATA[]]></entry>
+		
+		
+		<!-- Houndmaster -->
+		<entry id="upgrade_tree_name_houndmaster.hounds_harry"><![CDATA[Go Fetch]]></entry>
+		<entry id="combat_skill_name_houndmaster_hounds_harry"><![CDATA[Go Fetch]]></entry>
+		<entry id="actor_mode_name_hound"><![CDATA[Hound]]></entry>
+		<entry id="str_skill_mode_info_hound"><![CDATA[]]></entry>
+		
+		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[Down girl!]]></entry>
+		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[The old girl doesn't play well with others, I'm afraid.]]></entry>
+		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[Heel girl! Heel!]]></entry>
+		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[The pups are on edge. Best keep them separate.]]></entry>
+		
+		<!-- Misc -->
+		<entry id="effect_tooltip_target_group_other"><![CDATA[Others:]]></entry>
+		
+		<entry id="effect_tooltip_cure_poison"><![CDATA[Cure {colour_start|blight}Blight{colour_end}]]></entry>
+		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Cure {colour_start|horror}Horror{colour_end}]]></entry>
+		<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if vs. %s (%d+)]]></entry>
+		<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if vs. no %ss]]></entry>
+		<entry id="effect_tooltip_target_enemy_group"><![CDATA[Enemy Party:]]></entry>
+		<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s vs. NOT %s]]></entry>
+
+		<!-- Tooltip Hack Strings -->
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_sacrifice"><![CDATA[Self:
+Take 6 DMG]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hm_already_marked"><![CDATA[If Target is already {colour_start|mark}Marked{colour_end}:]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on MISS/DODGE Only
+-20%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_2"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on MISS/DODGE Only
+-15%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_3"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on MISS/DODGE Only
+-10%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_4"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on MISS/DODGE Only
+-5%% DMG when {colour_start|riposte}Riposte{colour_end}
++1%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_5"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on MISS/DODGE Only
++2%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+-40%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_2"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+-35%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_3"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+-30%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_4"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+-25%% DMG when {colour_start|riposte}Riposte{colour_end}
++1%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_5"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+-20%% DMG when {colour_start|riposte}Riposte{colour_end}
++2%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on HIT Only
+{colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no CORPSES
++100%% DMG if 2+ CORPSES
++100%% DMG if 3+ CORPSES]]></entry>
+	</language>
+
+
+	
+	
+  <language id="brazilian">
+    <entry id="buff_rule_data_tooltip_seraphtooltip"><![CDATA[{colour_start|mark}Marcado{colour_end}
+Consumir {colour_start|mark}Marca{colour_end}]]></entry>
+
+    <entry id="effect_tooltip_cure_bleed"><![CDATA[Curar {colour_start|bleed}sangramento{colour_end}]]></entry>
+  </language>
+
+
+
+
+  <language id="czech">
+   <entry id="buff_rule_data_tooltip_seraphtooltip"><![CDATA[{colour_start|mark}Označení{colour_end}
+{colour_start|mark}Značka {colour_end}strávení]]></entry>
+
+    <entry id="effect_tooltip_cure_bleed"><![CDATA[Vyléčení {colour_start|bleed}krvácení{colour_end}]]></entry>
+ </language>
+
+
+
+
+
+
+  <language id="french">
+    <entry id="buff_rule_data_tooltip_seraphtooltip"><![CDATA[{colour_start|mark}Marqué{colour_end}
+Retire la {colour_start|mark}Marque{colour_end}]]></entry>
+
+    <entry id="effect_tooltip_cure_bleed"><![CDATA[Soigne {colour_start|bleed}saignement{colour_end}]]></entry>
+  </language>
+
+
+  <language id="german">
+    <entry id="buff_rule_data_tooltip_seraphtooltip"><![CDATA[{colour_start|mark}Gezeichnet{colour_end}
+Consume {colour_start|mark}Mark{colour_end}]]></entry>
+
+    <entry id="effect_tooltip_cure_bleed"><![CDATA[{colour_start|bleed}Bluten{colour_end} heilen]]></entry>
+  </language>
+
+
+
+  <language id="italian">
+
+    <entry id="buff_rule_data_tooltip_seraphtooltip"><![CDATA[{colour_start|mark}Marchiato{colour_end}
+Consume {colour_start|mark}Mark{colour_end}]]></entry>
+
+    <entry id="effect_tooltip_cure_bleed"><![CDATA[Cura {colour_start|bleed}Dissanguamento{colour_end}]]></entry>
+ </language>
+
+
+
+
+  <language id="koreana">
+    <entry id="buff_rule_data_tooltip_seraphtooltip"><![CDATA[{colour_start|mark}Marked{colour_end}
+Consume {colour_start|mark}Mark{colour_end}]]></entry>
+
+    <entry id="effect_tooltip_cure_bleed"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}]]></entry>
+  </language>
+
+
+
+
+  <language id="polish">
+
+    <entry id="buff_rule_data_tooltip_seraphtooltip"><![CDATA[{colour_start|mark}Naznaczony{colour_end}
+Zużycie {colour_start|mark}znaku{colour_end}]]></entry>
+
+    <entry id="effect_tooltip_cure_bleed"><![CDATA[Ulecz {colour_start|bleed}krwawienie{colour_end}]]></entry>
+
+  </language>
+
+  <language id="russian">
+
+    <entry id="buff_rule_data_tooltip_seraphtooltip"><![CDATA[{colour_start|mark}Отметка{colour_end}
+Поглощает {colour_start|mark}Метку{colour_end}]]></entry>
+
+    <entry id="effect_tooltip_cure_bleed"><![CDATA[Вылечить {colour_start|bleed}кровотечение{colour_end}]]></entry>
+
+  </language>
+
+  <language id="schinese">
+	<entry id="buff_rule_data_tooltip_seraphtooltip"><![CDATA[{colour_start|mark}标记{{colour_end}
+Consume {colour_start|mark}Mark{colour_end}]]></entry>
+
+	<entry id="effect_tooltip_cure_bleed"><![CDATA[治愈{colour_start|bleed}流血{colour_end}]]></entry>
+  </language>
+
+  <language id="spanish">
+    <entry id="buff_rule_data_tooltip_seraphtooltip"><![CDATA[{colour_start|mark}Señalado{colour_end}
+Consume {colour_start|mark}marca{colour_end}]]></entry>
+    <entry id="effect_tooltip_cure_bleed"><![CDATA[Curar {colour_start|bleed}hemorragia{colour_end}]]></entry>
+  </language>
+
+  <language id="tchinese">
+    <entry id="buff_rule_data_tooltip_seraphtooltip"><![CDATA[{colour_start|mark}Marked{colour_end}
+Consume {colour_start|mark}Mark{colour_end}]]></entry>
+  </language>
+
+
+
+</root>
+

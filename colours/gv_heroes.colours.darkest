@@ -1,1 +1,3 @@
-colour:	.id "mark" 													  .rgba #4c8ba2
+colour:	.id "mark" 													.rgba #3c6d80
+colour:	.id "horror" 												.rgba #77736d
+colour:	.id "torch" 												.rgba #b35b0e
