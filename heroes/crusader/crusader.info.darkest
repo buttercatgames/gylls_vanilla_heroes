@@ -1,4 +1,4 @@
-resistances: .stun 40% .poison 30% .bleed 30% .disease 30% .move 40% .debuff 30% .death_blow 67% .trap 10%
+resistances: .stun 30% .poison 30% .bleed 30% .disease 30% .move 30% .debuff 30% .death_blow 67% .trap 10%
 
 weapon: .name "crusader_weapon_0" .atk 0% .dmg 6 12 .crit 5% .spd 1
 weapon: .name "crusader_weapon_1" .atk 0% .dmg 7 14 .crit 5.5% .spd 1 .upgradeRequirementCode 0

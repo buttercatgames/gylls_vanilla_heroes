@@ -1,10 +1,10 @@
 resistances: .stun 20% .poison 20% .bleed 20% .disease 20% .move 20% .debuff 20% .death_blow 67% .trap 10%
 
-weapon: .name "antiquarian_weapon_0" .atk 0% .dmg 2 6 .crit 2.5% .spd 5
-weapon: .name "antiquarian_weapon_1" .atk 0% .dmg 3 7 .crit 3% .spd 5 .upgradeRequirementCode 0
-weapon: .name "antiquarian_weapon_2" .atk 0% .dmg 3 8 .crit 3.5% .spd 6 .upgradeRequirementCode 1
-weapon: .name "antiquarian_weapon_3" .atk 0% .dmg 4 9 .crit 4% .spd 6 .upgradeRequirementCode 2
-weapon: .name "antiquarian_weapon_4" .atk 0% .dmg 4 10 .crit 4.5% .spd 7 .upgradeRequirementCode 3
+weapon: .name "antiquarian_weapon_0" .atk 0% .dmg 3 5 .crit 2.5% .spd 5
+weapon: .name "antiquarian_weapon_1" .atk 0% .dmg 4 6 .crit 3% .spd 5 .upgradeRequirementCode 0
+weapon: .name "antiquarian_weapon_2" .atk 0% .dmg 5 7 .crit 3.5% .spd 6 .upgradeRequirementCode 1
+weapon: .name "antiquarian_weapon_3" .atk 0% .dmg 5 8 .crit 4% .spd 6 .upgradeRequirementCode 2
+weapon: .name "antiquarian_weapon_4" .atk 0% .dmg 5 9 .crit 4.5% .spd 7 .upgradeRequirementCode 3
 
 armour: .name "antiquarian_armour_0" .def 10% .prot 0 .hp 17 .spd 0
 armour: .name "antiquarian_armour_1" .def 15% .prot 0 .hp 20 .spd 0 .upgradeRequirementCode 0

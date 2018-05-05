@@ -1,4 +1,4 @@
-resistances: .stun 30% .poison 30% .bleed 30% .disease 30% .move 30% .debuff 30% .death_blow 67% .trap 10%
+resistances: .stun 20% .poison 30% .bleed 30% .disease 30% .move 20% .debuff 30% .death_blow 67% .trap 10%
 
 weapon: .name "vestal_weapon_0" .atk 0% .dmg 4 7 .crit 2.5% .spd 4
 weapon: .name "vestal_weapon_1" .atk 0% .dmg 5 9 .crit 3% .spd 4 .upgradeRequirementCode 0

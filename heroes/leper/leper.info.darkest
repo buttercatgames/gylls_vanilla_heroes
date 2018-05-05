@@ -1,4 +1,4 @@
-resistances: .stun 60% .poison 40% .bleed 10% .disease 20% .move 60% .debuff 40% .death_blow 67% .trap 10%
+resistances: .stun 50% .poison 40% .bleed 10% .disease 20% .move 50% .debuff 40% .death_blow 67% .trap 10%
 
 weapon: .name "leper_weapon_0" .atk 0% .dmg 8 16 .crit 2.5% .spd 2
 weapon: .name "leper_weapon_1" .atk 0% .dmg 9 18 .crit 3% .spd 2 .upgradeRequirementCode 0

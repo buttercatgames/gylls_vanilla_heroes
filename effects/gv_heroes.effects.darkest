@@ -177,11 +177,11 @@ effect: .name "GV_Arb_Destealth_Enemies" .target "target_enemy_group" .chance 10
 
 effect: .name "GV_Arb_Mark_Enemies" .target "target_enemy_group" .chance 100% .tag 1 .duration 2 .on_hit true .on_miss false
 
-effect: .name "GV_Arb_Flare_Buff_1" .target "target" .chance 100% .buff_ids "GV_Arb_Stress_Resist_1" .on_hit true .on_miss false
-effect: .name "GV_Arb_Flare_Buff_2" .target "target" .chance 100% .buff_ids "GV_Arb_Stress_Resist_2" .on_hit true .on_miss false
-effect: .name "GV_Arb_Flare_Buff_3" .target "target" .chance 100% .buff_ids "GV_Arb_Stress_Resist_3" .on_hit true .on_miss false
-effect: .name "GV_Arb_Flare_Buff_4" .target "target" .chance 100% .buff_ids "GV_Arb_Stress_Resist_4" .on_hit true .on_miss false
-effect: .name "GV_Arb_Flare_Buff_5" .target "target" .chance 100% .buff_ids "GV_Arb_Stress_Resist_5" .on_hit true .on_miss false
+effect: .name "GV_Arb_Flare_Buff_1" .target "target" .chance 100% .buff_ids "GV_Arb_Stress_Resist_1" .duration 2 .on_hit true .on_miss false
+effect: .name "GV_Arb_Flare_Buff_2" .target "target" .chance 100% .buff_ids "GV_Arb_Stress_Resist_2" .duration 2 .on_hit true .on_miss false
+effect: .name "GV_Arb_Flare_Buff_3" .target "target" .chance 100% .buff_ids "GV_Arb_Stress_Resist_3" .duration 2 .on_hit true .on_miss false
+effect: .name "GV_Arb_Flare_Buff_4" .target "target" .chance 100% .buff_ids "GV_Arb_Stress_Resist_4" .duration 2 .on_hit true .on_miss false
+effect: .name "GV_Arb_Flare_Buff_5" .target "target" .chance 100% .buff_ids "GV_Arb_Stress_Resist_5" .duration 2 .on_hit true .on_miss false
 
 effect: .name "GV_Arb_Flare_Light" .target "global" .chance 100% .torch_increase 10 .on_hit true .on_miss true .apply_once true .queue true 
 
@@ -413,12 +413,14 @@ effect: .name "GV_HM_Pull_4" .target "target" .pull 1 .chance 130% .on_hit true 
 effect: .name "GV_HM_Pull_5" .target "target" .pull 1 .chance 140% .on_hit true .on_miss false .can_apply_on_death true
 
 effect: .name "GV_HM_Fetch_Bleed_1" .target "target" .chance 0% .dotBleed 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
-effect: .name "GV_HM_Fetch_Bleed_2" .target "target" .chance 10% .dotBleed 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
-effect: .name "GV_HM_Fetch_Bleed_3" .target "target" .chance 20% .dotBleed 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
-effect: .name "GV_HM_Fetch_Bleed_4" .target "target" .chance 30% .dotBleed 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
-effect: .name "GV_HM_Fetch_Bleed_5" .target "target" .chance 40% .dotBleed 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "GV_HM_Fetch_Bleed_2" .target "target" .chance 0% .dotBleed 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "GV_HM_Fetch_Bleed_3" .target "target" .chance 0% .dotBleed 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
 
-effect: .name "GV_HM_Bleed_if_Marked" .target "performer" .skill_instant true .buff_ids "GV_HM_Bleed_if_Marked" .on_hit true .on_miss false
+effect: .name "GV_HM_Bleed_if_Marked_1" .target "performer" .skill_instant true .buff_ids "GV_HM_Bleed_if_Marked_1" .on_hit true .on_miss false
+effect: .name "GV_HM_Bleed_if_Marked_2" .target "performer" .skill_instant true .buff_ids "GV_HM_Bleed_if_Marked_2" .on_hit true .on_miss false
+effect: .name "GV_HM_Bleed_if_Marked_3" .target "performer" .skill_instant true .buff_ids "GV_HM_Bleed_if_Marked_3" .on_hit true .on_miss false
+effect: .name "GV_HM_Bleed_if_Marked_4" .target "performer" .skill_instant true .buff_ids "GV_HM_Bleed_if_Marked_4" .on_hit true .on_miss false
+effect: .name "GV_HM_Bleed_if_Marked_5" .target "performer" .skill_instant true .buff_ids "GV_HM_Bleed_if_Marked_5" .on_hit true .on_miss false
 
 // Cry Havoc
 effect: .name "GV_HM_Stress_Heal_Base_1" .target "target" .chance 100% .healstress 4 .on_hit true .on_miss false
@@ -572,7 +574,11 @@ effect: .name "GV_MAA_Defender_4" .target "performer" .chance 100% .combat_stat_
 effect: .name "GV_MAA_Defender_5" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 35% .duration 2 .on_hit true .on_miss true .queue true
 
 //Retribution
-effect: .name "GV_MAA_Riposte"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .on_hit true .on_miss true .damage_low_multiply 0% .damage_high_multiply 0% .crit_chance_add 0%
+effect: .name "GV_MAA_Riposte_1"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true .damage_low_multiply -40% .damage_high_multiply -40% .crit_chance_add 0% .has_description false
+effect: .name "GV_MAA_Riposte_2"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true .damage_low_multiply -35% .damage_high_multiply -35% .crit_chance_add 0%  .has_description false
+effect: .name "GV_MAA_Riposte_3"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true .damage_low_multiply -30% .damage_high_multiply -30% .crit_chance_add 1%  .has_description false
+effect: .name "GV_MAA_Riposte_4"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true .damage_low_multiply -25% .damage_high_multiply -25% .crit_chance_add 1%  .has_description false
+effect: .name "GV_MAA_Riposte_5"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true .damage_low_multiply -20% .damage_high_multiply -20% .crit_chance_add 2% .has_description false
 
 // Command
 
@@ -587,25 +593,39 @@ effect: .name "GV_MAA_Mark_Buff_5" .target "performer_group" .chance 100% .buff_
 
 // Occultist Effects
 //-------------------------
-effect: .name "GV_Occ_Bleed_1" .target "target" .chance 100% .dotBleed 1 .duration 3 .on_hit true .on_miss true .queue true .can_apply_on_death true
-effect: .name "GV_Occ_Bleed_2" .target "target" .chance 110% .dotBleed 1 .duration 3 .on_hit true .on_miss true .queue true .can_apply_on_death true
-effect: .name "GV_Occ_Bleed_3" .target "target" .chance 120% .dotBleed 1 .duration 3 .on_hit true .on_miss true .queue true .can_apply_on_death true
-effect: .name "GV_Occ_Bleed_4" .target "target" .chance 130% .dotBleed 1 .duration 3 .on_hit true .on_miss true .queue true .can_apply_on_death true
-effect: .name "GV_Occ_Bleed_5" .target "target" .chance 140% .dotBleed 1 .duration 3 .on_hit true .on_miss true .queue true .can_apply_on_death true
+// Sacrificial Stab
 
-effect: .name "GV_Occ_Horror" .target "performer" .chance 66% .dotStress 1 .duration 5 .on_hit true .on_miss true .queue true .apply_once true .can_apply_on_death true
 
+// Abyssal Artillery
+
+
+// Weakening Curse
 effect: .name "GV_Occ_Weaken_1" .target "target" .chance 110% .buff_ids .combat_stat_buff 1 .damage_low_multiply -30% .damage_high_multiply -30% .crit_chance_add -4% .duration 2 .on_hit true .on_miss false
 effect: .name "GV_Occ_Weaken_2" .target "target" .chance 120% .buff_ids .combat_stat_buff 1 .damage_low_multiply -32% .damage_high_multiply -32% .crit_chance_add -5% .duration 2 .on_hit true .on_miss false
 effect: .name "GV_Occ_Weaken_3" .target "target" .chance 130% .buff_ids .combat_stat_buff 1 .damage_low_multiply -35% .damage_high_multiply -35% .crit_chance_add -6% .duration 2 .on_hit true .on_miss false
 effect: .name "GV_Occ_Weaken_4" .target "target" .chance 140% .buff_ids .combat_stat_buff 1 .damage_low_multiply -37% .damage_high_multiply -37% .crit_chance_add -7% .duration 2 .on_hit true .on_miss false
 effect: .name "GV_Occ_Weaken_5" .target "target" .chance 150% .buff_ids .combat_stat_buff 1 .damage_low_multiply -40% .damage_high_multiply -40% .crit_chance_add -8% .duration 2 .on_hit true .on_miss false
 
-effect: .name "GV_Occ_Dmg_Buff_1" .target "performer" .chance 100% .buff_ids "GV_Occ_Dmg_L_1" "GV_Occ_Dmg_H_1" .duration 3 .on_hit true .on_miss false .queue true
-effect: .name "GV_Occ_Dmg_Buff_2" .target "performer" .chance 100% .buff_ids "GV_Occ_Dmg_L_2" "GV_Occ_Dmg_H_2" .duration 3 .on_hit true .on_miss false .queue true
-effect: .name "GV_Occ_Dmg_Buff_3" .target "performer" .chance 100% .buff_ids "GV_Occ_Dmg_L_3" "GV_Occ_Dmg_H_3" .duration 3 .on_hit true .on_miss false .queue true
-effect: .name "GV_Occ_Dmg_Buff_4" .target "performer" .chance 100% .buff_ids "GV_Occ_Dmg_L_4" "GV_Occ_Dmg_H_4" .duration 3 .on_hit true .on_miss false .queue true
-effect: .name "GV_Occ_Dmg_Buff_5" .target "performer" .chance 100% .buff_ids "GV_Occ_Dmg_L_5" "GV_Occ_Dmg_H_5" .duration 3 .on_hit true .on_miss false .queue true
+// Wyrd Reconstruction
+effect: .name "GV_Occ_Bleed_1" .target "target" .chance 100% .dotBleed 1 .duration 3 .on_hit true .on_miss true .queue true .can_apply_on_death true
+effect: .name "GV_Occ_Bleed_2" .target "target" .chance 110% .dotBleed 1 .duration 3 .on_hit true .on_miss true .queue true .can_apply_on_death true
+effect: .name "GV_Occ_Bleed_3" .target "target" .chance 120% .dotBleed 1 .duration 3 .on_hit true .on_miss true .queue true .can_apply_on_death true
+effect: .name "GV_Occ_Bleed_4" .target "target" .chance 130% .dotBleed 1 .duration 3 .on_hit true .on_miss true .queue true .can_apply_on_death true
+effect: .name "GV_Occ_Bleed_5" .target "target" .chance 140% .dotBleed 1 .duration 3 .on_hit true .on_miss true .queue true .can_apply_on_death true
+
+// Vulnerability Hex
+
+
+// Hands from the Abyss
+effect: .name "GV_Occ_Dmg_Buff_1" .target "performer" .chance 100% .buff_ids "GV_Occ_Dmg_L_1" "GV_Occ_Dmg_H_1" "GV_Occ_Move_Skill_1" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_Occ_Dmg_Buff_2" .target "performer" .chance 100% .buff_ids "GV_Occ_Dmg_L_2" "GV_Occ_Dmg_H_2" "GV_Occ_Move_Skill_2" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_Occ_Dmg_Buff_3" .target "performer" .chance 100% .buff_ids "GV_Occ_Dmg_L_3" "GV_Occ_Dmg_H_3" "GV_Occ_Move_Skill_3" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_Occ_Dmg_Buff_4" .target "performer" .chance 100% .buff_ids "GV_Occ_Dmg_L_4" "GV_Occ_Dmg_H_4" "GV_Occ_Move_Skill_4" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_Occ_Dmg_Buff_5" .target "performer" .chance 100% .buff_ids "GV_Occ_Dmg_L_5" "GV_Occ_Dmg_H_5" "GV_Occ_Move_Skill_5" .duration 3 .on_hit true .on_miss false .queue true
+
+effect: .name "GV_Occ_Horror" .target "performer" .chance 100% .dotStress 1 .duration 4 .on_hit true .on_miss true .queue true .apply_once true .can_apply_on_death true
+
+// Daemon's Pull
 
 
 // Plague Doctor Effects
@@ -763,9 +783,17 @@ effect: .name "GV_Tooltip_PD_Corpse_Explosion" .target "performer" .skill_instan
 effect: .name "GV_Tooltip_Leper_Sacrifice" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_Leper_Sacrifice" .on_hit true .on_miss false .apply_once true
 effect: .name "GV_Tooltip_GR_Riposte" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_GR_Riposte" .on_hit true .on_miss false .apply_once true
 effect: .name "GV_Tooltip_HM_Already_Marked" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_HM_Already_Marked" .on_hit true .on_miss false .apply_once true
+
 effect: .name "GV_Tooltip_HWM_Riposte_1" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_HWM_Riposte_1" .on_hit true .on_miss false .apply_once true
 effect: .name "GV_Tooltip_HWM_Riposte_2" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_HWM_Riposte_2" .on_hit true .on_miss false .apply_once true
 effect: .name "GV_Tooltip_HWM_Riposte_3" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_HWM_Riposte_3" .on_hit true .on_miss false .apply_once true
 effect: .name "GV_Tooltip_HWM_Riposte_4" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_HWM_Riposte_4" .on_hit true .on_miss false .apply_once true
 effect: .name "GV_Tooltip_HWM_Riposte_5" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_HWM_Riposte_5" .on_hit true .on_miss false .apply_once true
+
+effect: .name "GV_Tooltip_MAA_Riposte_1" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_MAA_Riposte_1" .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Tooltip_MAA_Riposte_2" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_MAA_Riposte_2" .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Tooltip_MAA_Riposte_3" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_MAA_Riposte_3" .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Tooltip_MAA_Riposte_4" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_MAA_Riposte_4" .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Tooltip_MAA_Riposte_5" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_MAA_Riposte_5" .on_hit true .on_miss false .apply_once true
+
 effect: .name "GV_Tooltip_Consume_Mark" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_Consume_Mark" .on_hit true .on_miss false .apply_once true

@@ -34,11 +34,11 @@ combat_skill: .id "point_blank_shot" .level 3 .type "ranged" .atk 110% .dmg 25% 
 combat_skill: .id "point_blank_shot" .level 4 .type "ranged" .atk 105% .dmg 25% .crit 0% .move 1 0 .launch 1 .target 1 .is_crit_valid True .effect "Push 1E"
 
 // Grapeshot Blast
-combat_skill: .id "grape_shot_blast" .level 0 .type "ranged" .atk 80% .dmg -60% .crit -5% .launch 23 .target ~123 .is_crit_valid True
-combat_skill: .id "grape_shot_blast" .level 1 .type "ranged" .atk 85% .dmg -60% .crit -5% .launch 23 .target ~123 .is_crit_valid True
-combat_skill: .id "grape_shot_blast" .level 2 .type "ranged" .atk 90% .dmg -60% .crit -4% .launch 23 .target ~123 .is_crit_valid True
-combat_skill: .id "grape_shot_blast" .level 3 .type "ranged" .atk 95% .dmg -60% .crit -4% .launch 23 .target ~123 .is_crit_valid True
-combat_skill: .id "grape_shot_blast" .level 4 .type "ranged" .atk 100% .dmg -60% .crit -3% .launch 23 .target ~123 .is_crit_valid True
+combat_skill: .id "grape_shot_blast" .level 0 .type "ranged" .atk 80% .dmg -50% .crit -5% .launch 23 .target ~123 .is_crit_valid True
+combat_skill: .id "grape_shot_blast" .level 1 .type "ranged" .atk 85% .dmg -50% .crit -4% .launch 23 .target ~123 .is_crit_valid True
+combat_skill: .id "grape_shot_blast" .level 2 .type "ranged" .atk 90% .dmg -50% .crit -3% .launch 23 .target ~123 .is_crit_valid True
+combat_skill: .id "grape_shot_blast" .level 3 .type "ranged" .atk 95% .dmg -50% .crit -2% .launch 23 .target ~123 .is_crit_valid True
+combat_skill: .id "grape_shot_blast" .level 4 .type "ranged" .atk 100% .dmg -50% .crit 0% .launch 23 .target ~123 .is_crit_valid True
 
 // Duelist's Advance
 combat_skill: .id "duelist_advance" .level 0 .type "melee" .atk 85% .dmg -50% .crit 2% .move 0 1 .launch 432 .target 12 .is_crit_valid True .effect "GV_HWM_Riposte_1" "GV_Tooltip_HWM_Riposte_1"
