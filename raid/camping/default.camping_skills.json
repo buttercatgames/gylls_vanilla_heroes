@@ -2829,7 +2829,7 @@
 					"chance" : { "code" : "b", "amount": 1.0 },
 					"type": "loot",
 					"sub_type": "GV_ANTIQ_CAMP_BONUS_POWDERS",
-					"amount": 1
+					"amount": 2
 				}
 			],
 			"hero_classes" : ["antiquarian"],

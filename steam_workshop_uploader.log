@@ -8,16 +8,19 @@ Processing Map Files files...
 
 -------------------------------------------------------------------------------
 Running Localization...
-Parsing localization/gylls_vanilla.string_table.xml
-Parsing localization/gylls_vanilla_overwrites.string_table.xml
+Parsing localization/gv_heroes.string_table.xml
+Parsing localization/gv_heroes_skill_names.string_table.xml
+Parsing localization/gv_heroes_tooltip_overwrites.string_table.xml
 
 Building Languages
 Exporting .loc files
 
 -------------------------------------------------------------------------------
 Searching for preview icon file C:/Program Files (x86)/Darkest Dungeon/mods/gylls_vanilla_heroes/preview_icon.png...FOUND!
-<UploadMode> - Set to direct_upload
+<UploadMode> - Set to copy_and_upload
 
+
+No unchanged files detected, directly uploading data directory.
 
 -------------------------------------------------------------------------------
 Modded files...
@@ -60,6 +63,8 @@ heroes/grave_robber/grave_robber.ability.pick.png
 heroes/grave_robber/grave_robber.ability.zone.png
 heroes/grave_robber/grave_robber.art.darkest
 heroes/grave_robber/grave_robber.info.darkest
+heroes/hellion/hellion.ability.breakthru.png
+heroes/hellion/hellion.ability.hack.png
 heroes/hellion/hellion.art.darkest
 heroes/hellion/hellion.info.darkest
 heroes/highwayman/highwayman.ability.coldblood.png
@@ -109,19 +114,19 @@ localization/1354446999_english.loc
 localization/1354446999_french.loc
 localization/1354446999_german.loc
 localization/1354446999_italian.loc
-localization/1354446999_koreana.loc
 localization/1354446999_polish.loc
 localization/1354446999_russian.loc
 localization/1354446999_schinese.loc
 localization/1354446999_spanish.loc
-localization/1354446999_tchinese.loc
-localization/gylls_vanilla.string_table.xml
-localization/gylls_vanilla_overwrites.string_table.xml
+localization/gv_heroes.string_table.xml
+localization/gv_heroes_skill_names.string_table.xml
+localization/gv_heroes_tooltip_overwrites.string_table.xml
 localization/missing_files.txt
 loot/gv_heroes.loot.json
+modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting..........................................................................................................................Submitted.
+Submitting..................................................................................................Submitted.
 Saving project file C:\Program Files (x86)\Darkest Dungeon\mods\gylls_vanilla_heroes\project.xml
 

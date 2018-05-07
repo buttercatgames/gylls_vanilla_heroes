@@ -12,7 +12,7 @@ armour: .name "leper_armour_2" .icon "eqp_armour_2.png"
 armour: .name "leper_armour_3" .icon "eqp_armour_3.png"
 armour: .name "leper_armour_4" .icon "eqp_armour_4.png"
 
-combat_skill: .id "chop" .icon "one" .anim "attack_chop" .fx "chop" .targchestfx "blood_splatter"
+combat_skill: .id "chop" .icon "one" .anim "attack_chop" .fx "chop" .targchestfx "blood_splatter" .condensed_tooltip_stats true
 combat_skill: .id "hew" .icon "two" .anim "attack_hew" .fx "hew" .targchestfx "blood_splatter" .condensed_tooltip_stats true
 combat_skill: .id "focus" .icon "overpower" .anim "defend" .fx "withstand" .condensed_tooltip_stats true
 combat_skill: .id "revenge" .icon "revenge" .anim "attack_buff" .fx "revenge" .condensed_tooltip_stats true

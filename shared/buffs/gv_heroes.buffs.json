@@ -366,10 +366,37 @@
          }
       },
       {
+         "id" : "GV_Antiq_Stab_Dmg_L",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "kris_stab"
+         }
+      },
+      {
+         "id" : "GV_Antiq_Stab_Dmg_H",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "kris_stab"
+         }
+      },
+
+      {
          "id" : "GV_Antiq_Flashpowder_Move_Skill",
          "stat_type" : "move_chance",
          "stat_sub_type" : "",
-         "amount" : 0.5,
+         "amount" : 0.75,
          "remove_if_not_active" : false,
          "rule_type" : "skill",
          "is_false_rule" : false,
@@ -382,7 +409,7 @@
          "id" : "GV_Antiq_Flashpowder_Debuff_Skill",
          "stat_type" : "debuff_chance",
          "stat_sub_type" : "",
-         "amount" : 0.5,
+         "amount" : 0.75,
          "remove_if_not_active" : false,
          "rule_type" : "skill",
          "is_false_rule" : false,
@@ -1133,7 +1160,7 @@
          }
       },
 	  {
-         "id" : "GV_Hellion_Adrenaline_Dmg_L",
+         "id" : "GV_Hellion_Adrenaline_Dmg_L_1",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
          "amount" : 0.25,
@@ -1146,7 +1173,59 @@
          }
       },
 	  {
-         "id" : "GV_Hellion_Adrenaline_Dmg_H",
+         "id" : "GV_Hellion_Adrenaline_Dmg_L_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.27,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Hellion_Adrenaline_Dmg_L_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Hellion_Adrenaline_Dmg_L_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.32,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Hellion_Adrenaline_Dmg_L_5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Hellion_Adrenaline_Dmg_H_1",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : 0.25,
@@ -1159,10 +1238,114 @@
          }
       },
 	  {
-         "id" : "GV_Hellion_Adrenaline_Bleed",
+         "id" : "GV_Hellion_Adrenaline_Dmg_H_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.27,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Hellion_Adrenaline_Dmg_H_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Hellion_Adrenaline_Dmg_H_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.32,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Hellion_Adrenaline_Dmg_H_5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Hellion_Adrenaline_Bleed_1",
          "stat_type" : "bleed_chance",
          "stat_sub_type" : "",
          "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Hellion_Adrenaline_Bleed_2",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.27,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Hellion_Adrenaline_Bleed_3",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Hellion_Adrenaline_Bleed_4",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.32,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Hellion_Adrenaline_Bleed_5",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.35,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -3406,19 +3589,6 @@
          "id" : "GV_Tooltip_GR_Riposte",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "gr_riposte",
-         "amount" : -0,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "GV_Tooltip_Leper_Sacrifice",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "leper_sacrifice",
          "amount" : -0,
          "remove_if_not_active" : false,
          "rule_type" : "always",

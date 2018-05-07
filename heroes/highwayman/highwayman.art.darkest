@@ -15,7 +15,7 @@ armour: .name "highwayman_armour_4"	.icon "eqp_armour_4.png"
 combat_skill: .id "wicked_slice" .icon "slice" .anim "attack_slice" .fx "wicked_slice" .targchestfx "blood_splatter" .condensed_tooltip_stats true
 combat_skill: .id "pistol_shot" .icon "two" .anim "attack_hipshot" .fx "point_blank_shot" .targchestfx "tracking_shot_target" .condensed_tooltip_stats true
 combat_skill: .id "point_blank_shot" .icon "pbs" .anim "attack_hipshot" .fx "point_blank_shot" .targchestfx "point_blank_shot_target" .condensed_tooltip_stats true
-combat_skill: .id "grape_shot_blast" .icon "four" .anim "attack_pistol" .fx "grape_shot_blast" .targchestfx "grape_shot_blast_target" .area_pos_offset 75 0 .target_area_pos_offset -75 0
+combat_skill: .id "grape_shot_blast" .icon "four" .anim "attack_pistol" .fx "grape_shot_blast" .targchestfx "grape_shot_blast_target" .area_pos_offset 75 0 .target_area_pos_offset -75 0 .condensed_tooltip_stats true
 combat_skill: .id "take_aim" .icon "coldblood" .anim "attack_pistol" .fx "tracking_shot" .targheadfx "point_blank_shot_target" .condensed_tooltip_stats true
 combat_skill: .id "duelist_advance" .icon "six" .anim "attack_lunge" .fx "duelist_advance" .targchestfx "blood_splatter" .condensed_tooltip_stats true
 combat_skill: .id "opened_vein" .icon "seven" .anim "attack_slice" .fx "opened_vein" .targchestfx "blood_splatter" .condensed_tooltip_stats true

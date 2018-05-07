@@ -25,13 +25,17 @@
 		<entry id="combat_skill_name_highwayman_take_aim"><![CDATA[Cold Blood]]></entry>
 		<entry id="upgrade_tree_name_highwayman.take_aim"><![CDATA[Cold Blood]]></entry>
 		
+		<!-- Houndmaster -->
+		<entry id="upgrade_tree_name_houndmaster.hounds_harry"><![CDATA[Go Fetch]]></entry>
+		<entry id="combat_skill_name_houndmaster_hounds_harry"><![CDATA[Go Fetch]]></entry>
+
 		<!-- Leper -->
 		<entry id="combat_skill_name_leper_focus"><![CDATA[Overpower]]></entry>
 		<entry id="upgrade_tree_name_leper.focus"><![CDATA[Overpower]]></entry>
 		
 		<!-- Man-At-Arms -->
-	    <entry id="combat_skill_name_man_at_arms_command"><![CDATA[Browbeat]]></entry>
-		<entry id="upgrade_tree_name_man_at_arms.command"><![CDATA[Browbeat]]></entry>
+	    <entry id="combat_skill_name_man_at_arms_command"><![CDATA[Threaten]]></entry>
+		<entry id="upgrade_tree_name_man_at_arms.command"><![CDATA[Threaten]]></entry>
 		<entry id="combat_skill_name_man_at_arms_bolster"><![CDATA[Focus Fire]]></entry>
 		<entry id="upgrade_tree_name_man_at_arms.bolster"><![CDATA[Focus Fire]]></entry>
 
@@ -46,44 +50,6 @@
 		<!-- Vestal -->
 		<entry id="combat_skill_name_vestal_mace_bash"><![CDATA[Chastise]]></entry>
 		<entry id="upgrade_tree_name_vestal.mace_bash"><![CDATA[Chastise]]></entry>
-
-		
-		<!-- Misc -->
-		<entry id="str_stat_attack_bonus"><![CDATA[ACC]]></entry>
-		<entry id="str_stat_base_armour"><![CDATA[Armor]]></entry>
-		<entry id="str_stat_base_attack"><![CDATA[ACC]]></entry>
-		<entry id="str_stat_base_crit"><![CDATA[CRIT]]></entry>
-		<entry id="str_stat_base_damage"><![CDATA[DMG]]></entry>
-		<entry id="str_stat_base_defense"><![CDATA[DODGE]]></entry>
-		<entry id="str_stat_base_health_points"><![CDATA[HP]]></entry>
-		<entry id="str_stat_base_protection"><![CDATA[PROT]]></entry>
-		<entry id="str_stat_base_skill"><![CDATA[Skill]]></entry>
-		<entry id="str_stat_base_speed"><![CDATA[SPD]]></entry>
-		<entry id="str_stat_base_weapon"><![CDATA[Weapon]]></entry>
-		<entry id="str_stat_crit_bonus"><![CDATA[CRIT]]></entry>
-		<entry id="str_stat_damage_bonus"><![CDATA[DMG]]></entry>
-		<entry id="str_stat_defense_bonus"><![CDATA[DODGE]]></entry>
-		<entry id="str_stat_health_points_bonus"><![CDATA[HP]]></entry>
-		<entry id="str_stat_protection_bonus"><![CDATA[PROT]]></entry>
-		<entry id="str_stat_speed_bonus"><![CDATA[SPD]]></entry>
-
-	    <entry id="effect_base_chance_format"><![CDATA[{colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>
-		
-	    <entry id="effect_tooltip_stress_heal_format"><![CDATA[{colour_start|stress}Heal{colour_end} %d Stress]]></entry>
-		<entry id="effect_tooltip_move_forward"><![CDATA[{colour_start|move}Pull{colour_end} %d]]></entry>
-		<entry id="effect_tooltip_torch_format"><![CDATA[{colour_start|torch}Torch{colour_end} %+d]]></entry>
-		
-		<entry id="buff_stat_tooltip_combat_stat_add_crit_chance"><![CDATA[%+d%% CRIT]]></entry>
-		<entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRIT]]></entry>
-		<entry id="buff_stat_tooltip_ignore_protection"><![CDATA[%d%% PROT Piercing]]></entry>
-		<entry id="buff_stat_tooltip_stress_dmg_percent"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end} Inflicted]]></entry>
-		<entry id="buff_stat_tooltip_stress_dmg_received_percent"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% DMG Received]]></entry>
-
-		<entry id="str_skill_tooltip_acc_base"><![CDATA[ACC: %.0f]]></entry>
-		<entry id="str_skill_tooltip_crit_mod"><![CDATA[CRIT: %+.0f%%]]></entry>
-		<entry id="str_skill_tooltip_dmg_mod"><![CDATA[DMG: %+.0f%%]]></entry>
-		
 	</language>
 </root>
 

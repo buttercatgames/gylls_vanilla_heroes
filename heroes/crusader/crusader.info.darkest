@@ -1,10 +1,10 @@
 resistances: .stun 30% .poison 30% .bleed 30% .disease 30% .move 30% .debuff 30% .death_blow 67% .trap 10%
 
-weapon: .name "crusader_weapon_0" .atk 0% .dmg 6 12 .crit 5% .spd 1
-weapon: .name "crusader_weapon_1" .atk 0% .dmg 7 14 .crit 5.5% .spd 1 .upgradeRequirementCode 0
-weapon: .name "crusader_weapon_2" .atk 0% .dmg 8 16 .crit 6% .spd 2 .upgradeRequirementCode 1
-weapon: .name "crusader_weapon_3" .atk 0% .dmg 9 17 .crit 6.5% .spd 2 .upgradeRequirementCode 2
-weapon: .name "crusader_weapon_4" .atk 0% .dmg 10 19 .crit 7% .spd 3 .upgradeRequirementCode 3
+weapon: .name "crusader_weapon_0" .atk 0% .dmg 6 12 .crit 2.5% .spd 1
+weapon: .name "crusader_weapon_1" .atk 0% .dmg 7 14 .crit 3% .spd 1 .upgradeRequirementCode 0
+weapon: .name "crusader_weapon_2" .atk 0% .dmg 8 16 .crit 3.5% .spd 2 .upgradeRequirementCode 1
+weapon: .name "crusader_weapon_3" .atk 0% .dmg 9 17 .crit 4% .spd 2 .upgradeRequirementCode 2
+weapon: .name "crusader_weapon_4" .atk 0% .dmg 10 19 .crit 4.5% .spd 3 .upgradeRequirementCode 3
 
 armour: .name "crusader_armour_0" .def 5% .prot 0 .hp 33 .spd 0
 armour: .name "crusader_armour_1" .def 10% .prot 0 .hp 40 .spd 0 .upgradeRequirementCode 0

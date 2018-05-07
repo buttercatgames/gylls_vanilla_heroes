@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<language id="english">
+		<!-- Shorter tooltips -->
+		<entry id="str_skill_tooltip_acc_base"><![CDATA[ACC: %.0f]]></entry>
+		<entry id="str_skill_tooltip_crit_mod"><![CDATA[CRIT: %+.0f%%]]></entry>
+		<entry id="str_skill_tooltip_dmg_mod"><![CDATA[DMG: %+.0f%%]]></entry>
+
+	    <entry id="effect_base_chance_format"><![CDATA[{colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>
+		
+		<!-- More colors -->
+	    <entry id="effect_tooltip_stress_heal_format"><![CDATA[{colour_start|stress}Heal{colour_end} %d Stress]]></entry>
+		<entry id="effect_tooltip_torch_format"><![CDATA[{colour_start|torch}Torch{colour_end} %+d]]></entry>
+		
+		<!-- Fix weird/confusing tooltips -->
+		<entry id="buff_stat_tooltip_combat_stat_add_crit_chance"><![CDATA[%+d%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_ignore_protection"><![CDATA[%d%% PROT Piercing]]></entry>
+		<entry id="buff_stat_tooltip_stress_dmg_percent"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end} Inflicted]]></entry>
+		<entry id="buff_stat_tooltip_stress_dmg_received_percent"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% DMG Received]]></entry>
+	</language>
+</root>

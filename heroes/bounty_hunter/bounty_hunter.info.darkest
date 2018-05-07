@@ -1,10 +1,10 @@
 resistances: .stun 30% .poison 30% .bleed 30% .disease 20% .move 30% .debuff 30% .death_blow 67% .trap 40%
 
-weapon: .name "bounty_hunter_weapon_0" .atk 0% .dmg 5 10 .crit 5% .spd 5
-weapon: .name "bounty_hunter_weapon_1" .atk 0% .dmg 6 12 .crit 5.5% .spd 5 .upgradeRequirementCode 0
-weapon: .name "bounty_hunter_weapon_2" .atk 0% .dmg 7 13 .crit 6% .spd 6 .upgradeRequirementCode 1
-weapon: .name "bounty_hunter_weapon_3" .atk 0% .dmg 7 15 .crit 6.5% .spd 6 .upgradeRequirementCode 2
-weapon: .name "bounty_hunter_weapon_4" .atk 0% .dmg 8 16 .crit 7% .spd 7 .upgradeRequirementCode 3
+weapon: .name "bounty_hunter_weapon_0" .atk 0% .dmg 5 10 .crit 2.5% .spd 5
+weapon: .name "bounty_hunter_weapon_1" .atk 0% .dmg 6 12 .crit 3% .spd 5 .upgradeRequirementCode 0
+weapon: .name "bounty_hunter_weapon_2" .atk 0% .dmg 7 13 .crit 3.5% .spd 6 .upgradeRequirementCode 1
+weapon: .name "bounty_hunter_weapon_3" .atk 0% .dmg 7 15 .crit 4% .spd 6 .upgradeRequirementCode 2
+weapon: .name "bounty_hunter_weapon_4" .atk 0% .dmg 8 16 .crit 4.5% .spd 7 .upgradeRequirementCode 3
 
 armour: .name "bounty_hunter_armour_0" .def 5% .prot 0 .hp 25 .spd 0
 armour: .name "bounty_hunter_armour_1" .def 10% .prot 0 .hp 30 .spd 0 .upgradeRequirementCode 0
