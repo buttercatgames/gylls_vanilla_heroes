@@ -20,11 +20,11 @@ combat_skill: .id "wicked_slice" .level 3 .type "melee" .atk 100% .dmg 0% .crit 
 combat_skill: .id "wicked_slice" .level 4 .type "melee" .atk 105% .dmg 0% .crit 7% .launch 21 .target 12 .is_crit_valid True .effect "GV_HWM_Dodge_Buff_5"
 
 // Open Vein
-combat_skill: .id "opened_vein" .level 0 .type "melee" .atk 85% .dmg -25% .crit 2% .launch 321 .target 12 .is_crit_valid True .effect "Bleed 1"
-combat_skill: .id "opened_vein" .level 1 .type "melee" .atk 90% .dmg -25% .crit 2% .launch 321 .target 12 .is_crit_valid True .effect "Bleed 2"
-combat_skill: .id "opened_vein" .level 2 .type "melee" .atk 95% .dmg -25% .crit 3% .launch 321 .target 12 .is_crit_valid True .effect "Bleed 3"
-combat_skill: .id "opened_vein" .level 3 .type "melee" .atk 100% .dmg -25% .crit 3% .launch 321 .target 12 .is_crit_valid True .effect "Bleed 4"
-combat_skill: .id "opened_vein" .level 4 .type "melee" .atk 105% .dmg -25% .crit 4% .launch 321 .target 12 .is_crit_valid True .effect "Bleed 5"
+combat_skill: .id "opened_vein" .level 0 .type "melee" .atk 85% .dmg -15% .crit 2% .launch 321 .target 12 .is_crit_valid True .effect "Bleed 1"
+combat_skill: .id "opened_vein" .level 1 .type "melee" .atk 90% .dmg -15% .crit 2% .launch 321 .target 12 .is_crit_valid True .effect "Bleed 2"
+combat_skill: .id "opened_vein" .level 2 .type "melee" .atk 95% .dmg -15% .crit 3% .launch 321 .target 12 .is_crit_valid True .effect "Bleed 3"
+combat_skill: .id "opened_vein" .level 3 .type "melee" .atk 100% .dmg -15% .crit 3% .launch 321 .target 12 .is_crit_valid True .effect "Bleed 4"
+combat_skill: .id "opened_vein" .level 4 .type "melee" .atk 105% .dmg -15% .crit 4% .launch 321 .target 12 .is_crit_valid True .effect "Bleed 5"
 
 // Point Blank Shot
 combat_skill: .id "point_blank_shot" .level 0 .type "ranged" .atk 95% .dmg 25% .crit 0% .move 1 0 .launch 1 .target 1 .is_crit_valid True .effect "Push 1A"

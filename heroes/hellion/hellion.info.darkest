@@ -41,11 +41,11 @@ combat_skill: .id "if_it_bleeds" .level 3 .type "melee" .atk 100% .dmg -35% .cri
 combat_skill: .id "if_it_bleeds" .level 4 .type "melee" .atk 105% .dmg -35% .crit 2% .launch 321 .target 23 .is_crit_valid True .effect "Bleed 5"
 
 // Breakthrough
-combat_skill: .id "breakthru" .level 0 .type "melee" .atk 85% .dmg -55% .crit 0% .move 0 2 .launch 432 .target ~123 .is_crit_valid True .effect "GV_Very_Weak_Bleed_1" "GV_Hellion_Exhaust"
-combat_skill: .id "breakthru" .level 1 .type "melee" .atk 90% .dmg -55% .crit 0% .move 0 2 .launch 432 .target ~123 .is_crit_valid True .effect "GV_Very_Weak_Bleed_2" "GV_Hellion_Exhaust"
-combat_skill: .id "breakthru" .level 2 .type "melee" .atk 95% .dmg -55% .crit 1% .move 0 2 .launch 432 .target ~123 .is_crit_valid True .effect "GV_Very_Weak_Bleed_3" "GV_Hellion_Exhaust"
-combat_skill: .id "breakthru" .level 3 .type "melee" .atk 100% .dmg -55% .crit 1% .move 0 2 .launch 432 .target ~123 .is_crit_valid True .effect "GV_Very_Weak_Bleed_4" "GV_Hellion_Exhaust"
-combat_skill: .id "breakthru" .level 4 .type "melee" .atk 105% .dmg -55% .crit 2% .move 0 2 .launch 432 .target ~123 .is_crit_valid True .effect "GV_Very_Weak_Bleed_5" "GV_Hellion_Exhaust"
+combat_skill: .id "breakthru" .level 0 .type "melee" .atk 85% .dmg -55% .crit 0% .move 0 2 .launch 4321 .target ~123 .is_crit_valid True .effect "GV_Very_Weak_Bleed_1" "GV_Hellion_Exhaust"
+combat_skill: .id "breakthru" .level 1 .type "melee" .atk 90% .dmg -55% .crit 0% .move 0 2 .launch 4321 .target ~123 .is_crit_valid True .effect "GV_Very_Weak_Bleed_2" "GV_Hellion_Exhaust"
+combat_skill: .id "breakthru" .level 2 .type "melee" .atk 95% .dmg -55% .crit 1% .move 0 2 .launch 4321 .target ~123 .is_crit_valid True .effect "GV_Very_Weak_Bleed_3" "GV_Hellion_Exhaust"
+combat_skill: .id "breakthru" .level 3 .type "melee" .atk 100% .dmg -55% .crit 1% .move 0 2 .launch 4321 .target ~123 .is_crit_valid True .effect "GV_Very_Weak_Bleed_4" "GV_Hellion_Exhaust"
+combat_skill: .id "breakthru" .level 4 .type "melee" .atk 105% .dmg -55% .crit 2% .move 0 2 .launch 4321 .target ~123 .is_crit_valid True .effect "GV_Very_Weak_Bleed_5" "GV_Hellion_Exhaust"
 
 // Adrenaline Rush
 combat_skill: .id "adrenaline_rush" .level 0 .launch 4321 .target .is_crit_valid True .effect "GV_Hellion_Adrenaline_1" "GV_Hellion_Heal_1"

@@ -371,7 +371,7 @@ effect: .name "GV_HWM_Riposte_5" .target "performer" .chance 100% .riposte 1 .ri
 effect: .name "GV_HWM_Riposte_Bleed" .target "target" .chance 140% .dotBleed 1 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
 
 // Cold Blood
-effect: .name "GV_HWM_Bleed_Killer" .target "performer" .chance 100% .keyStatus "bleeding" .combat_stat_buff 1 .damage_low_multiply 75% .damage_high_multiply 75% .on_hit true .on_miss false
+effect: .name "GV_HWM_Bleed_Killer" .target "performer" .chance 100% .keyStatus "bleeding" .combat_stat_buff 1 .damage_low_multiply 100% .damage_high_multiply 100% .on_hit true .on_miss false
 
 effect: .name "GV_HWM_Mark_Killer_1" .target "performer" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .crit_chance_add 15% .on_hit true .on_miss false
 effect: .name "GV_HWM_Mark_Killer_2" .target "performer" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .crit_chance_add 16% .on_hit true .on_miss false

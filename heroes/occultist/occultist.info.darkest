@@ -41,11 +41,11 @@ combat_skill: .id "wyrd_reconstruction" .level 3 .heal 0 19 .launch 43 .target @
 combat_skill: .id "wyrd_reconstruction" .level 4 .heal 0 21 .launch 43 .target @4321 .effect "GV_Occ_Bleed_5"
 
 // Vulnerability Hex
-combat_skill: .id "disruptive_curse" .level 0 .type "ranged" .atk 100% .dmg -90% .crit 0% .launch 432 .target 1234 .is_crit_valid True .effect "Occ Vulnerability Curse 1" "Mark Target"
-combat_skill: .id "disruptive_curse" .level 1 .type "ranged" .atk 105% .dmg -90% .crit 0% .launch 432 .target 1234 .is_crit_valid True .effect "Occ Vulnerability Curse 2" "Mark Target"
-combat_skill: .id "disruptive_curse" .level 2 .type "ranged" .atk 110% .dmg -90% .crit 1% .launch 432 .target 1234 .is_crit_valid True .effect "Occ Vulnerability Curse 3" "Mark Target"
-combat_skill: .id "disruptive_curse" .level 3 .type "ranged" .atk 115% .dmg -90% .crit 1% .launch 432 .target 1234 .is_crit_valid True .effect "Occ Vulnerability Curse 4" "Mark Target"
-combat_skill: .id "disruptive_curse" .level 4 .type "ranged" .atk 120% .dmg -90% .crit 2% .launch 432 .target 1234 .is_crit_valid True .effect "Occ Vulnerability Curse 5" "Mark Target"
+combat_skill: .id "disruptive_curse" .level 0 .type "ranged" .atk 100% .dmg -90% .crit 0% .launch 432 .target 1234 .ignore_stealth true .is_crit_valid True .effect "Occ Vulnerability Curse 1" "Mark Target" "Destealth"
+combat_skill: .id "disruptive_curse" .level 1 .type "ranged" .atk 105% .dmg -90% .crit 0% .launch 432 .target 1234 .ignore_stealth true .is_crit_valid True .effect "Occ Vulnerability Curse 2" "Mark Target" "Destealth"
+combat_skill: .id "disruptive_curse" .level 2 .type "ranged" .atk 110% .dmg -90% .crit 1% .launch 432 .target 1234 .ignore_stealth true .is_crit_valid True .effect "Occ Vulnerability Curse 3" "Mark Target" "Destealth"
+combat_skill: .id "disruptive_curse" .level 3 .type "ranged" .atk 115% .dmg -90% .crit 1% .launch 432 .target 1234 .ignore_stealth true .is_crit_valid True .effect "Occ Vulnerability Curse 4" "Mark Target" "Destealth"
+combat_skill: .id "disruptive_curse" .level 4 .type "ranged" .atk 120% .dmg -90% .crit 2% .launch 432 .target 1234 .ignore_stealth true .is_crit_valid True .effect "Occ Vulnerability Curse 5" "Mark Target" "Destealth"
 
 // Hands from the Abyss
 combat_skill: .id "hands_from_abyss" .level 0 .type "ranged" .atk 90% .dmg -50% .crit 6% .launch 12 .target 123 .is_crit_valid True .effect "Stun 1" "GV_Occ_Dmg_Buff_1" "GV_Occ_Stress_Others"
