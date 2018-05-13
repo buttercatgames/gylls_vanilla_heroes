@@ -1,4 +1,4 @@
-resistances: .stun 20% .poison 30% .bleed 30% .disease 30% .move 20% .debuff 30% .death_blow 67% .trap 10%
+resistances: .stun 30% .poison 30% .bleed 30% .disease 30% .move 30% .debuff 30% .death_blow 67% .trap 10%
 
 weapon: .name "vestal_weapon_0" .atk 0% .dmg 4 7 .crit 2.5% .spd 4
 weapon: .name "vestal_weapon_1" .atk 0% .dmg 5 9 .crit 3% .spd 4 .upgradeRequirementCode 0
@@ -13,11 +13,11 @@ armour: .name "vestal_armour_3" .def 15% .prot 0 .hp 39 .spd 0 .upgradeRequireme
 armour: .name "vestal_armour_4" .def 20% .prot 0 .hp 44 .spd 0 .upgradeRequirementCode 3
 
 // Judgement
-combat_skill: .id "judgement" .level 0 .type "ranged" .atk 95% .dmg 0% .crit 5% .launch 43 .target 1234 .is_crit_valid True .effect "GV_Pierce_Armor_1"
-combat_skill: .id "judgement" .level 1 .type "ranged" .atk 100% .dmg 0% .crit 5% .launch 43 .target 1234 .is_crit_valid True .effect "GV_Pierce_Armor_2"
-combat_skill: .id "judgement" .level 2 .type "ranged" .atk 105% .dmg 0% .crit 6% .launch 43 .target 1234 .is_crit_valid True .effect "GV_Pierce_Armor_3"
-combat_skill: .id "judgement" .level 3 .type "ranged" .atk 110% .dmg 0% .crit 6% .launch 43 .target 1234 .is_crit_valid True .effect "GV_Pierce_Armor_4"
-combat_skill: .id "judgement" .level 4 .type "ranged" .atk 115% .dmg 0% .crit 7% .launch 43 .target 1234 .is_crit_valid True .effect "GV_Pierce_Armor_5"
+combat_skill: .id "judgement" .level 0 .type "ranged" .atk 95% .dmg 0% .crit 5% .launch 43 .target 1234 .is_crit_valid True .effect "GV_Vestal_Pierce_Armor_1"
+combat_skill: .id "judgement" .level 1 .type "ranged" .atk 100% .dmg 0% .crit 5% .launch 43 .target 1234 .is_crit_valid True .effect "GV_Vestal_Pierce_Armor_2"
+combat_skill: .id "judgement" .level 2 .type "ranged" .atk 105% .dmg 0% .crit 6% .launch 43 .target 1234 .is_crit_valid True .effect "GV_Vestal_Pierce_Armor_3"
+combat_skill: .id "judgement" .level 3 .type "ranged" .atk 110% .dmg 0% .crit 6% .launch 43 .target 1234 .is_crit_valid True .effect "GV_Vestal_Pierce_Armor_4"
+combat_skill: .id "judgement" .level 4 .type "ranged" .atk 115% .dmg 0% .crit 7% .launch 43 .target 1234 .is_crit_valid True .effect "GV_Vestal_Pierce_Armor_5"
 
 // Dazzling Light
 combat_skill: .id "dazzling_light" .level 0 .type "ranged" .atk 90% .dmg -75% .crit 0% .launch 43 .target 123 .is_crit_valid True .effect "Stun 1" "Vestal Light 1"

@@ -20,11 +20,11 @@ combat_skill: .id "transform" .level 3 .launch 4321 .target .is_crit_valid True 
 combat_skill: .id "transform" .level 4 .launch 4321 .target .is_crit_valid True .valid_modes human beast .human_effects "GV_Abom_XF_To_Beast" "GV_Abom_XF_Buff_5" "GV_Abom_XF_Stress" .beast_effects "GV_Abom_XF_To_Human" "GV_Abom_XF_Debuff" "GV_Abom_XF_Stress_Heal_3" .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2
 
 // Manacles
-combat_skill: .id "manacles" .level 0 .type "ranged" .atk 95% .dmg -60% .crit 0% .launch 32 .target 123 .is_crit_valid True .effect "Stun 1" .valid_modes human
-combat_skill: .id "manacles" .level 1 .type "ranged" .atk 100% .dmg -60% .crit 0% .launch 32 .target 123 .is_crit_valid True .effect "Stun 2" .valid_modes human
-combat_skill: .id "manacles" .level 2 .type "ranged" .atk 105% .dmg -60% .crit 1% .launch 32 .target 123 .is_crit_valid True .effect "Stun 3" .valid_modes human
-combat_skill: .id "manacles" .level 3 .type "ranged" .atk 110% .dmg -60% .crit 1% .launch 32 .target 123 .is_crit_valid True .effect "Stun 4" .valid_modes human
-combat_skill: .id "manacles" .level 4 .type "ranged" .atk 115% .dmg -60% .crit 2% .launch 32 .target 123 .is_crit_valid True .effect "Stun 5" .valid_modes human
+combat_skill: .id "manacles" .level 0 .type "ranged" .atk 90% .dmg -60% .crit 0% .launch 32 .target 123 .is_crit_valid True .effect "Stun 1" .valid_modes human
+combat_skill: .id "manacles" .level 1 .type "ranged" .atk 95% .dmg -60% .crit 0% .launch 32 .target 123 .is_crit_valid True .effect "Stun 2" .valid_modes human
+combat_skill: .id "manacles" .level 2 .type "ranged" .atk 100% .dmg -60% .crit 1% .launch 32 .target 123 .is_crit_valid True .effect "Stun 3" .valid_modes human
+combat_skill: .id "manacles" .level 3 .type "ranged" .atk 105% .dmg -60% .crit 1% .launch 32 .target 123 .is_crit_valid True .effect "Stun 4" .valid_modes human
+combat_skill: .id "manacles" .level 4 .type "ranged" .atk 110% .dmg -60% .crit 2% .launch 32 .target 123 .is_crit_valid True .effect "Stun 5" .valid_modes human
 
 // Beast's Bile
 combat_skill: .id "vomit" .level 0 .type "ranged" .atk 95% .dmg -90% .crit 0% .launch 32 .target ~23 .is_crit_valid True .effect "Strong Blight 1" "Destealth" .valid_modes human

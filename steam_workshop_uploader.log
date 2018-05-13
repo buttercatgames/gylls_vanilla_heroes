@@ -50,7 +50,6 @@ heroes/antiquarian/antiquarian.art.darkest
 heroes/antiquarian/antiquarian.info.darkest
 heroes/arbalest/arbalest.art.darkest
 heroes/arbalest/arbalest.info.darkest
-heroes/bounty_hunter/bounty_hunter.ability.hook.png
 heroes/bounty_hunter/bounty_hunter.art.darkest
 heroes/bounty_hunter/bounty_hunter.info.darkest
 heroes/crusader/crusader.ability.cleave.png
@@ -64,7 +63,6 @@ heroes/grave_robber/grave_robber.ability.zone.png
 heroes/grave_robber/grave_robber.art.darkest
 heroes/grave_robber/grave_robber.info.darkest
 heroes/hellion/hellion.ability.breakthru.png
-heroes/hellion/hellion.ability.hack.png
 heroes/hellion/hellion.art.darkest
 heroes/hellion/hellion.info.darkest
 heroes/highwayman/highwayman.ability.coldblood.png
@@ -73,7 +71,6 @@ heroes/highwayman/highwayman.ability.slice.png
 heroes/highwayman/highwayman.art.darkest
 heroes/highwayman/highwayman.info.darkest
 heroes/houndmaster/houndmaster.ability.lick.png
-heroes/houndmaster/houndmaster.ability.rush.png
 heroes/houndmaster/houndmaster.art.darkest
 heroes/houndmaster/houndmaster.info.darkest
 heroes/jester/jester.ability.finale.png
@@ -87,7 +84,6 @@ heroes/leper/leper.art.darkest
 heroes/leper/leper.info.darkest
 heroes/man_at_arms/man_at_arms.ability.crush.png
 heroes/man_at_arms/man_at_arms.ability.rangedstun.png
-heroes/man_at_arms/man_at_arms.ability.stun.png
 heroes/man_at_arms/man_at_arms.art.darkest
 heroes/man_at_arms/man_at_arms.info.darkest
 heroes/occultist/occultist.art.darkest
@@ -106,6 +102,8 @@ audio/gv_heroes.campaign.guid_overrides.json
 audio/gv_heroes.campaign.load_order.json
 colours/gv_heroes.colours.darkest
 effects/gv_heroes.effects.darkest
+fx/antiq_blue.sprite.png
+fx/antiq_orange.sprite.png
 inventory/gv_heroes.inventory.extra_stack_limits.darkest
 inventory/gv_heroes.supply.inventory.items.darkest
 localization/1354446999_brazilian.loc
@@ -126,6 +124,6 @@ loot/gv_heroes.loot.json
 preview_icon.png
 project.xml
 
-Submitting...........................................................................................Submitted.
+Submitting........................................................................................Submitted.
 Saving project file C:\Program Files (x86)\Darkest Dungeon\mods\gylls_vanilla_heroes\project.xml
 

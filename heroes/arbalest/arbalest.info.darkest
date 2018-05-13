@@ -20,11 +20,11 @@ combat_skill: .id "sniper_shot" .level 3 .type "ranged" .atk 110% .dmg 0% .crit 
 combat_skill: .id "sniper_shot" .level 4 .type "ranged" .atk 115% .dmg 0% .crit 7% .launch 43 .target 234 .is_crit_valid True .effect "GV_Arb_Sniper_Buffs_5"
 
 // Suppressing Fire
-combat_skill: .id "suppressing_fire" .level 0 .type "ranged" .atk 90% .dmg -80% .crit 0% .launch 43 .target ~34 .is_crit_valid True .effect "GV_Arb_Suppression_Debuff_1"
-combat_skill: .id "suppressing_fire" .level 1 .type "ranged" .atk 95% .dmg -80% .crit 0% .launch 43 .target ~34 .is_crit_valid True .effect "GV_Arb_Suppression_Debuff_2"
-combat_skill: .id "suppressing_fire" .level 2 .type "ranged" .atk 100% .dmg -80% .crit 1% .launch 43 .target ~34 .is_crit_valid True .effect "GV_Arb_Suppression_Debuff_3"
-combat_skill: .id "suppressing_fire" .level 3 .type "ranged" .atk 105% .dmg -80% .crit 1% .launch 43 .target ~34 .is_crit_valid True .effect "GV_Arb_Suppression_Debuff_4"
-combat_skill: .id "suppressing_fire" .level 4 .type "ranged" .atk 110% .dmg -80% .crit 2% .launch 43 .target ~34 .is_crit_valid True .effect "GV_Arb_Suppression_Debuff_5"
+combat_skill: .id "suppressing_fire" .level 0 .type "ranged" .atk 90% .dmg -75% .crit 0% .launch 43 .target ~34 .is_crit_valid True .effect "GV_Arb_Suppression_Debuff_1"
+combat_skill: .id "suppressing_fire" .level 1 .type "ranged" .atk 95% .dmg -75% .crit 0% .launch 43 .target ~34 .is_crit_valid True .effect "GV_Arb_Suppression_Debuff_2"
+combat_skill: .id "suppressing_fire" .level 2 .type "ranged" .atk 100% .dmg -75% .crit 1% .launch 43 .target ~34 .is_crit_valid True .effect "GV_Arb_Suppression_Debuff_3"
+combat_skill: .id "suppressing_fire" .level 3 .type "ranged" .atk 105% .dmg -75% .crit 1% .launch 43 .target ~34 .is_crit_valid True .effect "GV_Arb_Suppression_Debuff_4"
+combat_skill: .id "suppressing_fire" .level 4 .type "ranged" .atk 110% .dmg -75% .crit 2% .launch 43 .target ~34 .is_crit_valid True .effect "GV_Arb_Suppression_Debuff_5"
 
 // Sniper's Mark
 combat_skill: .id "sniper_mark" .level 0 .type "ranged" .atk 100% .dmg -100% .crit 0% .launch 43 .target 1234 .is_crit_valid False .effect "GV_Mark_Target_3" "GV_Arb_Mark_Debuff_1"
@@ -41,11 +41,11 @@ combat_skill: .id "bola" .level 3 .type "ranged" .atk 110% .dmg -75% .crit 1% .l
 combat_skill: .id "bola" .level 4 .type "ranged" .atk 115% .dmg -75% .crit 2% .launch 43 .target ~12 .is_crit_valid True .effect "GV_Arb_Bola_Push_5" "GV_Arb_Bola_Debuff_3"
 
 // Blindfire
-combat_skill: .id "blindfire" .level 0 .type "ranged" .atk 80% .dmg -10% .crit 2% .launch 4321 .target ?1234 .is_crit_valid True .effect "Arb Self Speed 1"
-combat_skill: .id "blindfire" .level 1 .type "ranged" .atk 85% .dmg -10% .crit 2% .launch 4321 .target ?1234 .is_crit_valid True .effect "Arb Self Speed 2"
-combat_skill: .id "blindfire" .level 2 .type "ranged" .atk 90% .dmg -10% .crit 3% .launch 4321 .target ?1234 .is_crit_valid True .effect "Arb Self Speed 3"
-combat_skill: .id "blindfire" .level 3 .type "ranged" .atk 95% .dmg -10% .crit 3% .launch 4321 .target ?1234 .is_crit_valid True .effect "Arb Self Speed 4"
-combat_skill: .id "blindfire" .level 4 .type "ranged" .atk 100% .dmg -10% .crit 4% .launch 4321 .target ?1234 .is_crit_valid True .effect "Arb Self Speed 5"
+combat_skill: .id "blindfire" .level 0 .type "ranged" .atk 80% .dmg -10% .crit 2% .launch 4321 .target ?1234 .is_crit_valid True .effect "GV_Arb_Self_Speed_1"
+combat_skill: .id "blindfire" .level 1 .type "ranged" .atk 85% .dmg -10% .crit 2% .launch 4321 .target ?1234 .is_crit_valid True .effect "GV_Arb_Self_Speed_2"
+combat_skill: .id "blindfire" .level 2 .type "ranged" .atk 90% .dmg -10% .crit 3% .launch 4321 .target ?1234 .is_crit_valid True .effect "GV_Arb_Self_Speed_3"
+combat_skill: .id "blindfire" .level 3 .type "ranged" .atk 95% .dmg -10% .crit 3% .launch 4321 .target ?1234 .is_crit_valid True .effect "GV_Arb_Self_Speed_4"
+combat_skill: .id "blindfire" .level 4 .type "ranged" .atk 100% .dmg -10% .crit 4% .launch 4321 .target ?1234 .is_crit_valid True .effect "GV_Arb_Self_Speed_5"
 
 // Battlefield Bandage
 combat_skill: .id "battlefield_bandage" .level 0 .heal 2 3 .launch 43 .target @1234 .effect "GV_Cure_Bleed" "GV_Stacking_Heal_1"

@@ -13,11 +13,11 @@ armour: .name "grave_robber_armour_3" .def 25% .prot 0 .hp 32 .spd 0 .upgradeReq
 armour: .name "grave_robber_armour_4" .def 30% .prot 0 .hp 36 .spd 0 .upgradeRequirementCode 3
 
 // Chip Away
-combat_skill: .id "pick" .level 0 .type "melee" .atk 90% .dmg 0% .crit 2% .launch 21 .target 12 .is_crit_valid True .effect "GV_Pierce_Armor_1" "GV_GR_Chip_Armor_1"
-combat_skill: .id "pick" .level 1 .type "melee" .atk 95% .dmg 0% .crit 2% .launch 21 .target 12 .is_crit_valid True .effect "GV_Pierce_Armor_2" "GV_GR_Chip_Armor_2"
-combat_skill: .id "pick" .level 2 .type "melee" .atk 100% .dmg 0% .crit 3% .launch 21 .target 12 .is_crit_valid True .effect "GV_Pierce_Armor_3" "GV_GR_Chip_Armor_3"
-combat_skill: .id "pick" .level 3 .type "melee" .atk 105% .dmg 0% .crit 3% .launch 21 .target 12 .is_crit_valid True .effect "GV_Pierce_Armor_4" "GV_GR_Chip_Armor_4"
-combat_skill: .id "pick" .level 4 .type "melee" .atk 110% .dmg 0% .crit 4% .launch 21 .target 12 .is_crit_valid True .effect "GV_Pierce_Armor_5" "GV_GR_Chip_Armor_5"
+combat_skill: .id "pick" .level 0 .type "melee" .atk 90% .dmg 0% .crit 2% .launch 21 .target 12 .is_crit_valid True .effect "GV_GR_Chip_Armor_1"
+combat_skill: .id "pick" .level 1 .type "melee" .atk 95% .dmg 0% .crit 2% .launch 21 .target 12 .is_crit_valid True .effect "GV_GR_Chip_Armor_2"
+combat_skill: .id "pick" .level 2 .type "melee" .atk 100% .dmg 0% .crit 3% .launch 21 .target 12 .is_crit_valid True .effect "GV_GR_Chip_Armor_3"
+combat_skill: .id "pick" .level 3 .type "melee" .atk 105% .dmg 0% .crit 3% .launch 21 .target 12 .is_crit_valid True .effect "GV_GR_Chip_Armor_4"
+combat_skill: .id "pick" .level 4 .type "melee" .atk 110% .dmg 0% .crit 4% .launch 21 .target 12 .is_crit_valid True .effect "GV_GR_Chip_Armor_5"
 
 // Lunge
 combat_skill: .id "lunge" .level 0 .type "melee" .atk 95% .dmg 40% .crit 5% .move 0 2 .launch 43 .target 123 .is_crit_valid True
