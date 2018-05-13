@@ -69,7 +69,7 @@ heroes/vestal/vestal.ability.chastise.png 11603
 heroes/vestal/vestal.ability.hand.png 10585
 heroes/vestal/vestal.art.darkest 1923
 heroes/vestal/vestal.info.darkest 7115
-raid/camping/default.camping_skills.json 62105
+raid/camping/default.camping_skills.json 62156
 shared/buffs/gv_heroes.buffs.json 106209
 audio/gv_heroes.campaign.guid_overrides.json 3723
 audio/gv_heroes.campaign.load_order.json 79

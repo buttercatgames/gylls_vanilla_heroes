@@ -23,7 +23,7 @@
 					"amount" :  15
 				}							
 			],
-			"hero_classes" : ["bounty_hunter", "crusader", "vestal", "occultist", "hellion", "grave_robber", "highwayman", "plague_doctor", "jester", "leper", "arbalest", "man_at_arms", "houndmaster", "abomination", "antiquarian", "musketeer" ],
+			"hero_classes" : ["shieldbreaker", "bounty_hunter", "crusader", "vestal", "occultist", "hellion", "grave_robber", "highwayman", "plague_doctor", "jester", "leper", "arbalest", "man_at_arms", "houndmaster", "abomination", "antiquarian", "musketeer" ],
 			"upgrade_requirements" :  	
 			[
 				{
@@ -72,7 +72,7 @@
 					"amount" :  0
 				}
 			],
-			"hero_classes" : ["bounty_hunter", "crusader", "vestal", "occultist", "hellion", "grave_robber", "highwayman", "plague_doctor", "jester", "leper", "arbalest", "man_at_arms", "houndmaster", "abomination", "antiquarian", "musketeer" ],
+			"hero_classes" : ["shieldbreaker", "bounty_hunter", "crusader", "vestal", "occultist", "hellion", "grave_robber", "highwayman", "plague_doctor", "jester", "leper", "arbalest", "man_at_arms", "houndmaster", "abomination", "antiquarian", "musketeer" ],
 			"upgrade_requirements" :  	
 			[
 				{
@@ -105,7 +105,7 @@
 					"amount" :  -0.15
 				}
 			],
-			"hero_classes" : ["bounty_hunter", "crusader", "vestal", "occultist", "hellion", "grave_robber", "highwayman", "plague_doctor", "jester", "leper", "arbalest", "man_at_arms", "houndmaster", "abomination", "antiquarian", "musketeer" ],
+			"hero_classes" : ["shieldbreaker", "bounty_hunter", "crusader", "vestal", "occultist", "hellion", "grave_robber", "highwayman", "plague_doctor", "jester", "leper", "arbalest", "man_at_arms", "houndmaster", "abomination", "antiquarian", "musketeer" ],
 			"upgrade_requirements" :  	
 			[
 				{
