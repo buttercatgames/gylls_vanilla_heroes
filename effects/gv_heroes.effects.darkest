@@ -102,10 +102,10 @@ effect: .name "GV_Antiq_Super_Blight_4" .target "target_group" .chance 30% .dotP
 effect: .name "GV_Antiq_Super_Blight_5" .target "target_group" .chance 40% .dotPoison 3 .duration 3 .on_hit true .on_miss true .can_apply_on_death true
 
 // Flashpowder
-effect: .name "GV_Antiq_Distract_1" .target "target" .chance 100% .combat_stat_buff 1 .attack_rating_add -20% .duration 2 .on_hit true .on_miss false .queue true
-effect: .name "GV_Antiq_Distract_2" .target "target" .chance 110% .combat_stat_buff 1 .attack_rating_add -25% .duration 2 .on_hit true .on_miss false .queue true
-effect: .name "GV_Antiq_Distract_3" .target "target" .chance 120% .combat_stat_buff 1 .attack_rating_add -30% .duration 2 .on_hit true .on_miss false .queue true
-effect: .name "GV_Antiq_Distract_4" .target "target" .chance 130% .combat_stat_buff 1 .attack_rating_add -35% .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "GV_Antiq_Distract_1" .target "target" .chance 100% .combat_stat_buff 1 .attack_rating_add -30% .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "GV_Antiq_Distract_2" .target "target" .chance 110% .combat_stat_buff 1 .attack_rating_add -32% .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "GV_Antiq_Distract_3" .target "target" .chance 120% .combat_stat_buff 1 .attack_rating_add -35% .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "GV_Antiq_Distract_4" .target "target" .chance 130% .combat_stat_buff 1 .attack_rating_add -37% .duration 2 .on_hit true .on_miss false .queue true
 effect: .name "GV_Antiq_Distract_5" .target "target" .chance 140% .combat_stat_buff 1 .attack_rating_add -40% .duration 2 .on_hit true .on_miss false .queue true
 
 effect: .name "GV_Antiq_Push_1" .target "target" .push 1 .chance 100% .on_hit true .on_miss false .can_apply_on_death true
@@ -140,10 +140,10 @@ effect: .name "GV_Arb_Sniper_Buffs_4" .target "performer" .chance 100% .keyStatu
 effect: .name "GV_Arb_Sniper_Buffs_5" .target "performer" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 100% .damage_high_multiply 100% .crit_chance_add 10% .on_hit true .on_miss false
 
 // Suppressing Fire
-effect: .name "GV_Arb_Suppression_Debuff_1" .target "target" .chance 110% .combat_stat_buff 1 .attack_rating_add -20% .crit_chance_add -4% .duration 2 .on_hit true .on_miss false
-effect: .name "GV_Arb_Suppression_Debuff_2" .target "target" .chance 120% .combat_stat_buff 1 .attack_rating_add -25% .crit_chance_add -5% .duration 2 .on_hit true .on_miss false
-effect: .name "GV_Arb_Suppression_Debuff_3" .target "target" .chance 130% .combat_stat_buff 1 .attack_rating_add -30% .crit_chance_add -6% .duration 2 .on_hit true .on_miss false
-effect: .name "GV_Arb_Suppression_Debuff_4" .target "target" .chance 140% .combat_stat_buff 1 .attack_rating_add -35% .crit_chance_add -7% .duration 2 .on_hit true .on_miss false
+effect: .name "GV_Arb_Suppression_Debuff_1" .target "target" .chance 110% .combat_stat_buff 1 .attack_rating_add -30% .crit_chance_add -4% .duration 2 .on_hit true .on_miss false
+effect: .name "GV_Arb_Suppression_Debuff_2" .target "target" .chance 120% .combat_stat_buff 1 .attack_rating_add -32% .crit_chance_add -5% .duration 2 .on_hit true .on_miss false
+effect: .name "GV_Arb_Suppression_Debuff_3" .target "target" .chance 130% .combat_stat_buff 1 .attack_rating_add -35% .crit_chance_add -6% .duration 2 .on_hit true .on_miss false
+effect: .name "GV_Arb_Suppression_Debuff_4" .target "target" .chance 140% .combat_stat_buff 1 .attack_rating_add -37% .crit_chance_add -7% .duration 2 .on_hit true .on_miss false
 effect: .name "GV_Arb_Suppression_Debuff_5" .target "target" .chance 150% .combat_stat_buff 1 .attack_rating_add -40% .crit_chance_add -8% .duration 2 .on_hit true .on_miss false
 
 // Sniper's Mark
@@ -196,11 +196,11 @@ effect: .name "GV_Arb_Flare_Light" .target "global" .chance 100% .torch_increase
 effect: .name "GV_BH_Dmg_Marked" .target "performer" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 75% .damage_high_multiply 75%	.on_hit true .on_miss false
 
 // Mark for Death
-effect: .name "GV_BH_Mark_Target_1" .target "target" .chance 100% .tag 1 .combat_stat_buff 1 .protection_rating_add -20% .duration 3	.on_hit true .on_miss true .queue true
-effect: .name "GV_BH_Mark_Target_2" .target "target" .chance 100% .tag 1 .combat_stat_buff 1 .protection_rating_add -22% .duration 3	.on_hit true .on_miss true .queue true
-effect: .name "GV_BH_Mark_Target_3" .target "target" .chance 100% .tag 1 .combat_stat_buff 1 .protection_rating_add -25% .duration 3	.on_hit true .on_miss true .queue true
-effect: .name "GV_BH_Mark_Target_4" .target "target" .chance 100% .tag 1 .combat_stat_buff 1 .protection_rating_add -27% .duration 3	.on_hit true .on_miss true .queue true
-effect: .name "GV_BH_Mark_Target_5" .target "target" .chance 100% .tag 1 .combat_stat_buff 1 .protection_rating_add -30% .duration 3	.on_hit true .on_miss true .queue true
+effect: .name "GV_BH_Mark_Target_1" .target "target" .chance 100% .tag 1 .combat_stat_buff 1 .protection_rating_add -20% .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "GV_BH_Mark_Target_2" .target "target" .chance 100% .tag 1 .combat_stat_buff 1 .protection_rating_add -22% .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "GV_BH_Mark_Target_3" .target "target" .chance 100% .tag 1 .combat_stat_buff 1 .protection_rating_add -25% .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "GV_BH_Mark_Target_4" .target "target" .chance 100% .tag 1 .combat_stat_buff 1 .protection_rating_add -27% .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "GV_BH_Mark_Target_5" .target "target" .chance 100% .tag 1 .combat_stat_buff 1 .protection_rating_add -30% .duration 3 .on_hit true .on_miss true .queue true
 
 // Come Hither
 
@@ -301,7 +301,11 @@ effect: .name "GV_GR_Pierce_Armor_5" .target "performer" .chance 100% .skill_ins
 
 
 // In the Zone
-effect: .name "GV_GR_Riposte" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 0% .duration 1 .on_hit true .on_miss true .damage_low_multiply 0% .damage_high_multiply 0% .crit_chance_add 0% .has_description false
+effect: .name "GV_GR_Riposte_1" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 0% .duration 1 .on_hit true .on_miss true .attack_rating_add -20% .damage_low_multiply 0% .damage_high_multiply 0% .crit_chance_add 0% .has_description false
+effect: .name "GV_GR_Riposte_2" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 0% .duration 1 .on_hit true .on_miss true .attack_rating_add -15% .damage_low_multiply 0% .damage_high_multiply 0% .crit_chance_add 0% .has_description false
+effect: .name "GV_GR_Riposte_3" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 0% .duration 1 .on_hit true .on_miss true .attack_rating_add -10% .damage_low_multiply 0% .damage_high_multiply 0% .crit_chance_add 0% .has_description false
+effect: .name "GV_GR_Riposte_4" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 0% .duration 1 .on_hit true .on_miss true .attack_rating_add -5% .damage_low_multiply 0% .damage_high_multiply 0% .crit_chance_add 0% .has_description false
+effect: .name "GV_GR_Riposte_5" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 0% .duration 1 .on_hit true .on_miss true .damage_low_multiply 0% .damage_high_multiply 0% .crit_chance_add 0% .has_description false
 
 effect: .name "GV_GR_Stun_Self" .target "performer" .chance 500% .stun 1 .on_hit true .on_miss true .queue true
 
@@ -372,10 +376,10 @@ effect: .name "GV_HWM_Dodge_Buff_5" .target "performer" .chance 100% .combat_sta
 
 
 // Duelist's Advance
-effect: .name "GV_HWM_Riposte_1" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 0% .riposte_on_miss_chance_add 100% .damage_low_multiply -20% .damage_high_multiply -20% .crit_chance_add 0% .duration 2 .on_hit true .on_miss true .has_description false
-effect: .name "GV_HWM_Riposte_2" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 0% .riposte_on_miss_chance_add 100% .damage_low_multiply -15% .damage_high_multiply -15% .crit_chance_add 0% .duration 2 .on_hit true .on_miss true .has_description false
-effect: .name "GV_HWM_Riposte_3" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 0% .riposte_on_miss_chance_add 100% .damage_low_multiply -10% .damage_high_multiply -10% .crit_chance_add 0% .duration 2 .on_hit true .on_miss true .has_description false
-effect: .name "GV_HWM_Riposte_4" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 0% .riposte_on_miss_chance_add 100% .damage_low_multiply -5% .damage_high_multiply -5% .crit_chance_add 1% .duration 2 .on_hit true .on_miss true .has_description false
+effect: .name "GV_HWM_Riposte_1" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -20% .damage_low_multiply -20% .damage_high_multiply -20% .crit_chance_add 0% .duration 2 .on_hit true .on_miss true .has_description false
+effect: .name "GV_HWM_Riposte_2" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 0% .riposte_on_miss_chance_add 100% .attack_rating_add -15% .damage_low_multiply -15% .damage_high_multiply -15% .crit_chance_add 0% .duration 2 .on_hit true .on_miss true .has_description false
+effect: .name "GV_HWM_Riposte_3" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 0% .riposte_on_miss_chance_add 100% .attack_rating_add -10% .damage_low_multiply -10% .damage_high_multiply -10% .crit_chance_add 0% .duration 2 .on_hit true .on_miss true .has_description false
+effect: .name "GV_HWM_Riposte_4" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 0% .riposte_on_miss_chance_add 100% .attack_rating_add -5% .damage_low_multiply -5% .damage_high_multiply -5% .crit_chance_add 1% .duration 2 .on_hit true .on_miss true .has_description false
 effect: .name "GV_HWM_Riposte_5" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 0% .riposte_on_miss_chance_add 100% .damage_low_multiply 0% .damage_high_multiply 0% .crit_chance_add 2% .duration 2 .on_hit true .on_miss true .has_description false
 
 effect: .name "GV_HWM_Riposte_Bleed" .target "target" .chance 140% .dotBleed 1 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
@@ -392,7 +396,7 @@ effect: .name "GV_HWM_Mark_Killer_5" .target "performer" .chance 100% .keyStatus
 effect: .name "DNG_HWM_Untag_Target" .target "target" .chance 100% .untag 1	.on_hit true .on_miss false .has_description false .queue true
 
 // Gut Shot
-effect: .name "GV_HWM_Exhaust" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add -10% .speed_rating_add -5 .duration 1 .buff_duration_type combat_end .apply_once true .on_hit true .on_miss true
+effect: .name "GV_HWM_Exhaust" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add -10% .speed_rating_add -5 .duration 1 .buff_duration_type combat_end .apply_once true .on_hit true .on_miss true .queue true
 
 // Duelist's Advance
 
@@ -605,10 +609,10 @@ effect: .name "GV_MAA_Defender_4" .target "performer" .chance 100% .combat_stat_
 effect: .name "GV_MAA_Defender_5" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 35% .duration 2 .on_hit true .on_miss true .queue true
 
 // Retribution
-effect: .name "GV_MAA_Riposte_1"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true .damage_low_multiply -40% .damage_high_multiply -40% .crit_chance_add 0% .has_description false
-effect: .name "GV_MAA_Riposte_2"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true .damage_low_multiply -35% .damage_high_multiply -35% .crit_chance_add 0%  .has_description false
-effect: .name "GV_MAA_Riposte_3"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true .damage_low_multiply -30% .damage_high_multiply -30% .crit_chance_add 1%  .has_description false
-effect: .name "GV_MAA_Riposte_4"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true .damage_low_multiply -25% .damage_high_multiply -25% .crit_chance_add 1%  .has_description false
+effect: .name "GV_MAA_Riposte_1"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true .attack_rating_add -20% .damage_low_multiply -40% .damage_high_multiply -40% .crit_chance_add 0% .has_description false
+effect: .name "GV_MAA_Riposte_2"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true .attack_rating_add -15% .damage_low_multiply -35% .damage_high_multiply -35% .crit_chance_add 0% .has_description false
+effect: .name "GV_MAA_Riposte_3"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true .attack_rating_add -10% .damage_low_multiply -30% .damage_high_multiply -30% .crit_chance_add 1% .has_description false
+effect: .name "GV_MAA_Riposte_4"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true .attack_rating_add -5% .damage_low_multiply -25% .damage_high_multiply -25% .crit_chance_add 1% .has_description false
 effect: .name "GV_MAA_Riposte_5"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true .damage_low_multiply -20% .damage_high_multiply -20% .crit_chance_add 2% .has_description false
 
 // Command
@@ -809,12 +813,16 @@ effect: .name "GV_Stacking_Heal_5" .target "target" .chance 100% .buff_type hp_h
 // Clear Corpses
 effect: .name "GV_Clear_Corpse_Target" .target "target" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss true .can_apply_on_death true
 
+// Free Action
+effect: .name "GV_Free_Action" .target "performer" .chance 100% .initiative_change 1 .on_hit true .on_miss true
+
 
 // Tooltip Hacks
 //-------------------------
 effect: .name "GV_Tooltip_PD_Corpse_Explosion" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_PD_Corpse_Explosion" .on_hit true .on_miss false .apply_once true
-effect: .name "GV_Tooltip_GR_Riposte" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_GR_Riposte" .on_hit true .on_miss false .apply_once true
 effect: .name "GV_Tooltip_HM_Already_Marked" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_HM_Already_Marked" .on_hit true .on_miss false .apply_once true
+
+effect: .name "GV_Tooltip_GR_Riposte" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_GR_Riposte" .on_hit true .on_miss false .apply_once true
 
 effect: .name "GV_Tooltip_HWM_Riposte_1" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_HWM_Riposte_1" .on_hit true .on_miss false .apply_once true
 effect: .name "GV_Tooltip_HWM_Riposte_2" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_HWM_Riposte_2" .on_hit true .on_miss false .apply_once true

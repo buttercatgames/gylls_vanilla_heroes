@@ -8,8 +8,8 @@
 		<entry id="upgrade_tree_name_antiquarian.invigorating_vapours"><![CDATA[Rapturous Vapours]]></entry>
 
 		<!-- Crusader -->
-	    <entry id="combat_skill_name_crusader_zealous_accusation"><![CDATA[Cleave]]></entry>
-		<entry id="upgrade_tree_name_crusader.zealous_accusation"><![CDATA[Cleave]]></entry>
+	    <entry id="combat_skill_name_crusader_zealous_accusation"><![CDATA[Zealous Cleave]]></entry>
+		<entry id="upgrade_tree_name_crusader.zealous_accusation"><![CDATA[Zealous Cleave]]></entry>
 		<entry id="combat_skill_name_crusader_bulwark_of_faith"><![CDATA[Last Rites]]></entry>
 		<entry id="upgrade_tree_name_crusader.bulwark_of_faith"><![CDATA[Last Rites]]></entry>
 		
