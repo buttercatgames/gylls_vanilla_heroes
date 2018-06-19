@@ -74,7 +74,7 @@ shared/buffs/gv_heroes.buffs.json 106209
 audio/gv_heroes.campaign.guid_overrides.json 3723
 audio/gv_heroes.campaign.load_order.json 79
 colours/gv_heroes.colours.darkest 140
-effects/gv_heroes.effects.darkest 78634
+effects/gv_heroes.effects.darkest 78932
 fx/antiq_blue.sprite.png 262531
 fx/antiq_orange.sprite.png 263256
 inventory/gv_heroes.inventory.extra_stack_limits.darkest 103
@@ -94,5 +94,6 @@ localization/gv_heroes_skill_names.string_table.xml 3205
 localization/gv_heroes_tooltip_overwrites.string_table.xml 2235
 localization/missing_files.txt 28536
 loot/gv_heroes.loot.json 1210
+modfiles.txt 4658
 preview_icon.png 143678
-project.xml 4573
+project.xml 4298

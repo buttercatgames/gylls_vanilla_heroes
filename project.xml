@@ -14,10 +14,10 @@
 	<Tags>
 		<Tags>Class Tweaks</Tags>
 	</Tags>
-	<ItemDescription>[b]Gyll’s Vanilla: Heroes[/b] redesigns or rebalances all 15 original hero classes. [i]Flagellant &amp; Shieldbreaker redesigns are in the works and will be released as separate mods when ready.[/i]
-
-[h1]About Gyll’s Vanilla[/h1]
-[b]Gyll’s Vanilla[/b] is a collection of mods for Darkest Dungeon, each of which redesigns a single aspect of the game. These mods are balanced against the vanilla base game and designed for maximum compatibility, creating a solid foundation for your modded campaigns. [i]Heroes is currently the only mod in the series. Quirks and Monsters are planned as the next two.[/i]
+	<ItemDescription>[b]Gyll’s Vanilla: Heroes[/b] redesigns or rebalances all 15 original hero classes.
+	
+	[b][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1408032394]Flagellant is now available![/url][/b]
+	[i]Shieldbreaker is still in the works.[/i]
 
 [h1]Design Goals[/h1]
 - Increase the number of viable playstyles for each class
@@ -34,7 +34,7 @@
 [b]Trinket Usage[/b]: This mod does not change trinkets, so heroes must still make effective use of all of their unmodded trinkets.
 
 [h1]Changelog[/h1]
-[url=https://docs.google.com/document/d/1kAKu8KbA2GDYOJW7PDzXmhXI0PVUxgA-Uw3jJ90QGhY/edit?usp=sharing]Click to read the full changelog[/url]
+[url=https://dd-tooltips.com/gylls-vanilla]Click to view the changelog, including tooltips and design notes[/url]
 
 [h1]Compatibility[/h1]
 This mod uses the .art and .info files for the heroes it modifies, as well as the base camping skills file. If another mod uses these files, there will be conflicts. Also, full overhauls such as Pitch Black Dungeon that rely on changes being made to every hero will have severe balance issues if used with this mod. If your mod doesn’t fall into either of these categories then congratulations, it’s compatible!
@@ -42,11 +42,12 @@ This mod uses the .art and .info files for the heroes it modifies, as well as th
 [h1]Localization[/h1]
 Some minimal effort has been expended to make the mod playable in non-English languages, however only English has been thoroughly tested, and in other languages you will encounter a few English strings and possibly some very long/cut off tooltips. Please contact me if you are willing to translate this mod into another language!
 
-[h1]Contact[/h1]
-If you’d like to provide translations, hire me to design heroes for your game, or yell at me for ruining your life with my free mod; please post a comment here, add me on discord at Gyll#0788, or email me at gyllgaming@gmail.com. Bug reports and balance feedback are also welcome!
-
 [h1]Thanks[/h1]
 Thanks to Clair de Lune, Chogex, O’Nightmare!, and Tilted Hat for helping me with questions in the Moonlit Dungeon Discord. Thanks to Red Hook Studios for making such a great &amp; moddable game!
+
+[h1]About Gyll’s Vanilla[/h1]
+[b]Gyll’s Vanilla[/b] is a collection of mods for Darkest Dungeon, each of which redesigns a single aspect of the game. These mods are balanced against the vanilla base game and designed for maximum compatibility, creating a solid foundation for your modded campaigns.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1407664617]Click to view the full collection[/url]
 
 [h1]Disclaimer[/h1]
 [i]Gyll’s Vanilla: Heroes is not an official Red Hook Studios product or product modification, and Red Hook Studios Inc. is not responsible in any way for changes or damages that may result from using the mod. Furthermore, “Darkest Dungeon” and the Darkest Dungeon logo are trademarks of Red Hook Studios Inc. All content in the game is Copyright Red Hook Studios Inc. All rights reserved.[/i]
