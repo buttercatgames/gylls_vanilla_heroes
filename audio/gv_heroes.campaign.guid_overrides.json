@@ -17,6 +17,82 @@
         {"event_id": "event:/char/ally/houndmaster_lick_wounds_miss_human",      "guid_override":"{d91c4a47-4064-463b-8f00-bc20af92625c}"},
         {"event_id": "event:/char/ally/houndmaster_lick_wounds_hound",           "guid_override":"{dc787556-3fef-4a6b-9612-b0391ad5b020}"},
         {"event_id": "event:/char/ally/houndmaster_lick_wounds_miss_hound",      "guid_override":"{d91c4a47-4064-463b-8f00-bc20af92625c}"},
+		
+{"event_id": "event:/char/ally/highwayman_duelist_advance_pre", "guid_override":"{4807b45a-db0c-4f9e-8920-016dbd2ec3a0}"},
+{"event_id": "event:/char/ally/highwayman_duelist_advance_miss_pre", "guid_override":"{5c695421-0b48-47d9-95d0-bc4630052364}"},
+{"event_id": "event:/char/ally/highwayman_grape_shot_blast_pre", "guid_override":"{b8a0565e-a960-40d9-a47d-f8e901bff04b}"},
+{"event_id": "event:/char/ally/highwayman_grape_shot_blast_miss_pre", "guid_override":"{56b0b171-f3b1-407c-b94c-e8922d2bda6e}"},
+{"event_id": "event:/char/ally/highwayman_opened_vein_pre", "guid_override":"{2c6b63c3-8fe4-42b2-b4a6-3daad7328757}"},
+{"event_id": "event:/char/ally/highwayman_opened_vein_miss_pre", "guid_override":"{8368defb-f1bf-43a2-b0e2-5725f169c270}"},
+{"event_id": "event:/char/ally/highwayman_pistol_shot_pre", "guid_override":"{fb74ca52-8b52-49da-9f61-2f2404951233}"},
+{"event_id": "event:/char/ally/highwayman_pistol_shot_miss_pre", "guid_override":"{be6ab17c-b198-4bec-9efa-bfbc0e5148f2}"},
+{"event_id": "event:/char/ally/highwayman_point_blank_shot_pre", "guid_override":"{f6586596-8e44-43a7-9e03-0d55f58d4d3a}"},
+{"event_id": "event:/char/ally/highwayman_point_blank_shot_miss_pre", "guid_override":"{4ea12b6d-43ab-4bb8-9f91-38b28d5fb54b}"},
+{"event_id": "event:/char/ally/highwayman_riposte1_pre", "guid_override":"{e49c5c81-0d9a-48a9-808f-8d3dcc0294a5}"},
+{"event_id": "event:/char/ally/highwayman_riposte1_miss_pre", "guid_override":"{38dca82f-e8f3-4d9b-9e94-8a11a6db3478}"},
+{"event_id": "event:/char/ally/highwayman_take_aim_pre", "guid_override":"{7452d6d6-2100-4240-92a1-f298b55be6a1}"},
+{"event_id": "event:/char/ally/highwayman_take_aim_miss_pre", "guid_override":"{f09d2f63-17d7-45f4-ac9c-b1875d65ba05}"},
+{"event_id": "event:/char/ally/highwayman_wicked_slice_pre", "guid_override":"{fc1da9e7-3766-4ed7-82bf-447161e0db4b}"},
+{"event_id": "event:/char/ally/highwayman_wicked_slice_miss_pre", "guid_override":"{8e187fd5-2d34-4c87-a3c4-51825b34e245}"},
+
+{"event_id": "event:/char/ally/highwayman_duelist_advance_post", "guid_override":"{4807b45a-db0c-4f9e-8920-016dbd2ec3a0}"},
+{"event_id": "event:/char/ally/highwayman_duelist_advance_miss_post", "guid_override":"{5c695421-0b48-47d9-95d0-bc4630052364}"},
+{"event_id": "event:/char/ally/highwayman_grape_shot_blast_post", "guid_override":"{b8a0565e-a960-40d9-a47d-f8e901bff04b}"},
+{"event_id": "event:/char/ally/highwayman_grape_shot_blast_miss_post", "guid_override":"{56b0b171-f3b1-407c-b94c-e8922d2bda6e}"},
+{"event_id": "event:/char/ally/highwayman_opened_vein_post", "guid_override":"{2c6b63c3-8fe4-42b2-b4a6-3daad7328757}"},
+{"event_id": "event:/char/ally/highwayman_opened_vein_miss_post", "guid_override":"{8368defb-f1bf-43a2-b0e2-5725f169c270}"},
+{"event_id": "event:/char/ally/highwayman_pistol_shot_post", "guid_override":"{fb74ca52-8b52-49da-9f61-2f2404951233}"},
+{"event_id": "event:/char/ally/highwayman_pistol_shot_miss_post", "guid_override":"{be6ab17c-b198-4bec-9efa-bfbc0e5148f2}"},
+{"event_id": "event:/char/ally/highwayman_point_blank_shot_post", "guid_override":"{f6586596-8e44-43a7-9e03-0d55f58d4d3a}"},
+{"event_id": "event:/char/ally/highwayman_point_blank_shot_miss_post", "guid_override":"{4ea12b6d-43ab-4bb8-9f91-38b28d5fb54b}"},
+{"event_id": "event:/char/ally/highwayman_riposte1_post", "guid_override":"{e49c5c81-0d9a-48a9-808f-8d3dcc0294a5}"},
+{"event_id": "event:/char/ally/highwayman_riposte1_miss_post", "guid_override":"{38dca82f-e8f3-4d9b-9e94-8a11a6db3478}"},
+{"event_id": "event:/char/ally/highwayman_take_aim_post", "guid_override":"{7452d6d6-2100-4240-92a1-f298b55be6a1}"},
+{"event_id": "event:/char/ally/highwayman_take_aim_miss_post", "guid_override":"{f09d2f63-17d7-45f4-ac9c-b1875d65ba05}"},
+{"event_id": "event:/char/ally/highwayman_wicked_slice_post", "guid_override":"{fc1da9e7-3766-4ed7-82bf-447161e0db4b}"},
+{"event_id": "event:/char/ally/highwayman_wicked_slice_miss_post", "guid_override":"{8e187fd5-2d34-4c87-a3c4-51825b34e245}"},
+		
+		
+		{"event_id": "event:/char/ally/bounty_hunter_collect_bounty_pre", "guid_override":"{4a80d4d3-48e6-405f-8db0-34cd86dc0185}"},
+{"event_id": "event:/char/ally/bounty_hunter_collect_bounty_miss_pre", "guid_override":"{d5f5bd17-ee8c-45d3-8549-a1ba8fc1bf6f}"},
+{"event_id": "event:/char/ally/bounty_hunter_come_hither_pre", "guid_override":"{bad19932-f2cb-41f6-ae01-83c9301cbe46}"},
+{"event_id": "event:/char/ally/bounty_hunter_come_hither_miss_pre", "guid_override":"{3a51f902-2308-46f1-a403-feecec57fd42}"},
+{"event_id": "event:/char/ally/bounty_hunter_finish_him_pre", "guid_override":"{a4b11b99-762d-4818-96fe-857fa9eb16ff}"},
+{"event_id": "event:/char/ally/bounty_hunter_finish_him_miss_pre", "guid_override":"{ff64dc54-7080-45bb-a355-62d8022f78b6}"},
+{"event_id": "event:/char/ally/bounty_hunter_flashbang_pre", "guid_override":"{8f1079d0-73e1-4ee0-9018-44dd53fffdb7}"},
+{"event_id": "event:/char/ally/bounty_hunter_flashbang_miss_pre", "guid_override":"{905245db-d18e-4f98-878b-486af5280279}"},
+{"event_id": "event:/char/ally/bounty_hunter_hook_and_slice_pre", "guid_override":"{a08d89c3-3e74-4120-90f8-3b7f5c2e2dc7}"},
+{"event_id": "event:/char/ally/bounty_hunter_hook_and_slice_miss_pre", "guid_override":"{86652390-988f-4fa6-a935-8a00137048c9}"},
+{"event_id": "event:/char/ally/bounty_hunter_target_tag_pre", "guid_override":"{fb0fe162-7fa6-4afd-a207-8c9b45763826}"},
+{"event_id": "event:/char/ally/bounty_hunter_target_tag_miss_pre", "guid_override":"{29829099-ac72-4138-a3d9-a8bc3fe783c0}"},
+{"event_id": "event:/char/ally/bounty_hunter_uppercut_pre", "guid_override":"{fcf5b857-f95e-4db9-b157-9e5bca216b9a}"},
+{"event_id": "event:/char/ally/bounty_hunter_uppercut_miss_pre", "guid_override":"{e0845e1c-4282-4c1c-8258-54baa56fdacb}"},
+
+
+
+{"event_id": "event:/char/ally/bounty_hunter_collect_bounty_post", "guid_override":"{4a80d4d3-48e6-405f-8db0-34cd86dc0185}"},
+{"event_id": "event:/char/ally/bounty_hunter_collect_bounty_miss_post", "guid_override":"{d5f5bd17-ee8c-45d3-8549-a1ba8fc1bf6f}"},
+{"event_id": "event:/char/ally/bounty_hunter_come_hither_post", "guid_override":"{bad19932-f2cb-41f6-ae01-83c9301cbe46}"},
+{"event_id": "event:/char/ally/bounty_hunter_come_hither_miss_post", "guid_override":"{3a51f902-2308-46f1-a403-feecec57fd42}"},
+{"event_id": "event:/char/ally/bounty_hunter_finish_him_post", "guid_override":"{a4b11b99-762d-4818-96fe-857fa9eb16ff}"},
+{"event_id": "event:/char/ally/bounty_hunter_finish_him_miss_post", "guid_override":"{ff64dc54-7080-45bb-a355-62d8022f78b6}"},
+{"event_id": "event:/char/ally/bounty_hunter_flashbang_post", "guid_override":"{8f1079d0-73e1-4ee0-9018-44dd53fffdb7}"},
+{"event_id": "event:/char/ally/bounty_hunter_flashbang_miss_post", "guid_override":"{905245db-d18e-4f98-878b-486af5280279}"},
+{"event_id": "event:/char/ally/bounty_hunter_hook_and_slice_post", "guid_override":"{a08d89c3-3e74-4120-90f8-3b7f5c2e2dc7}"},
+{"event_id": "event:/char/ally/bounty_hunter_hook_and_slice_miss_post", "guid_override":"{86652390-988f-4fa6-a935-8a00137048c9}"},
+{"event_id": "event:/char/ally/bounty_hunter_target_tag_post", "guid_override":"{fb0fe162-7fa6-4afd-a207-8c9b45763826}"},
+{"event_id": "event:/char/ally/bounty_hunter_target_tag_miss_post", "guid_override":"{29829099-ac72-4138-a3d9-a8bc3fe783c0}"},
+{"event_id": "event:/char/ally/bounty_hunter_uppercut_post", "guid_override":"{fcf5b857-f95e-4db9-b157-9e5bca216b9a}"},
+{"event_id": "event:/char/ally/bounty_hunter_uppercut_miss_post", "guid_override":"{e0845e1c-4282-4c1c-8258-54baa56fdacb}"},
+
+
+
+		
+		
+		
+		
+		
+		
 		{"event_id": "event:/general/items/antiq_orange",      "guid_override":"{94465f68-8b85-4b60-a5ee-592869ba52c6}"},
 		{"event_id": "event:/general/items/antiq_blue",      "guid_override":"{94465f68-8b85-4b60-a5ee-592869ba52c6}"},
 		{"event_id": "event:/general/items/antiq_personal",      "guid_override":"{94465f68-8b85-4b60-a5ee-592869ba52c6}"},
@@ -28,6 +104,8 @@
 		{"event_id": "event:/char/ally/crusader_inspiring_cry_miss",      "guid_override":"{2888fd54-4bd4-4f09-a41a-ab5fd7eb80b5}"},
 		{"event_id": "event:/char/ally/plague_doctor_disorienting_blast",	"guid_override":"{92d36f75-f421-496e-87ad-ddde5d09d58c}"},
 		{"event_id": "event:/char/ally/grave_robber_riposte1",	"guid_override":"{0ec07f3b-1d46-4075-8453-dd317668b25c}"},
-		{"event_id": "event:/char/ally/grave_robber_riposte1_miss",	"guid_override":"{84544d80-da50-49cd-99f9-7832706a4414}"}
+		{"event_id": "event:/char/ally/grave_robber_riposte1_miss",	"guid_override":"{84544d80-da50-49cd-99f9-7832706a4414}"},
+		{"event_id": "event:/char/ally/leper_intimidate",	"guid_override":"{12879d0a-384d-4f86-9221-00c63d60f8a6}"},
+		{"event_id": "event:/char/ally/leper_intimidate_miss",	"guid_override":"{2ec94a0f-39c3-4035-819a-462a105a6f45}"}
 	]
 }

@@ -471,42 +471,29 @@
          }
       },
 	  {
-         "id" : "GV_Antiq_Stress_Free_Get_Down",
+         "id" : "GV_Antiq_Extra_Protect",
+         "stat_type" : "guard_duration_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "protect_me"
+         }
+      },
+	  {
+         "id" : "GV_Antiq_Extra_Stress_Taken",
          "stat_type" : "stress_dmg_percent",
          "stat_sub_type" : "",
-         "amount" : -1.0,
+         "amount" : 1.0,
          "remove_if_not_active" : false,
          "rule_type" : "skill",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : "cower"
-         }
-      },
-	  {
-         "id" : "GV_Antiq_Stress_Free_Get_Down_Pos_1",
-         "stat_type" : "stress_dmg_percent",
-         "stat_sub_type" : "",
-         "amount" : -1.0,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "GV_Antiq_Stress_Free_Get_Down_Pos_2",
-         "stat_type" : "stress_dmg_percent",
-         "stat_sub_type" : "",
-         "amount" : -1.0,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 1,
-            "string" : ""
          }
       },
   	  {
@@ -1020,7 +1007,7 @@
          "id" : "GV_GR_Pierce_Armor_1",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
-         "amount" : 0.10,
+         "amount" : 0.25,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -1033,7 +1020,7 @@
          "id" : "GV_GR_Pierce_Armor_2",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
-         "amount" : 0.12,
+         "amount" : 0.33,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -1046,7 +1033,7 @@
          "id" : "GV_GR_Pierce_Armor_3",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
-         "amount" : 0.15,
+         "amount" : 0.40,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -1059,7 +1046,7 @@
          "id" : "GV_GR_Pierce_Armor_4",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
-         "amount" : 0.17,
+         "amount" : 0.45,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -1072,7 +1059,7 @@
          "id" : "GV_GR_Pierce_Armor_5",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
-         "amount" : 0.20,
+         "amount" : 0.50,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -1092,7 +1079,8 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "is_clear_debuff_valid": false
       },
 	  {
          "id" : "GV_Hellion_Exhaust_Dmg_H",
@@ -1105,7 +1093,8 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "is_clear_debuff_valid": false
       },
 	  {
          "id" : "GV_Hellion_Exhaust_Bleed",
@@ -1118,7 +1107,8 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "is_clear_debuff_valid": false
       },
 	  {
          "id" : "GV_Hellion_Adrenaline_Acc_1",
@@ -1462,10 +1452,10 @@
          "id" : "GV_HM_Debuff_Chance_vs_Not_Marked",
          "stat_type" : "debuff_chance",
          "stat_sub_type" : "",
-         "amount" : 500.0,
+         "amount" : -1000.0,
          "remove_if_not_active" : false,
          "rule_type" : "actorStatus",
-         "is_false_rule" : false,
+         "is_false_rule" : true,
          "rule_data" : {
             "float" : 0,
             "string" : "tagged"
@@ -1619,6 +1609,32 @@
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "heroic_end"
+         }
+      },
+	  {
+         "id" : "GV_Jester_Finale_Damage_L_Small",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "heroic_end"
+         }
+      },
+	  {
+         "id" : "GV_Jester_Finale_Damage_H_Small",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.5,
          "remove_if_not_active" : false,
          "rule_type" : "skill",
          "is_false_rule" : false,
@@ -1924,6 +1940,45 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
+         }
+      },
+  	  {
+         "id" : "GV_Jester_Stress_Healing",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+  	  {
+         "id" : "GV_Jester_Damage_Vs_Bleeding_L",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+  	  {
+         "id" : "GV_Jester_Damage_Vs_Bleeding_H",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
          }
       },
       {
@@ -2305,7 +2360,7 @@
          "id" : "GV_Leper_Stress_Resist_1",
          "stat_type" : "stress_dmg_received_percent",
          "stat_sub_type" : "",
-         "amount" : -0.40,
+         "amount" : -0.25,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -2318,7 +2373,7 @@
          "id" : "GV_Leper_Stress_Resist_2",
          "stat_type" : "stress_dmg_received_percent",
          "stat_sub_type" : "",
-         "amount" : -0.45,
+         "amount" : -0.27,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -2331,7 +2386,7 @@
          "id" : "GV_Leper_Stress_Resist_3",
          "stat_type" : "stress_dmg_received_percent",
          "stat_sub_type" : "",
-         "amount" : -0.50,
+         "amount" : -0.29,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -2344,7 +2399,7 @@
          "id" : "GV_Leper_Stress_Resist_4",
          "stat_type" : "stress_dmg_received_percent",
          "stat_sub_type" : "",
-         "amount" : -0.55,
+         "amount" : -0.31,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -2357,7 +2412,7 @@
          "id" : "GV_Leper_Stress_Resist_5",
          "stat_type" : "stress_dmg_received_percent",
          "stat_sub_type" : "",
-         "amount" : -0.60,
+         "amount" : -0.33,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -2384,6 +2439,71 @@
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : -0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_Leper_Heal_Received_1",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_Leper_Heal_Received_2",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_Leper_Heal_Received_3",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_Leper_Heal_Received_4",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_Leper_Heal_Received_5",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.40,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -2611,6 +2731,20 @@
          }
       },
  	  {
+         "id" : "GV_Occ_Disable_Heal",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "heal",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false
+      },
+ 	  {
          "id" : "GV_Occ_Move_Skill_1",
          "stat_type" : "move_chance",
          "stat_sub_type" : "",
@@ -2679,7 +2813,7 @@
          "id" : "GV_Occ_Dmg_L_1",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : 0.15,
+         "amount" : 0.25,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -2692,7 +2826,7 @@
          "id" : "GV_Occ_Dmg_L_2",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : 0.17,
+         "amount" : 0.33,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -2705,7 +2839,7 @@
          "id" : "GV_Occ_Dmg_L_3",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : 0.20,
+         "amount" : 0.40,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -2718,7 +2852,7 @@
          "id" : "GV_Occ_Dmg_L_4",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : 0.22,
+         "amount" : 0.45,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -2731,7 +2865,7 @@
          "id" : "GV_Occ_Dmg_L_5",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : 0.25,
+         "amount" : 0.50,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -2744,7 +2878,7 @@
          "id" : "GV_Occ_Dmg_H_1",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : 0.15,
+         "amount" : 0.25,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -2757,7 +2891,7 @@
          "id" : "GV_Occ_Dmg_H_2",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : 0.17,
+         "amount" : 0.33,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -2770,7 +2904,7 @@
          "id" : "GV_Occ_Dmg_H_3",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : 0.20,
+         "amount" : 0.40,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -2783,7 +2917,7 @@
          "id" : "GV_Occ_Dmg_H_4",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : 0.22,
+         "amount" : 0.45,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -2796,7 +2930,7 @@
          "id" : "GV_Occ_Dmg_H_5",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : 0.25,
+         "amount" : 0.50,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -3063,6 +3197,45 @@
          "rule_data" : {
             "float" : 0,
             "string" : "daemons_pull"
+         }
+      },
+ 	  {
+         "id" : "GV_Occ_On_Crit_Healing",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+ 	  {
+         "id" : "GV_Occ_On_Crit_Dmg_L",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+ 	  {
+         "id" : "GV_Occ_On_Crit_Dmg_H",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
          }
       },
 	  {
@@ -3612,10 +3785,140 @@
          }
       },
 	  {
+         "id" : "GV_Tooltip_Leper_Push_Buff_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "leper_push_buff_1",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Leper_Push_Buff_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "leper_push_buff_2",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Leper_Push_Buff_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "leper_push_buff_3",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Leper_Push_Buff_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "leper_push_buff_4",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Leper_Push_Buff_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "leper_push_buff_5",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
          "id" : "GV_Tooltip_GR_Riposte",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "gr_riposte",
          "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_GR_Buff_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "gr_buff_1",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_GR_Buff_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "gr_buff_2",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_GR_Buff_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "gr_buff_3",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_GR_Buff_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "gr_buff_4",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_GR_Buff_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "gr_buff_5",
+         "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -3636,6 +3939,19 @@
             "float" : 0,
             "string" : ""
          }
-      }
+      },
+	  {
+         "id" : "GV_Tooltip_Hellion_Exhaust",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "hellion_exhaust",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }	  
 	]
 }

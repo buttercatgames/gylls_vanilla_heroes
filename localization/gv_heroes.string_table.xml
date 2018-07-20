@@ -12,8 +12,11 @@
 		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[Finale]]></entry>
 		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[Inspiring Tune]]></entry>
 
-		<entry id="buff_rule_data_tooltip_corpse"><![CDATA[CORPSE]]></entry>
-
+		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[Protect Me]]></entry>
+		<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% Guard Duration]]></entry>
+		<entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[+%d%% Guard Duration]]></entry>
+		
+		<entry id="buff_rule_data_tooltip_corpse"><![CDATA[Corpse]]></entry>
 		
 		<!-- Copy from Seraph -->
 		<entry id="buff_stat_tooltip_upgrade_discount_consume_mark"><![CDATA[Consume {colour_start|mark}Mark{colour_end}]]></entry>
@@ -54,6 +57,9 @@
 		
 
 		<!-- Tooltip Hack Strings -->
+		<entry id="buff_stat_tooltip_upgrade_discount_hellion_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+-25%% DMG / -25%% {colour_start|bleed}Bleed{colour_end} Skill Chance]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_hm_already_marked"><![CDATA[If Target is already {colour_start|mark}Marked{colour_end}:]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
@@ -86,13 +92,40 @@ Triggers on MISS/DODGE Only
 -20%% DMG when {colour_start|riposte}Riposte{colour_end}
 +2%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
 
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++10 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++11 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++12 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++13 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++15 ACC / +6 SPD]]></entry>
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++5 ACC / +20%% DMG / +3%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++6 ACC / +21%% DMG / +3%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++7 ACC / +22%% DMG / +4%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++8 ACC / +23%% DMG / +4%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++10 ACC / +25%% DMG / +5%% CRIT]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
 Triggers on HIT Only
 {colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no CORPSES
-+100%% DMG if 2+ CORPSES
-+100%% DMG if 3+ CORPSES]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no Corpses
++100%% DMG if 2+ Corpses
++100%% DMG if 3+ Corpses]]></entry>
 	</language>
 
 	
@@ -110,8 +143,11 @@ Triggers on HIT Only
 		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[Final]]></entry>
 		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[Mélodie exaltante]]></entry>
 
-		<entry id="buff_rule_data_tooltip_corpse"><![CDATA[CADAVRE]]></entry>
-
+		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[Protège-moi]]></entry>
+		<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[Durée de garde : +%d%%]]></entry>
+		<entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[Durée de garde : +%d%%]]></entry>
+		
+		<entry id="buff_rule_data_tooltip_corpse"><![CDATA[Cadavre]]></entry>
 		
 		<!-- Copy from Seraph -->
 		<entry id="buff_stat_tooltip_upgrade_discount_consume_mark"><![CDATA[Retire la {colour_start|mark}Marque{colour_end}]]></entry>
@@ -188,6 +224,12 @@ Triggers on MISS/DODGE Only
 Triggers on HIT Only
 {colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
 
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[+10 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[+11 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[+12 ACC / +6 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[+13 ACC / +7 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[+15 ACC / +8 SPD]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[PRÉ : -100%% si il n'y a pas CADAVRE
 DGT : +100%% si contre 2+ CADAVRE
 DGT : +100%% si contre 3+ CADAVRE]]></entry>
@@ -210,9 +252,12 @@ DGT : +100%% si contre 3+ CADAVRE]]></entry>
 		<entry id="buff_rule_data_tooltip_solo"><![CDATA[Solo]]></entry>
 		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[Finale]]></entry>
 		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[Stärkende Melodie]]></entry>
+		
+		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[Beschützt mich!]]></entry>
+		<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% Schutzdauer]]></entry>
+		<entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[+%d%% Schutzdauer]]></entry>
 
-		<entry id="buff_rule_data_tooltip_corpse"><![CDATA[LEICHNAM]]></entry>
-
+		<entry id="buff_rule_data_tooltip_corpse"><![CDATA[Leichnam]]></entry>
 		
 		<!-- Copy from Seraph -->
 		<entry id="buff_stat_tooltip_upgrade_discount_consume_mark"><![CDATA[Consume {colour_start|mark}Mark{colour_end}]]></entry>
@@ -289,6 +334,12 @@ Triggers on MISS/DODGE Only
 Triggers on HIT Only
 {colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
 
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[+10 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[+11 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[+12 ACC / +6 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[+13 ACC / +7 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[+15 ACC / +8 SPD]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no LEICHNAM
 +100%% DMG if 2+ LEICHNAM
 +100%% DMG if 3+ LEICHNAM]]></entry>
@@ -308,8 +359,11 @@ Triggers on HIT Only
 		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[Apoteosis]]></entry>
 		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[Tonada inspiradora]]></entry>
 
+		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[Protégeme]]></entry>
+		<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% de duración de defensa]]></entry>
+		<entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[+%d%% de duración de defensa]]></entry>
+		
 		<entry id="buff_rule_data_tooltip_corpse"><![CDATA[CADÁVER]]></entry>
-
 		
 		<!-- Copy from Seraph -->
 		<entry id="buff_stat_tooltip_upgrade_discount_consume_mark"><![CDATA[Consume {colour_start|mark}marca{colour_end}]]></entry>
@@ -386,6 +440,12 @@ Triggers on MISS/DODGE Only
 Triggers on HIT Only
 {colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
 
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[+10 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[+11 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[+12 ACC / +6 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[+13 ACC / +7 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[+15 ACC / +8 SPD]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no CADÁVER
 +100%% DMG if 2+ CADÁVER
 +100%% DMG if 3+ CADÁVER]]></entry>
@@ -406,8 +466,11 @@ Triggers on HIT Only
 		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[Final]]></entry>
 		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[Canção Inspiradora]]></entry>
 
+		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[Me Proteja]]></entry>
+		<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% de duração da guarda]]></entry>
+		<entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[+%d%% de duração da guarda]]></entry>
+		
 		<entry id="buff_rule_data_tooltip_corpse"><![CDATA[CADÁVER]]></entry>
-
 		
 		<!-- Copy from Seraph -->
 		<entry id="buff_stat_tooltip_upgrade_discount_consume_mark"><![CDATA[Consumir {colour_start|mark}Marca{colour_end}]]></entry>
@@ -484,6 +547,12 @@ Triggers on MISS/DODGE Only
 Triggers on HIT Only
 {colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
 
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[+10 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[+11 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[+12 ACC / +6 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[+13 ACC / +7 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[+15 ACC / +8 SPD]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no CADÁVER
 +100%% DMG if 2+ CADÁVER
 +100%% DMG if 3+ CADÁVER]]></entry>
@@ -505,8 +574,11 @@ Triggers on HIT Only
 		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[Финал]]></entry>
 		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[Бодрящая мелодия]]></entry>
 
+		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[Защити меня]]></entry>
+		<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% длительности охраны]]></entry>
+		<entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[+%d%% длительности охраны]]></entry>
+		
 		<entry id="buff_rule_data_tooltip_corpse"><![CDATA[ТРУП]]></entry>
-
 		
 		<!-- Copy from Seraph -->
 		<entry id="buff_stat_tooltip_upgrade_discount_consume_mark"><![CDATA[Поглощает {colour_start|mark}Метку{colour_end}]]></entry>
@@ -583,6 +655,12 @@ Triggers on MISS/DODGE Only
 Triggers on HIT Only
 {colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
 
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[+10 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[+11 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[+12 ACC / +6 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[+13 ACC / +7 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[+15 ACC / +8 SPD]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no ТРУП
 +100%% DMG if 2+ ТРУП
 +100%% DMG if 3+ ТРУП]]></entry>
@@ -602,9 +680,12 @@ Triggers on HIT Only
 		<entry id="buff_rule_data_tooltip_solo"><![CDATA[Solówka]]></entry>
 		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[Kurtyna]]></entry>
 		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[Inspirująca Nuta]]></entry>
-
+		
+		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[Chroń Mnie]]></entry>
+		<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% czasu ochrony]]></entry>
+		<entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[+%d%% czasu ochrony]]></entry>
+		
 		<entry id="buff_rule_data_tooltip_corpse"><![CDATA[TRUCHŁO]]></entry>
-
 		
 		<!-- Copy from Seraph -->
 		<entry id="buff_stat_tooltip_upgrade_discount_consume_mark"><![CDATA[Zużycie {colour_start|mark}znaku{colour_end}]]></entry>
@@ -681,6 +762,12 @@ Triggers on MISS/DODGE Only
 Triggers on HIT Only
 {colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
 
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[+10 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[+11 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[+12 ACC / +6 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[+13 ACC / +7 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[+15 ACC / +8 SPD]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no TRUCHŁO
 +100%% DMG if 2+ TRUCHŁO
 +100%% DMG if 3+ TRUCHŁO]]></entry>
@@ -700,8 +787,11 @@ Triggers on HIT Only
 		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[Závěr]]></entry>
 		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[Inspirující melodie]]></entry>
 
+		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[Braň mě]]></entry>
+		<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% k době trvání stráže]]></entry>
+		<entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[+%d%% k době trvání stráže]]></entry>
+		
 		<entry id="buff_rule_data_tooltip_corpse"><![CDATA[MRTVOLA]]></entry>
-
 		
 		<!-- Copy from Seraph -->
 		<entry id="buff_stat_tooltip_upgrade_discount_consume_mark"><![CDATA[{colour_start|mark}Značka {colour_end}strávení]]></entry>
@@ -778,6 +868,12 @@ Triggers on MISS/DODGE Only
 Triggers on HIT Only
 {colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
 
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[+10 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[+11 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[+12 ACC / +6 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[+13 ACC / +7 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[+15 ACC / +8 SPD]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no MRTVOLA
 +100%% DMG if 2+ MRTVOLA
 +100%% DMG if 3+ MRTVOLA]]></entry>
@@ -798,9 +894,12 @@ Triggers on HIT Only
 		<entry id="buff_rule_data_tooltip_solo"><![CDATA[Assolo]]></entry>
 		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[Gran Finale]]></entry>
 		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[Melodia Ispiratrice]]></entry>
-
+		
+		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[Proteggimi]]></entry>
+		<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% durata difesa]]></entry>
+		<entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[+%d%% durata difesa]]></entry>
+		
 		<entry id="buff_rule_data_tooltip_corpse"><![CDATA[CADAVERE]]></entry>
-
 		
 		<!-- Copy from Seraph -->
 		<entry id="buff_stat_tooltip_upgrade_discount_consume_mark"><![CDATA[Consume {colour_start|mark}Mark{colour_end}]]></entry>
@@ -877,6 +976,12 @@ Triggers on MISS/DODGE Only
 Triggers on HIT Only
 {colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
 
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[+10 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[+11 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[+12 ACC / +6 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[+13 ACC / +7 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[+15 ACC / +8 SPD]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no CADAVERE
 +100%% DMG if 2+ CADAVERE
 +100%% DMG if 3+ CADAVERE]]></entry>
@@ -899,8 +1004,11 @@ Triggers on HIT Only
 		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[谢幕]]></entry>
 		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[鼓舞乐章]]></entry>
 
+		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[保护我]]></entry>
+		<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[守护持续时间+%d%%]]></entry>
+		<entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[守护持续时间+%d%%]]></entry>
+		
 		<entry id="buff_rule_data_tooltip_corpse"><![CDATA[尸骸]]></entry>
-
 		
 		<!-- Copy from Seraph -->
 		<entry id="buff_stat_tooltip_upgrade_discount_consume_mark"><![CDATA[Consume {colour_start|mark}Mark{colour_end}]]></entry>
@@ -977,12 +1085,221 @@ Triggers on MISS/DODGE Only
 Triggers on HIT Only
 {colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
 
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[+10 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[+11 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[+12 ACC / +6 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[+13 ACC / +7 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[+15 ACC / +8 SPD]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no 尸骸
 +100%% DMG if 2+ 尸骸
 +100%% DMG if 3+ 尸骸]]></entry>
 	</language>
 
-	
+	<language id="koreana">
+		<!-- Copy from existing strings -->
+		<entry id="buff_rule_data_tooltip_fortifying_vapours"><![CDATA[Restorative Vapours]]></entry>
+		<entry id="buff_rule_data_tooltip_invigorating_vapours"><![CDATA[Rapturous Vapours]]></entry>
+		<entry id="buff_rule_data_tooltip_flashpowder"><![CDATA[Flashpowder]]></entry>
+		<entry id="buff_rule_data_tooltip_festering_vapours"><![CDATA[Festering Vapours]]></entry>
+		<entry id="buff_rule_data_tooltip_cower"><![CDATA[Get Down!]]></entry>
+		<entry id="buff_rule_data_tooltip_kris_stab"><![CDATA[Nervous Stab]]></entry>
+		<entry id="buff_rule_data_tooltip_solo"><![CDATA[Solo]]></entry>
+		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[Finale]]></entry>
+		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[Inspiring Tune]]></entry>
 
+		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[Protect Me]]></entry>
+		<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% 방어 지속시간]]></entry>
+		<entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[+%d%% 방어 지속시간]]></entry>
+		
+		<!-- Copy from Seraph -->
+		<entry id="buff_stat_tooltip_upgrade_discount_consume_mark"><![CDATA[Consume {colour_start|mark}Mark{colour_end}]]></entry>
+
+		
+		<!-- Existing Effects Missing Tooltips -->
+		<entry id="effect_tooltip_cure_bleed"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}]]></entry>
+		<entry id="effect_tooltip_target_enemy_group"><![CDATA[Enemy Party:]]></entry>
+		<entry id="effect_tooltip_target_group_other"><![CDATA[Others:]]></entry>
+		<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if vs. %s (%d+)]]></entry>
+		<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if vs. no %ss]]></entry>
+
+
+		
+		<!-- New Custom Strings -->
+
+		
+		<!-- Antiquarian -->
+		<entry id="str_inventory_title_supplyantiq_blue"><![CDATA[Strange Blue Powder]]></entry>
+		<entry id="str_inventory_title_supplyantiq_orange"><![CDATA[Strange Red Powder]]></entry>
+		<entry id="str_inventory_title_supplyantiq_personal"><![CDATA[Personal Stash]]></entry>
+		<entry id="str_inventory_description_supplyantiq_blue"><![CDATA[Use to empower the Antiquarian's team-targeted abilities.
+{colour_start|inventory_tooltip_gold_value}[Value: 500 Gold Each]{colour_end}]]></entry>
+		<entry id="str_inventory_description_supplyantiq_orange"><![CDATA[Use to empower the Antiquarian's enemy-targeted abilities.
+{colour_start|inventory_tooltip_gold_value}[Value: 500 Gold Each]{colour_end}]]></entry>
+		<entry id="str_inventory_description_supplyantiq_personal"><![CDATA[Use to empower the Antiquarian's abilities.]]></entry>
+		<entry id="camping_skill_effect_loot_GV_ANTIQ_CAMP_POWDERS"><![CDATA[Produces powders from the personal stash.]]></entry>
+		<entry id="camping_skill_effect_loot_GV_ANTIQ_CAMP_BONUS_POWDERS"><![CDATA[]]></entry>
+		
+		
+		<!-- Houndmaster -->
+		<entry id="str_skill_mode_info_hound"><![CDATA[]]></entry>
+
+		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[Down girl!]]></entry>
+		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[The old girl doesn't play well with others, I'm afraid.]]></entry>
+		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[Heel! Heel!]]></entry>
+		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[The pups are on edge. Best keep them separate.]]></entry>
+		
+
+		<!-- Tooltip Hack Strings -->
+		<entry id="buff_stat_tooltip_upgrade_discount_hm_already_marked"><![CDATA[If Target is already {colour_start|mark}Marked{colour_end}:]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on MISS/DODGE Only
+-20%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_2"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on MISS/DODGE Only
+-15%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_3"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on MISS/DODGE Only
+-10%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_4"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on MISS/DODGE Only
+-5%% DMG when {colour_start|riposte}Riposte{colour_end}
++1%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_5"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on MISS/DODGE Only
++2%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+-40%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_2"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+-35%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_3"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+-30%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_4"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+-25%% DMG when {colour_start|riposte}Riposte{colour_end}
++1%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_5"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+-20%% DMG when {colour_start|riposte}Riposte{colour_end}
++2%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on HIT Only
+{colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[+10 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[+11 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[+12 ACC / +6 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[+13 ACC / +7 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[+15 ACC / +8 SPD]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no Corpses
++100%% DMG if 2+ Corpses
++100%% DMG if 3+ Corpses]]></entry>
+	</language>
+
+	<language id="koreanb">
+		<!-- Copy from existing strings -->
+		<entry id="buff_rule_data_tooltip_fortifying_vapours"><![CDATA[Restorative Vapours]]></entry>
+		<entry id="buff_rule_data_tooltip_invigorating_vapours"><![CDATA[Rapturous Vapours]]></entry>
+		<entry id="buff_rule_data_tooltip_flashpowder"><![CDATA[Flashpowder]]></entry>
+		<entry id="buff_rule_data_tooltip_festering_vapours"><![CDATA[Festering Vapours]]></entry>
+		<entry id="buff_rule_data_tooltip_cower"><![CDATA[Get Down!]]></entry>
+		<entry id="buff_rule_data_tooltip_kris_stab"><![CDATA[Nervous Stab]]></entry>
+		<entry id="buff_rule_data_tooltip_solo"><![CDATA[Solo]]></entry>
+		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[Finale]]></entry>
+		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[Inspiring Tune]]></entry>
+
+		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[Protect Me]]></entry>
+		<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% 방어 지속시간]]></entry>
+		<entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[+%d%% 방어 지속시간]]></entry>
+		
+		<!-- Copy from Seraph -->
+		<entry id="buff_stat_tooltip_upgrade_discount_consume_mark"><![CDATA[Consume {colour_start|mark}Mark{colour_end}]]></entry>
+
+		
+		<!-- Existing Effects Missing Tooltips -->
+		<entry id="effect_tooltip_cure_bleed"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}]]></entry>
+		<entry id="effect_tooltip_target_enemy_group"><![CDATA[Enemy Party:]]></entry>
+		<entry id="effect_tooltip_target_group_other"><![CDATA[Others:]]></entry>
+		<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if vs. %s (%d+)]]></entry>
+		<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if vs. no %ss]]></entry>
+
+
+		
+		<!-- New Custom Strings -->
+
+		
+		<!-- Antiquarian -->
+		<entry id="str_inventory_title_supplyantiq_blue"><![CDATA[Strange Blue Powder]]></entry>
+		<entry id="str_inventory_title_supplyantiq_orange"><![CDATA[Strange Red Powder]]></entry>
+		<entry id="str_inventory_title_supplyantiq_personal"><![CDATA[Personal Stash]]></entry>
+		<entry id="str_inventory_description_supplyantiq_blue"><![CDATA[Use to empower the Antiquarian's team-targeted abilities.
+{colour_start|inventory_tooltip_gold_value}[Value: 500 Gold Each]{colour_end}]]></entry>
+		<entry id="str_inventory_description_supplyantiq_orange"><![CDATA[Use to empower the Antiquarian's enemy-targeted abilities.
+{colour_start|inventory_tooltip_gold_value}[Value: 500 Gold Each]{colour_end}]]></entry>
+		<entry id="str_inventory_description_supplyantiq_personal"><![CDATA[Use to empower the Antiquarian's abilities.]]></entry>
+		<entry id="camping_skill_effect_loot_GV_ANTIQ_CAMP_POWDERS"><![CDATA[Produces powders from the personal stash.]]></entry>
+		<entry id="camping_skill_effect_loot_GV_ANTIQ_CAMP_BONUS_POWDERS"><![CDATA[]]></entry>
+		
+		
+		<!-- Houndmaster -->
+		<entry id="str_skill_mode_info_hound"><![CDATA[]]></entry>
+
+		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[Down girl!]]></entry>
+		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[The old girl doesn't play well with others, I'm afraid.]]></entry>
+		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[Heel! Heel!]]></entry>
+		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[The pups are on edge. Best keep them separate.]]></entry>
+		
+
+		<!-- Tooltip Hack Strings -->
+		<entry id="buff_stat_tooltip_upgrade_discount_hm_already_marked"><![CDATA[If Target is already {colour_start|mark}Marked{colour_end}:]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on MISS/DODGE Only
+-20%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_2"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on MISS/DODGE Only
+-15%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_3"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on MISS/DODGE Only
+-10%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_4"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on MISS/DODGE Only
+-5%% DMG when {colour_start|riposte}Riposte{colour_end}
++1%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_5"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on MISS/DODGE Only
++2%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+-40%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_2"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+-35%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_3"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+-30%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_4"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+-25%% DMG when {colour_start|riposte}Riposte{colour_end}
++1%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_5"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+-20%% DMG when {colour_start|riposte}Riposte{colour_end}
++2%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
+Triggers on HIT Only
+{colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[+10 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[+11 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[+12 ACC / +6 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[+13 ACC / +7 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[+15 ACC / +8 SPD]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no Corpses
++100%% DMG if 2+ Corpses
++100%% DMG if 3+ Corpses]]></entry>
+	</language>
+
+	
 </root>
 
