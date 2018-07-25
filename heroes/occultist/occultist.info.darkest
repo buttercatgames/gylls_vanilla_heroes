@@ -2,11 +2,11 @@ resistances: .stun 20% .poison 30% .bleed 40% .disease 40% .move 20% .debuff 60%
 
 crit: .effects "GV_Occ_On_Crit"
 
-weapon: .name "occultist_weapon_0" .atk 0% .dmg 4 7 .crit 7% .spd 6
-weapon: .name "occultist_weapon_1" .atk 0% .dmg 5 8 .crit 8% .spd 6 .upgradeRequirementCode 0
-weapon: .name "occultist_weapon_2" .atk 0% .dmg 6 10 .crit 9% .spd 7 .upgradeRequirementCode 1
-weapon: .name "occultist_weapon_3" .atk 0% .dmg 6 11 .crit 10% .spd 7 .upgradeRequirementCode 2
-weapon: .name "occultist_weapon_4" .atk 0% .dmg 7 13 .crit 11% .spd 8 .upgradeRequirementCode 3
+weapon: .name "occultist_weapon_0" .atk 0% .dmg 4 7 .crit 6% .spd 6
+weapon: .name "occultist_weapon_1" .atk 0% .dmg 5 8 .crit 7% .spd 6 .upgradeRequirementCode 0
+weapon: .name "occultist_weapon_2" .atk 0% .dmg 6 10 .crit 8% .spd 7 .upgradeRequirementCode 1
+weapon: .name "occultist_weapon_3" .atk 0% .dmg 6 11 .crit 9% .spd 7 .upgradeRequirementCode 2
+weapon: .name "occultist_weapon_4" .atk 0% .dmg 7 13 .crit 10% .spd 8 .upgradeRequirementCode 3
 
 armour: .name "occultist_armour_0" .def 10% .prot 0 .hp 19 .spd 0
 armour: .name "occultist_armour_1" .def 15% .prot 0 .hp 23 .spd 0 .upgradeRequirementCode 0
@@ -22,18 +22,18 @@ combat_skill: .id "bloodlet" .level 3 .type "melee" .atk 95% .dmg 0% .crit 11% .
 combat_skill: .id "bloodlet" .level 4 .type "melee" .atk 100% .dmg 0% .crit 12% .launch 321 .target 123 .is_crit_valid True .effect "Eldritch Killer 5"
 
 // Abyssal Artillery
-combat_skill: .id "abyssal_artillery" .level 0 .type "ranged" .atk 85% .dmg -25% .crit 4% .launch 432 .target ~34 .is_crit_valid True .effect "Eldritch Killer 1" "Darkness 1"
-combat_skill: .id "abyssal_artillery" .level 1 .type "ranged" .atk 90% .dmg -25% .crit 4% .launch 432 .target ~34 .is_crit_valid True .effect "Eldritch Killer 2" "Darkness 1"
-combat_skill: .id "abyssal_artillery" .level 2 .type "ranged" .atk 95% .dmg -25% .crit 5% .launch 432 .target ~34 .is_crit_valid True .effect "Eldritch Killer 3" "Darkness 1"
+combat_skill: .id "abyssal_artillery" .level 0 .type "ranged" .atk 85% .dmg -25% .crit 2% .launch 432 .target ~34 .is_crit_valid True .effect "Eldritch Killer 1" "Darkness 1"
+combat_skill: .id "abyssal_artillery" .level 1 .type "ranged" .atk 90% .dmg -25% .crit 3% .launch 432 .target ~34 .is_crit_valid True .effect "Eldritch Killer 2" "Darkness 1"
+combat_skill: .id "abyssal_artillery" .level 2 .type "ranged" .atk 95% .dmg -25% .crit 4% .launch 432 .target ~34 .is_crit_valid True .effect "Eldritch Killer 3" "Darkness 1"
 combat_skill: .id "abyssal_artillery" .level 3 .type "ranged" .atk 100% .dmg -25% .crit 5% .launch 432 .target ~34 .is_crit_valid True .effect "Eldritch Killer 4" "Darkness 1"
 combat_skill: .id "abyssal_artillery" .level 4 .type "ranged" .atk 105% .dmg -25% .crit 6% .launch 432 .target ~34 .is_crit_valid True .effect "Eldritch Killer 5" "Darkness 1"
 
 // Weakening Curse
 combat_skill: .id "weakening_curse" .level 0 .type "ranged" .atk 95% .dmg -75% .crit 4% .launch 4 .target 1234 .is_crit_valid True .effect "GV_Occ_Weaken_1"
-combat_skill: .id "weakening_curse" .level 1 .type "ranged" .atk 100% .dmg -75% .crit 4% .launch 4 .target 1234 .is_crit_valid True .effect "GV_Occ_Weaken_2"
-combat_skill: .id "weakening_curse" .level 2 .type "ranged" .atk 105% .dmg -75% .crit 5% .launch 4 .target 1234 .is_crit_valid True .effect "GV_Occ_Weaken_3"
-combat_skill: .id "weakening_curse" .level 3 .type "ranged" .atk 110% .dmg -75% .crit 5% .launch 4 .target 1234 .is_crit_valid True .effect "GV_Occ_Weaken_4"
-combat_skill: .id "weakening_curse" .level 4 .type "ranged" .atk 115% .dmg -75% .crit 6% .launch 4 .target 1234 .is_crit_valid True .effect "GV_Occ_Weaken_5"
+combat_skill: .id "weakening_curse" .level 1 .type "ranged" .atk 100% .dmg -75% .crit 5% .launch 4 .target 1234 .is_crit_valid True .effect "GV_Occ_Weaken_2"
+combat_skill: .id "weakening_curse" .level 2 .type "ranged" .atk 105% .dmg -75% .crit 6% .launch 4 .target 1234 .is_crit_valid True .effect "GV_Occ_Weaken_3"
+combat_skill: .id "weakening_curse" .level 3 .type "ranged" .atk 110% .dmg -75% .crit 7% .launch 4 .target 1234 .is_crit_valid True .effect "GV_Occ_Weaken_4"
+combat_skill: .id "weakening_curse" .level 4 .type "ranged" .atk 115% .dmg -75% .crit 8% .launch 4 .target 1234 .is_crit_valid True .effect "GV_Occ_Weaken_5"
 
 // Wyrd Reconstruction
 combat_skill: .id "wyrd_reconstruction" .level 0 .heal 0 13 .launch 432 .target @4321 .effect "GV_Occ_Bleed_1" .generation_guaranteed true .is_stall_invalidating false
@@ -51,17 +51,17 @@ combat_skill: .id "disruptive_curse" .level 4 .type "ranged" .atk 120% .dmg -100
 
 // Hands from the Abyss
 combat_skill: .id "hands_from_abyss" .level 0 .type "ranged" .atk 90% .dmg -50% .crit 6% .launch 12 .target 123 .is_crit_valid True .effect "GV_Strong_Stun_1" "GV_Occ_Dmg_Buff_1" "GV_Occ_Stress_Others"
-combat_skill: .id "hands_from_abyss" .level 1 .type "ranged" .atk 95% .dmg -50% .crit 6% .launch 12 .target 123 .is_crit_valid True .effect "GV_Strong_Stun_2" "GV_Occ_Dmg_Buff_2" "GV_Occ_Stress_Others"
-combat_skill: .id "hands_from_abyss" .level 2 .type "ranged" .atk 100% .dmg -50% .crit 7% .launch 12 .target 123 .is_crit_valid True .effect "GV_Strong_Stun_3" "GV_Occ_Dmg_Buff_3" "GV_Occ_Stress_Others"
-combat_skill: .id "hands_from_abyss" .level 3 .type "ranged" .atk 105% .dmg -50% .crit 7% .launch 12 .target 123 .is_crit_valid True .effect "GV_Strong_Stun_4" "GV_Occ_Dmg_Buff_4" "GV_Occ_Stress_Others"
-combat_skill: .id "hands_from_abyss" .level 4 .type "ranged" .atk 110% .dmg -50% .crit 8% .launch 12 .target 123 .is_crit_valid True .effect "GV_Strong_Stun_5" "GV_Occ_Dmg_Buff_5" "GV_Occ_Stress_Others"
+combat_skill: .id "hands_from_abyss" .level 1 .type "ranged" .atk 95% .dmg -50% .crit 7% .launch 12 .target 123 .is_crit_valid True .effect "GV_Strong_Stun_2" "GV_Occ_Dmg_Buff_2" "GV_Occ_Stress_Others"
+combat_skill: .id "hands_from_abyss" .level 2 .type "ranged" .atk 100% .dmg -50% .crit 8% .launch 12 .target 123 .is_crit_valid True .effect "GV_Strong_Stun_3" "GV_Occ_Dmg_Buff_3" "GV_Occ_Stress_Others"
+combat_skill: .id "hands_from_abyss" .level 3 .type "ranged" .atk 105% .dmg -50% .crit 9% .launch 12 .target 123 .is_crit_valid True .effect "GV_Strong_Stun_4" "GV_Occ_Dmg_Buff_4" "GV_Occ_Stress_Others"
+combat_skill: .id "hands_from_abyss" .level 4 .type "ranged" .atk 110% .dmg -50% .crit 10% .launch 12 .target 123 .is_crit_valid True .effect "GV_Strong_Stun_5" "GV_Occ_Dmg_Buff_5" "GV_Occ_Stress_Others"
 
 // Daemon's Pull
 combat_skill: .id "daemons_pull" .level 0 .type "ranged" .atk 90% .dmg -50% .crit 4% .launch 432 .target 34 .is_crit_valid True .effect "Pull 2B" "clear_corpses"
-combat_skill: .id "daemons_pull" .level 1 .type "ranged" .atk 95% .dmg -50% .crit 4% .launch 432 .target 34 .is_crit_valid True .effect "Pull 2C" "clear_corpses"
-combat_skill: .id "daemons_pull" .level 2 .type "ranged" .atk 100% .dmg -50% .crit 5% .launch 432 .target 34 .is_crit_valid True .effect "Pull 2D" "clear_corpses"
-combat_skill: .id "daemons_pull" .level 3 .type "ranged" .atk 105% .dmg -50% .crit 5% .launch 432 .target 34 .is_crit_valid True .effect "Pull 2E" "clear_corpses"
-combat_skill: .id "daemons_pull" .level 4 .type "ranged" .atk 110% .dmg -50% .crit 6% .launch 432 .target 34 .is_crit_valid True .effect "Pull 2F" "clear_corpses"
+combat_skill: .id "daemons_pull" .level 1 .type "ranged" .atk 95% .dmg -50% .crit 5% .launch 432 .target 34 .is_crit_valid True .effect "Pull 2C" "clear_corpses"
+combat_skill: .id "daemons_pull" .level 2 .type "ranged" .atk 100% .dmg -50% .crit 6% .launch 432 .target 34 .is_crit_valid True .effect "Pull 2D" "clear_corpses"
+combat_skill: .id "daemons_pull" .level 3 .type "ranged" .atk 105% .dmg -50% .crit 7% .launch 432 .target 34 .is_crit_valid True .effect "Pull 2E" "clear_corpses"
+combat_skill: .id "daemons_pull" .level 4 .type "ranged" .atk 110% .dmg -50% .crit 8% .launch 432 .target 34 .is_crit_valid True .effect "Pull 2F" "clear_corpses"
 
 combat_move_skill: .id "move" .level 0 .type "move" .move 2 2 .launch 4321
 

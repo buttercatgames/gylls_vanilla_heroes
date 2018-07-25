@@ -3,9 +3,6 @@
 Parsing project file - C:\DarkestDungeon\mods\gylls_vanilla_heroes\project.xml
 Mod Data Directory = C:/DarkestDungeon/mods/gylls_vanilla_heroes/
 
-Creating new item...
-.......Created
-
 -------------------------------------------------------------------------------
 Processing Map Files files...
 
@@ -63,6 +60,7 @@ heroes/crusader/crusader.ability.scroll.png
 heroes/crusader/crusader.ability.smite.png
 heroes/crusader/crusader.art.darkest
 heroes/crusader/crusader.info.darkest
+heroes/grave_robber/grave_robber.ability.fade.png
 heroes/grave_robber/grave_robber.ability.flashing.png
 heroes/grave_robber/grave_robber.ability.pick.png
 heroes/grave_robber/grave_robber.ability.zone.png
@@ -94,6 +92,7 @@ heroes/man_at_arms/man_at_arms.ability.crush.png
 heroes/man_at_arms/man_at_arms.ability.rangedstun.png
 heroes/man_at_arms/man_at_arms.art.darkest
 heroes/man_at_arms/man_at_arms.info.darkest
+heroes/man_at_arms/man_at_arms_guild_header.png
 heroes/occultist/occultist.art.darkest
 heroes/occultist/occultist.info.darkest
 heroes/plague_doctor/plague_doctor.ability.concoction.png
@@ -129,10 +128,11 @@ localization/gv_heroes_skill_names.string_table.xml
 localization/gv_heroes_tooltip_overwrites.string_table.xml
 localization/missing_files.txt
 loot/gv_heroes.loot.json
+modfiles.txt
 preview_icon.png
 project-backup.xml
 project.xml
 
-Submitting.............................................................................................................................................Submitted.
+Submitting.......................................................................................Submitted.
 Saving project file C:\DarkestDungeon\mods\gylls_vanilla_heroes\project.xml
 

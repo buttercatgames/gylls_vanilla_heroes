@@ -16,24 +16,24 @@ armour: .name "man_at_arms_armour_4" .def 25% .prot 0 .hp 55 .spd 0 .upgradeRequ
 
 // Crush
 combat_skill: .id "crush" .level 0 .type "melee" .atk 85% .dmg 0% .crit 2% .launch 12 .target 123 .is_crit_valid True .effect "GV_Stun_Soften_1" .generation_guaranteed true
-combat_skill: .id "crush" .level 1 .type "melee" .atk 90% .dmg 0% .crit 2% .launch 12 .target 123 .is_crit_valid True .effect "GV_Stun_Soften_2"
-combat_skill: .id "crush" .level 2 .type "melee" .atk 95% .dmg 0% .crit 3% .launch 12 .target 123 .is_crit_valid True .effect "GV_Stun_Soften_3"
-combat_skill: .id "crush" .level 3 .type "melee" .atk 100% .dmg 0% .crit 3% .launch 12 .target 123 .is_crit_valid True .effect "GV_Stun_Soften_4"
-combat_skill: .id "crush" .level 4 .type "melee" .atk 105% .dmg 0% .crit 4% .launch 12 .target 123 .is_crit_valid True .effect "GV_Stun_Soften_5"
+combat_skill: .id "crush" .level 1 .type "melee" .atk 90% .dmg 0% .crit 3% .launch 12 .target 123 .is_crit_valid True .effect "GV_Stun_Soften_2"
+combat_skill: .id "crush" .level 2 .type "melee" .atk 95% .dmg 0% .crit 4% .launch 12 .target 123 .is_crit_valid True .effect "GV_Stun_Soften_3"
+combat_skill: .id "crush" .level 3 .type "melee" .atk 100% .dmg 0% .crit 5% .launch 12 .target 123 .is_crit_valid True .effect "GV_Stun_Soften_4"
+combat_skill: .id "crush" .level 4 .type "melee" .atk 105% .dmg 0% .crit 6% .launch 12 .target 123 .is_crit_valid True .effect "GV_Stun_Soften_5"
 
 // Rampart
-combat_skill: .id "rampart" .level 0 .type "melee" .atk 90% .dmg -60% .crit 2% .move 0 1 .launch 123 .target 123 .is_crit_valid True .effect "Push 1A" "Stun 1"
-combat_skill: .id "rampart" .level 1 .type "melee" .atk 95% .dmg -60% .crit 2% .move 0 1 .launch 123 .target 123 .is_crit_valid True .effect "Push 1B" "Stun 2"
-combat_skill: .id "rampart" .level 2 .type "melee" .atk 100% .dmg -60% .crit 3% .move 0 1 .launch 123 .target 123 .is_crit_valid True .effect "Push 1C" "Stun 3"
-combat_skill: .id "rampart" .level 3 .type "melee" .atk 105% .dmg -60% .crit 3% .move 0 1 .launch 123 .target 123 .is_crit_valid True .effect "Push 1D" "Stun 4"
-combat_skill: .id "rampart" .level 4 .type "melee" .atk 110% .dmg -60% .crit 4% .move 0 1 .launch 123 .target 123 .is_crit_valid True .effect "Push 1E" "Stun 5"
+combat_skill: .id "rampart" .level 0 .type "melee" .atk 90% .dmg -60% .crit 2% .move 0 1 .launch 123 .target 12 .is_crit_valid True .effect "Push 1A" "Stun 1"
+combat_skill: .id "rampart" .level 1 .type "melee" .atk 95% .dmg -60% .crit 3% .move 0 1 .launch 123 .target 12 .is_crit_valid True .effect "Push 1B" "Stun 2"
+combat_skill: .id "rampart" .level 2 .type "melee" .atk 100% .dmg -60% .crit 4% .move 0 1 .launch 123 .target 12 .is_crit_valid True .effect "Push 1C" "Stun 3"
+combat_skill: .id "rampart" .level 3 .type "melee" .atk 105% .dmg -60% .crit 5% .move 0 1 .launch 123 .target 12 .is_crit_valid True .effect "Push 1D" "Stun 4"
+combat_skill: .id "rampart" .level 4 .type "melee" .atk 110% .dmg -60% .crit 6% .move 0 1 .launch 123 .target 12 .is_crit_valid True .effect "Push 1E" "Stun 5"
 
 // Bellow
-combat_skill: .id "bellow" .level 0 .type "ranged" .atk 90% .dmg -95% .crit 0% .launch 1234 .target ~1234 .is_crit_valid True .effect "GV_MAA_Bellow_Debuff_1"
-combat_skill: .id "bellow" .level 1 .type "ranged" .atk 95% .dmg -95% .crit 0% .launch 1234 .target ~1234 .is_crit_valid True .effect "GV_MAA_Bellow_Debuff_2"
-combat_skill: .id "bellow" .level 2 .type "ranged" .atk 100% .dmg -95% .crit 1% .launch 1234 .target ~1234 .is_crit_valid True .effect "GV_MAA_Bellow_Debuff_3"
-combat_skill: .id "bellow" .level 3 .type "ranged" .atk 105% .dmg -95% .crit 1% .launch 1234 .target ~1234 .is_crit_valid True .effect "GV_MAA_Bellow_Debuff_4"
-combat_skill: .id "bellow" .level 4 .type "ranged" .atk 110% .dmg -95% .crit 2% .launch 1234 .target ~1234 .is_crit_valid True .effect "GV_MAA_Bellow_Debuff_5"
+combat_skill: .id "bellow" .level 0 .type "ranged" .atk 90% .dmg -90% .crit -8% .launch 1234 .target ~1234 .is_crit_valid True .effect "GV_MAA_Bellow_Debuff_1"
+combat_skill: .id "bellow" .level 1 .type "ranged" .atk 95% .dmg -90% .crit -7% .launch 1234 .target ~1234 .is_crit_valid True .effect "GV_MAA_Bellow_Debuff_2"
+combat_skill: .id "bellow" .level 2 .type "ranged" .atk 100% .dmg -90% .crit -6% .launch 1234 .target ~1234 .is_crit_valid True .effect "GV_MAA_Bellow_Debuff_3"
+combat_skill: .id "bellow" .level 3 .type "ranged" .atk 105% .dmg -90% .crit -5% .launch 1234 .target ~1234 .is_crit_valid True .effect "GV_MAA_Bellow_Debuff_4"
+combat_skill: .id "bellow" .level 4 .type "ranged" .atk 110% .dmg -90% .crit -4% .launch 1234 .target ~1234 .is_crit_valid True .effect "GV_MAA_Bellow_Debuff_5"
 
 // Defender
 combat_skill: .id "defender" .level 0 .launch 1234 .target @1234 .self_target_valid false .is_crit_valid False .effect "Clear Guard Performer" "Clear Guard Target" "GV_Guard_3" "GV_MAA_Defender_1" .is_stall_invalidating false
@@ -43,11 +43,11 @@ combat_skill: .id "defender" .level 3 .launch 1234 .target @1234 .self_target_va
 combat_skill: .id "defender" .level 4 .launch 1234 .target @1234 .self_target_valid false .is_crit_valid False .effect "Clear Guard Performer" "Clear Guard Target" "GV_Guard_3" "GV_MAA_Defender_5" .is_stall_invalidating false
 
 // Retribution
-combat_skill: .id "retribution" .level 0 .type "melee" .atk 85% .dmg -60% .crit 0% .launch 123 .target 123 .is_crit_valid True .effect "GV_MAA_Riposte_1" "GV_Tooltip_MAA_Riposte_1"
-combat_skill: .id "retribution" .level 1 .type "melee" .atk 90% .dmg -60% .crit 0% .launch 123 .target 123 .is_crit_valid True .effect "GV_MAA_Riposte_2" "GV_Tooltip_MAA_Riposte_2"
-combat_skill: .id "retribution" .level 2 .type "melee" .atk 95% .dmg -60% .crit 1% .launch 123 .target 123 .is_crit_valid True .effect "GV_MAA_Riposte_3" "GV_Tooltip_MAA_Riposte_3"
-combat_skill: .id "retribution" .level 3 .type "melee" .atk 100% .dmg -60% .crit 1% .launch 123 .target 123 .is_crit_valid True .effect "GV_MAA_Riposte_4" "GV_Tooltip_MAA_Riposte_4"
-combat_skill: .id "retribution" .level 4 .type "melee" .atk 105% .dmg -60% .crit 2% .launch 123 .target 123 .is_crit_valid True .effect "GV_MAA_Riposte_5" "GV_Tooltip_MAA_Riposte_5"
+combat_skill: .id "retribution" .level 0 .type "melee" .atk 85% .dmg -60% .crit 0% .launch 123 .target 123 .is_crit_valid True .effect "GV_MAA_Riposte_1" "GV_Tooltip_MAA_Riposte_1" "Mark Self"
+combat_skill: .id "retribution" .level 1 .type "melee" .atk 90% .dmg -60% .crit 1% .launch 123 .target 123 .is_crit_valid True .effect "GV_MAA_Riposte_2" "GV_Tooltip_MAA_Riposte_2" "Mark Self"
+combat_skill: .id "retribution" .level 2 .type "melee" .atk 95% .dmg -60% .crit 2% .launch 123 .target 123 .is_crit_valid True .effect "GV_MAA_Riposte_3" "GV_Tooltip_MAA_Riposte_3" "Mark Self"
+combat_skill: .id "retribution" .level 3 .type "melee" .atk 100% .dmg -60% .crit 3% .launch 123 .target 123 .is_crit_valid True .effect "GV_MAA_Riposte_4" "GV_Tooltip_MAA_Riposte_4" "Mark Self"
+combat_skill: .id "retribution" .level 4 .type "melee" .atk 105% .dmg -60% .crit 4% .launch 123 .target 123 .is_crit_valid True .effect "GV_MAA_Riposte_5" "GV_Tooltip_MAA_Riposte_5" "Mark Self"
 
 // Command
 combat_skill: .id "command" .level 0 .type "ranged" .atk 95% .dmg -100% .crit 0% .launch 1234 .target 34 .is_crit_valid False .effect "Stun 1" "clear_corpses" .is_stall_invalidating false

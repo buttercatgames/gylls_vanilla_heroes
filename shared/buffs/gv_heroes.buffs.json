@@ -1007,7 +1007,7 @@
          "id" : "GV_GR_Pierce_Armor_1",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
-         "amount" : 0.25,
+         "amount" : 0.20,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -1020,7 +1020,7 @@
          "id" : "GV_GR_Pierce_Armor_2",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
-         "amount" : 0.33,
+         "amount" : 0.25,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -1033,7 +1033,7 @@
          "id" : "GV_GR_Pierce_Armor_3",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
-         "amount" : 0.40,
+         "amount" : 0.30,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -1046,7 +1046,7 @@
          "id" : "GV_GR_Pierce_Armor_4",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
-         "amount" : 0.45,
+         "amount" : 0.35,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -1059,7 +1059,7 @@
          "id" : "GV_GR_Pierce_Armor_5",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
-         "amount" : 0.50,
+         "amount" : 0.40,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -1526,6 +1526,84 @@
             "string" : "tagged"
          }
       },
+      {
+         "id" : "GV_HM_Bleed_if_Marked_5",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.4,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+      {
+         "id" : "GV_HWM_Acc_Vs_Marked_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+      {
+         "id" : "GV_HWM_Acc_Vs_Marked_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },	  
+      {
+         "id" : "GV_HWM_Acc_Vs_Marked_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },	  
+      {
+         "id" : "GV_HWM_Acc_Vs_Marked_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.18,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },	  
+      {
+         "id" : "GV_HWM_Acc_Vs_Marked_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
 	  {
          "id" : "GV_Jester_Stress_Healing_Buff_1",
          "stat_type" : "stress_heal_percent",
@@ -1927,7 +2005,8 @@
          "rule_data" : {
             "float" : 0,
             "string" : "heroic_end"
-         }
+         },
+		 "is_clear_debuff_valid": false
       },
   	  {
          "id" : "GV_Jester_Finale_Debuff_Dodge",
@@ -1940,13 +2019,14 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "is_clear_debuff_valid": false
       },
   	  {
          "id" : "GV_Jester_Stress_Healing",
          "stat_type" : "stress_heal_percent",
          "stat_sub_type" : "",
-         "amount" : 0.20,
+         "amount" : 0.25,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -1959,7 +2039,7 @@
          "id" : "GV_Jester_Damage_Vs_Bleeding_L",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : 0.20,
+         "amount" : 0.25,
          "remove_if_not_active" : false,
          "rule_type" : "actorStatus",
          "is_false_rule" : false,
@@ -1972,7 +2052,7 @@
          "id" : "GV_Jester_Damage_Vs_Bleeding_H",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : 0.20,
+         "amount" : 0.25,
          "remove_if_not_active" : false,
          "rule_type" : "actorStatus",
          "is_false_rule" : false,
@@ -3952,6 +4032,201 @@
             "float" : 0,
             "string" : ""
          }
-      }	  
-	]
+      },
+	  {
+         "id" : "GV_Tooltip_Jester_Exhaust",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jester_exhaust",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Jester_Stress_Heal_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jester_stress_heal_1",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Jester_Stress_Heal_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jester_stress_heal_2",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Jester_Stress_Heal_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jester_stress_heal_3",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Jester_Dirk_Buff_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jester_dirk_buff_1",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Jester_Dirk_Buff_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jester_dirk_buff_2",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Jester_Dirk_Buff_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jester_dirk_buff_3",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Jester_Dirk_Buff_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jester_dirk_buff_4",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Jester_Dirk_Buff_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jester_dirk_buff_5",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Jester_Finale_Damage",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jester_finale_damage",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Jester_Solo_Debuff_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jester_solo_debuff_1",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Jester_Solo_Debuff_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jester_solo_debuff_2",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Jester_Solo_Debuff_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jester_solo_debuff_3",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Jester_Solo_Debuff_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jester_solo_debuff_4",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Jester_Solo_Debuff_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jester_solo_debuff_5",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }
+  ]
 }

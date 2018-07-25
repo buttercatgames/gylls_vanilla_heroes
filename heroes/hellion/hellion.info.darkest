@@ -19,14 +19,14 @@ combat_skill: .id "wicked_hack" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5%
 combat_skill: .id "wicked_hack" .level 1 .type "melee" .atk 90% .dmg 0% .crit 6% .launch 21 .target 12 .is_crit_valid True
 combat_skill: .id "wicked_hack" .level 2 .type "melee" .atk 95% .dmg 0% .crit 7% .launch 21 .target 12 .is_crit_valid True
 combat_skill: .id "wicked_hack" .level 3 .type "melee" .atk 100% .dmg 0% .crit 8% .launch 21 .target 12 .is_crit_valid True
-combat_skill: .id "wicked_hack" .level 4 .type "melee" .atk 105% .dmg 0% .crit 10% .launch 21 .target 12 .is_crit_valid True
+combat_skill: .id "wicked_hack" .level 4 .type "melee" .atk 105% .dmg 0% .crit 9% .launch 21 .target 12 .is_crit_valid True
 
 // Iron Swan
-combat_skill: .id "iron_swan" .level 0 .type "melee" .atk 85% .dmg 0% .crit 2% .launch 1 .target 4 .is_crit_valid True 
-combat_skill: .id "iron_swan" .level 1 .type "melee" .atk 90% .dmg 0% .crit 3% .launch 1 .target 4 .is_crit_valid True
-combat_skill: .id "iron_swan" .level 2 .type "melee" .atk 95% .dmg 0% .crit 4% .launch 1 .target 4 .is_crit_valid True
-combat_skill: .id "iron_swan" .level 3 .type "melee" .atk 100% .dmg 0% .crit 5% .launch 1 .target 4 .is_crit_valid True
-combat_skill: .id "iron_swan" .level 4 .type "melee" .atk 105% .dmg 0% .crit 6% .launch 1 .target 4 .is_crit_valid True
+combat_skill: .id "iron_swan" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .launch 1 .target 4 .is_crit_valid True 
+combat_skill: .id "iron_swan" .level 1 .type "melee" .atk 90% .dmg 0% .crit 6% .launch 1 .target 4 .is_crit_valid True
+combat_skill: .id "iron_swan" .level 2 .type "melee" .atk 95% .dmg 0% .crit 7% .launch 1 .target 4 .is_crit_valid True
+combat_skill: .id "iron_swan" .level 3 .type "melee" .atk 100% .dmg 0% .crit 8% .launch 1 .target 4 .is_crit_valid True
+combat_skill: .id "iron_swan" .level 4 .type "melee" .atk 105% .dmg 0% .crit 9% .launch 1 .target 4 .is_crit_valid True
 
 // Barbaric YAWP
 combat_skill: .id "barbaric_yawp" .level 0 .type "melee" .atk 100% .dmg -100% .crit 0% .launch 21 .target ~12 .is_crit_valid False .effect "GV_Hellion_Weak_Stun_1" .is_stall_invalidating false
@@ -36,18 +36,18 @@ combat_skill: .id "barbaric_yawp" .level 3 .type "melee" .atk 115% .dmg -100% .c
 combat_skill: .id "barbaric_yawp" .level 4 .type "melee" .atk 120% .dmg -100% .crit 0% .launch 21 .target ~12 .is_crit_valid False .effect "GV_Hellion_Weak_Stun_5" .is_stall_invalidating false
 
 // If It Bleeds
-combat_skill: .id "if_it_bleeds" .level 0 .type "melee" .atk 85% .dmg -35% .crit 0% .launch 321 .target 23 .is_crit_valid True .effect "Bleed 1"
-combat_skill: .id "if_it_bleeds" .level 1 .type "melee" .atk 90% .dmg -35% .crit 0% .launch 321 .target 23 .is_crit_valid True .effect "Bleed 2"
-combat_skill: .id "if_it_bleeds" .level 2 .type "melee" .atk 95% .dmg -35% .crit 1% .launch 321 .target 23 .is_crit_valid True .effect "Bleed 3"
-combat_skill: .id "if_it_bleeds" .level 3 .type "melee" .atk 100% .dmg -35% .crit 1% .launch 321 .target 23 .is_crit_valid True .effect "Bleed 4"
-combat_skill: .id "if_it_bleeds" .level 4 .type "melee" .atk 105% .dmg -35% .crit 2% .launch 321 .target 23 .is_crit_valid True .effect "Bleed 5"
+combat_skill: .id "if_it_bleeds" .level 0 .type "melee" .atk 85% .dmg -35% .crit 2% .launch 321 .target 23 .is_crit_valid True .effect "Bleed 1"
+combat_skill: .id "if_it_bleeds" .level 1 .type "melee" .atk 90% .dmg -35% .crit 3% .launch 321 .target 23 .is_crit_valid True .effect "Bleed 2"
+combat_skill: .id "if_it_bleeds" .level 2 .type "melee" .atk 95% .dmg -35% .crit 4% .launch 321 .target 23 .is_crit_valid True .effect "Bleed 3"
+combat_skill: .id "if_it_bleeds" .level 3 .type "melee" .atk 100% .dmg -35% .crit 5% .launch 321 .target 23 .is_crit_valid True .effect "Bleed 4"
+combat_skill: .id "if_it_bleeds" .level 4 .type "melee" .atk 105% .dmg -35% .crit 6% .launch 321 .target 23 .is_crit_valid True .effect "Bleed 5"
 
 // Breakthrough
-combat_skill: .id "breakthru" .level 0 .type "melee" .atk 85% .dmg -55% .crit -5% .move 0 2 .launch 4321 .target ~123 .is_crit_valid True .effect "GV_Very_Weak_Bleed_1" "GV_Hellion_Exhaust" "GV_Tooltip_Hellion_Exhaust"
-combat_skill: .id "breakthru" .level 1 .type "melee" .atk 90% .dmg -55% .crit -5% .move 0 2 .launch 4321 .target ~123 .is_crit_valid True .effect "GV_Very_Weak_Bleed_2" "GV_Hellion_Exhaust" "GV_Tooltip_Hellion_Exhaust"
-combat_skill: .id "breakthru" .level 2 .type "melee" .atk 95% .dmg -55% .crit -4% .move 0 2 .launch 4321 .target ~123 .is_crit_valid True .effect "GV_Very_Weak_Bleed_3" "GV_Hellion_Exhaust" "GV_Tooltip_Hellion_Exhaust"
-combat_skill: .id "breakthru" .level 3 .type "melee" .atk 100% .dmg -55% .crit -4% .move 0 2 .launch 4321 .target ~123 .is_crit_valid True .effect "GV_Very_Weak_Bleed_4" "GV_Hellion_Exhaust" "GV_Tooltip_Hellion_Exhaust"
-combat_skill: .id "breakthru" .level 4 .type "melee" .atk 105% .dmg -55% .crit -3% .move 0 2 .launch 4321 .target ~123 .is_crit_valid True .effect "GV_Very_Weak_Bleed_5" "GV_Hellion_Exhaust" "GV_Tooltip_Hellion_Exhaust"
+combat_skill: .id "breakthru" .level 0 .type "melee" .atk 85% .dmg -55% .crit -4% .move 0 2 .launch 4321 .target ~123 .is_crit_valid True .effect "GV_Very_Weak_Bleed_1" "GV_Hellion_Exhaust" "GV_Tooltip_Hellion_Exhaust"
+combat_skill: .id "breakthru" .level 1 .type "melee" .atk 90% .dmg -55% .crit -3% .move 0 2 .launch 4321 .target ~123 .is_crit_valid True .effect "GV_Very_Weak_Bleed_2" "GV_Hellion_Exhaust" "GV_Tooltip_Hellion_Exhaust"
+combat_skill: .id "breakthru" .level 2 .type "melee" .atk 95% .dmg -55% .crit -2% .move 0 2 .launch 4321 .target ~123 .is_crit_valid True .effect "GV_Very_Weak_Bleed_3" "GV_Hellion_Exhaust" "GV_Tooltip_Hellion_Exhaust"
+combat_skill: .id "breakthru" .level 3 .type "melee" .atk 100% .dmg -55% .crit -1% .move 0 2 .launch 4321 .target ~123 .is_crit_valid True .effect "GV_Very_Weak_Bleed_4" "GV_Hellion_Exhaust" "GV_Tooltip_Hellion_Exhaust"
+combat_skill: .id "breakthru" .level 4 .type "melee" .atk 105% .dmg -55% .crit 0% .move 0 2 .launch 4321 .target ~123 .is_crit_valid True .effect "GV_Very_Weak_Bleed_5" "GV_Hellion_Exhaust" "GV_Tooltip_Hellion_Exhaust"
 
 // Adrenaline Rush
 combat_skill: .id "adrenaline_rush" .level 0 .launch 4321 .target .is_crit_valid True .effect "GV_Hellion_Adrenaline_1" "GV_Hellion_Heal_1" .is_stall_invalidating false
@@ -57,11 +57,11 @@ combat_skill: .id "adrenaline_rush" .level 3 .launch 4321 .target .is_crit_valid
 combat_skill: .id "adrenaline_rush" .level 4 .launch 4321 .target .is_crit_valid True .effect "GV_Hellion_Adrenaline_5" "GV_Hellion_Heal_5" .is_stall_invalidating false
 
 // Bleed Out
-combat_skill: .id "bleed_out" .level 0 .type "melee" .atk 85% .dmg 15% .crit 5% .launch 1 .target 1 .is_crit_valid True .effect "Strong Bleed 1" "GV_Hellion_Exhaust" "GV_Tooltip_Hellion_Exhaust"
-combat_skill: .id "bleed_out" .level 1 .type "melee" .atk 90% .dmg 15% .crit 5% .launch 1 .target 1 .is_crit_valid True .effect "Strong Bleed 2" "GV_Hellion_Exhaust" "GV_Tooltip_Hellion_Exhaust"
-combat_skill: .id "bleed_out" .level 2 .type "melee" .atk 95% .dmg 15% .crit 6% .launch 1 .target 1 .is_crit_valid True .effect "Strong Bleed 3" "GV_Hellion_Exhaust" "GV_Tooltip_Hellion_Exhaust"
-combat_skill: .id "bleed_out" .level 3 .type "melee" .atk 100% .dmg 15% .crit 6% .launch 1 .target 1 .is_crit_valid True .effect "Strong Bleed 4" "GV_Hellion_Exhaust" "GV_Tooltip_Hellion_Exhaust"
-combat_skill: .id "bleed_out" .level 4 .type "melee" .atk 105% .dmg 15% .crit 7% .launch 1 .target 1 .is_crit_valid True .effect "Strong Bleed 5" "GV_Hellion_Exhaust" "GV_Tooltip_Hellion_Exhaust"
+combat_skill: .id "bleed_out" .level 0 .type "melee" .atk 85% .dmg 15% .crit 8% .launch 1 .target 1 .is_crit_valid True .effect "Strong Bleed 1" "GV_Hellion_Exhaust" "GV_Tooltip_Hellion_Exhaust"
+combat_skill: .id "bleed_out" .level 1 .type "melee" .atk 90% .dmg 15% .crit 9% .launch 1 .target 1 .is_crit_valid True .effect "Strong Bleed 2" "GV_Hellion_Exhaust" "GV_Tooltip_Hellion_Exhaust"
+combat_skill: .id "bleed_out" .level 2 .type "melee" .atk 95% .dmg 15% .crit 10% .launch 1 .target 1 .is_crit_valid True .effect "Strong Bleed 3" "GV_Hellion_Exhaust" "GV_Tooltip_Hellion_Exhaust"
+combat_skill: .id "bleed_out" .level 3 .type "melee" .atk 100% .dmg 15% .crit 11% .launch 1 .target 1 .is_crit_valid True .effect "Strong Bleed 4" "GV_Hellion_Exhaust" "GV_Tooltip_Hellion_Exhaust"
+combat_skill: .id "bleed_out" .level 4 .type "melee" .atk 105% .dmg 15% .crit 12% .launch 1 .target 1 .is_crit_valid True .effect "Strong Bleed 5" "GV_Hellion_Exhaust" "GV_Tooltip_Hellion_Exhaust"
 
 combat_move_skill: .id "move" .level 0 .type "move" .move 0 1 .launch 4321
 
