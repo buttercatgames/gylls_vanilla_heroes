@@ -43,11 +43,11 @@ combat_skill: .id "holy_lance" .level 3 .type "melee" .atk 100% .dmg 0% .crit 8%
 combat_skill: .id "holy_lance" .level 4 .type "melee" .atk 105% .dmg 0% .crit 9% .move 0 2 .launch 43 .target 234 .is_crit_valid True .effect "Unholy Killer 5"
 
 // Inspiring Cry
-combat_skill: .id "inspiring_cry" .level 0 .heal 1 1 .launch 4321 .target @4321 .effect "Crusader HealStress 1" "Crusader Light 1" .is_stall_invalidating false
-combat_skill: .id "inspiring_cry" .level 1 .heal 1 1 .launch 4321 .target @4321 .effect "Crusader HealStress 2" "Crusader Light 2" .is_stall_invalidating false
-combat_skill: .id "inspiring_cry" .level 2 .heal 1 2 .launch 4321 .target @4321 .effect "Crusader HealStress 3" "Crusader Light 3" .is_stall_invalidating false
-combat_skill: .id "inspiring_cry" .level 3 .heal 1 2 .launch 4321 .target @4321 .effect "Crusader HealStress 4" "Crusader Light 4" .is_stall_invalidating false
-combat_skill: .id "inspiring_cry" .level 4 .heal 2 2 .launch 4321 .target @4321 .effect "Crusader HealStress 5" "Crusader Light 5" .is_stall_invalidating false
+combat_skill: .id "inspiring_cry" .level 0 .launch 4321 .target @4321 .effect "GV_Cru_IC_Heal" "GV_Cru_IC_Stress_Heal_1" "GV_Light" .is_stall_invalidating false
+combat_skill: .id "inspiring_cry" .level 1 .launch 4321 .target @4321 .effect "GV_Cru_IC_Heal" "GV_Cru_IC_Stress_Heal_2" "GV_Light" .is_stall_invalidating false
+combat_skill: .id "inspiring_cry" .level 2 .launch 4321 .target @4321 .effect "GV_Cru_IC_Heal" "GV_Cru_IC_Stress_Heal_3" "GV_Light" .is_stall_invalidating false
+combat_skill: .id "inspiring_cry" .level 3 .launch 4321 .target @4321 .effect "GV_Cru_IC_Heal" "GV_Cru_IC_Stress_Heal_4" "GV_Light" .is_stall_invalidating false
+combat_skill: .id "inspiring_cry" .level 4 .launch 4321 .target @4321 .effect "GV_Cru_IC_Heal" "GV_Cru_IC_Stress_Heal_5" "GV_Light" .is_stall_invalidating false
 
 // Battle Heal
 combat_skill: .id "battle_heal" .level 0 .launch 21 .target @1234 .self_target_valid false .effect "GV_Heal_Self_For_2" "GV_Heal_Target_For_2" "GV_Cru_Battle_Buff_Self_1" "GV_Cru_Battle_Buff_Target_1" .is_stall_invalidating false

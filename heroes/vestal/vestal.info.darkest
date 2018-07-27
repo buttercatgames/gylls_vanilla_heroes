@@ -22,11 +22,11 @@ combat_skill: .id "judgement" .level 3 .type "ranged" .atk 110% .dmg 0% .crit 8%
 combat_skill: .id "judgement" .level 4 .type "ranged" .atk 115% .dmg 0% .crit 9% .launch 43 .target 1234 .is_crit_valid True .effect "GV_Vestal_Pierce_Armor_5"
 
 // Dazzling Light
-combat_skill: .id "dazzling_light" .level 0 .type "ranged" .atk 90% .dmg -75% .crit 0% .launch 43 .target 123 .is_crit_valid True .effect "Stun 1" "Vestal Light 1"
-combat_skill: .id "dazzling_light" .level 1 .type "ranged" .atk 95% .dmg -75% .crit 1% .launch 43 .target 123 .is_crit_valid True .effect "Stun 2" "Vestal Light 1"
-combat_skill: .id "dazzling_light" .level 2 .type "ranged" .atk 100% .dmg -75% .crit 2% .launch 43 .target 123 .is_crit_valid True .effect "Stun 3" "Vestal Light 1"
-combat_skill: .id "dazzling_light" .level 3 .type "ranged" .atk 105% .dmg -75% .crit 3% .launch 43 .target 123 .is_crit_valid True .effect "Stun 4" "Vestal Light 1"
-combat_skill: .id "dazzling_light" .level 4 .type "ranged" .atk 110% .dmg -75% .crit 4% .launch 43 .target 123 .is_crit_valid True .effect "Stun 5" "Vestal Light 1"
+combat_skill: .id "dazzling_light" .level 0 .type "ranged" .atk 90% .dmg -75% .crit 0% .launch 43 .target 123 .is_crit_valid True .effect "Stun 1" "GV_Light"
+combat_skill: .id "dazzling_light" .level 1 .type "ranged" .atk 95% .dmg -75% .crit 1% .launch 43 .target 123 .is_crit_valid True .effect "Stun 2" "GV_Light"
+combat_skill: .id "dazzling_light" .level 2 .type "ranged" .atk 100% .dmg -75% .crit 2% .launch 43 .target 123 .is_crit_valid True .effect "Stun 3" "GV_Light"
+combat_skill: .id "dazzling_light" .level 3 .type "ranged" .atk 105% .dmg -75% .crit 3% .launch 43 .target 123 .is_crit_valid True .effect "Stun 4" "GV_Light"
+combat_skill: .id "dazzling_light" .level 4 .type "ranged" .atk 110% .dmg -75% .crit 4% .launch 43 .target 123 .is_crit_valid True .effect "Stun 5" "GV_Light"
 
 // Divine Comfort
 combat_skill: .id "gods_comfort" .level 0 .heal 1 2 .launch 43 .target @~4321 .is_stall_invalidating false
@@ -36,7 +36,7 @@ combat_skill: .id "gods_comfort" .level 3 .heal 2 4 .launch 43 .target @~4321 .i
 combat_skill: .id "gods_comfort" .level 4 .heal 3 4 .launch 43 .target @~4321 .is_stall_invalidating false
 
 // Divine Grace
-combat_skill: .id "divine_grace" .level 0 .heal 3 5 .launch 432 .target @4321 .generation_guaranteed true .is_stall_invalidating false
+combat_skill: .id "divine_grace" .level 0 .heal 3 5 .launch 432 .target @4321 .is_stall_invalidating false .generation_guaranteed true
 combat_skill: .id "divine_grace" .level 1 .heal 4 6 .launch 432 .target @4321 .is_stall_invalidating false
 combat_skill: .id "divine_grace" .level 2 .heal 5 7 .launch 432 .target @4321 .is_stall_invalidating false
 combat_skill: .id "divine_grace" .level 3 .heal 6 8 .launch 432 .target @4321 .is_stall_invalidating false

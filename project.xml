@@ -6,7 +6,7 @@
 	<Title>Gyll&apos;s Vanilla: Heroes</Title>
 	<Language>english</Language>
 	<UpdateDetails/>
-	<Visibility>private</Visibility>
+	<Visibility>public</Visibility>
 	<UploadMode>copy_and_upload</UploadMode>
 	<VersionMajor>0</VersionMajor>
 	<VersionMinor>0</VersionMinor>
@@ -57,6 +57,6 @@ Thanks to Clair de Lune, Chogex, O’Nightmare!, and Tilted Hat for helping me w
 [h1]Known Issues[/h1]
 If you enable this mod while in a dungeon with a Highwayman, Houndmaster, or Bounty Hunter, their new transforms will not work properly. Leave the dungeon, or finish it before enabling this mod to avoid this bug!
 </ItemDescription>
-	<PublishedFileId>1445669919</PublishedFileId>
+	<PublishedFileId>1385283735</PublishedFileId>
 </project>
 

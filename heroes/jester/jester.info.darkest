@@ -2,11 +2,11 @@ resistances: .stun 20% .poison 40% .bleed 30% .disease 20% .move 20% .debuff 40%
 
 crit: .effects "GV_Jester_On_Crit"
 
-weapon: .name "jester_weapon_0" .atk 0% .dmg 4 7 .crit 4% .spd 6
-weapon: .name "jester_weapon_1" .atk 0% .dmg 5 8 .crit 5% .spd 6 .upgradeRequirementCode 0
-weapon: .name "jester_weapon_2" .atk 0% .dmg 6 10 .crit 6% .spd 7 .upgradeRequirementCode 1
-weapon: .name "jester_weapon_3" .atk 0% .dmg 6 11 .crit 7% .spd 7 .upgradeRequirementCode 2
-weapon: .name "jester_weapon_4" .atk 0% .dmg 7 13 .crit 8% .spd 8 .upgradeRequirementCode 3
+weapon: .name "jester_weapon_0" .atk 0% .dmg 4 7 .crit 5% .spd 6
+weapon: .name "jester_weapon_1" .atk 0% .dmg 5 8 .crit 6% .spd 6 .upgradeRequirementCode 0
+weapon: .name "jester_weapon_2" .atk 0% .dmg 6 10 .crit 7% .spd 7 .upgradeRequirementCode 1
+weapon: .name "jester_weapon_3" .atk 0% .dmg 6 11 .crit 8% .spd 7 .upgradeRequirementCode 2
+weapon: .name "jester_weapon_4" .atk 0% .dmg 7 13 .crit 9% .spd 8 .upgradeRequirementCode 3
 
 armour: .name "jester_armour_0" .def 15% .prot 0 .hp 20 .spd 0
 armour: .name "jester_armour_1" .def 20% .prot 0 .hp 24 .spd 0 .upgradeRequirementCode 0

@@ -1,7 +1,7 @@
 {
    "buffs":
    [
-      {
+	  {
          "id" : "GV_Abom_Stressed_Crit_1",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "crit_chance",

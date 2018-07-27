@@ -111,28 +111,26 @@ colours/gv_heroes.colours.darkest
 effects/gv_heroes.effects.darkest
 inventory/gv_heroes.inventory.extra_stack_limits.darkest
 inventory/gv_heroes.supply.inventory.items.darkest
-localization/1445669919_brazilian.loc
-localization/1445669919_czech.loc
-localization/1445669919_english.loc
-localization/1445669919_french.loc
-localization/1445669919_german.loc
-localization/1445669919_italian.loc
-localization/1445669919_koreana.loc
-localization/1445669919_koreanb.loc
-localization/1445669919_polish.loc
-localization/1445669919_russian.loc
-localization/1445669919_schinese.loc
-localization/1445669919_spanish.loc
+localization/1385283735_brazilian.loc
+localization/1385283735_czech.loc
+localization/1385283735_english.loc
+localization/1385283735_french.loc
+localization/1385283735_german.loc
+localization/1385283735_italian.loc
+localization/1385283735_koreana.loc
+localization/1385283735_koreanb.loc
+localization/1385283735_polish.loc
+localization/1385283735_russian.loc
+localization/1385283735_schinese.loc
+localization/1385283735_spanish.loc
 localization/gv_heroes.string_table.xml
 localization/gv_heroes_skill_names.string_table.xml
 localization/gv_heroes_tooltip_overwrites.string_table.xml
 localization/missing_files.txt
 loot/gv_heroes.loot.json
-modfiles.txt
 preview_icon.png
-project-backup.xml
 project.xml
 
-Submitting.......................................................................................Submitted.
+Submitting................................................................................................................Submitted.
 Saving project file C:\DarkestDungeon\mods\gylls_vanilla_heroes\project.xml
 

@@ -11,6 +11,9 @@
 		<!-- More colors -->
 	    <entry id="effect_tooltip_stress_heal_format"><![CDATA[{colour_start|stress}Heal{colour_end} %d Stress]]></entry>
 		<entry id="effect_tooltip_torch_format"><![CDATA[{colour_start|torch}Torch{colour_end} %+d]]></entry>
+	    <entry id="skill_ignore_guard"><![CDATA[Bypass {colour_start|guard}Guard{colour_end}]]></entry>
+		<entry id="effect_clear_guarded"><![CDATA[Breaks {colour_start|guard}Guard{colour_end}]]></entry>
+		<entry id="effect_clear_guarding"><![CDATA[Breaks {colour_start|guard}Guard{colour_end}]]></entry>
 		
 		<!-- Fix weird/confusing tooltips -->
 		<entry id="buff_stat_tooltip_combat_stat_add_crit_chance"><![CDATA[%+d%% CRIT]]></entry>
@@ -29,6 +32,7 @@
 		
 		<!-- Stress Healing -->
 		<entry id="buff_stat_tooltip_stress_heal_percent"><![CDATA[%+d%% {colour_start|stress}Stress {colour_end}Healing Done]]></entry>
+		
 	</language>
 	
 	<language id="french">

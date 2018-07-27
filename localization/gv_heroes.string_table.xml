@@ -232,6 +232,53 @@ Triggers on HIT Only
 		
 
 		<!-- Tooltip Hack Strings -->
+		<entry id="buff_stat_tooltip_upgrade_discount_hellion_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+-25%% DMG / -25%% {colour_start|bleed}Bleed{colour_end} Skill Chance]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_finale_damage"><![CDATA[{colour_start|buff}Buff Self:{colour_end} Finale: +100%% DMG]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-10 DODGE / -2 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-12 DODGE / -2 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-15 DODGE / -3 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-17 DODGE / -3 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-20 DODGE / -4 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_1"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 1 Stress]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_2"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 1 Stress / {colour_start|stress}Heal{colour_end} 1 Stress (50%%)]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_3"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 2 Stress]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-15%% PROT {colour_start|skill_unselectable}(100%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +2 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-17%% PROT {colour_start|skill_unselectable}(110%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +2 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-20%% PROT {colour_start|skill_unselectable}(120%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +3 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-22%% PROT {colour_start|skill_unselectable}(130%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +3 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-25%% PROT {colour_start|skill_unselectable}(140%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +4 SPD]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+Finale: -100%% ACC / -15 DODGE]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_hm_already_marked"><![CDATA[If Target is already {colour_start|mark}Marked{colour_end}:]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
@@ -264,15 +311,36 @@ Triggers on MISS/DODGE Only
 -20%% DMG when {colour_start|riposte}Riposte{colour_end}
 +2%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
 
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++10 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++11 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++12 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++13 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++15 ACC / +6 SPD]]></entry>
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++5 ACC / +20%% DMG / +3%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++6 ACC / +21%% DMG / +3%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++7 ACC / +22%% DMG / +4%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++8 ACC / +23%% DMG / +4%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++10 ACC / +25%% DMG / +5%% CRIT]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
 Triggers on HIT Only
 {colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[+10 ACC / +4 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[+11 ACC / +5 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[+12 ACC / +6 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[+13 ACC / +7 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[+15 ACC / +8 SPD]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[PRÉ : -100%% si il n'y a pas CADAVRE
 DGT : +100%% si contre 2+ CADAVRE
@@ -342,6 +410,53 @@ DGT : +100%% si contre 3+ CADAVRE]]></entry>
 		
 
 		<!-- Tooltip Hack Strings -->
+		<entry id="buff_stat_tooltip_upgrade_discount_hellion_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+-25%% DMG / -25%% {colour_start|bleed}Bleed{colour_end} Skill Chance]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_finale_damage"><![CDATA[{colour_start|buff}Buff Self:{colour_end} Finale: +100%% DMG]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-10 DODGE / -2 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-12 DODGE / -2 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-15 DODGE / -3 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-17 DODGE / -3 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-20 DODGE / -4 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_1"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 1 Stress]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_2"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 1 Stress / {colour_start|stress}Heal{colour_end} 1 Stress (50%%)]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_3"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 2 Stress]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-15%% PROT {colour_start|skill_unselectable}(100%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +2 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-17%% PROT {colour_start|skill_unselectable}(110%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +2 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-20%% PROT {colour_start|skill_unselectable}(120%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +3 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-22%% PROT {colour_start|skill_unselectable}(130%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +3 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-25%% PROT {colour_start|skill_unselectable}(140%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +4 SPD]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+Finale: -100%% ACC / -15 DODGE]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_hm_already_marked"><![CDATA[If Target is already {colour_start|mark}Marked{colour_end}:]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
@@ -374,15 +489,36 @@ Triggers on MISS/DODGE Only
 -20%% DMG when {colour_start|riposte}Riposte{colour_end}
 +2%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
 
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++10 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++11 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++12 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++13 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++15 ACC / +6 SPD]]></entry>
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++5 ACC / +20%% DMG / +3%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++6 ACC / +21%% DMG / +3%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++7 ACC / +22%% DMG / +4%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++8 ACC / +23%% DMG / +4%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++10 ACC / +25%% DMG / +5%% CRIT]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
 Triggers on HIT Only
 {colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[+10 ACC / +4 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[+11 ACC / +5 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[+12 ACC / +6 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[+13 ACC / +7 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[+15 ACC / +8 SPD]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no LEICHNAM
 +100%% DMG if 2+ LEICHNAM
@@ -448,6 +584,53 @@ Triggers on HIT Only
 		
 
 		<!-- Tooltip Hack Strings -->
+		<entry id="buff_stat_tooltip_upgrade_discount_hellion_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+-25%% DMG / -25%% {colour_start|bleed}Bleed{colour_end} Skill Chance]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_finale_damage"><![CDATA[{colour_start|buff}Buff Self:{colour_end} Finale: +100%% DMG]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-10 DODGE / -2 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-12 DODGE / -2 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-15 DODGE / -3 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-17 DODGE / -3 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-20 DODGE / -4 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_1"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 1 Stress]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_2"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 1 Stress / {colour_start|stress}Heal{colour_end} 1 Stress (50%%)]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_3"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 2 Stress]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-15%% PROT {colour_start|skill_unselectable}(100%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +2 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-17%% PROT {colour_start|skill_unselectable}(110%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +2 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-20%% PROT {colour_start|skill_unselectable}(120%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +3 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-22%% PROT {colour_start|skill_unselectable}(130%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +3 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-25%% PROT {colour_start|skill_unselectable}(140%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +4 SPD]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+Finale: -100%% ACC / -15 DODGE]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_hm_already_marked"><![CDATA[If Target is already {colour_start|mark}Marked{colour_end}:]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
@@ -480,15 +663,36 @@ Triggers on MISS/DODGE Only
 -20%% DMG when {colour_start|riposte}Riposte{colour_end}
 +2%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
 
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++10 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++11 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++12 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++13 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++15 ACC / +6 SPD]]></entry>
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++5 ACC / +20%% DMG / +3%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++6 ACC / +21%% DMG / +3%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++7 ACC / +22%% DMG / +4%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++8 ACC / +23%% DMG / +4%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++10 ACC / +25%% DMG / +5%% CRIT]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
 Triggers on HIT Only
 {colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[+10 ACC / +4 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[+11 ACC / +5 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[+12 ACC / +6 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[+13 ACC / +7 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[+15 ACC / +8 SPD]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no CADÁVER
 +100%% DMG if 2+ CADÁVER
@@ -555,6 +759,53 @@ Triggers on HIT Only
 		
 
 		<!-- Tooltip Hack Strings -->
+		<entry id="buff_stat_tooltip_upgrade_discount_hellion_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+-25%% DMG / -25%% {colour_start|bleed}Bleed{colour_end} Skill Chance]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_finale_damage"><![CDATA[{colour_start|buff}Buff Self:{colour_end} Finale: +100%% DMG]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-10 DODGE / -2 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-12 DODGE / -2 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-15 DODGE / -3 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-17 DODGE / -3 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-20 DODGE / -4 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_1"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 1 Stress]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_2"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 1 Stress / {colour_start|stress}Heal{colour_end} 1 Stress (50%%)]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_3"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 2 Stress]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-15%% PROT {colour_start|skill_unselectable}(100%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +2 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-17%% PROT {colour_start|skill_unselectable}(110%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +2 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-20%% PROT {colour_start|skill_unselectable}(120%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +3 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-22%% PROT {colour_start|skill_unselectable}(130%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +3 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-25%% PROT {colour_start|skill_unselectable}(140%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +4 SPD]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+Finale: -100%% ACC / -15 DODGE]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_hm_already_marked"><![CDATA[If Target is already {colour_start|mark}Marked{colour_end}:]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
@@ -587,15 +838,36 @@ Triggers on MISS/DODGE Only
 -20%% DMG when {colour_start|riposte}Riposte{colour_end}
 +2%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
 
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++10 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++11 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++12 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++13 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++15 ACC / +6 SPD]]></entry>
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++5 ACC / +20%% DMG / +3%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++6 ACC / +21%% DMG / +3%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++7 ACC / +22%% DMG / +4%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++8 ACC / +23%% DMG / +4%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++10 ACC / +25%% DMG / +5%% CRIT]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
 Triggers on HIT Only
 {colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[+10 ACC / +4 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[+11 ACC / +5 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[+12 ACC / +6 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[+13 ACC / +7 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[+15 ACC / +8 SPD]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no CADÁVER
 +100%% DMG if 2+ CADÁVER
@@ -663,6 +935,53 @@ Triggers on HIT Only
 		
 
 		<!-- Tooltip Hack Strings -->
+		<entry id="buff_stat_tooltip_upgrade_discount_hellion_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+-25%% DMG / -25%% {colour_start|bleed}Bleed{colour_end} Skill Chance]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_finale_damage"><![CDATA[{colour_start|buff}Buff Self:{colour_end} Finale: +100%% DMG]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-10 DODGE / -2 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-12 DODGE / -2 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-15 DODGE / -3 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-17 DODGE / -3 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-20 DODGE / -4 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_1"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 1 Stress]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_2"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 1 Stress / {colour_start|stress}Heal{colour_end} 1 Stress (50%%)]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_3"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 2 Stress]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-15%% PROT {colour_start|skill_unselectable}(100%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +2 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-17%% PROT {colour_start|skill_unselectable}(110%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +2 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-20%% PROT {colour_start|skill_unselectable}(120%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +3 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-22%% PROT {colour_start|skill_unselectable}(130%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +3 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-25%% PROT {colour_start|skill_unselectable}(140%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +4 SPD]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+Finale: -100%% ACC / -15 DODGE]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_hm_already_marked"><![CDATA[If Target is already {colour_start|mark}Marked{colour_end}:]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
@@ -695,15 +1014,36 @@ Triggers on MISS/DODGE Only
 -20%% DMG when {colour_start|riposte}Riposte{colour_end}
 +2%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
 
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++10 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++11 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++12 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++13 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++15 ACC / +6 SPD]]></entry>
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++5 ACC / +20%% DMG / +3%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++6 ACC / +21%% DMG / +3%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++7 ACC / +22%% DMG / +4%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++8 ACC / +23%% DMG / +4%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++10 ACC / +25%% DMG / +5%% CRIT]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
 Triggers on HIT Only
 {colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[+10 ACC / +4 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[+11 ACC / +5 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[+12 ACC / +6 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[+13 ACC / +7 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[+15 ACC / +8 SPD]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no ТРУП
 +100%% DMG if 2+ ТРУП
@@ -770,6 +1110,53 @@ Triggers on HIT Only
 		
 
 		<!-- Tooltip Hack Strings -->
+		<entry id="buff_stat_tooltip_upgrade_discount_hellion_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+-25%% DMG / -25%% {colour_start|bleed}Bleed{colour_end} Skill Chance]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_finale_damage"><![CDATA[{colour_start|buff}Buff Self:{colour_end} Finale: +100%% DMG]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-10 DODGE / -2 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-12 DODGE / -2 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-15 DODGE / -3 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-17 DODGE / -3 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-20 DODGE / -4 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_1"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 1 Stress]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_2"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 1 Stress / {colour_start|stress}Heal{colour_end} 1 Stress (50%%)]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_3"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 2 Stress]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-15%% PROT {colour_start|skill_unselectable}(100%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +2 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-17%% PROT {colour_start|skill_unselectable}(110%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +2 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-20%% PROT {colour_start|skill_unselectable}(120%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +3 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-22%% PROT {colour_start|skill_unselectable}(130%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +3 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-25%% PROT {colour_start|skill_unselectable}(140%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +4 SPD]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+Finale: -100%% ACC / -15 DODGE]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_hm_already_marked"><![CDATA[If Target is already {colour_start|mark}Marked{colour_end}:]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
@@ -802,15 +1189,36 @@ Triggers on MISS/DODGE Only
 -20%% DMG when {colour_start|riposte}Riposte{colour_end}
 +2%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
 
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++10 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++11 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++12 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++13 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++15 ACC / +6 SPD]]></entry>
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++5 ACC / +20%% DMG / +3%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++6 ACC / +21%% DMG / +3%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++7 ACC / +22%% DMG / +4%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++8 ACC / +23%% DMG / +4%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++10 ACC / +25%% DMG / +5%% CRIT]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
 Triggers on HIT Only
 {colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[+10 ACC / +4 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[+11 ACC / +5 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[+12 ACC / +6 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[+13 ACC / +7 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[+15 ACC / +8 SPD]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no TRUCHŁO
 +100%% DMG if 2+ TRUCHŁO
@@ -876,6 +1284,53 @@ Triggers on HIT Only
 		
 
 		<!-- Tooltip Hack Strings -->
+		<entry id="buff_stat_tooltip_upgrade_discount_hellion_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+-25%% DMG / -25%% {colour_start|bleed}Bleed{colour_end} Skill Chance]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_finale_damage"><![CDATA[{colour_start|buff}Buff Self:{colour_end} Finale: +100%% DMG]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-10 DODGE / -2 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-12 DODGE / -2 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-15 DODGE / -3 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-17 DODGE / -3 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-20 DODGE / -4 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_1"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 1 Stress]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_2"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 1 Stress / {colour_start|stress}Heal{colour_end} 1 Stress (50%%)]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_3"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 2 Stress]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-15%% PROT {colour_start|skill_unselectable}(100%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +2 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-17%% PROT {colour_start|skill_unselectable}(110%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +2 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-20%% PROT {colour_start|skill_unselectable}(120%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +3 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-22%% PROT {colour_start|skill_unselectable}(130%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +3 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-25%% PROT {colour_start|skill_unselectable}(140%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +4 SPD]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+Finale: -100%% ACC / -15 DODGE]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_hm_already_marked"><![CDATA[If Target is already {colour_start|mark}Marked{colour_end}:]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
@@ -908,15 +1363,36 @@ Triggers on MISS/DODGE Only
 -20%% DMG when {colour_start|riposte}Riposte{colour_end}
 +2%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
 
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++10 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++11 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++12 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++13 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++15 ACC / +6 SPD]]></entry>
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++5 ACC / +20%% DMG / +3%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++6 ACC / +21%% DMG / +3%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++7 ACC / +22%% DMG / +4%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++8 ACC / +23%% DMG / +4%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++10 ACC / +25%% DMG / +5%% CRIT]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
 Triggers on HIT Only
 {colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[+10 ACC / +4 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[+11 ACC / +5 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[+12 ACC / +6 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[+13 ACC / +7 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[+15 ACC / +8 SPD]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no MRTVOLA
 +100%% DMG if 2+ MRTVOLA
@@ -984,6 +1460,53 @@ Triggers on HIT Only
 		
 
 		<!-- Tooltip Hack Strings -->
+		<entry id="buff_stat_tooltip_upgrade_discount_hellion_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+-25%% DMG / -25%% {colour_start|bleed}Bleed{colour_end} Skill Chance]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_finale_damage"><![CDATA[{colour_start|buff}Buff Self:{colour_end} Finale: +100%% DMG]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-10 DODGE / -2 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-12 DODGE / -2 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-15 DODGE / -3 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-17 DODGE / -3 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-20 DODGE / -4 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_1"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 1 Stress]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_2"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 1 Stress / {colour_start|stress}Heal{colour_end} 1 Stress (50%%)]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_3"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 2 Stress]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-15%% PROT {colour_start|skill_unselectable}(100%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +2 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-17%% PROT {colour_start|skill_unselectable}(110%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +2 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-20%% PROT {colour_start|skill_unselectable}(120%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +3 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-22%% PROT {colour_start|skill_unselectable}(130%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +3 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-25%% PROT {colour_start|skill_unselectable}(140%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +4 SPD]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+Finale: -100%% ACC / -15 DODGE]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_hm_already_marked"><![CDATA[If Target is already {colour_start|mark}Marked{colour_end}:]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
@@ -1016,15 +1539,36 @@ Triggers on MISS/DODGE Only
 -20%% DMG when {colour_start|riposte}Riposte{colour_end}
 +2%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
 
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++10 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++11 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++12 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++13 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++15 ACC / +6 SPD]]></entry>
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++5 ACC / +20%% DMG / +3%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++6 ACC / +21%% DMG / +3%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++7 ACC / +22%% DMG / +4%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++8 ACC / +23%% DMG / +4%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++10 ACC / +25%% DMG / +5%% CRIT]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
 Triggers on HIT Only
 {colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[+10 ACC / +4 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[+11 ACC / +5 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[+12 ACC / +6 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[+13 ACC / +7 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[+15 ACC / +8 SPD]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no CADAVERE
 +100%% DMG if 2+ CADAVERE
@@ -1093,6 +1637,53 @@ Triggers on HIT Only
 		
 
 		<!-- Tooltip Hack Strings -->
+		<entry id="buff_stat_tooltip_upgrade_discount_hellion_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+-25%% DMG / -25%% {colour_start|bleed}Bleed{colour_end} Skill Chance]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_finale_damage"><![CDATA[{colour_start|buff}Buff Self:{colour_end} Finale: +100%% DMG]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-10 DODGE / -2 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-12 DODGE / -2 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-15 DODGE / -3 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-17 DODGE / -3 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-20 DODGE / -4 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_1"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 1 Stress]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_2"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 1 Stress / {colour_start|stress}Heal{colour_end} 1 Stress (50%%)]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_3"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 2 Stress]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-15%% PROT {colour_start|skill_unselectable}(100%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +2 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-17%% PROT {colour_start|skill_unselectable}(110%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +2 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-20%% PROT {colour_start|skill_unselectable}(120%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +3 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-22%% PROT {colour_start|skill_unselectable}(130%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +3 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-25%% PROT {colour_start|skill_unselectable}(140%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +4 SPD]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+Finale: -100%% ACC / -15 DODGE]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_hm_already_marked"><![CDATA[If Target is already {colour_start|mark}Marked{colour_end}:]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
@@ -1125,15 +1716,36 @@ Triggers on MISS/DODGE Only
 -20%% DMG when {colour_start|riposte}Riposte{colour_end}
 +2%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
 
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++10 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++11 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++12 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++13 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++15 ACC / +6 SPD]]></entry>
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++5 ACC / +20%% DMG / +3%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++6 ACC / +21%% DMG / +3%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++7 ACC / +22%% DMG / +4%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++8 ACC / +23%% DMG / +4%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++10 ACC / +25%% DMG / +5%% CRIT]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
 Triggers on HIT Only
 {colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[+10 ACC / +4 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[+11 ACC / +5 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[+12 ACC / +6 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[+13 ACC / +7 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[+15 ACC / +8 SPD]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no 尸骸
 +100%% DMG if 2+ 尸骸
@@ -1195,6 +1807,53 @@ Triggers on HIT Only
 		
 
 		<!-- Tooltip Hack Strings -->
+		<entry id="buff_stat_tooltip_upgrade_discount_hellion_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+-25%% DMG / -25%% {colour_start|bleed}Bleed{colour_end} Skill Chance]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_finale_damage"><![CDATA[{colour_start|buff}Buff Self:{colour_end} Finale: +100%% DMG]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-10 DODGE / -2 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-12 DODGE / -2 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-15 DODGE / -3 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-17 DODGE / -3 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-20 DODGE / -4 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_1"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 1 Stress]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_2"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 1 Stress / {colour_start|stress}Heal{colour_end} 1 Stress (50%%)]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_3"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 2 Stress]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-15%% PROT {colour_start|skill_unselectable}(100%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +2 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-17%% PROT {colour_start|skill_unselectable}(110%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +2 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-20%% PROT {colour_start|skill_unselectable}(120%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +3 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-22%% PROT {colour_start|skill_unselectable}(130%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +3 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-25%% PROT {colour_start|skill_unselectable}(140%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +4 SPD]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+Finale: -100%% ACC / -15 DODGE]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_hm_already_marked"><![CDATA[If Target is already {colour_start|mark}Marked{colour_end}:]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
@@ -1227,15 +1886,36 @@ Triggers on MISS/DODGE Only
 -20%% DMG when {colour_start|riposte}Riposte{colour_end}
 +2%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
 
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++10 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++11 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++12 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++13 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++15 ACC / +6 SPD]]></entry>
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++5 ACC / +20%% DMG / +3%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++6 ACC / +21%% DMG / +3%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++7 ACC / +22%% DMG / +4%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++8 ACC / +23%% DMG / +4%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++10 ACC / +25%% DMG / +5%% CRIT]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
 Triggers on HIT Only
 {colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[+10 ACC / +4 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[+11 ACC / +5 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[+12 ACC / +6 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[+13 ACC / +7 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[+15 ACC / +8 SPD]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no Corpses
 +100%% DMG if 2+ Corpses
@@ -1297,6 +1977,53 @@ Triggers on HIT Only
 		
 
 		<!-- Tooltip Hack Strings -->
+		<entry id="buff_stat_tooltip_upgrade_discount_hellion_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+-25%% DMG / -25%% {colour_start|bleed}Bleed{colour_end} Skill Chance]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_finale_damage"><![CDATA[{colour_start|buff}Buff Self:{colour_end} Finale: +100%% DMG]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-10 DODGE / -2 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-12 DODGE / -2 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-15 DODGE / -3 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-17 DODGE / -3 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-20 DODGE / -4 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_1"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 1 Stress]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_2"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 1 Stress / {colour_start|stress}Heal{colour_end} 1 Stress (50%%)]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_3"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 2 Stress]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-15%% PROT {colour_start|skill_unselectable}(100%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +2 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-17%% PROT {colour_start|skill_unselectable}(110%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +2 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-20%% PROT {colour_start|skill_unselectable}(120%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +3 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-22%% PROT {colour_start|skill_unselectable}(130%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +3 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-25%% PROT {colour_start|skill_unselectable}(140%%){colour_end}
+{colour_start|buff}Buff Self:{colour_end}
+Finale: +100%% DMG / +4 SPD]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+Finale: -100%% ACC / -15 DODGE]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_hm_already_marked"><![CDATA[If Target is already {colour_start|mark}Marked{colour_end}:]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
@@ -1329,15 +2056,36 @@ Triggers on MISS/DODGE Only
 -20%% DMG when {colour_start|riposte}Riposte{colour_end}
 +2%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
 
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++10 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++11 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++12 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++13 ACC / +5 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++15 ACC / +6 SPD]]></entry>
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++5 ACC / +20%% DMG / +3%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++6 ACC / +21%% DMG / +3%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++7 ACC / +22%% DMG / +4%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++8 ACC / +23%% DMG / +4%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++10 ACC / +25%% DMG / +5%% CRIT]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
 Triggers on HIT Only
 {colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[+10 ACC / +4 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[+11 ACC / +5 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[+12 ACC / +6 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[+13 ACC / +7 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[+15 ACC / +8 SPD]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no Corpses
 +100%% DMG if 2+ Corpses
