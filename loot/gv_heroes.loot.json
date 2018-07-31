@@ -31,6 +31,15 @@
             { "type" : "item", "chances" : 5, "data" : { "type" : "supply", "id" : "antiq_blue", "amount" : 1 }},
             { "type" : "item", "chances" : 5, "data" : { "type" : "supply", "id" : "antiq_orange", "amount" : 1 }}
          ]
-      }	  
+      },
+      {
+         "id" : "GV_HM_TREATS",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "fake_dog_treats", "amount" : 3 }}
+         ]
+      }
    ]
 }

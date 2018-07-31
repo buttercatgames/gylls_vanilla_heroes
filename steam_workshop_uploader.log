@@ -33,8 +33,9 @@ heroes/leper/fx/leper.sprite.intim.skel
 panels/icons_equip/supply/inv_supply+antiq_blue.png
 panels/icons_equip/supply/inv_supply+antiq_orange.png
 panels/icons_equip/supply/inv_supply+antiq_personal.png
+panels/icons_equip/supply/inv_supply+fake_dog_treats.png
 audio/secondary_banks/gv_heroes.bank
-campaign/provision/gv_heroes.provision.json
+campaign/provision/provision.json
 fx/antiq_blue/antiq_blue.sprite.atlas
 fx/antiq_blue/antiq_blue.sprite.png
 fx/antiq_blue/antiq_blue.sprite.skel
@@ -44,6 +45,9 @@ fx/antiq_orange/antiq_orange.sprite.skel
 fx/antiq_personal/antiq_personal.sprite.atlas
 fx/antiq_personal/antiq_personal.sprite.png
 fx/antiq_personal/antiq_personal.sprite.skel
+fx/fake_dog_treats/fake_dog_treats.sprite.atlas
+fx/fake_dog_treats/fake_dog_treats.sprite.png
+fx/fake_dog_treats/fake_dog_treats.sprite.skel
 heroes/abomination/abomination.ability.rake.png
 heroes/abomination/abomination.art.darkest
 heroes/abomination/abomination.info.darkest
@@ -131,6 +135,6 @@ loot/gv_heroes.loot.json
 preview_icon.png
 project.xml
 
-Submitting................................................................................................................Submitted.
+Submitting...........................................................................................................................Submitted.
 Saving project file C:\DarkestDungeon\mods\gylls_vanilla_heroes\project.xml
 

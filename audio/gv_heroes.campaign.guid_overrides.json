@@ -18,6 +18,8 @@
         {"event_id": "event:/char/ally/houndmaster_lick_wounds_hound",           "guid_override":"{dc787556-3fef-4a6b-9612-b0391ad5b020}"},
         {"event_id": "event:/char/ally/houndmaster_lick_wounds_miss_hound",      "guid_override":"{d91c4a47-4064-463b-8f00-bc20af92625c}"},
 		
+		{"event_id": "event:/general/items/fake_dog_treats",      "guid_override":"{24b8c275-d244-4e03-9cc2-321b17483596}"},
+		
 {"event_id": "event:/char/ally/highwayman_duelist_advance_pre", "guid_override":"{4807b45a-db0c-4f9e-8920-016dbd2ec3a0}"},
 {"event_id": "event:/char/ally/highwayman_duelist_advance_miss_pre", "guid_override":"{5c695421-0b48-47d9-95d0-bc4630052364}"},
 {"event_id": "event:/char/ally/highwayman_grape_shot_blast_pre", "guid_override":"{b8a0565e-a960-40d9-a47d-f8e901bff04b}"},
@@ -86,12 +88,6 @@
 {"event_id": "event:/char/ally/bounty_hunter_uppercut_miss_post", "guid_override":"{e0845e1c-4282-4c1c-8258-54baa56fdacb}"},
 
 
-
-		
-		
-		
-		
-		
 		
 		{"event_id": "event:/general/items/antiq_orange",      "guid_override":"{94465f68-8b85-4b60-a5ee-592869ba52c6}"},
 		{"event_id": "event:/general/items/antiq_blue",      "guid_override":"{94465f68-8b85-4b60-a5ee-592869ba52c6}"},

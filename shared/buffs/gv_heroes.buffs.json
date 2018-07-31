@@ -1371,10 +1371,49 @@
          }
       },
 	  {
+         "id" : "GV_HM_On_Crit",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
          "id" : "GV_HM_Super_Mark_Dmg",
          "stat_type" : "damage_received_percent",
          "stat_sub_type" : "",
          "amount" : 1.0,
+         "remove_if_not_active" : false,
+		 "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "hounds_rush"
+         }
+      },
+	  {
+         "id" : "GV_HM_Dog_Treats_Acc",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+		 "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "hounds_rush"
+         }
+      },
+	  {
+         "id" : "GV_HM_Dog_Treats_Crit",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.02,
          "remove_if_not_active" : false,
 		 "rule_type" : "skill",
          "is_false_rule" : false,
@@ -1452,10 +1491,10 @@
          "id" : "GV_HM_Debuff_Chance_vs_Not_Marked",
          "stat_type" : "debuff_chance",
          "stat_sub_type" : "",
-         "amount" : -1000.0,
+         "amount" : 5.0,
          "remove_if_not_active" : false,
          "rule_type" : "actorStatus",
-         "is_false_rule" : true,
+         "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : "tagged"
@@ -1603,6 +1642,47 @@
             "float" : 0,
             "string" : "tagged"
          }
+      },
+      {
+         "id" : "GV_HWM_Acc_Vs_Marked_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+      {
+         "id" : "GV_HWM_Exhaust_Dodge",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false
+      },
+      {
+         "id" : "GV_HWM_Exhaust_Spd",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false
       },
 	  {
          "id" : "GV_Jester_Stress_Healing_Buff_1",
@@ -2060,6 +2140,20 @@
             "float" : 0,
             "string" : "bleeding"
          }
+      },
+ 	  {
+         "id" : "GV_Jester_Disable_Tag",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "tag",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false
       },
       {
          "id" : "GV_Leper_Acc_1",
@@ -3735,6 +3829,149 @@
          }
       },
 	  {
+         "id" : "GV_Tooltip_Go_Fetch_Bleed_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "hm_go_fetch_bleed_1",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Go_Fetch_Bleed_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "hm_go_fetch_bleed_2",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Go_Fetch_Bleed_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "hm_go_fetch_bleed_3",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Go_Fetch_Bleed_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "hm_go_fetch_bleed_4",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Go_Fetch_Bleed_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "hm_go_fetch_bleed_5",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_HM_Mark_Condition",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "hm_mark_condition",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_HM_Mark_Debuff_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "hm_mark_debuff_1",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_HM_Mark_Debuff_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "hm_mark_debuff_2",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_HM_Mark_Debuff_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "hm_mark_debuff_3",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_HM_Mark_Debuff_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "hm_mark_debuff_4",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_HM_Mark_Debuff_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "hm_mark_debuff_5",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
          "id" : "GV_Tooltip_HWM_Riposte_1",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "hwm_riposte_1",
@@ -4227,6 +4464,71 @@
             "float" : 0,
             "string" : ""
          }
-      }
+      },
+	  {
+         "id" : "GV_Tooltip_Jester_Solo_Debuff_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jester_solo_debuff_1",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Jester_Solo_Debuff_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jester_solo_debuff_2",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Jester_Solo_Debuff_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jester_solo_debuff_3",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Jester_Solo_Debuff_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jester_solo_debuff_4",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Jester_Solo_Debuff_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jester_solo_debuff_5",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }	  
   ]
 }

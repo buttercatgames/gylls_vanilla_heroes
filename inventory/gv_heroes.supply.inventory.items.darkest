@@ -1,3 +1,4 @@
 inventory_item: .type "supply"		.id "antiq_blue"				.base_stack_limit 20		.purchase_gold_value 0			.sell_gold_value 500
 inventory_item: .type "supply"		.id "antiq_orange"				.base_stack_limit 20		.purchase_gold_value 0			.sell_gold_value 500
-inventory_item: .type "supply"		.id "antiq_personal"				.base_stack_limit 5		.purchase_gold_value 0			.sell_gold_value 0
+inventory_item: .type "supply"		.id "antiq_personal"			.base_stack_limit 5			.purchase_gold_value 0			.sell_gold_value 0
+inventory_item: .type "supply"		.id "fake_dog_treats"			.base_stack_limit 20		.purchase_gold_value 0			.sell_gold_value 0
