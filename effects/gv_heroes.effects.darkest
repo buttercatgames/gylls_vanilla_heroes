@@ -19,7 +19,7 @@ effect: .name "GV_Abom_XF_Stress_Heal_1" .target "performer_group_other" .chance
 effect: .name "GV_Abom_XF_Stress_Heal_2" .target "performer_group_other" .chance 100% .healstress 2 .on_hit true .on_miss false .queue true
 effect: .name "GV_Abom_XF_Stress_Heal_3" .target "performer_group_other" .chance 100% .healstress 3 .on_hit true .on_miss false .queue true
 
-effect: .name "GV_Abom_XF_Debuff" .target "performer" .chance 100% .combat_stat_buff 1 .speed_rating_add -7 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false
+effect: .name "GV_Abom_XF_Debuff" .target "performer" .chance 100% .buff_ids "GV_Abom_XF_Debuff" .duration 2 .on_hit true .on_miss false
 
 // Manacles
 
@@ -28,7 +28,17 @@ effect: .name "GV_Abom_XF_Debuff" .target "performer" .chance 100% .combat_stat_
 
 
 // Absolution
+effect: .name "GV_Abom_Absolution_HealStress_1" .target "performer" .chance 100% .healstress 8 .on_hit true .on_miss false .queue true
+effect: .name "GV_Abom_Absolution_HealStress_2" .target "performer" .chance 100% .healstress 9 .on_hit true .on_miss false .queue true
+effect: .name "GV_Abom_Absolution_HealStress_3" .target "performer" .chance 100% .healstress 10 .on_hit true .on_miss false .queue true
+effect: .name "GV_Abom_Absolution_HealStress_4" .target "performer" .chance 100% .healstress 11 .on_hit true .on_miss false .queue true
+effect: .name "GV_Abom_Absolution_HealStress_5" .target "performer" .chance 100% .healstress 12 .on_hit true .on_miss false .queue true
 
+effect: .name "GV_Abom_Absolution_Heal_1" .target "performer" .chance 100% .heal 4 .on_hit true .on_miss false .queue false .source_heal_type hero_skill
+effect: .name "GV_Abom_Absolution_Heal_2" .target "performer" .chance 100% .heal 5 .on_hit true .on_miss false .queue false .source_heal_type hero_skill
+effect: .name "GV_Abom_Absolution_Heal_3" .target "performer" .chance 100% .heal 6 .on_hit true .on_miss false .queue false .source_heal_type hero_skill
+effect: .name "GV_Abom_Absolution_Heal_4" .target "performer" .chance 100% .heal 7 .on_hit true .on_miss false .queue false .source_heal_type hero_skill
+effect: .name "GV_Abom_Absolution_Heal_5" .target "performer" .chance 100% .heal 8 .on_hit true .on_miss false .queue false .source_heal_type hero_skill
 
 // Rake
 
@@ -307,6 +317,13 @@ effect: .name "GV_GR_Fade_Attack_4" .target "performer" .chance 100% .curio_resu
 effect: .name "GV_GR_Fade_Attack_5" .target "performer" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .duration 2 .damage_low_multiply 100% .damage_high_multiply 100% .crit_chance_add 10% .on_hit true .on_miss false
 
 // Thrown Dagger
+effect: .name "GV_GR_Acc_Buff_1" .target "performer" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .attack_rating_add 5% .on_hit true .on_miss true .apply_once true
+effect: .name "GV_GR_Acc_Buff_2" .target "performer" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .attack_rating_add 6% .on_hit true .on_miss true .apply_once true
+effect: .name "GV_GR_Acc_Buff_3" .target "performer" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .attack_rating_add 7% .on_hit true .on_miss true .apply_once true
+effect: .name "GV_GR_Acc_Buff_4" .target "performer" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .attack_rating_add 8% .on_hit true .on_miss true .apply_once true
+effect: .name "GV_GR_Acc_Buff_5" .target "performer" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .attack_rating_add 10% .on_hit true .on_miss true .apply_once true
+
+effect: .name "GV_GR_Dagger_Dmg_Marked" .target "performer" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .on_hit true .on_miss false
 
 
 // Poison Dart
@@ -419,7 +436,7 @@ effect: .name "GV_HWM_Exhaust" .target "performer" .chance 100% .buff_ids "GV_HW
 
 // Houndmaster Effects
 //-------------------------
-effect: .name "fake_dog_treats" .target "performer" .chance 100% .buff_ids "GV_HM_Debuff_Chance_vs_Not_Marked" .duration 3 .on_hit true .on_miss false
+effect: .name "fake_dog_treats" .target "performer" .chance 100% .buff_ids "GV_HM_Debuff_Chance_vs_Not_Marked" "GV_HM_Not_Whistle_Debuff_Chance" .duration 3 .on_hit true .on_miss false
 effect: .name "GV_HM_On_Crit" .target "performer" .chance 100% .buff_source_type bsrc_crit .buff_ids "GV_HM_On_Crit" .duration 2 .on_hit true .on_miss false .apply_once true
 
 // Blackjack
@@ -489,13 +506,13 @@ effect: .name "GV_Tooltip_Go_Fetch_Bleed_4" .target "performer" .skill_instant t
 effect: .name "GV_Tooltip_Go_Fetch_Bleed_5" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_Go_Fetch_Bleed_5" .on_hit true .on_miss false .apply_once true .queue true
 
 // Cry Havoc
-effect: .name "GV_HM_Stress_Heal_Base_1" .target "target" .chance 100% .healstress 3 .on_hit true .on_miss false
-effect: .name "GV_HM_Stress_Heal_Base_2" .target "target" .chance 100% .healstress 4 .on_hit true .on_miss false
-effect: .name "GV_HM_Stress_Heal_Base_3" .target "target" .chance 100% .healstress 5 .on_hit true .on_miss false
+effect: .name "GV_HM_Stress_Heal_Base" .target "target" .chance 100% .healstress 3 .on_hit true .on_miss false
 
 effect: .name "GV_HM_Stress_Heal_Splash_1" .target "target_group_other" .chance 33% .healstress 1 .on_hit true .on_miss false
-effect: .name "GV_HM_Stress_Heal_Splash_2" .target "target_group_other" .chance 66% .healstress 1 .on_hit true .on_miss false
-effect: .name "GV_HM_Stress_Heal_Splash_3" .target "target_group_other" .chance 100% .healstress 1 .on_hit true .on_miss false
+effect: .name "GV_HM_Stress_Heal_Splash_2" .target "target_group_other" .chance 50% .healstress 1 .on_hit true .on_miss false
+effect: .name "GV_HM_Stress_Heal_Splash_3" .target "target_group_other" .chance 67% .healstress 1 .on_hit true .on_miss false
+effect: .name "GV_HM_Stress_Heal_Splash_4" .target "target_group_other" .chance 85% .healstress 1 .on_hit true .on_miss false
+effect: .name "GV_HM_Stress_Heal_Splash_5" .target "target_group_other" .chance 100% .healstress 1 .on_hit true .on_miss false
 
 // Lick Wounds
 effect: .name "GV_Lick_Wounds_Heal_1" .target "performer" .chance 100% .heal 4 .on_hit true .on_miss true .source_heal_type hero_skill .queue false

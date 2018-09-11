@@ -11,7 +11,8 @@
 		<entry id="buff_rule_data_tooltip_solo"><![CDATA[Solo]]></entry>
 		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[Finale]]></entry>
 		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[Inspiring Tune]]></entry>
-
+		<entry id="buff_rule_data_tooltip_whistle"><![CDATA[Target Whistle]]></entry>
+		
 		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[Protect Me]]></entry>
 		<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% Guard Duration]]></entry>
 		<entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[+%d%% Guard Duration]]></entry>
@@ -28,7 +29,7 @@
 		<entry id="effect_tooltip_target_group_other"><![CDATA[Others:]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if vs. %s (%d+)]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if vs. no %ss]]></entry>
-
+		<entry id="buff_rule_tooltip_skill_false"><![CDATA[Non-%s Skills: %s]]></entry>
 
 		
 		<!-- New Custom Strings -->
@@ -218,6 +219,7 @@ Triggers on HIT Only
 		<entry id="buff_rule_data_tooltip_solo"><![CDATA[Solo]]></entry>
 		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[Final]]></entry>
 		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[Mélodie exaltante]]></entry>
+		<entry id="buff_rule_data_tooltip_whistle"><![CDATA[Target Whistle]]></entry>
 
 		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[Protège-moi]]></entry>
 		<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[Durée de garde : +%d%%]]></entry>
@@ -235,7 +237,7 @@ Triggers on HIT Only
 		<entry id="effect_tooltip_target_group_other"><![CDATA[Groupe :]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s si contre %s (%d+)]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s si il n'y a pas %ss]]></entry>
-
+		<entry id="buff_rule_tooltip_skill_false"><![CDATA[Non-%s Skills: %s]]></entry>
 
 		
 		<!-- New Custom Strings -->
@@ -428,6 +430,7 @@ DGT : +100%% si contre 3+ CADAVRE]]></entry>
 		<entry id="buff_rule_data_tooltip_solo"><![CDATA[Solo]]></entry>
 		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[Finale]]></entry>
 		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[Stärkende Melodie]]></entry>
+		<entry id="buff_rule_data_tooltip_whistle"><![CDATA[Target Whistle]]></entry>
 		
 		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[Beschützt mich!]]></entry>
 		<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% Schutzdauer]]></entry>
@@ -445,7 +448,7 @@ DGT : +100%% si contre 3+ CADAVRE]]></entry>
 		<entry id="effect_tooltip_target_group_other"><![CDATA[Others:]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if vs. %s (%d+)]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if vs. no %ss]]></entry>
-
+		<entry id="buff_rule_tooltip_skill_false"><![CDATA[Non-%s Skills: %s]]></entry>
 
 		
 		<!-- New Custom Strings -->
@@ -631,6 +634,7 @@ Triggers on HIT Only
 		<entry id="buff_rule_data_tooltip_solo"><![CDATA[Solo]]></entry>
 		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[Apoteosis]]></entry>
 		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[Tonada inspiradora]]></entry>
+		<entry id="buff_rule_data_tooltip_whistle"><![CDATA[Target Whistle]]></entry>
 
 		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[Protégeme]]></entry>
 		<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% de duración de defensa]]></entry>
@@ -648,7 +652,7 @@ Triggers on HIT Only
 		<entry id="effect_tooltip_target_group_other"><![CDATA[Others:]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if vs. %s (%d+)]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if vs. no %ss]]></entry>
-
+		<entry id="buff_rule_tooltip_skill_false"><![CDATA[Non-%s Skills: %s]]></entry>
 
 		
 		<!-- New Custom Strings -->
@@ -836,6 +840,7 @@ Triggers on HIT Only
 		<entry id="buff_rule_data_tooltip_solo"><![CDATA[Solo]]></entry>
 		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[Final]]></entry>
 		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[Canção Inspiradora]]></entry>
+		<entry id="buff_rule_data_tooltip_whistle"><![CDATA[Target Whistle]]></entry>
 
 		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[Me Proteja]]></entry>
 		<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% de duração da guarda]]></entry>
@@ -853,7 +858,7 @@ Triggers on HIT Only
 		<entry id="effect_tooltip_target_group_other"><![CDATA[Others:]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if vs. %s (%d+)]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if vs. no %ss]]></entry>
-
+		<entry id="buff_rule_tooltip_skill_false"><![CDATA[Non-%s Skills: %s]]></entry>
 
 		
 		<!-- New Custom Strings -->
@@ -1041,6 +1046,7 @@ Triggers on HIT Only
 		<entry id="buff_rule_data_tooltip_solo"><![CDATA[Соло]]></entry>
 		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[Финал]]></entry>
 		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[Бодрящая мелодия]]></entry>
+		<entry id="buff_rule_data_tooltip_whistle"><![CDATA[Target Whistle]]></entry>
 
 		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[Защити меня]]></entry>
 		<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% длительности охраны]]></entry>
@@ -1058,7 +1064,7 @@ Triggers on HIT Only
 		<entry id="effect_tooltip_target_group_other"><![CDATA[Others:]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if vs. %s (%d+)]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if vs. no %ss]]></entry>
-
+		<entry id="buff_rule_tooltip_skill_false"><![CDATA[Non-%s Skills: %s]]></entry>
 
 		
 		<!-- New Custom Strings -->
@@ -1246,6 +1252,7 @@ Triggers on HIT Only
 		<entry id="buff_rule_data_tooltip_solo"><![CDATA[Solówka]]></entry>
 		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[Kurtyna]]></entry>
 		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[Inspirująca Nuta]]></entry>
+		<entry id="buff_rule_data_tooltip_whistle"><![CDATA[Target Whistle]]></entry>
 		
 		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[Chroń Mnie]]></entry>
 		<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% czasu ochrony]]></entry>
@@ -1263,7 +1270,7 @@ Triggers on HIT Only
 		<entry id="effect_tooltip_target_group_other"><![CDATA[Others:]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if vs. %s (%d+)]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if vs. no %ss]]></entry>
-
+		<entry id="buff_rule_tooltip_skill_false"><![CDATA[Non-%s Skills: %s]]></entry>
 
 		
 		<!-- New Custom Strings -->
@@ -1449,6 +1456,7 @@ Triggers on HIT Only
 		<entry id="buff_rule_data_tooltip_solo"><![CDATA[Sólo]]></entry>
 		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[Závěr]]></entry>
 		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[Inspirující melodie]]></entry>
+		<entry id="buff_rule_data_tooltip_whistle"><![CDATA[Target Whistle]]></entry>
 
 		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[Braň mě]]></entry>
 		<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% k době trvání stráže]]></entry>
@@ -1466,7 +1474,7 @@ Triggers on HIT Only
 		<entry id="effect_tooltip_target_group_other"><![CDATA[Others:]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if vs. %s (%d+)]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if vs. no %ss]]></entry>
-
+		<entry id="buff_rule_tooltip_skill_false"><![CDATA[Non-%s Skills: %s]]></entry>
 
 		
 		<!-- New Custom Strings -->
@@ -1655,6 +1663,7 @@ Triggers on HIT Only
 		<entry id="buff_rule_data_tooltip_solo"><![CDATA[Assolo]]></entry>
 		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[Gran Finale]]></entry>
 		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[Melodia Ispiratrice]]></entry>
+		<entry id="buff_rule_data_tooltip_whistle"><![CDATA[Target Whistle]]></entry>
 		
 		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[Proteggimi]]></entry>
 		<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% durata difesa]]></entry>
@@ -1672,7 +1681,7 @@ Triggers on HIT Only
 		<entry id="effect_tooltip_target_group_other"><![CDATA[Others:]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if vs. %s (%d+)]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if vs. no %ss]]></entry>
-
+		<entry id="buff_rule_tooltip_skill_false"><![CDATA[Non-%s Skills: %s]]></entry>
 
 		
 		<!-- New Custom Strings -->
@@ -1862,6 +1871,7 @@ Triggers on HIT Only
 		<entry id="buff_rule_data_tooltip_solo"><![CDATA[独奏]]></entry>
 		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[谢幕]]></entry>
 		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[鼓舞乐章]]></entry>
+		<entry id="buff_rule_data_tooltip_whistle"><![CDATA[Target Whistle]]></entry>
 
 		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[保护我]]></entry>
 		<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[守护持续时间+%d%%]]></entry>
@@ -1879,7 +1889,7 @@ Triggers on HIT Only
 		<entry id="effect_tooltip_target_group_other"><![CDATA[Others:]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if vs. %s (%d+)]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if vs. no %ss]]></entry>
-
+		<entry id="buff_rule_tooltip_skill_false"><![CDATA[Non-%s Skills: %s]]></entry>
 
 		
 		<!-- New Custom Strings -->
@@ -2063,6 +2073,7 @@ Triggers on HIT Only
 		<entry id="buff_rule_data_tooltip_solo"><![CDATA[Solo]]></entry>
 		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[Finale]]></entry>
 		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[Inspiring Tune]]></entry>
+		<entry id="buff_rule_data_tooltip_whistle"><![CDATA[Target Whistle]]></entry>
 
 		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[Protect Me]]></entry>
 		<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% 방어 지속시간]]></entry>
@@ -2078,7 +2089,7 @@ Triggers on HIT Only
 		<entry id="effect_tooltip_target_group_other"><![CDATA[Others:]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if vs. %s (%d+)]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if vs. no %ss]]></entry>
-
+		<entry id="buff_rule_tooltip_skill_false"><![CDATA[Non-%s Skills: %s]]></entry>
 
 		
 		<!-- New Custom Strings -->
@@ -2262,6 +2273,7 @@ Triggers on HIT Only
 		<entry id="buff_rule_data_tooltip_solo"><![CDATA[Solo]]></entry>
 		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[Finale]]></entry>
 		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[Inspiring Tune]]></entry>
+		<entry id="buff_rule_data_tooltip_whistle"><![CDATA[Target Whistle]]></entry>
 
 		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[Protect Me]]></entry>
 		<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% 방어 지속시간]]></entry>
@@ -2277,7 +2289,7 @@ Triggers on HIT Only
 		<entry id="effect_tooltip_target_group_other"><![CDATA[Others:]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if vs. %s (%d+)]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if vs. no %ss]]></entry>
-
+		<entry id="buff_rule_tooltip_skill_false"><![CDATA[Non-%s Skills: %s]]></entry>
 
 		
 		<!-- New Custom Strings -->

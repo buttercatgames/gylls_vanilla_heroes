@@ -2,6 +2,20 @@
    "buffs":
    [
 	  {
+         "id" : "GV_Abom_XF_Debuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -7,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false
+      },
+	  {
          "id" : "GV_Abom_Stressed_Crit_1",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "crit_chance",
@@ -1397,32 +1411,6 @@
          }
       },
 	  {
-         "id" : "GV_HM_Dog_Treats_Acc",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "attack_rating",
-         "amount" : 0.05,
-         "remove_if_not_active" : false,
-		 "rule_type" : "skill",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "hounds_rush"
-         }
-      },
-	  {
-         "id" : "GV_HM_Dog_Treats_Crit",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "crit_chance",
-         "amount" : 0.02,
-         "remove_if_not_active" : false,
-		 "rule_type" : "skill",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "hounds_rush"
-         }
-      },
-	  {
          "id" : "GV_HM_Super_Mark_Crit_1",
          "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
@@ -1499,6 +1487,20 @@
             "float" : 0,
             "string" : "tagged"
          }
+      },
+	  {
+         "id" : "GV_HM_Not_Whistle_Debuff_Chance",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : -5.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "whistle"
+         },
+		 "is_clear_debuff_valid": false
       },
       {
          "id" : "GV_HM_Bleed_if_Marked_1",
