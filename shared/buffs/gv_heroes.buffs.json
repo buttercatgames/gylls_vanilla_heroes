@@ -341,6 +341,38 @@
          }
       },
       {
+         "id" : "GV_Abom_Reduced_Transform_Stress_1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "mode",
+         "amount" : -0.33,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         },
+		 "has_description" : false
+      },
+      {
+         "id" : "GV_Abom_Reduced_Transform_Stress_2",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "mode",
+         "amount" : -0.33,
+         "duration_type" : "round",
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         },
+		 "has_description" : false
+      },
+      {
          "id" : "GV_Antiq_Healing",
          "stat_type" : "hp_heal_percent",
          "stat_sub_type" : "",
@@ -436,7 +468,7 @@
          "id" : "GV_Antiq_Blight_Skill",
          "stat_type" : "poison_chance",
          "stat_sub_type" : "",
-         "amount" : 1.25,
+         "amount" : 1.10,
          "remove_if_not_active" : false,
          "rule_type" : "skill",
          "is_false_rule" : false,
@@ -473,15 +505,28 @@
       },
 	  {
          "id" : "GV_Antiq_Stress_Free_Buff",
-         "stat_type" : "stress_dmg_percent",
+         "stat_type" : "stress_dmg_received_percent",
          "stat_sub_type" : "",
-         "amount" : -1.0,
+         "amount" : -0.75,
          "remove_if_not_active" : false,
          "rule_type" : "skill",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : "invigorating_vapours"
+         }
+      },
+	  {
+         "id" : "GV_Antiq_Stress_Free_Cower",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.75,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "cower"
          }
       },
 	  {
@@ -771,10 +816,62 @@
          }
       },
       {
-         "id" : "GV_BH_Move_Res_Debuff",
+         "id" : "GV_BH_Move_Res_Debuff_1",
          "stat_type" : "resistance",
          "stat_sub_type" : "move",
          "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_BH_Move_Res_Debuff_2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : -0.33,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_BH_Move_Res_Debuff_3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : -0.40,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_BH_Move_Res_Debuff_4",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : -0.45,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_BH_Move_Res_Debuff_5",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : -0.50,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -1021,7 +1118,7 @@
          "id" : "GV_GR_Pierce_Armor_1",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
-         "amount" : 0.20,
+         "amount" : 0.25,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -1034,7 +1131,7 @@
          "id" : "GV_GR_Pierce_Armor_2",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
-         "amount" : 0.25,
+         "amount" : 0.33,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -1047,7 +1144,7 @@
          "id" : "GV_GR_Pierce_Armor_3",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
-         "amount" : 0.30,
+         "amount" : 0.40,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -1060,7 +1157,7 @@
          "id" : "GV_GR_Pierce_Armor_4",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
-         "amount" : 0.35,
+         "amount" : 0.45,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -1073,9 +1170,334 @@
          "id" : "GV_GR_Pierce_Armor_5",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_GR_Fade_Dodge_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_GR_Fade_Dodge_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_GR_Fade_Dodge_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_GR_Fade_Dodge_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_GR_Fade_Dodge_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
          "amount" : 0.40,
          "remove_if_not_active" : false,
          "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_GR_Fade_Damage_L_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.40,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "zone"
+         }
+      },
+      {
+         "id" : "GV_GR_Fade_Damage_L_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.42,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "zone"
+         }
+      },
+      {
+         "id" : "GV_GR_Fade_Damage_L_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.45,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "zone"
+         }
+      },
+      {
+         "id" : "GV_GR_Fade_Damage_L_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.47,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "zone"
+         }
+      },
+      {
+         "id" : "GV_GR_Fade_Damage_L_5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "zone"
+         }
+      },
+      {
+         "id" : "GV_GR_Fade_Damage_H_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.40,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_GR_Fade_Damage_H_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.42,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_GR_Fade_Damage_H_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.45,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_GR_Fade_Damage_H_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.47,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_GR_Fade_Damage_H_5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },	  
+      {
+         "id" : "GV_GR_Fade_Crit_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_GR_Fade_Crit_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_GR_Fade_Crit_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_GR_Fade_Crit_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.09,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_GR_Fade_Crit_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_GR_Fade_Acc_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_GR_Fade_Acc_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_GR_Fade_Acc_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_GR_Fade_Acc_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.17,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GV_GR_Fade_Acc_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
@@ -2143,11 +2565,104 @@
             "string" : "bleeding"
          }
       },
+  	  {
+         "id" : "GV_Jester_Damage_Vs_Bleeding_L",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+  	  {
+         "id" : "GV_Jester_Crit_Vs_Bleeding_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+  	  {
+         "id" : "GV_Jester_Crit_Vs_Bleeding_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.13,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+  	  {
+         "id" : "GV_Jester_Crit_Vs_Bleeding_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.14,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+  	  {
+         "id" : "GV_Jester_Crit_Vs_Bleeding_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+  	  {
+         "id" : "GV_Jester_Crit_Vs_Bleeding_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.16,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
  	  {
          "id" : "GV_Jester_Disable_Tag",
          "stat_type" : "disable_combat_skill_attribute",
          "stat_sub_type" : "tag",
          "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false,
+		 "has_description": false
+      },
+ 	  {
+         "id" : "GV_Jester_Disable_Tag_Tooltip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jester_disable_finale",
+         "amount" : -0,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -3613,7 +4128,7 @@
          "id" : "GV_Stun_Soften_1",
          "stat_type" : "resistance",
          "stat_sub_type" : "stun",
-         "amount" : -0.15,
+         "amount" : -0.10,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -3626,7 +4141,7 @@
          "id" : "GV_Stun_Soften_2",
          "stat_type" : "resistance",
          "stat_sub_type" : "stun",
-         "amount" : -0.17,
+         "amount" : -0.12,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -3639,7 +4154,7 @@
          "id" : "GV_Stun_Soften_3",
          "stat_type" : "resistance",
          "stat_sub_type" : "stun",
-         "amount" : -0.20,
+         "amount" : -0.15,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -3652,7 +4167,7 @@
          "id" : "GV_Stun_Soften_4",
          "stat_type" : "resistance",
          "stat_sub_type" : "stun",
-         "amount" : -0.22,
+         "amount" : -0.17,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -3665,7 +4180,7 @@
          "id" : "GV_Stun_Soften_5",
          "stat_type" : "resistance",
          "stat_sub_type" : "stun",
-         "amount" : -0.25,
+         "amount" : -0.20,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -4237,6 +4752,84 @@
          "id" : "GV_Tooltip_GR_Buff_5",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "gr_buff_5",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_GR_Fade_Base",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "gr_fade_base",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_GR_Fade_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "gr_fade_1",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_GR_Fade_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "gr_fade_2",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_GR_Fade_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "gr_fade_3",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_GR_Fade_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "gr_fade_4",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_GR_Fade_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "gr_fade_5",
          "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",

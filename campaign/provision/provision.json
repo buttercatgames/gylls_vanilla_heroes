@@ -74,10 +74,10 @@
             ]
         },
         {
-            "hero_class": "plague_doctor",
+            "hero_class": "abomination",
             "item_lists": 
             [
-                { "type": "supply", "id": "antivenom", "amount": 1 }
+                { "type": "supply", "id": "skeleton_key", "amount": 1 }
             ]
         },
         {
@@ -88,7 +88,7 @@
             ]
         },
         {
-            "hero_class": "arbalest",
+            "hero_class": "occultist",
             "item_lists": 
             [
                 { "type": "supply", "id": "bandage", "amount": 1 }
@@ -103,13 +103,6 @@
         },
         {
             "hero_class": "leper",
-            "item_lists": 
-            [
-                { "type": "supply", "id": "medicinal_herbs", "amount": 1 }
-            ]
-        },
-        {
-            "hero_class": "jester",
             "item_lists": 
             [
                 { "type": "supply", "id": "medicinal_herbs", "amount": 1 }

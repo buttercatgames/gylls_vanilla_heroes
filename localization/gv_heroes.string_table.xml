@@ -60,13 +60,11 @@
 		<entry id="str_inventory_description_supplyfake_dog_treats"><![CDATA[Greatly increases the hound's vigor for a short time.]]></entry>
 		<entry id="camping_skill_effect_loot_GV_HM_TREATS"><![CDATA[Replenishes Dog Treats]]></entry>
 		
-		
-		<!-- Jester -->
-		<entry id="buff_stat_tooltip_disable_combat_skill_attribute_tag"><![CDATA[Finale Disabled!]]></entry>
-
 		<!-- Tooltip Hack Strings -->
 		<entry id="buff_stat_tooltip_upgrade_discount_hellion_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
 -25%% DMG / -25%% {colour_start|bleed}Bleed{colour_end} Skill Chance]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_disable_finale"><![CDATA[Finale Disabled!]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_jester_finale_damage"><![CDATA[{colour_start|buff}Buff Self:{colour_end} Finale: +100%% DMG]]></entry>
 
@@ -179,7 +177,27 @@ Triggers on MISS/DODGE Only
 +13 ACC / +5 SPD]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
 +15 ACC / +6 SPD]]></entry>
+
+				<entry id="buff_stat_tooltip_upgrade_discount_gr_fade_base"><![CDATA[Self:
+{colour_start|stealth}Stealth{colour_end} (2 rds)
+Refresh Skill Uses]]></entry>
 		
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_fade_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++10 ACC / +40%% DMG / +6%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_fade_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++12 ACC / +42%% DMG / +7%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_fade_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++15 ACC / +45%% DMG / +8%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_fade_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++17 ACC / +47%% DMG / +9%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_fade_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+{colour_start|attacktype}Ranged{colour_end} Skills:
++20 ACC / +50%% DMG / +10%% CRIT]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
 {colour_start|attacktype}Ranged{colour_end} Skills:
 +5 ACC / +20%% DMG / +3%% CRIT]]></entry>
