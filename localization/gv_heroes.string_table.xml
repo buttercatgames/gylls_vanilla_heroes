@@ -30,7 +30,10 @@
 		<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if vs. %s (%d+)]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if vs. no %ss]]></entry>
 		<entry id="buff_rule_tooltip_skill_false"><![CDATA[Non-%s Skills: %s]]></entry>
-
+		
+		<!-- DLC Tooltips -->
+		<entry id="str_ui_refresh_skills"><![CDATA[Refreshed!]]></entry>
+		<entry id="effect_refresh_skill_uses"><![CDATA[Refresh Skill Uses]]></entry>
 		
 		<!-- New Custom Strings -->
 
@@ -59,8 +62,15 @@
 		<entry id="str_inventory_title_supplyfake_dog_treats"><![CDATA[Dog Treats]]></entry>
 		<entry id="str_inventory_description_supplyfake_dog_treats"><![CDATA[Greatly increases the hound's vigor for a short time.]]></entry>
 		<entry id="camping_skill_effect_loot_GV_HM_TREATS"><![CDATA[Replenishes Dog Treats]]></entry>
+
+		<!--Actor Dot-->
+		<entry id="str_ui_actor_dot_complete"><![CDATA[]]></entry>
 		
 		<!-- Tooltip Hack Strings -->
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_disable_gut_shot"><![CDATA[Gut Shot Disabled!]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_bh_refresh_on_kill"><![CDATA[Killing Blows Refresh Skill Use]]></entry>
+		
 		<entry id="buff_stat_tooltip_upgrade_discount_hellion_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
 -25%% DMG / -25%% {colour_start|bleed}Bleed{colour_end} Skill Chance]]></entry>
 
@@ -80,11 +90,11 @@
 -20 DODGE / -4 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_1"><![CDATA[Other Heroes:
-{colour_start|stress}Heal{colour_end} 1 Stress]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_2"><![CDATA[Other Heroes:
-{colour_start|stress}Heal{colour_end} 1 Stress / {colour_start|stress}Heal{colour_end} 1 Stress (50%%)]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_3"><![CDATA[Other Heroes:
 {colour_start|stress}Heal{colour_end} 2 Stress]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_2"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 2 Stress / {colour_start|stress}Heal{colour_end} 1 Stress (50%%)]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_3"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 3 Stress]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
 -15%% PROT {colour_start|skill_unselectable}(100%%){colour_end}
@@ -168,17 +178,17 @@ Triggers on MISS/DODGE Only
 +2%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
-+10 ACC / +4 SPD]]></entry>
++10 ACC / +3 SPD]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
-+11 ACC / +4 SPD]]></entry>
++11 ACC / +3 SPD]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
-+12 ACC / +5 SPD]]></entry>
++12 ACC / +4 SPD]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
-+13 ACC / +5 SPD]]></entry>
++13 ACC / +4 SPD]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
-+15 ACC / +6 SPD]]></entry>
++15 ACC / +5 SPD]]></entry>
 
-				<entry id="buff_stat_tooltip_upgrade_discount_gr_fade_base"><![CDATA[Self:
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_fade_base"><![CDATA[Self:
 {colour_start|stealth}Stealth{colour_end} (2 rds)
 Refresh Skill Uses]]></entry>
 		
@@ -200,27 +210,27 @@ Refresh Skill Uses]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
 {colour_start|attacktype}Ranged{colour_end} Skills:
-+5 ACC / +20%% DMG / +3%% CRIT]]></entry>
++5 ACC / +25%% DMG / +3%% CRIT]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
 {colour_start|attacktype}Ranged{colour_end} Skills:
-+6 ACC / +21%% DMG / +3%% CRIT]]></entry>
++6 ACC / +27%% DMG / +3%% CRIT]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
 {colour_start|attacktype}Ranged{colour_end} Skills:
-+7 ACC / +22%% DMG / +4%% CRIT]]></entry>
++7 ACC / +29%% DMG / +4%% CRIT]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
 {colour_start|attacktype}Ranged{colour_end} Skills:
-+8 ACC / +23%% DMG / +4%% CRIT]]></entry>
++8 ACC / +31%% DMG / +4%% CRIT]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
 {colour_start|attacktype}Ranged{colour_end} Skills:
-+10 ACC / +25%% DMG / +5%% CRIT]]></entry>
++10 ACC / +33%% DMG / +5%% CRIT]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
 Triggers on HIT Only
 {colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no Corpses
-+100%% DMG if 2+ Corpses
-+100%% DMG if 3+ Corpses]]></entry>
++100%% DMG if 2 Corpses
++100%% DMG if 3 Corpses]]></entry>
 	</language>
 
 	

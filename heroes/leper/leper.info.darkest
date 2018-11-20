@@ -22,11 +22,11 @@ combat_skill: .id "chop" .level 3 .type "melee" .atk 90% .dmg 0% .crit 5% .launc
 combat_skill: .id "chop" .level 4 .type "melee" .atk 95% .dmg 0% .crit 6% .launch 21 .target 12 .is_crit_valid True
 
 // Hew
-combat_skill: .id "hew" .level 0 .type "melee" .atk 75% .dmg -40% .crit 2% .launch 21 .target ~12 .is_crit_valid True .effect "GV_Corpse_Killer"
-combat_skill: .id "hew" .level 1 .type "melee" .atk 80% .dmg -40% .crit 3% .launch 21 .target ~12 .is_crit_valid True .effect "GV_Corpse_Killer"
-combat_skill: .id "hew" .level 2 .type "melee" .atk 85% .dmg -40% .crit 4% .launch 21 .target ~12 .is_crit_valid True .effect "GV_Corpse_Killer"
-combat_skill: .id "hew" .level 3 .type "melee" .atk 90% .dmg -40% .crit 5% .launch 21 .target ~12 .is_crit_valid True .effect "GV_Corpse_Killer"
-combat_skill: .id "hew" .level 4 .type "melee" .atk 95% .dmg -40% .crit 6% .launch 21 .target ~12 .is_crit_valid True .effect "GV_Corpse_Killer"
+combat_skill: .id "hew" .level 0 .type "melee" .atk 75% .dmg -40% .crit -4% .launch 21 .target ~12 .is_crit_valid True .effect "GV_Corpse_Killer"
+combat_skill: .id "hew" .level 1 .type "melee" .atk 80% .dmg -40% .crit -3% .launch 21 .target ~12 .is_crit_valid True .effect "GV_Corpse_Killer"
+combat_skill: .id "hew" .level 2 .type "melee" .atk 85% .dmg -40% .crit -2% .launch 21 .target ~12 .is_crit_valid True .effect "GV_Corpse_Killer"
+combat_skill: .id "hew" .level 3 .type "melee" .atk 90% .dmg -40% .crit -1% .launch 21 .target ~12 .is_crit_valid True .effect "GV_Corpse_Killer"
+combat_skill: .id "hew" .level 4 .type "melee" .atk 95% .dmg -40% .crit 0% .launch 21 .target ~12 .is_crit_valid True .effect "GV_Corpse_Killer"
 
 // Overpower
 combat_skill: .id "focus" .level 0 .type "melee" .atk 95% .dmg -75% .crit 0% .launch 321 .target 12 .move 0 1 .is_crit_valid True .effect "GV_Leper_Push_Buff_1" "GV_Leper_Strong_Push_1" "GV_Tooltip_Leper_Push_Buff_1" "GV_Leper_Clear_Guarding"

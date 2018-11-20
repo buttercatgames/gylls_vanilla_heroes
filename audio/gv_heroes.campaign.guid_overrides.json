@@ -87,6 +87,10 @@
 {"event_id": "event:/char/ally/bounty_hunter_uppercut_post", "guid_override":"{fcf5b857-f95e-4db9-b157-9e5bca216b9a}"},
 {"event_id": "event:/char/ally/bounty_hunter_uppercut_miss_post", "guid_override":"{e0845e1c-4282-4c1c-8258-54baa56fdacb}"},
 
+{"event_id": "event:/general/status/actor_dot_refresh_on_kill_onset", "guid_override":"{ebf97893-ee5a-4bc9-94e1-0d04ee4a8405}"},
+{"event_id": "event:/general/status/actor_dot_refresh_on_kill_complete", "guid_override":"{ebf97893-ee5a-4bc9-94e1-0d04ee4a8405}"},
+
+
 
 		
 		{"event_id": "event:/general/items/antiq_orange",      "guid_override":"{94465f68-8b85-4b60-a5ee-592869ba52c6}"},
