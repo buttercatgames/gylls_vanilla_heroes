@@ -57,11 +57,11 @@ combat_skill: .id "finish_him" .level 3 .type "melee" .atk 100% .dmg 0% .crit 8%
 combat_skill: .id "finish_him" .level 4 .type "melee" .atk 105% .dmg 0% .crit 9% .launch 321 .target 12 .is_crit_valid True .effect "GV_BH_Stun_Killer" "GV_BH_Bleed_Killer_5" .valid_modes pre
 
 // Caltrops
-combat_skill: .id "hook_and_slice" .level 0 .type "ranged" .atk 95% .dmg -90% .crit 0% .launch 32 .target ~34 .is_crit_valid True .effect "Bleed 1" "GV_BH_Caltrops_Debuff_1" .valid_modes pre
-combat_skill: .id "hook_and_slice" .level 1 .type "ranged" .atk 100% .dmg -90% .crit 1% .launch 32 .target ~34 .is_crit_valid True .effect "Bleed 2" "GV_BH_Caltrops_Debuff_2" .valid_modes pre
-combat_skill: .id "hook_and_slice" .level 2 .type "ranged" .atk 105% .dmg -90% .crit 2% .launch 32 .target ~34 .is_crit_valid True .effect "Bleed 3" "GV_BH_Caltrops_Debuff_3" .valid_modes pre
-combat_skill: .id "hook_and_slice" .level 3 .type "ranged" .atk 110% .dmg -90% .crit 3% .launch 32 .target ~34 .is_crit_valid True .effect "Bleed 4" "GV_BH_Caltrops_Debuff_4" .valid_modes pre
-combat_skill: .id "hook_and_slice" .level 4 .type "ranged" .atk 115% .dmg -90% .crit 4% .launch 32 .target ~34 .is_crit_valid True .effect "Bleed 5" "GV_BH_Caltrops_Debuff_5" .valid_modes pre
+combat_skill: .id "hook_and_slice" .level 0 .type "ranged" .atk 95% .dmg -90% .crit 0% .launch 32 .target ~34 .is_crit_valid True .effect "GV_Bleed_1" "GV_BH_Caltrops_Debuff_1" .valid_modes pre
+combat_skill: .id "hook_and_slice" .level 1 .type "ranged" .atk 100% .dmg -90% .crit 1% .launch 32 .target ~34 .is_crit_valid True .effect "GV_Bleed_2" "GV_BH_Caltrops_Debuff_2" .valid_modes pre
+combat_skill: .id "hook_and_slice" .level 2 .type "ranged" .atk 105% .dmg -90% .crit 2% .launch 32 .target ~34 .is_crit_valid True .effect "GV_Bleed_3" "GV_BH_Caltrops_Debuff_3" .valid_modes pre
+combat_skill: .id "hook_and_slice" .level 3 .type "ranged" .atk 110% .dmg -90% .crit 3% .launch 32 .target ~34 .is_crit_valid True .effect "GV_Bleed_4" "GV_BH_Caltrops_Debuff_4" .valid_modes pre
+combat_skill: .id "hook_and_slice" .level 4 .type "ranged" .atk 115% .dmg -90% .crit 4% .launch 32 .target ~34 .is_crit_valid True .effect "GV_Bleed_5" "GV_BH_Caltrops_Debuff_5" .valid_modes pre
 
 combat_move_skill: .id "move" .level 0 .type "move" .move 2 2 .launch 4321 .valid_modes pre
 

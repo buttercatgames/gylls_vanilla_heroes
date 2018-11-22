@@ -15,18 +15,18 @@ armour: .name "plague_doctor_armour_3" .def 20% .prot 0 .hp 34 .spd 0 .upgradeRe
 armour: .name "plague_doctor_armour_4" .def 25% .prot 0 .hp 38 .spd 0 .upgradeRequirementCode 3
 
 // Noxious Blast
-combat_skill: .id "noxious_blast" .level 0 .type "ranged" .atk 95% .dmg -80% .crit 2% .launch 432 .target 12 .is_crit_valid True .effect "PD Blight 1" .generation_guaranteed true
-combat_skill: .id "noxious_blast" .level 1 .type "ranged" .atk 100% .dmg -80% .crit 3% .launch 432 .target 12 .is_crit_valid True .effect "PD Blight 2" .generation_guaranteed true
-combat_skill: .id "noxious_blast" .level 2 .type "ranged" .atk 105% .dmg -80% .crit 4% .launch 432 .target 12 .is_crit_valid True .effect "PD Blight 3" .generation_guaranteed true
-combat_skill: .id "noxious_blast" .level 3 .type "ranged" .atk 110% .dmg -80% .crit 5% .launch 432 .target 12 .is_crit_valid True .effect "PD Blight 4" .generation_guaranteed true
-combat_skill: .id "noxious_blast" .level 4 .type "ranged" .atk 115% .dmg -80% .crit 6% .launch 432 .target 12 .is_crit_valid True .effect "PD Blight 5" .generation_guaranteed true
+combat_skill: .id "noxious_blast" .level 0 .type "ranged" .atk 95% .dmg -80% .crit 2% .launch 432 .target 12 .is_crit_valid True .effect "GV_Blight_Super_1" .generation_guaranteed true
+combat_skill: .id "noxious_blast" .level 1 .type "ranged" .atk 100% .dmg -80% .crit 3% .launch 432 .target 12 .is_crit_valid True .effect "GV_Blight_Super_2" .generation_guaranteed true
+combat_skill: .id "noxious_blast" .level 2 .type "ranged" .atk 105% .dmg -80% .crit 4% .launch 432 .target 12 .is_crit_valid True .effect "GV_Blight_Super_3" .generation_guaranteed true
+combat_skill: .id "noxious_blast" .level 3 .type "ranged" .atk 110% .dmg -80% .crit 5% .launch 432 .target 12 .is_crit_valid True .effect "GV_Blight_Super_4" .generation_guaranteed true
+combat_skill: .id "noxious_blast" .level 4 .type "ranged" .atk 115% .dmg -80% .crit 6% .launch 432 .target 12 .is_crit_valid True .effect "GV_Blight_Super_5" .generation_guaranteed true
 
 // Plague Grenade
-combat_skill: .id "plague_grenade" .level 0 .type "ranged" .atk 95% .dmg -90% .crit 0% .launch 43 .target ~34 .is_crit_valid True .effect "PD Blight 1"
-combat_skill: .id "plague_grenade" .level 1 .type "ranged" .atk 100% .dmg -90% .crit 1% .launch 43 .target ~34 .is_crit_valid True .effect "PD Blight 2"
-combat_skill: .id "plague_grenade" .level 2 .type "ranged" .atk 105% .dmg -90% .crit 2% .launch 43 .target ~34 .is_crit_valid True .effect "PD Blight 3"
-combat_skill: .id "plague_grenade" .level 3 .type "ranged" .atk 110% .dmg -90% .crit 3% .launch 43 .target ~34 .is_crit_valid True .effect "PD Blight 4"
-combat_skill: .id "plague_grenade" .level 4 .type "ranged" .atk 115% .dmg -90% .crit 4% .launch 43 .target ~34 .is_crit_valid True .effect "PD Blight 5"
+combat_skill: .id "plague_grenade" .level 0 .type "ranged" .atk 95% .dmg -90% .crit 0% .launch 43 .target ~34 .is_crit_valid True .effect "GV_Blight_Super_1"
+combat_skill: .id "plague_grenade" .level 1 .type "ranged" .atk 100% .dmg -90% .crit 1% .launch 43 .target ~34 .is_crit_valid True .effect "GV_Blight_Super_2"
+combat_skill: .id "plague_grenade" .level 2 .type "ranged" .atk 105% .dmg -90% .crit 2% .launch 43 .target ~34 .is_crit_valid True .effect "GV_Blight_Super_3"
+combat_skill: .id "plague_grenade" .level 3 .type "ranged" .atk 110% .dmg -90% .crit 3% .launch 43 .target ~34 .is_crit_valid True .effect "GV_Blight_Super_4"
+combat_skill: .id "plague_grenade" .level 4 .type "ranged" .atk 115% .dmg -90% .crit 4% .launch 43 .target ~34 .is_crit_valid True .effect "GV_Blight_Super_5"
 
 // Blinding Gas
 combat_skill: .id "blinding_gas" .level 0 .type "ranged" .atk 90% .dmg -100% .crit 0% .launch 43 .target ~34 .is_crit_valid False .effect "Stun 1" .is_stall_invalidating false
@@ -36,11 +36,11 @@ combat_skill: .id "blinding_gas" .level 3 .type "ranged" .atk 105% .dmg -100% .c
 combat_skill: .id "blinding_gas" .level 4 .type "ranged" .atk 110% .dmg -100% .crit 0% .launch 43 .target ~34 .is_crit_valid False .effect "Stun 5" .is_stall_invalidating false
 
 // Incision
-combat_skill: .id "incision" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .launch 321 .target 12 .is_crit_valid True .effect "GV_Very_Weak_Bleed_1" "GV_PD_PoisonKiller"
-combat_skill: .id "incision" .level 1 .type "melee" .atk 90% .dmg 0% .crit 6% .launch 321 .target 12 .is_crit_valid True .effect "GV_Very_Weak_Bleed_2" "GV_PD_PoisonKiller"
-combat_skill: .id "incision" .level 2 .type "melee" .atk 95% .dmg 0% .crit 7% .launch 321 .target 12 .is_crit_valid True .effect "GV_Very_Weak_Bleed_3" "GV_PD_PoisonKiller"
-combat_skill: .id "incision" .level 3 .type "melee" .atk 100% .dmg 0% .crit 8% .launch 321 .target 12 .is_crit_valid True .effect "GV_Very_Weak_Bleed_4" "GV_PD_PoisonKiller"
-combat_skill: .id "incision" .level 4 .type "melee" .atk 105% .dmg 0% .crit 9% .launch 321 .target 12 .is_crit_valid True .effect "GV_Very_Weak_Bleed_5" "GV_PD_PoisonKiller"
+combat_skill: .id "incision" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .launch 321 .target 12 .is_crit_valid True .effect "GV_Bleed_Weak_1" "GV_PD_PoisonKiller"
+combat_skill: .id "incision" .level 1 .type "melee" .atk 90% .dmg 0% .crit 6% .launch 321 .target 12 .is_crit_valid True .effect "GV_Bleed_Weak_2" "GV_PD_PoisonKiller"
+combat_skill: .id "incision" .level 2 .type "melee" .atk 95% .dmg 0% .crit 7% .launch 321 .target 12 .is_crit_valid True .effect "GV_Bleed_Weak_3" "GV_PD_PoisonKiller"
+combat_skill: .id "incision" .level 3 .type "melee" .atk 100% .dmg 0% .crit 8% .launch 321 .target 12 .is_crit_valid True .effect "GV_Bleed_Weak_4" "GV_PD_PoisonKiller"
+combat_skill: .id "incision" .level 4 .type "melee" .atk 105% .dmg 0% .crit 9% .launch 321 .target 12 .is_crit_valid True .effect "GV_Bleed_Weak_5" "GV_PD_PoisonKiller"
 
 // Battlefield Medicine
 combat_skill: .id "battlefield_medicine" .level 0 .heal 1 1 .launch 432 .target @1234 .effect "Cure" "GV_Stacking_Heal_1" .is_stall_invalidating false

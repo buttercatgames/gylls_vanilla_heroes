@@ -36,11 +36,11 @@ combat_skill: .id "guard_dog" .level 3 .launch 43 .target @1234 .self_target_val
 combat_skill: .id "guard_dog" .level 4 .launch 43 .target @1234 .self_target_valid false .is_crit_valid False .effect "Clear Guard Performer" "Clear Guard Target" "GV_Guard_2" "GV_Guard_Dog_Buff_5" "GV_Switch_Mode_Hound_Self_Queue" .valid_modes human .is_continue_turn true .is_stall_invalidating false
 
 // Hound's Rush
-combat_skill: .id "hounds_rush" .level 0 .type "ranged" .atk 85% .dmg -50% .crit 2% .launch 432 .target 123 .is_crit_valid True .effect "GV_Very_Weak_Bleed_1" "GV_HM_Dmg_Marked" "GV_Beast_Hitter_1" "GV_HM_Eat_Debuffs" "GV_Switch_Mode_Human_Self_Queue" .valid_modes hound
-combat_skill: .id "hounds_rush" .level 1 .type "ranged" .atk 90% .dmg -50% .crit 3% .launch 432 .target 123 .is_crit_valid True .effect "GV_Very_Weak_Bleed_2" "GV_HM_Dmg_Marked" "GV_Beast_Hitter_2" "GV_HM_Eat_Debuffs" "GV_Switch_Mode_Human_Self_Queue" .valid_modes hound
-combat_skill: .id "hounds_rush" .level 2 .type "ranged" .atk 95% .dmg -50% .crit 4% .launch 432 .target 123 .is_crit_valid True .effect "GV_Very_Weak_Bleed_3" "GV_HM_Dmg_Marked" "GV_Beast_Hitter_3" "GV_HM_Eat_Debuffs" "GV_Switch_Mode_Human_Self_Queue" .valid_modes hound
-combat_skill: .id "hounds_rush" .level 3 .type "ranged" .atk 100% .dmg -50% .crit 5% .launch 432 .target 123 .is_crit_valid True .effect "GV_Very_Weak_Bleed_4" "GV_HM_Dmg_Marked" "GV_Beast_Hitter_4" "GV_HM_Eat_Debuffs" "GV_Switch_Mode_Human_Self_Queue" .valid_modes hound
-combat_skill: .id "hounds_rush" .level 4 .type "ranged" .atk 105% .dmg -50% .crit 6% .launch 432 .target 123 .is_crit_valid True .effect "GV_Very_Weak_Bleed_5" "GV_HM_Dmg_Marked" "GV_Beast_Hitter_5" "GV_HM_Eat_Debuffs" "GV_Switch_Mode_Human_Self_Queue" .valid_modes hound
+combat_skill: .id "hounds_rush" .level 0 .type "ranged" .atk 85% .dmg -50% .crit 2% .launch 432 .target 123 .is_crit_valid True .effect "GV_Bleed_Weak_1" "GV_HM_Dmg_Marked" "GV_Beast_Hitter_1" "GV_HM_Eat_Debuffs" "GV_Switch_Mode_Human_Self_Queue" .valid_modes hound
+combat_skill: .id "hounds_rush" .level 1 .type "ranged" .atk 90% .dmg -50% .crit 3% .launch 432 .target 123 .is_crit_valid True .effect "GV_Bleed_Weak_2" "GV_HM_Dmg_Marked" "GV_Beast_Hitter_2" "GV_HM_Eat_Debuffs" "GV_Switch_Mode_Human_Self_Queue" .valid_modes hound
+combat_skill: .id "hounds_rush" .level 2 .type "ranged" .atk 95% .dmg -50% .crit 4% .launch 432 .target 123 .is_crit_valid True .effect "GV_Bleed_Weak_3" "GV_HM_Dmg_Marked" "GV_Beast_Hitter_3" "GV_HM_Eat_Debuffs" "GV_Switch_Mode_Human_Self_Queue" .valid_modes hound
+combat_skill: .id "hounds_rush" .level 3 .type "ranged" .atk 100% .dmg -50% .crit 5% .launch 432 .target 123 .is_crit_valid True .effect "GV_Bleed_Weak_4" "GV_HM_Dmg_Marked" "GV_Beast_Hitter_4" "GV_HM_Eat_Debuffs" "GV_Switch_Mode_Human_Self_Queue" .valid_modes hound
+combat_skill: .id "hounds_rush" .level 4 .type "ranged" .atk 105% .dmg -50% .crit 6% .launch 432 .target 123 .is_crit_valid True .effect "GV_Bleed_Weak_5" "GV_HM_Dmg_Marked" "GV_Beast_Hitter_5" "GV_HM_Eat_Debuffs" "GV_Switch_Mode_Human_Self_Queue" .valid_modes hound
 
 // Go Fetch
 combat_skill: .id "hounds_harry" .level 0 .type "ranged" .atk 95% .dmg -80% .crit 0% .launch 32 .target 234 .is_crit_valid True .effect "GV_HM_Bleed_if_Marked_1" "GV_HM_Pull_1" "GV_HM_Fetch_Bleed_1" "GV_Tooltip_HM_Already_Marked" "GV_Tooltip_Go_Fetch_Bleed_1" "GV_Switch_Mode_Human_Self_Queue" .valid_modes hound
@@ -50,11 +50,11 @@ combat_skill: .id "hounds_harry" .level 3 .type "ranged" .atk 110% .dmg -80% .cr
 combat_skill: .id "hounds_harry" .level 4 .type "ranged" .atk 115% .dmg -80% .crit 4% .launch 32 .target 234 .is_crit_valid True .effect "GV_HM_Bleed_if_Marked_5" "GV_HM_Pull_5" "GV_HM_Fetch_Bleed_3" "GV_Tooltip_HM_Already_Marked" "GV_Tooltip_Go_Fetch_Bleed_5" "GV_Switch_Mode_Human_Self_Queue" .valid_modes hound
 
 // Cry Havoc
-combat_skill: .id "howl" .level 0 .launch 4 .target @1234 .is_crit_valid True .effect "GV_HM_Stress_Heal_Base" "GV_HM_Stress_Heal_Splash_1" "GV_Switch_Mode_Human_Self_Queue" .valid_modes hound .is_stall_invalidating false
-combat_skill: .id "howl" .level 1 .launch 4 .target @1234 .is_crit_valid True .effect "GV_HM_Stress_Heal_Base" "GV_HM_Stress_Heal_Splash_2" "GV_Switch_Mode_Human_Self_Queue" .valid_modes hound .is_stall_invalidating false
-combat_skill: .id "howl" .level 2 .launch 4 .target @1234 .is_crit_valid True .effect "GV_HM_Stress_Heal_Base" "GV_HM_Stress_Heal_Splash_3" "GV_Switch_Mode_Human_Self_Queue" .valid_modes hound .is_stall_invalidating false
-combat_skill: .id "howl" .level 3 .launch 4 .target @1234 .is_crit_valid True .effect "GV_HM_Stress_Heal_Base" "GV_HM_Stress_Heal_Splash_4" "GV_Switch_Mode_Human_Self_Queue" .valid_modes hound .is_stall_invalidating false
-combat_skill: .id "howl" .level 4 .launch 4 .target @1234 .is_crit_valid True .effect "GV_HM_Stress_Heal_Base" "GV_HM_Stress_Heal_Splash_5" "GV_Switch_Mode_Human_Self_Queue" .valid_modes hound .is_stall_invalidating false
+combat_skill: .id "howl" .level 0 .launch 4 .target @1234 .is_crit_valid True .effect "GV_HM_Stress_Heal_Base_1" "GV_HM_Stress_Heal_Splash_1" "GV_Switch_Mode_Human_Self_Queue" .valid_modes hound .is_stall_invalidating false
+combat_skill: .id "howl" .level 1 .launch 4 .target @1234 .is_crit_valid True .effect "GV_HM_Stress_Heal_Base_1" "GV_HM_Stress_Heal_Splash_2" "GV_Switch_Mode_Human_Self_Queue" .valid_modes hound .is_stall_invalidating false
+combat_skill: .id "howl" .level 2 .launch 4 .target @1234 .is_crit_valid True .effect "GV_HM_Stress_Heal_Base_1" "GV_HM_Stress_Heal_Maybe" "GV_HM_Stress_Heal_Splash_2" "GV_Switch_Mode_Human_Self_Queue" .valid_modes hound .is_stall_invalidating false
+combat_skill: .id "howl" .level 3 .launch 4 .target @1234 .is_crit_valid True .effect "GV_HM_Stress_Heal_Base_1" "GV_HM_Stress_Heal_Maybe" "GV_HM_Stress_Heal_Splash_3" "GV_Switch_Mode_Human_Self_Queue" .valid_modes hound .is_stall_invalidating false
+combat_skill: .id "howl" .level 4 .launch 4 .target @1234 .is_crit_valid True .effect "GV_HM_Stress_Heal_Base_2" "GV_HM_Stress_Heal_Splash_3" "GV_Switch_Mode_Human_Self_Queue" .valid_modes hound .is_stall_invalidating false
 
 // Lick Wounds
 combat_skill: .id "lick_wounds" .level 0 .launch 4321 .target .is_crit_valid True .effect "GV_Lick_Wounds_Buff" "GV_Switch_Mode_Human_Self_Queue" .valid_modes human hound .human_effects GV_Lick_Wounds_Heal_1 .is_stall_invalidating false

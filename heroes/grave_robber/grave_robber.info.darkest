@@ -15,11 +15,11 @@ armour: .name "grave_robber_armour_3" .def 25% .prot 0 .hp 32 .spd 0 .upgradeReq
 armour: .name "grave_robber_armour_4" .def 30% .prot 0 .hp 36 .spd 0 .upgradeRequirementCode 3
 
 // Poison Dart
-combat_skill: .id "poison_dart" .level 0 .type "ranged" .atk 90% .dmg -50% .crit 0% .launch 43 .target 1234 .is_crit_valid True .effect "GV_GR_Throw_Buffs_1" "Strong Blight 1"
-combat_skill: .id "poison_dart" .level 1 .type "ranged" .atk 95% .dmg -50% .crit 1% .launch 43 .target 1234 .is_crit_valid True .effect "GV_GR_Throw_Buffs_2" "Strong Blight 2"
-combat_skill: .id "poison_dart" .level 2 .type "ranged" .atk 100% .dmg -50% .crit 2% .launch 43 .target 1234 .is_crit_valid True .effect "GV_GR_Throw_Buffs_3" "Strong Blight 3"
-combat_skill: .id "poison_dart" .level 3 .type "ranged" .atk 105% .dmg -50% .crit 3% .launch 43 .target 1234 .is_crit_valid True .effect "GV_GR_Throw_Buffs_4" "Strong Blight 4"
-combat_skill: .id "poison_dart" .level 4 .type "ranged" .atk 110% .dmg -50% .crit 4% .launch 43 .target 1234 .is_crit_valid True .effect "GV_GR_Throw_Buffs_5" "Strong Blight 5"
+combat_skill: .id "poison_dart" .level 0 .type "ranged" .atk 90% .dmg -50% .crit 0% .launch 43 .target 1234 .is_crit_valid True .effect "GV_GR_Throw_Buffs_1" "GV_Blight_Strong_1"
+combat_skill: .id "poison_dart" .level 1 .type "ranged" .atk 95% .dmg -50% .crit 1% .launch 43 .target 1234 .is_crit_valid True .effect "GV_GR_Throw_Buffs_2" "GV_Blight_Strong_2"
+combat_skill: .id "poison_dart" .level 2 .type "ranged" .atk 100% .dmg -50% .crit 2% .launch 43 .target 1234 .is_crit_valid True .effect "GV_GR_Throw_Buffs_3" "GV_Blight_Strong_3"
+combat_skill: .id "poison_dart" .level 3 .type "ranged" .atk 105% .dmg -50% .crit 3% .launch 43 .target 1234 .is_crit_valid True .effect "GV_GR_Throw_Buffs_4" "GV_Blight_Strong_4"
+combat_skill: .id "poison_dart" .level 4 .type "ranged" .atk 110% .dmg -50% .crit 4% .launch 43 .target 1234 .is_crit_valid True .effect "GV_GR_Throw_Buffs_5" "GV_Blight_Strong_5"
 
 // Thrown Dagger
 combat_skill: .id "thrown_dagger" .level 0 .type "ranged" .atk 90% .dmg 0% .crit 5% .launch 43 .target 1234 .is_crit_valid True .effect "GV_GR_Throw_Buffs_1" "GV_GR_Dagger_Dmg_Marked" "GV_GR_Dagger_Dmg_Poisoned" .generation_guaranteed true
