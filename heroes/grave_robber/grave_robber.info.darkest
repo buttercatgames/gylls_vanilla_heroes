@@ -50,11 +50,11 @@ combat_skill: .id "lunge" .level 3 .type "melee" .atk 100% .dmg 25% .crit 11% .m
 combat_skill: .id "lunge" .level 4 .type "melee" .atk 105% .dmg 25% .crit 12% .move 0 2 .launch 43 .target 123 .is_crit_valid True
 
 // Pick to the Face
-combat_skill: .id "pick" .level 0 .type "melee" .atk 85% .dmg 0% .crit 2% .launch 21 .target 12 .is_crit_valid True .effect "GV_GR_Pierce_Armor_1"
-combat_skill: .id "pick" .level 1 .type "melee" .atk 90% .dmg 0% .crit 3% .launch 21 .target 12 .is_crit_valid True .effect "GV_GR_Pierce_Armor_2"
-combat_skill: .id "pick" .level 2 .type "melee" .atk 95% .dmg 0% .crit 4% .launch 21 .target 12 .is_crit_valid True .effect "GV_GR_Pierce_Armor_3"
-combat_skill: .id "pick" .level 3 .type "melee" .atk 100% .dmg 0% .crit 5% .launch 21 .target 12 .is_crit_valid True .effect "GV_GR_Pierce_Armor_4"
-combat_skill: .id "pick" .level 4 .type "melee" .atk 105% .dmg 0% .crit 6% .launch 21 .target 12 .is_crit_valid True .effect "GV_GR_Pierce_Armor_5"
+combat_skill: .id "pick" .level 0 .type "melee" .atk 85% .dmg 0% .crit 2% .launch 21 .target 12 .is_crit_valid True .effect "GV_GR_Pierce_Armor_1" "GV_GR_Chip_Armor_1"
+combat_skill: .id "pick" .level 1 .type "melee" .atk 90% .dmg 0% .crit 3% .launch 21 .target 12 .is_crit_valid True .effect "GV_GR_Pierce_Armor_2" "GV_GR_Chip_Armor_2"
+combat_skill: .id "pick" .level 2 .type "melee" .atk 95% .dmg 0% .crit 4% .launch 21 .target 12 .is_crit_valid True .effect "GV_GR_Pierce_Armor_3" "GV_GR_Chip_Armor_3"
+combat_skill: .id "pick" .level 3 .type "melee" .atk 100% .dmg 0% .crit 5% .launch 21 .target 12 .is_crit_valid True .effect "GV_GR_Pierce_Armor_4" "GV_GR_Chip_Armor_4"
+combat_skill: .id "pick" .level 4 .type "melee" .atk 105% .dmg 0% .crit 6% .launch 21 .target 12 .is_crit_valid True .effect "GV_GR_Pierce_Armor_5" "GV_GR_Chip_Armor_5"
 
 // Shadow Fade
 combat_skill: .id "shadow_fade" .level 0 .move 2 0 .launch 21 .target .is_crit_valid False .effect "GV_Rearm" "GV_GR_Fade_Buffs_1" .is_stall_invalidating false

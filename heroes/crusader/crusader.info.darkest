@@ -15,11 +15,11 @@ armour: .name "crusader_armour_3" .def 20% .prot 0 .hp 54 .spd 0 .upgradeRequire
 armour: .name "crusader_armour_4" .def 25% .prot 0 .hp 61 .spd 0 .upgradeRequirementCode 3
 
 // Smite
-combat_skill: .id "smite" .level 0 .type "melee" .atk 85% .dmg 0% .crit 2% .launch 21 .target 12 .is_crit_valid True .effect "Unholy Killer 1" .generation_guaranteed true
-combat_skill: .id "smite" .level 1 .type "melee" .atk 90% .dmg 0% .crit 3% .launch 21 .target 12 .is_crit_valid True .effect "Unholy Killer 2"
-combat_skill: .id "smite" .level 2 .type "melee" .atk 95% .dmg 0% .crit 4% .launch 21 .target 12 .is_crit_valid True .effect "Unholy Killer 3"
-combat_skill: .id "smite" .level 3 .type "melee" .atk 100% .dmg 0% .crit 5% .launch 21 .target 12 .is_crit_valid True .effect "Unholy Killer 4"
-combat_skill: .id "smite" .level 4 .type "melee" .atk 105% .dmg 0% .crit 6% .launch 21 .target 12 .is_crit_valid True .effect "Unholy Killer 5"
+combat_skill: .id "smite" .level 0 .type "melee" .atk 85% .dmg 0% .crit 2% .launch 21 .target 12 .is_crit_valid True .effect "GV_Unholy_Killer_1" .generation_guaranteed true
+combat_skill: .id "smite" .level 1 .type "melee" .atk 90% .dmg 0% .crit 3% .launch 21 .target 12 .is_crit_valid True .effect "GV_Unholy_Killer_2"
+combat_skill: .id "smite" .level 2 .type "melee" .atk 95% .dmg 0% .crit 4% .launch 21 .target 12 .is_crit_valid True .effect "GV_Unholy_Killer_3"
+combat_skill: .id "smite" .level 3 .type "melee" .atk 100% .dmg 0% .crit 5% .launch 21 .target 12 .is_crit_valid True .effect "GV_Unholy_Killer_4"
+combat_skill: .id "smite" .level 4 .type "melee" .atk 105% .dmg 0% .crit 6% .launch 21 .target 12 .is_crit_valid True .effect "GV_Unholy_Killer_5"
 
 // Cleave
 combat_skill: .id "zealous_accusation" .level 0 .type "melee" .atk 85% .dmg -40% .crit -4% .launch 21 .target ~12 .is_crit_valid True
@@ -36,11 +36,11 @@ combat_skill: .id "stunning_blow" .level 3 .type "melee" .atk 105% .dmg -50% .cr
 combat_skill: .id "stunning_blow" .level 4 .type "melee" .atk 110% .dmg -50% .crit 4% .launch 21 .target 12 .is_crit_valid True .effect "Stun 5"
 
 // Holy Lance
-combat_skill: .id "holy_lance" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .move 0 2 .launch 43 .target 234 .is_crit_valid True .effect "Unholy Killer 1"
-combat_skill: .id "holy_lance" .level 1 .type "melee" .atk 90% .dmg 0% .crit 6% .move 0 2 .launch 43 .target 234 .is_crit_valid True .effect "Unholy Killer 2"
-combat_skill: .id "holy_lance" .level 2 .type "melee" .atk 95% .dmg 0% .crit 7% .move 0 2 .launch 43 .target 234 .is_crit_valid True .effect "Unholy Killer 3"
-combat_skill: .id "holy_lance" .level 3 .type "melee" .atk 100% .dmg 0% .crit 8% .move 0 2 .launch 43 .target 234 .is_crit_valid True .effect "Unholy Killer 4"
-combat_skill: .id "holy_lance" .level 4 .type "melee" .atk 105% .dmg 0% .crit 9% .move 0 2 .launch 43 .target 234 .is_crit_valid True .effect "Unholy Killer 5"
+combat_skill: .id "holy_lance" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .move 0 2 .launch 43 .target 234 .is_crit_valid True .effect "GV_Unholy_Killer_1"
+combat_skill: .id "holy_lance" .level 1 .type "melee" .atk 90% .dmg 0% .crit 6% .move 0 2 .launch 43 .target 234 .is_crit_valid True .effect "GV_Unholy_Killer_2"
+combat_skill: .id "holy_lance" .level 2 .type "melee" .atk 95% .dmg 0% .crit 7% .move 0 2 .launch 43 .target 234 .is_crit_valid True .effect "GV_Unholy_Killer_3"
+combat_skill: .id "holy_lance" .level 3 .type "melee" .atk 100% .dmg 0% .crit 8% .move 0 2 .launch 43 .target 234 .is_crit_valid True .effect "GV_Unholy_Killer_4"
+combat_skill: .id "holy_lance" .level 4 .type "melee" .atk 105% .dmg 0% .crit 9% .move 0 2 .launch 43 .target 234 .is_crit_valid True .effect "GV_Unholy_Killer_5"
 
 // Inspiring Cry
 combat_skill: .id "inspiring_cry" .level 0 .launch 4321 .target @4321 .effect "GV_Cru_IC_Heal_1" "GV_Cru_IC_Stress_Heal_1" "GV_Light" .is_stall_invalidating false

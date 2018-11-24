@@ -4,7 +4,7 @@
         {"event_id": "event:/char/ally/houndmaster_blackjack_human",                   "guid_override":"{ecd39b1f-b818-45df-bc70-5e0f5346be88}"},
         {"event_id": "event:/char/ally/houndmaster_blackjack_miss_human",              "guid_override":"{f3c8de50-1fc3-4eb7-bc70-f0800c98c48e}"},
         {"event_id": "event:/char/ally/houndmaster_whistle_human",        "guid_override":"{db2c7e2b-61b6-4f21-bccc-ed9303ce8f5d}"},
-        {"event_id": "event:/char/ally/houndmaster_whistle_miss_human",   "guid_override":"{db2c7e2b-61b6-4f21-bccc-ed9303ce8f5d}"},
+        {"event_id": "event:/char/ally/houndmaster_whistle_miss_human",   "guid_override":"{8826956a-379f-46eb-b238-53d15c058029}"},
 		{"event_id": "event:/char/ally/houndmaster_guard_dog_human",        "guid_override":"{e485a5a0-7777-4bd3-b0be-9ac0d0db7219}"},
         {"event_id": "event:/char/ally/houndmaster_guard_dog_miss_human",   "guid_override":"{c8a3c594-c7dc-43a3-aec6-f2899b9989cc}"},
 		{"event_id": "event:/char/ally/houndmaster_howl_hound",        "guid_override":"{6b95517d-7091-467f-8936-9d148432bd81}"},
