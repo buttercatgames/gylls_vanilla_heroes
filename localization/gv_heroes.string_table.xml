@@ -37,14 +37,17 @@
 		
 		<!-- New Custom Strings -->
 
+		<!-- Abomination -->
+		<entry id="abomination+str_combat_knockback"><![CDATA[]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_abom_reduced_stress"><![CDATA[%d%% Transformation Stress]]></entry>
 		
 		<!-- Antiquarian -->
 		<entry id="str_inventory_title_supplyantiq_blue"><![CDATA[Strange Blue Powder]]></entry>
 		<entry id="str_inventory_title_supplyantiq_orange"><![CDATA[Strange Red Powder]]></entry>
 		<entry id="str_inventory_title_supplyantiq_personal"><![CDATA[Personal Stash]]></entry>
-		<entry id="str_inventory_description_supplyantiq_blue"><![CDATA[Use to empower the Antiquarian's team-targeted abilities.
+		<entry id="str_inventory_description_supplyantiq_blue"><![CDATA[Use to empower the Antiquarian's Restorative and Rapturous Vapours.
 {colour_start|inventory_tooltip_gold_value}[Value: 500 Gold Each]{colour_end}]]></entry>
-		<entry id="str_inventory_description_supplyantiq_orange"><![CDATA[Use to empower the Antiquarian's enemy-targeted abilities.
+		<entry id="str_inventory_description_supplyantiq_orange"><![CDATA[Use to empower the Antiquarian's Nervous Stab, Festering Vapours, and Flashpowder.
 {colour_start|inventory_tooltip_gold_value}[Value: 500 Gold Each]{colour_end}]]></entry>
 		<entry id="str_inventory_description_supplyantiq_personal"><![CDATA[Use to empower the Antiquarian's abilities.]]></entry>
 		<entry id="camping_skill_effect_loot_GV_ANTIQ_CAMP_POWDERS"><![CDATA[Produces powders from the personal stash.]]></entry>
@@ -67,8 +70,13 @@
 		<entry id="str_ui_actor_dot_complete"><![CDATA[]]></entry>
 		
 		<!-- Tooltip Hack Strings -->
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_disable_gut_shot"><![CDATA[Gut Shot Disabled!]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+-5 SPD / -10 DODGE / Gut Shot Disabled!]]></entry>
 
+		<entry id="buff_stat_tooltip_upgrade_discount_abom_disable_transform"><![CDATA[Transform Disabled!]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_disable_gut_shot"><![CDATA[Gut Shot Disabled!]]></entry>
+		
 		<entry id="buff_stat_tooltip_upgrade_discount_bh_refresh_on_kill"><![CDATA[Killing Blows Refresh Skill Use]]></entry>
 		
 		<entry id="buff_stat_tooltip_upgrade_discount_hellion_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
@@ -149,33 +157,40 @@ Hound's Rush: Crits Received Chance: +6%% {colour_start|skill_unselectable}(500%
 
 		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
 Triggers on MISS/DODGE Only
--20%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+ACC: 85 / DMG: -20%% / CRIT: +2%%]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_2"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
 Triggers on MISS/DODGE Only
--15%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+ACC: 90 / DMG: -15%% / CRIT: +3%%]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_3"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
 Triggers on MISS/DODGE Only
--10%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
+ACC: 95 / DMG: -10%% / CRIT: +4%%]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_4"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
 Triggers on MISS/DODGE Only
--5%% DMG when {colour_start|riposte}Riposte{colour_end}
-+1%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
+ACC: 100 / DMG: -5%% / CRIT: +5%%]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_5"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
 Triggers on MISS/DODGE Only
-+2%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
+ACC: 105 / CRIT: +6%%]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
--40%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_2"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
--35%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_3"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
--30%% DMG when {colour_start|riposte}Riposte{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_4"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
--25%% DMG when {colour_start|riposte}Riposte{colour_end}
-+1%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_5"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
--20%% DMG when {colour_start|riposte}Riposte{colour_end}
-+2%% CRIT when {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_1"><![CDATA[Self:
+{colour_start|mark}Mark{colour_end} Target
+Activates {colour_start|riposte}Riposte{colour_end}:
+ACC: 85 / DMG: -40%% / CRIT: +2%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_2"><![CDATA[Self:
+{colour_start|mark}Mark{colour_end} Target
+Activates {colour_start|riposte}Riposte{colour_end}:
+ACC: 90 / DMG: -35%% / CRIT: +3%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_3"><![CDATA[Self:
+{colour_start|mark}Mark{colour_end} Target
+Activates {colour_start|riposte}Riposte{colour_end}:
+ACC: 95 / DMG: -30%% / CRIT: +4%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_4"><![CDATA[Self:
+{colour_start|mark}Mark{colour_end} Target
+Activates {colour_start|riposte}Riposte{colour_end}:
+ACC: 100 / DMG: -25%% / CRIT: +5%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_5"><![CDATA[Self:
+{colour_start|mark}Mark{colour_end} Target
+Activates {colour_start|riposte}Riposte{colour_end}:
+ACC: 105 / DMG: -20%% / CRIT: +6%%]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
 +10 ACC / +3 SPD]]></entry>
@@ -226,7 +241,7 @@ Refresh Skill Uses]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}:
 Triggers on HIT Only
-{colour_start|stun}Stun{colour_end} Self when {colour_start|riposte}Riposte{colour_end}]]></entry>
+{colour_start|stun}Stun{colour_end} Self on {colour_start|riposte}Riposte{colour_end}]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no Corpses
 +100%% DMG if 2 Corpses

@@ -18,7 +18,7 @@ combat_skill: .id "flashing_daggers" .icon "flashing" .anim "attack_dagger" .tar
 combat_skill: .id "shadow_fade" .icon "fade" .anim "attack_fade" .fx "shadow_fade" .condensed_tooltip_stats true
 combat_skill: .id "thrown_dagger" .icon "five" .anim "attack_dagger" .targchestfx "thrown_dagger_target" .condensed_tooltip_stats true
 combat_skill: .id "poison_dart" .icon "six" .anim "attack_throw" .fx "poison_dart" .targchestfx "poison_dart_target" .condensed_tooltip_stats true
-combat_skill: .id "toxin_trickery" .icon "zone" .anim "attack_potion" .fx "toxin_trickery" .condensed_tooltip_stats true
+combat_skill: .id "toxin_trickery" .icon "zone" .anim "attack_potion" .fx "toxin_trickery" .condensed_tooltip_stats true .condensed_tooltip_effects_per_line 1
 
 combat_move_skill: .id "move" .icon "generic_move" .anim "idle"
 riposte_skill: .id "riposte1" .anim "attack_dagger" .targchestfx "thrown_dagger_target"

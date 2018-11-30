@@ -1,6 +1,6 @@
-resistances: .stun 30% .poison 60% .bleed 30% .disease 20% .move 30% .debuff 20% .death_blow 67% .trap 10%
+resistances: .stun 30% .poison 30% .bleed 30% .disease 30% .move 30% .debuff 30% .death_blow 67% .trap 10%
 
-crit: .effects "on_crit_dmg"
+crit: .effects "GV_On_Crit_Beast_Acc"
 
 weapon: .name "abomination_weapon_0" .atk 0% .dmg 5 10 .crit 2% .spd 5
 weapon: .name "abomination_weapon_1" .atk 0% .dmg 6 12 .crit 3% .spd 5 .upgradeRequirementCode 0
@@ -8,62 +8,62 @@ weapon: .name "abomination_weapon_2" .atk 0% .dmg 7 14 .crit 4% .spd 6 .upgradeR
 weapon: .name "abomination_weapon_3" .atk 0% .dmg 9 17 .crit 5% .spd 6 .upgradeRequirementCode 2
 weapon: .name "abomination_weapon_4" .atk 0% .dmg 10 19 .crit 6% .spd 7 .upgradeRequirementCode 3
 
-armour: .name "abomination_armour_0" .def 7.5% .prot 0 .hp 26 .spd 0
-armour: .name "abomination_armour_1" .def 12.5% .prot 0 .hp 31 .spd 0 .upgradeRequirementCode 0
-armour: .name "abomination_armour_2" .def 17.5% .prot 0 .hp 36 .spd 0 .upgradeRequirementCode 1
-armour: .name "abomination_armour_3" .def 22.5% .prot 0 .hp 41 .spd 0 .upgradeRequirementCode 2
-armour: .name "abomination_armour_4" .def 27.5% .prot 0 .hp 46 .spd 0 .upgradeRequirementCode 3
+armour: .name "abomination_armour_0" .def 7.5% .prot 0 .hp 24 .spd 0
+armour: .name "abomination_armour_1" .def 12.5% .prot 0 .hp 29 .spd 0 .upgradeRequirementCode 0
+armour: .name "abomination_armour_2" .def 17.5% .prot 0 .hp 34 .spd 0 .upgradeRequirementCode 1
+armour: .name "abomination_armour_3" .def 22.5% .prot 0 .hp 39 .spd 0 .upgradeRequirementCode 2
+armour: .name "abomination_armour_4" .def 27.5% .prot 0 .hp 44 .spd 0 .upgradeRequirementCode 3
 
 // Transform
-combat_skill: .id "transform" .level 0 .launch 4321 .target .is_crit_valid True .valid_modes human beast .human_effects "GV_Abom_XF_To_Beast" "GV_Abom_XF_Buff_1" "GV_Abom_XF_Stress" .beast_effects "GV_Abom_XF_To_Human" "GV_Abom_XF_Debuff" "GV_Abom_XF_Stress_Heal_2" .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true
-combat_skill: .id "transform" .level 1 .launch 4321 .target .is_crit_valid True .valid_modes human beast .human_effects "GV_Abom_XF_To_Beast" "GV_Abom_XF_Buff_2" "GV_Abom_XF_Stress" .beast_effects "GV_Abom_XF_To_Human" "GV_Abom_XF_Debuff" "GV_Abom_XF_Stress_Heal_2" .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true
-combat_skill: .id "transform" .level 2 .launch 4321 .target .is_crit_valid True .valid_modes human beast .human_effects "GV_Abom_XF_To_Beast" "GV_Abom_XF_Buff_3" "GV_Abom_XF_Stress" .beast_effects "GV_Abom_XF_To_Human" "GV_Abom_XF_Debuff" "GV_Abom_XF_Stress_Heal_2" "GV_Abom_XF_Stress_Heal_Maybe" .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true
-combat_skill: .id "transform" .level 3 .launch 4321 .target .is_crit_valid True .valid_modes human beast .human_effects "GV_Abom_XF_To_Beast" "GV_Abom_XF_Buff_4" "GV_Abom_XF_Stress" .beast_effects "GV_Abom_XF_To_Human" "GV_Abom_XF_Debuff" "GV_Abom_XF_Stress_Heal_2" "GV_Abom_XF_Stress_Heal_Maybe" .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true
-combat_skill: .id "transform" .level 4 .launch 4321 .target .is_crit_valid True .valid_modes human beast .human_effects "GV_Abom_XF_To_Beast" "GV_Abom_XF_Buff_5" "GV_Abom_XF_Stress" .beast_effects "GV_Abom_XF_To_Human" "GV_Abom_XF_Debuff" "GV_Abom_XF_Stress_Heal_3" .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true
+combat_skill: .id "transform" .level 0 .launch 4321 .target .is_crit_valid True .effect "GV_Abom_Fake_Mark_Self" .valid_modes human beast .human_effects "GV_Abom_XF_To_Beast" "GV_Abom_XF_Ramp_Stress" "GV_Abom_XF_Buff_1" "GV_Abom_XF_Stress" .beast_effects "GV_Abom_XF_To_Human" "GV_Abom_XF_Debuff" "GV_Abom_XF_Stress_Heal_1" "GV_Abom_XF_Shuffle" .is_continue_turn true .per_turn_limit 1 .is_stall_invalidating false
+combat_skill: .id "transform" .level 1 .launch 4321 .target .is_crit_valid True .effect "GV_Abom_Fake_Mark_Self" .valid_modes human beast .human_effects "GV_Abom_XF_To_Beast" "GV_Abom_XF_Ramp_Stress" "GV_Abom_XF_Buff_2" "GV_Abom_XF_Stress" .beast_effects "GV_Abom_XF_To_Human" "GV_Abom_XF_Debuff" "GV_Abom_XF_Stress_Heal_1" "GV_Abom_XF_Shuffle" .is_continue_turn true .per_turn_limit 1 .is_stall_invalidating false
+combat_skill: .id "transform" .level 2 .launch 4321 .target .is_crit_valid True .effect "GV_Abom_Fake_Mark_Self" .valid_modes human beast .human_effects "GV_Abom_XF_To_Beast" "GV_Abom_XF_Ramp_Stress" "GV_Abom_XF_Buff_3" "GV_Abom_XF_Stress" .beast_effects "GV_Abom_XF_To_Human" "GV_Abom_XF_Debuff" "GV_Abom_XF_Stress_Heal_1" "GV_Abom_XF_Shuffle" .is_continue_turn true .per_turn_limit 1 .is_stall_invalidating false
+combat_skill: .id "transform" .level 3 .launch 4321 .target .is_crit_valid True .effect "GV_Abom_Fake_Mark_Self" .valid_modes human beast .human_effects "GV_Abom_XF_To_Beast" "GV_Abom_XF_Ramp_Stress" "GV_Abom_XF_Buff_4" "GV_Abom_XF_Stress" .beast_effects "GV_Abom_XF_To_Human" "GV_Abom_XF_Debuff" "GV_Abom_XF_Stress_Heal_1" "GV_Abom_XF_Shuffle" .is_continue_turn true .per_turn_limit 1 .is_stall_invalidating false
+combat_skill: .id "transform" .level 4 .launch 4321 .target .is_crit_valid True .effect "GV_Abom_Fake_Mark_Self" .valid_modes human beast .human_effects "GV_Abom_XF_To_Beast" "GV_Abom_XF_Ramp_Stress" "GV_Abom_XF_Buff_5" "GV_Abom_XF_Stress" .beast_effects "GV_Abom_XF_To_Human" "GV_Abom_XF_Debuff" "GV_Abom_XF_Stress_Heal_1" "GV_Abom_XF_Shuffle" .is_continue_turn true .per_turn_limit 1 .is_stall_invalidating false
 
 // Manacles
-combat_skill: .id "manacles" .level 0 .type "ranged" .atk 90% .dmg -60% .crit 0% .launch 32 .target 123 .is_crit_valid True .effect "Stun 1" .valid_modes human
-combat_skill: .id "manacles" .level 1 .type "ranged" .atk 95% .dmg -60% .crit 1% .launch 32 .target 123 .is_crit_valid True .effect "Stun 2" .valid_modes human
-combat_skill: .id "manacles" .level 2 .type "ranged" .atk 100% .dmg -60% .crit 2% .launch 32 .target 123 .is_crit_valid True .effect "Stun 3" .valid_modes human
-combat_skill: .id "manacles" .level 3 .type "ranged" .atk 105% .dmg -60% .crit 3% .launch 32 .target 123 .is_crit_valid True .effect "Stun 4" .valid_modes human
-combat_skill: .id "manacles" .level 4 .type "ranged" .atk 110% .dmg -60% .crit 4% .launch 32 .target 123 .is_crit_valid True .effect "Stun 5" .valid_modes human
+combat_skill: .id "manacles" .level 0 .type "ranged" .atk 95% .dmg -55% .crit 0% .launch 32 .target 234 .is_crit_valid True .effect "Pull 2A" .valid_modes human
+combat_skill: .id "manacles" .level 1 .type "ranged" .atk 100% .dmg -55% .crit 1% .launch 32 .target 234 .is_crit_valid True .effect "Pull 2B" .valid_modes human
+combat_skill: .id "manacles" .level 2 .type "ranged" .atk 105% .dmg -55% .crit 2% .launch 32 .target 234 .is_crit_valid True .effect "Pull 2C" .valid_modes human
+combat_skill: .id "manacles" .level 3 .type "ranged" .atk 110% .dmg -55% .crit 3% .launch 32 .target 234 .is_crit_valid True .effect "Pull 2D" .valid_modes human
+combat_skill: .id "manacles" .level 4 .type "ranged" .atk 115% .dmg -55% .crit 4% .launch 32 .target 234 .is_crit_valid True .effect "Pull 2E" .valid_modes human
 
 // Beast's Bile
-combat_skill: .id "vomit" .level 0 .type "ranged" .atk 95% .dmg -90% .crit 0% .launch 32 .target ~23 .is_crit_valid True .effect "GV_Blight_1" "Destealth" .valid_modes human
-combat_skill: .id "vomit" .level 1 .type "ranged" .atk 100% .dmg -90% .crit 1% .launch 32 .target ~23 .is_crit_valid True .effect "GV_Blight_2" "Destealth" .valid_modes human
-combat_skill: .id "vomit" .level 2 .type "ranged" .atk 105% .dmg -90% .crit 2% .launch 32 .target ~23 .is_crit_valid True .effect "GV_Blight_3" "Destealth" .valid_modes human
-combat_skill: .id "vomit" .level 3 .type "ranged" .atk 110% .dmg -90% .crit 3% .launch 32 .target ~23 .is_crit_valid True .effect "GV_Blight_4" "Destealth" .valid_modes human
-combat_skill: .id "vomit" .level 4 .type "ranged" .atk 115% .dmg -90% .crit 4% .launch 32 .target ~23 .is_crit_valid True .effect "GV_Blight_5" "Destealth" .valid_modes human
+combat_skill: .id "vomit" .level 0 .type "ranged" .atk 95% .dmg -65% .crit 0% .launch 32 .target 123 .is_crit_valid True .effect "GV_Blight_1" "GV_Abom_Prot_Debuff_1" .valid_modes human
+combat_skill: .id "vomit" .level 1 .type "ranged" .atk 100% .dmg -65% .crit 1% .launch 32 .target 123 .is_crit_valid True .effect "GV_Blight_2" "GV_Abom_Prot_Debuff_2" .valid_modes human
+combat_skill: .id "vomit" .level 2 .type "ranged" .atk 105% .dmg -65% .crit 2% .launch 32 .target 123 .is_crit_valid True .effect "GV_Blight_3" "GV_Abom_Prot_Debuff_3" .valid_modes human
+combat_skill: .id "vomit" .level 3 .type "ranged" .atk 110% .dmg -65% .crit 3% .launch 32 .target 123 .is_crit_valid True .effect "GV_Blight_4" "GV_Abom_Prot_Debuff_4" .valid_modes human
+combat_skill: .id "vomit" .level 4 .type "ranged" .atk 115% .dmg -65% .crit 4% .launch 32 .target 123 .is_crit_valid True .effect "GV_Blight_5" "GV_Abom_Prot_Debuff_5" .valid_modes human
 
 // Absolution
 combat_skill: .id "absolution" .level 0 .launch 4321 .target .is_crit_valid True .effect "GV_Abom_Absolution_HealStress_1" "GV_Abom_Absolution_Heal_1" .valid_modes human .is_stall_invalidating false
-combat_skill: .id "absolution" .level 1 .launch 4321 .target .is_crit_valid True .effect "GV_Abom_Absolution_HealStress_2" "GV_Abom_Absolution_Heal_2" .valid_modes human .is_stall_invalidating false
-combat_skill: .id "absolution" .level 2 .launch 4321 .target .is_crit_valid True .effect "GV_Abom_Absolution_HealStress_3" "GV_Abom_Absolution_Heal_3" .valid_modes human .is_stall_invalidating false
-combat_skill: .id "absolution" .level 3 .launch 4321 .target .is_crit_valid True .effect "GV_Abom_Absolution_HealStress_4" "GV_Abom_Absolution_Heal_4" .valid_modes human .is_stall_invalidating false
-combat_skill: .id "absolution" .level 4 .launch 4321 .target .is_crit_valid True .effect "GV_Abom_Absolution_HealStress_5" "GV_Abom_Absolution_Heal_5" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "absolution" .level 1 .launch 4321 .target .is_crit_valid True .effect "GV_Abom_Absolution_HealStress_2" "GV_Abom_Absolution_Heal_1" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "absolution" .level 2 .launch 4321 .target .is_crit_valid True .effect "GV_Abom_Absolution_HealStress_3" "GV_Abom_Absolution_Heal_2" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "absolution" .level 3 .launch 4321 .target .is_crit_valid True .effect "GV_Abom_Absolution_HealStress_4" "GV_Abom_Absolution_Heal_2" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "absolution" .level 4 .launch 4321 .target .is_crit_valid True .effect "GV_Abom_Absolution_HealStress_5" "GV_Abom_Absolution_Heal_3" .valid_modes human .is_stall_invalidating false
 
 // Rage
-combat_skill: .id "rage" .level 0 .type "melee" .atk 85% .dmg 0% .crit 2% .launch 21 .target 123 .is_crit_valid True .effect "GV_Abom_Stressed_Crit_1" "GV_Abom_Stressed_Mega_Crit_1" .valid_modes beast
-combat_skill: .id "rage" .level 1 .type "melee" .atk 90% .dmg 0% .crit 3% .launch 21 .target 123 .is_crit_valid True .effect "GV_Abom_Stressed_Crit_2" "GV_Abom_Stressed_Mega_Crit_2" .valid_modes beast
-combat_skill: .id "rage" .level 2 .type "melee" .atk 95% .dmg 0% .crit 4% .launch 21 .target 123 .is_crit_valid True .effect "GV_Abom_Stressed_Crit_3" "GV_Abom_Stressed_Mega_Crit_3" .valid_modes beast
-combat_skill: .id "rage" .level 3 .type "melee" .atk 100% .dmg 0% .crit 5% .launch 21 .target 123 .is_crit_valid True .effect "GV_Abom_Stressed_Crit_4" "GV_Abom_Stressed_Mega_Crit_4" .valid_modes beast
-combat_skill: .id "rage" .level 4 .type "melee" .atk 105% .dmg 0% .crit 6% .launch 21 .target 123 .is_crit_valid True .effect "GV_Abom_Stressed_Crit_5" "GV_Abom_Stressed_Mega_Crit_5" .valid_modes beast
+combat_skill: .id "rage" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .move 0 1 .launch 321 .target 12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg_1" .valid_modes beast
+combat_skill: .id "rage" .level 1 .type "melee" .atk 90% .dmg 0% .crit 6% .move 0 1 .launch 321 .target 12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg_1" .valid_modes beast
+combat_skill: .id "rage" .level 2 .type "melee" .atk 95% .dmg 0% .crit 7% .move 0 1 .launch 321 .target 12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg_1" .valid_modes beast
+combat_skill: .id "rage" .level 3 .type "melee" .atk 100% .dmg 0% .crit 8% .move 0 1 .launch 321 .target 12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg_1" .valid_modes beast
+combat_skill: .id "rage" .level 4 .type "melee" .atk 105% .dmg 0% .crit 9% .move 0 1 .launch 321 .target 12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg_1" .valid_modes beast
 
 // Rake
-combat_skill: .id "rake" .level 0 .type "melee" .atk 90% .dmg -40% .crit 0% .launch 21 .target ~12 .is_crit_valid True .effect "rakebuff_1" "GV_Abom_Stressed_Crit_1" "GV_Abom_Stressed_Mega_Crit_1" .valid_modes beast
-combat_skill: .id "rake" .level 1 .type "melee" .atk 95% .dmg -40% .crit 1% .launch 21 .target ~12 .is_crit_valid True .effect "rakebuff_2" "GV_Abom_Stressed_Crit_2" "GV_Abom_Stressed_Mega_Crit_2" .valid_modes beast
-combat_skill: .id "rake" .level 2 .type "melee" .atk 100% .dmg -40% .crit 2% .launch 21 .target ~12 .is_crit_valid True .effect "rakebuff_3" "GV_Abom_Stressed_Crit_3" "GV_Abom_Stressed_Mega_Crit_3" .valid_modes beast
-combat_skill: .id "rake" .level 3 .type "melee" .atk 105% .dmg -40% .crit 3% .launch 21 .target ~12 .is_crit_valid True .effect "rakebuff_4" "GV_Abom_Stressed_Crit_4" "GV_Abom_Stressed_Mega_Crit_4" .valid_modes beast
-combat_skill: .id "rake" .level 4 .type "melee" .atk 110% .dmg -40% .crit 4% .launch 21 .target ~12 .is_crit_valid True .effect "rakebuff_5" "GV_Abom_Stressed_Crit_5" "GV_Abom_Stressed_Mega_Crit_5" .valid_modes beast
+combat_skill: .id "rake" .level 0 .type "melee" .atk 85% .dmg -40% .crit -2% .move 0 1 .launch 321 .target ~12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg_1" .valid_modes beast
+combat_skill: .id "rake" .level 1 .type "melee" .atk 90% .dmg -40% .crit -1% .move 0 1 .launch 321 .target ~12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg_1" .valid_modes beast
+combat_skill: .id "rake" .level 2 .type "melee" .atk 95% .dmg -40% .crit 0% .move 0 1 .launch 321 .target ~12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg_1" .valid_modes beast
+combat_skill: .id "rake" .level 3 .type "melee" .atk 100% .dmg -40% .crit 1% .move 0 1 .launch 321 .target ~12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg_1" .valid_modes beast
+combat_skill: .id "rake" .level 4 .type "melee" .atk 105% .dmg -40% .crit 2% .move 0 1 .launch 321 .target ~12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg_1" .valid_modes beast
 
 // Slam
-combat_skill: .id "slam" .level 0 .type "melee" .atk 80% .dmg -25% .crit 0% .move 0 1 .launch 4321 .target 12 .is_crit_valid True .effect "Push 2A" "GV_Abom_Slam_Debuff_1" .valid_modes beast
-combat_skill: .id "slam" .level 1 .type "melee" .atk 85% .dmg -25% .crit 1% .move 0 1 .launch 4321 .target 12 .is_crit_valid True .effect "Push 2B" "GV_Abom_Slam_Debuff_2" .valid_modes beast
-combat_skill: .id "slam" .level 2 .type "melee" .atk 90% .dmg -25% .crit 2% .move 0 1 .launch 4321 .target 12 .is_crit_valid True .effect "Push 2C" "GV_Abom_Slam_Debuff_3" .valid_modes beast
-combat_skill: .id "slam" .level 3 .type "melee" .atk 95% .dmg -25% .crit 3% .move 0 1 .launch 4321 .target 12 .is_crit_valid True .effect "Push 2D" "GV_Abom_Slam_Debuff_4" .valid_modes beast
-combat_skill: .id "slam" .level 4 .type "melee" .atk 100% .dmg -25% .crit 4% .move 0 1 .launch 4321 .target 12 .is_crit_valid True .effect "Push 2E" "GV_Abom_Slam_Debuff_5" .valid_modes beast
+combat_skill: .id "slam" .level 0 .type "melee" .atk 90% .dmg -50% .crit 2% .move 0 2 .launch 432 .target 12 .is_crit_valid True .effect "Push 1A" "Stun 1" "GV_Abom_Gain_Dmg_1" .valid_modes beast
+combat_skill: .id "slam" .level 1 .type "melee" .atk 95% .dmg -50% .crit 3% .move 0 2 .launch 432 .target 12 .is_crit_valid True .effect "Push 1B" "Stun 2" "GV_Abom_Gain_Dmg_1" .valid_modes beast
+combat_skill: .id "slam" .level 2 .type "melee" .atk 100% .dmg -50% .crit 4% .move 0 2 .launch 432 .target 12 .is_crit_valid True .effect "Push 1C" "Stun 3" "GV_Abom_Gain_Dmg_1" .valid_modes beast
+combat_skill: .id "slam" .level 3 .type "melee" .atk 105% .dmg -50% .crit 5% .move 0 2 .launch 432 .target 12 .is_crit_valid True .effect "Push 1D" "Stun 4" "GV_Abom_Gain_Dmg_1" .valid_modes beast
+combat_skill: .id "slam" .level 4 .type "melee" .atk 110% .dmg -50% .crit 6% .move 0 2 .launch 432 .target 12 .is_crit_valid True .effect "Push 1E" "Stun 5" "GV_Abom_Gain_Dmg_1" .valid_modes beast
 
-combat_move_skill: .id "move" .level 0 .type "move" .move 2 1 .launch 4321
+combat_move_skill: .id "move" .level 0 .type "move" .move 1 1 .launch 4321
 
 tag: .id "light"
 tag: .id "non-religious"
@@ -74,5 +74,5 @@ controlled: .target_rank 2
 id_index: .index 13
 skill_selection: .can_select_combat_skills false .number_of_selected_combat_skills_max 7
 mode: .id human .is_raid_default true
-mode: .id beast .bark_override_id str_beast_bark .affliction_combat_skill_id transform .battle_complete_combat_skill_id transform .stress_damage_per_turn 15
+mode: .id beast .bark_override_id str_beast_bark .affliction_combat_skill_id transform .battle_complete_combat_skill_id transform .stress_damage_per_turn 20
 generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 7 .number_of_cards_in_deck 5 .card_chance 1.0

@@ -1,5 +1,9 @@
 colour:	.id "mark" 													.rgba #3c6d80
 colour:	.id "horror" 												.rgba #77736d
 colour:	.id "torch" 												.rgba #c96a3c
+
 colour: .id "pop_text_refresh_skills"				.rgba #79f8ff
 colour: .id "pop_text_outline_refresh_skills"			.rgba #127298
+
+colour: .id "pop_text_actor_dot_complete"									    .rgba #000000
+colour: .id "pop_text_outline_actor_dot_complete"							    .rgba #fd0006

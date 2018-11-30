@@ -16,7 +16,7 @@ combat_skill: .id "crush" .icon "one" .anim "attack_mace" .fx "crush" .targchest
 combat_skill: .id "rampart" .icon "two" .anim "attack_shield" .fx "rampart" .targchestfx "blood_splatter" .condensed_tooltip_stats true
 combat_skill: .id "bellow" .icon "three" .anim "attack_shout" .fx "bellow" .targchestfx "blood_splatter" .area_pos_offset 100 0 .target_area_pos_offset -125 0 .condensed_tooltip_stats true
 combat_skill: .id "defender" .icon "four" .anim "attack_ranged" .fx "defender" .condensed_tooltip_stats true
-combat_skill: .id "retribution" .icon "five" .anim "attack_mace" .fx "retribution" .targchestfx "blood_splatter" .condensed_tooltip_stats true
+combat_skill: .id "retribution" .icon "five" .anim "attack_mace" .fx "retribution" .targchestfx "blood_splatter" .condensed_tooltip_stats true .condensed_tooltip_effects_per_line 1
 combat_skill: .id "command" .icon "rangedstun" .anim "attack_shout" .fx "bellow" .targchestfx "blood_splatter" .area_pos_offset 100 0 .target_area_pos_offset -125 0 .condensed_tooltip_stats true
 combat_skill: .id "bolster" .icon "seven" .anim "attack_ranged" .fx "bolster" .area_pos_offset 0 -35 .target_area_pos_offset 0 -35 .condensed_tooltip_stats true
 
