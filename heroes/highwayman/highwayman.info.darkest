@@ -3,10 +3,10 @@ resistances: .stun 30% .poison 30% .bleed 30% .disease 30% .move 30% .debuff 30%
 crit: .effects "on_crit_speed"
 
 weapon: .name "highwayman_weapon_0" .atk 0% .dmg 5 11 .crit 5% .spd 5
-weapon: .name "highwayman_weapon_1" .atk 0% .dmg 6 12 .crit 6% .spd 5 .upgradeRequirementCode 0
-weapon: .name "highwayman_weapon_2" .atk 0% .dmg 7 13 .crit 7% .spd 6 .upgradeRequirementCode 1
-weapon: .name "highwayman_weapon_3" .atk 0% .dmg 8 15 .crit 8% .spd 6 .upgradeRequirementCode 2
-weapon: .name "highwayman_weapon_4" .atk 0% .dmg 9 16 .crit 9% .spd 7 .upgradeRequirementCode 3
+weapon: .name "highwayman_weapon_1" .atk 0% .dmg 6 13 .crit 6% .spd 5 .upgradeRequirementCode 0
+weapon: .name "highwayman_weapon_2" .atk 0% .dmg 7 15 .crit 7% .spd 6 .upgradeRequirementCode 1
+weapon: .name "highwayman_weapon_3" .atk 0% .dmg 8 18 .crit 8% .spd 6 .upgradeRequirementCode 2
+weapon: .name "highwayman_weapon_4" .atk 0% .dmg 9 20 .crit 9% .spd 7 .upgradeRequirementCode 3
 
 armour: .name "highwayman_armour_0" .def 10% .prot 0 .hp 23 .spd 0
 armour: .name "highwayman_armour_1" .def 15% .prot 0 .hp 28 .spd 0 .upgradeRequirementCode 0

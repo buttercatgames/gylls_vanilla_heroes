@@ -3,10 +3,10 @@ resistances: .stun 30% .poison 30% .bleed 30% .disease 30% .move 30% .debuff 30%
 crit: .effects "on_crit_healdone"
 
 weapon: .name "vestal_weapon_0" .atk 0% .dmg 4 7 .crit 2% .spd 4
-weapon: .name "vestal_weapon_1" .atk 0% .dmg 5 9 .crit 3% .spd 4 .upgradeRequirementCode 0
-weapon: .name "vestal_weapon_2" .atk 0% .dmg 6 11 .crit 4% .spd 5 .upgradeRequirementCode 1
-weapon: .name "vestal_weapon_3" .atk 0% .dmg 6 12 .crit 5% .spd 5 .upgradeRequirementCode 2
-weapon: .name "vestal_weapon_4" .atk 0% .dmg 7 14 .crit 6% .spd 6 .upgradeRequirementCode 3
+weapon: .name "vestal_weapon_1" .atk 0% .dmg 5 8 .crit 3% .spd 4 .upgradeRequirementCode 0
+weapon: .name "vestal_weapon_2" .atk 0% .dmg 6 10 .crit 4% .spd 5 .upgradeRequirementCode 1
+weapon: .name "vestal_weapon_3" .atk 0% .dmg 6 11 .crit 5% .spd 5 .upgradeRequirementCode 2
+weapon: .name "vestal_weapon_4" .atk 0% .dmg 7 13 .crit 6% .spd 6 .upgradeRequirementCode 3
 
 armour: .name "vestal_armour_0" .def 0% .prot 0 .hp 24 .spd 0
 armour: .name "vestal_armour_1" .def 5% .prot 0 .hp 29 .spd 0 .upgradeRequirementCode 0

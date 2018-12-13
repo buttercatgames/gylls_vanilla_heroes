@@ -2,9 +2,9 @@ resistances: .stun 30% .poison 30% .bleed 30% .disease 30% .move 30% .debuff 30%
 
 crit: .effects "GV_On_Crit_Beast_Acc"
 
-weapon: .name "abomination_weapon_0" .atk 0% .dmg 5 10 .crit 2% .spd 5
-weapon: .name "abomination_weapon_1" .atk 0% .dmg 6 12 .crit 3% .spd 5 .upgradeRequirementCode 0
-weapon: .name "abomination_weapon_2" .atk 0% .dmg 7 14 .crit 4% .spd 6 .upgradeRequirementCode 1
+weapon: .name "abomination_weapon_0" .atk 0% .dmg 6 12 .crit 2% .spd 5
+weapon: .name "abomination_weapon_1" .atk 0% .dmg 7 14 .crit 3% .spd 5 .upgradeRequirementCode 0
+weapon: .name "abomination_weapon_2" .atk 0% .dmg 8 16 .crit 4% .spd 6 .upgradeRequirementCode 1
 weapon: .name "abomination_weapon_3" .atk 0% .dmg 9 17 .crit 5% .spd 6 .upgradeRequirementCode 2
 weapon: .name "abomination_weapon_4" .atk 0% .dmg 10 19 .crit 6% .spd 7 .upgradeRequirementCode 3
 
@@ -22,18 +22,18 @@ combat_skill: .id "transform" .level 3 .launch 4321 .target .is_crit_valid True 
 combat_skill: .id "transform" .level 4 .launch 4321 .target .is_crit_valid True .effect "GV_Abom_Fake_Mark_Self" .valid_modes human beast .human_effects "GV_Abom_XF_To_Beast" "GV_Abom_XF_Ramp_Stress" "GV_Abom_XF_Buff_5" "GV_Abom_XF_Stress" .beast_effects "GV_Abom_XF_To_Human" "GV_Abom_XF_Debuff" "GV_Abom_XF_Stress_Heal_1" "GV_Abom_XF_Shuffle" .is_continue_turn true .per_turn_limit 1 .is_stall_invalidating false
 
 // Manacles
-combat_skill: .id "manacles" .level 0 .type "ranged" .atk 95% .dmg -55% .crit 0% .launch 32 .target 234 .is_crit_valid True .effect "Pull 2A" .valid_modes human
-combat_skill: .id "manacles" .level 1 .type "ranged" .atk 100% .dmg -55% .crit 1% .launch 32 .target 234 .is_crit_valid True .effect "Pull 2B" .valid_modes human
-combat_skill: .id "manacles" .level 2 .type "ranged" .atk 105% .dmg -55% .crit 2% .launch 32 .target 234 .is_crit_valid True .effect "Pull 2C" .valid_modes human
-combat_skill: .id "manacles" .level 3 .type "ranged" .atk 110% .dmg -55% .crit 3% .launch 32 .target 234 .is_crit_valid True .effect "Pull 2D" .valid_modes human
-combat_skill: .id "manacles" .level 4 .type "ranged" .atk 115% .dmg -55% .crit 4% .launch 32 .target 234 .is_crit_valid True .effect "Pull 2E" .valid_modes human
+combat_skill: .id "manacles" .level 0 .type "ranged" .atk 95% .dmg -60% .crit 0% .launch 32 .target 234 .is_crit_valid True .effect "Pull 2A" .valid_modes human
+combat_skill: .id "manacles" .level 1 .type "ranged" .atk 100% .dmg -60% .crit 1% .launch 32 .target 234 .is_crit_valid True .effect "Pull 2B" .valid_modes human
+combat_skill: .id "manacles" .level 2 .type "ranged" .atk 105% .dmg -60% .crit 2% .launch 32 .target 234 .is_crit_valid True .effect "Pull 2C" .valid_modes human
+combat_skill: .id "manacles" .level 3 .type "ranged" .atk 110% .dmg -60% .crit 3% .launch 32 .target 234 .is_crit_valid True .effect "Pull 2D" .valid_modes human
+combat_skill: .id "manacles" .level 4 .type "ranged" .atk 115% .dmg -60% .crit 4% .launch 32 .target 234 .is_crit_valid True .effect "Pull 2E" .valid_modes human
 
 // Beast's Bile
-combat_skill: .id "vomit" .level 0 .type "ranged" .atk 95% .dmg -65% .crit 0% .launch 32 .target 123 .is_crit_valid True .effect "GV_Blight_1" "GV_Abom_Prot_Debuff_1" .valid_modes human
-combat_skill: .id "vomit" .level 1 .type "ranged" .atk 100% .dmg -65% .crit 1% .launch 32 .target 123 .is_crit_valid True .effect "GV_Blight_2" "GV_Abom_Prot_Debuff_2" .valid_modes human
-combat_skill: .id "vomit" .level 2 .type "ranged" .atk 105% .dmg -65% .crit 2% .launch 32 .target 123 .is_crit_valid True .effect "GV_Blight_3" "GV_Abom_Prot_Debuff_3" .valid_modes human
-combat_skill: .id "vomit" .level 3 .type "ranged" .atk 110% .dmg -65% .crit 3% .launch 32 .target 123 .is_crit_valid True .effect "GV_Blight_4" "GV_Abom_Prot_Debuff_4" .valid_modes human
-combat_skill: .id "vomit" .level 4 .type "ranged" .atk 115% .dmg -65% .crit 4% .launch 32 .target 123 .is_crit_valid True .effect "GV_Blight_5" "GV_Abom_Prot_Debuff_5" .valid_modes human
+combat_skill: .id "vomit" .level 0 .type "ranged" .atk 95% .dmg -70% .crit 0% .launch 32 .target 123 .is_crit_valid True .effect "GV_Blight_1" "GV_Abom_Prot_Debuff_1" .valid_modes human
+combat_skill: .id "vomit" .level 1 .type "ranged" .atk 100% .dmg -70% .crit 1% .launch 32 .target 123 .is_crit_valid True .effect "GV_Blight_2" "GV_Abom_Prot_Debuff_2" .valid_modes human
+combat_skill: .id "vomit" .level 2 .type "ranged" .atk 105% .dmg -70% .crit 2% .launch 32 .target 123 .is_crit_valid True .effect "GV_Blight_3" "GV_Abom_Prot_Debuff_3" .valid_modes human
+combat_skill: .id "vomit" .level 3 .type "ranged" .atk 110% .dmg -70% .crit 3% .launch 32 .target 123 .is_crit_valid True .effect "GV_Blight_4" "GV_Abom_Prot_Debuff_4" .valid_modes human
+combat_skill: .id "vomit" .level 4 .type "ranged" .atk 115% .dmg -70% .crit 4% .launch 32 .target 123 .is_crit_valid True .effect "GV_Blight_5" "GV_Abom_Prot_Debuff_5" .valid_modes human
 
 // Absolution
 combat_skill: .id "absolution" .level 0 .launch 4321 .target .is_crit_valid True .effect "GV_Abom_Absolution_HealStress_1" "GV_Abom_Absolution_Heal_1" .valid_modes human .is_stall_invalidating false

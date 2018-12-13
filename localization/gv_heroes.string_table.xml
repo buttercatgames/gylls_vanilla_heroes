@@ -30,6 +30,7 @@
 		<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if vs. %s (%d+)]]></entry>
 		<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if vs. no %ss]]></entry>
 		<entry id="buff_rule_tooltip_skill_false"><![CDATA[Non-%s Skills: %s]]></entry>
+		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|horror}Horror{colour_end}]]></entry>
 		
 		<!-- DLC Tooltips -->
 		<entry id="str_ui_refresh_skills"><![CDATA[Refreshed!]]></entry>
@@ -71,7 +72,8 @@
 		
 		<!-- Tooltip Hack Strings -->
 		<entry id="buff_stat_tooltip_upgrade_discount_hwm_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
--5 SPD / -10 DODGE / Gut Shot Disabled!]]></entry>
+-5 SPD / -10 DODGE
+Gut Shot Disabled!]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_abom_disable_transform"><![CDATA[Transform Disabled!]]></entry>
 
@@ -98,11 +100,11 @@
 -20 DODGE / -4 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_1"><![CDATA[Other Heroes:
-{colour_start|stress}Heal{colour_end} 2 Stress]]></entry>
+{colour_start|stress}Heal{colour_end} 1 Stress]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_2"><![CDATA[Other Heroes:
-{colour_start|stress}Heal{colour_end} 2 Stress / {colour_start|stress}Heal{colour_end} 1 Stress (50%%)]]></entry>
+{colour_start|stress}Heal{colour_end} 1 Stress / {colour_start|stress}Heal{colour_end} 1 Stress (50%%)]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_3"><![CDATA[Other Heroes:
-{colour_start|stress}Heal{colour_end} 3 Stress]]></entry>
+{colour_start|stress}Heal{colour_end} 2 Stress]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
 -15%% PROT {colour_start|skill_unselectable}(100%%){colour_end}

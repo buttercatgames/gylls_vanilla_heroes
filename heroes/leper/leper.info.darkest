@@ -50,11 +50,11 @@ combat_skill: .id "withstand" .level 3 .launch 4321 .target @1234 .self_target_v
 combat_skill: .id "withstand" .level 4 .launch 4321 .target @1234 .self_target_valid false .is_crit_valid False .effect "Clear Guard Performer" "Clear Guard Target" "GV_Guard_3" "GV_Leper_Stress_Resist_Buff_5" .is_stall_invalidating false
 
 // Revenge
-combat_skill: .id "revenge" .level 0 .launch 4321 .target .is_crit_valid True .effect "GV_Leper_Revenge_Buff_1" .per_battle_limit 1
-combat_skill: .id "revenge" .level 1 .launch 4321 .target .is_crit_valid True .effect "GV_Leper_Revenge_Buff_2" .per_battle_limit 1
-combat_skill: .id "revenge" .level 2 .launch 4321 .target .is_crit_valid True .effect "GV_Leper_Revenge_Buff_3" .per_battle_limit 1
-combat_skill: .id "revenge" .level 3 .launch 4321 .target .is_crit_valid True .effect "GV_Leper_Revenge_Buff_4" .per_battle_limit 1
-combat_skill: .id "revenge" .level 4 .launch 4321 .target .is_crit_valid True .effect "GV_Leper_Revenge_Buff_5" .per_battle_limit 1
+combat_skill: .id "revenge" .level 0 .launch 4321 .target .is_crit_valid True .effect "GV_Leper_Revenge_Buff_1"
+combat_skill: .id "revenge" .level 1 .launch 4321 .target .is_crit_valid True .effect "GV_Leper_Revenge_Buff_2"
+combat_skill: .id "revenge" .level 2 .launch 4321 .target .is_crit_valid True .effect "GV_Leper_Revenge_Buff_3"
+combat_skill: .id "revenge" .level 3 .launch 4321 .target .is_crit_valid True .effect "GV_Leper_Revenge_Buff_4"
+combat_skill: .id "revenge" .level 4 .launch 4321 .target .is_crit_valid True .effect "GV_Leper_Revenge_Buff_5"
 
 // Solemnity
 combat_skill: .id "solemnity" .level 0 .launch 4321 .target .is_crit_valid True .effect "GV_Leper_Heal_Self_1" "GV_Leper_Stress_Heal_Self_1" .is_stall_invalidating false

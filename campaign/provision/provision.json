@@ -81,6 +81,20 @@
             ]
         },
         {
+            "hero_class": "plague_doctor",
+            "item_lists": 
+            [
+                { "type": "supply", "id": "antivenom", "amount": 1 }
+            ]
+        },
+        {
+            "hero_class": "arbalest",
+            "item_lists": 
+            [
+                { "type": "supply", "id": "bandage", "amount": 1 }
+            ]
+        },
+        {
             "hero_class": "grave_robber",
             "item_lists": 
             [
