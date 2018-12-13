@@ -508,6 +508,8 @@ effect: .name "GV_HM_On_Crit" .target "performer" .chance 100% .buff_source_type
 
 
 // Target Whistle
+effect: .name "GV_HM_Debuff_Chance_vs_Not_Marked" .target "performer" .chance 100% .skill_instant true .buff_ids "GV_HM_Debuff_Chance_vs_Not_Marked" .on_hit true .on_miss false .has_description false
+
 effect: .name "GV_HM_Super_Mark_Debuff_1" .target "target" .chance 0% .buff_ids "GV_HM_Super_Mark_Dmg" "GV_HM_Super_Mark_Crit_1" .duration 1 .on_hit true .on_miss false .crit_doesnt_apply_to_roll true .buff_source_type bsrc_companion .has_description false
 effect: .name "GV_HM_Super_Mark_Debuff_2" .target "target" .chance 0% .buff_ids "GV_HM_Super_Mark_Dmg" "GV_HM_Super_Mark_Crit_2" .duration 1 .on_hit true .on_miss false .crit_doesnt_apply_to_roll true .buff_source_type bsrc_companion .has_description false
 effect: .name "GV_HM_Super_Mark_Debuff_3" .target "target" .chance 0% .buff_ids "GV_HM_Super_Mark_Dmg" "GV_HM_Super_Mark_Crit_3" .duration 1 .on_hit true .on_miss false .crit_doesnt_apply_to_roll true .buff_source_type bsrc_companion .has_description false
@@ -516,13 +518,13 @@ effect: .name "GV_HM_Super_Mark_Debuff_5" .target "target" .chance 0% .buff_ids 
 
 effect: .name "GV_HM_Short_Mark" .target "target" .chance 100% .tag 1 .duration 2 .on_hit true .on_miss false .queue true
 
-effect: .name "GV_Tooltip_HM_Mark_Condition" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_HM_Mark_Condition" .on_hit true .on_miss false .apply_once true .queue true
+effect: .name "GV_Tooltip_HM_Mark_Condition" .target "performer" .chance 100% .skill_instant true .buff_ids "GV_Tooltip_HM_Mark_Condition" .on_hit true .on_miss false
 
-effect: .name "GV_Tooltip_HM_Mark_Debuff_1" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_HM_Mark_Debuff_1" .on_hit true .on_miss false .apply_once true .queue true
-effect: .name "GV_Tooltip_HM_Mark_Debuff_2" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_HM_Mark_Debuff_2" .on_hit true .on_miss false .apply_once true .queue true
-effect: .name "GV_Tooltip_HM_Mark_Debuff_3" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_HM_Mark_Debuff_3" .on_hit true .on_miss false .apply_once true .queue true
-effect: .name "GV_Tooltip_HM_Mark_Debuff_4" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_HM_Mark_Debuff_4" .on_hit true .on_miss false .apply_once true .queue true
-effect: .name "GV_Tooltip_HM_Mark_Debuff_5" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_HM_Mark_Debuff_5" .on_hit true .on_miss false .apply_once true .queue true
+effect: .name "GV_Tooltip_HM_Mark_Debuff_1" .target "performer" .chance 100% .skill_instant true .buff_ids "GV_Tooltip_HM_Mark_Debuff_1" .on_hit true .on_miss false
+effect: .name "GV_Tooltip_HM_Mark_Debuff_2" .target "performer" .chance 100% .skill_instant true .buff_ids "GV_Tooltip_HM_Mark_Debuff_2" .on_hit true .on_miss false
+effect: .name "GV_Tooltip_HM_Mark_Debuff_3" .target "performer" .chance 100% .skill_instant true .buff_ids "GV_Tooltip_HM_Mark_Debuff_3" .on_hit true .on_miss false
+effect: .name "GV_Tooltip_HM_Mark_Debuff_4" .target "performer" .chance 100% .skill_instant true .buff_ids "GV_Tooltip_HM_Mark_Debuff_4" .on_hit true .on_miss false
+effect: .name "GV_Tooltip_HM_Mark_Debuff_5" .target "performer" .chance 100% .skill_instant true .buff_ids "GV_Tooltip_HM_Mark_Debuff_5" .on_hit true .on_miss false
 
 // Guard Dog
 effect: .name "GV_Guard_Dog_Buff_1" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add 5% .duration 3 .on_hit true .on_miss false .queue true 

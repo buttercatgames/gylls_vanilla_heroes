@@ -143,7 +143,7 @@ Finale: +100%% DMG / +4 SPD]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_hm_go_fetch_bleed_5"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%%){colour_end}
 4 pts/rd for 3 rds]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_hm_mark_condition"><![CDATA[If Target is {colour_start|mark}Marked{colour_end} and Dog Treats are Active:
+		<entry id="buff_stat_tooltip_upgrade_discount_hm_mark_condition"><![CDATA[If Target is already {colour_start|mark}Marked{colour_end}:
 {colour_start|debuff}Debuff Target:{colour_end}]]></entry>
 		
 		<entry id="buff_stat_tooltip_upgrade_discount_hm_mark_debuff_1"><![CDATA[Hound's Rush: +100%% DMG Received {colour_start|skill_unselectable}(500%%){colour_end}
