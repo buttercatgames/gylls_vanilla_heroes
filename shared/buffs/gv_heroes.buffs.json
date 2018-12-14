@@ -2426,7 +2426,7 @@
          "id" : "GV_HWM_Acc_Vs_Marked_2",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
-         "amount" : 0.12,
+         "amount" : 0.11,
          "remove_if_not_active" : false,
          "rule_type" : "actorStatus",
          "is_false_rule" : false,
@@ -2439,7 +2439,7 @@
          "id" : "GV_HWM_Acc_Vs_Marked_3",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
-         "amount" : 0.15,
+         "amount" : 0.12,
          "remove_if_not_active" : false,
          "rule_type" : "actorStatus",
          "is_false_rule" : false,
@@ -2452,7 +2452,7 @@
          "id" : "GV_HWM_Acc_Vs_Marked_4",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
-         "amount" : 0.18,
+         "amount" : 0.13,
          "remove_if_not_active" : false,
          "rule_type" : "actorStatus",
          "is_false_rule" : false,
@@ -2465,7 +2465,7 @@
          "id" : "GV_HWM_Acc_Vs_Marked_5",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
-         "amount" : 0.2,
+         "amount" : 0.15,
          "remove_if_not_active" : false,
          "rule_type" : "actorStatus",
          "is_false_rule" : false,
@@ -5200,6 +5200,19 @@
          }
       },
 	  {
+         "id" : "GV_Tooltip_HWM_Riposte_Base",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "hwm_riposte_base",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
          "id" : "GV_Tooltip_HWM_Riposte_1",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "hwm_riposte_1",
@@ -5255,6 +5268,19 @@
          "id" : "GV_Tooltip_HWM_Riposte_5",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "hwm_riposte_5",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_MAA_Riposte_Base",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "maa_riposte_base",
          "amount" : -0,
          "remove_if_not_active" : false,
          "rule_type" : "always",

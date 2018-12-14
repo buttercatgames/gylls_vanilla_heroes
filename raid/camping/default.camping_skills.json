@@ -2491,15 +2491,7 @@
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "stress_heal_amount",
                     "sub_type" : "",
-					"amount" :  10
-				},
-				{
-					"selection" : "self",
-					"requirements" : [],
-					"chance" : { "code" : "b", "amount": 1.0 },
-					"type": "loot",
-					"sub_type": "GV_HM_TREATS",
-					"amount": 1
+					"amount" :  20
 				}
 			],
 			"hero_classes" : ["houndmaster"],

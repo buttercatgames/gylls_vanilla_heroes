@@ -413,7 +413,7 @@ effect: .name "GV_Hellion_Bleeds_Buff_5" .target "performer_group" .chance 100% 
 // Adrenaline Rush
 effect: .name "GV_Hellion_Heal_1" .target "performer" .chance 100% .heal 3 .on_hit true .on_miss false .queue false .source_heal_type hero_skill
 effect: .name "GV_Hellion_Heal_2" .target "performer" .chance 100% .heal 4 .on_hit true .on_miss false .queue false .source_heal_type hero_skill
-effect: .name "GV_Hellion_Heal_3" .target "performer" .chance 100% .heal 5 .on_hit true .on_miss false .queue false .source_heal_type hero_skill
+effect: .name "GV_Hellion_Heal_3" .target "performer" .chance 100% .heal 4 .on_hit true .on_miss false .queue false .source_heal_type hero_skill
 effect: .name "GV_Hellion_Heal_4" .target "performer" .chance 100% .heal 5 .on_hit true .on_miss false .queue false .source_heal_type hero_skill
 effect: .name "GV_Hellion_Heal_5" .target "performer" .chance 100% .heal 6 .on_hit true .on_miss false .queue false .source_heal_type hero_skill
 
@@ -708,11 +708,11 @@ effect: .name "GV_Leper_Intimidate_3" .target "target" .chance 145% .combat_stat
 effect: .name "GV_Leper_Intimidate_4" .target "target" .chance 155% .combat_stat_buff 1 .defense_rating_add -35% .duration 3 .on_hit true .on_miss false
 effect: .name "GV_Leper_Intimidate_5" .target "target" .chance 165% .combat_stat_buff 1 .defense_rating_add -40% .duration 3 .on_hit true .on_miss false
 
-effect: .name "GV_Leper_Team_Stress_Resist_Buff_1" .target "performer_group" .chance 100% .buff_ids "GV_Leper_Stress_Resist_1" .duration 3 .on_hit true .on_miss true .queue true
-effect: .name "GV_Leper_Team_Stress_Resist_Buff_2" .target "performer_group" .chance 100% .buff_ids "GV_Leper_Stress_Resist_2" .duration 3 .on_hit true .on_miss true .queue true
-effect: .name "GV_Leper_Team_Stress_Resist_Buff_3" .target "performer_group" .chance 100% .buff_ids "GV_Leper_Stress_Resist_3" .duration 3 .on_hit true .on_miss true .queue true
-effect: .name "GV_Leper_Team_Stress_Resist_Buff_4" .target "performer_group" .chance 100% .buff_ids "GV_Leper_Stress_Resist_4" .duration 3 .on_hit true .on_miss true .queue true
-effect: .name "GV_Leper_Team_Stress_Resist_Buff_5" .target "performer_group" .chance 100% .buff_ids "GV_Leper_Stress_Resist_5" .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "GV_Leper_Team_Stress_Resist_Buff_1" .target "performer_group" .chance 100% .buff_ids "GV_Leper_Stress_Resist_1" .duration 2 .on_hit true .on_miss true .queue true
+effect: .name "GV_Leper_Team_Stress_Resist_Buff_2" .target "performer_group" .chance 100% .buff_ids "GV_Leper_Stress_Resist_2" .duration 2 .on_hit true .on_miss true .queue true
+effect: .name "GV_Leper_Team_Stress_Resist_Buff_3" .target "performer_group" .chance 100% .buff_ids "GV_Leper_Stress_Resist_3" .duration 2 .on_hit true .on_miss true .queue true
+effect: .name "GV_Leper_Team_Stress_Resist_Buff_4" .target "performer_group" .chance 100% .buff_ids "GV_Leper_Stress_Resist_4" .duration 2 .on_hit true .on_miss true .queue true
+effect: .name "GV_Leper_Team_Stress_Resist_Buff_5" .target "performer_group" .chance 100% .buff_ids "GV_Leper_Stress_Resist_5" .duration 2 .on_hit true .on_miss true .queue true
 
 // Withstand
 effect: .name "GV_Leper_Stress_Resist_Buff_1" .target "performer" .chance 100% .buff_ids "GV_Leper_Prot_1" "GV_Leper_Stress_Resist_1" "GV_Leper_Heal_Received_1" .duration 3 .on_hit true .on_miss false
@@ -1116,11 +1116,15 @@ effect: .name "GV_Tooltip_GR_Buff_3" .target "performer" .skill_instant true .ch
 effect: .name "GV_Tooltip_GR_Buff_4" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_GR_Buff_4" .on_hit true .on_miss false .apply_once true
 effect: .name "GV_Tooltip_GR_Buff_5" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_GR_Buff_5" .on_hit true .on_miss false .apply_once true
 
+effect: .name "GV_Tooltip_HWM_Riposte_Base" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_HWM_Riposte_Base" .on_hit true .on_miss false .apply_once true
+
 effect: .name "GV_Tooltip_HWM_Riposte_1" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_HWM_Riposte_1" .on_hit true .on_miss false .apply_once true
 effect: .name "GV_Tooltip_HWM_Riposte_2" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_HWM_Riposte_2" .on_hit true .on_miss false .apply_once true
 effect: .name "GV_Tooltip_HWM_Riposte_3" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_HWM_Riposte_3" .on_hit true .on_miss false .apply_once true
 effect: .name "GV_Tooltip_HWM_Riposte_4" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_HWM_Riposte_4" .on_hit true .on_miss false .apply_once true
 effect: .name "GV_Tooltip_HWM_Riposte_5" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_HWM_Riposte_5" .on_hit true .on_miss false .apply_once true
+
+effect: .name "GV_Tooltip_MAA_Riposte_Base" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_MAA_Riposte_Base" .on_hit true .on_miss false .apply_once true
 
 effect: .name "GV_Tooltip_MAA_Riposte_1" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_MAA_Riposte_1" .on_hit true .on_miss false .apply_once true
 effect: .name "GV_Tooltip_MAA_Riposte_2" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_MAA_Riposte_2" .on_hit true .on_miss false .apply_once true
