@@ -1,12 +1,12 @@
-resistances: .stun 30% .poison 30% .bleed 30% .disease 30% .move 30% .debuff 30% .death_blow 67% .trap 10%
+resistances: .stun 30% .poison 50% .bleed 30% .disease 20% .move 30% .debuff 20% .death_blow 67% .trap 10%
 
 crit: .effects "GV_On_Crit_Beast_Acc"
 
-weapon: .name "abomination_weapon_0" .atk 0% .dmg 6 12 .crit 2% .spd 5
-weapon: .name "abomination_weapon_1" .atk 0% .dmg 7 14 .crit 3% .spd 5 .upgradeRequirementCode 0
-weapon: .name "abomination_weapon_2" .atk 0% .dmg 8 16 .crit 4% .spd 6 .upgradeRequirementCode 1
-weapon: .name "abomination_weapon_3" .atk 0% .dmg 9 17 .crit 5% .spd 6 .upgradeRequirementCode 2
-weapon: .name "abomination_weapon_4" .atk 0% .dmg 10 19 .crit 6% .spd 7 .upgradeRequirementCode 3
+weapon: .name "abomination_weapon_0" .atk 0% .dmg 6 11 .crit 2% .spd 5
+weapon: .name "abomination_weapon_1" .atk 0% .dmg 7 13 .crit 3% .spd 5 .upgradeRequirementCode 0
+weapon: .name "abomination_weapon_2" .atk 0% .dmg 8 15 .crit 4% .spd 6 .upgradeRequirementCode 1
+weapon: .name "abomination_weapon_3" .atk 0% .dmg 10 18 .crit 5% .spd 6 .upgradeRequirementCode 2
+weapon: .name "abomination_weapon_4" .atk 0% .dmg 11 20 .crit 6% .spd 7 .upgradeRequirementCode 3
 
 armour: .name "abomination_armour_0" .def 7.5% .prot 0 .hp 24 .spd 0
 armour: .name "abomination_armour_1" .def 12.5% .prot 0 .hp 29 .spd 0 .upgradeRequirementCode 0
@@ -57,11 +57,11 @@ combat_skill: .id "rake" .level 3 .type "melee" .atk 100% .dmg -40% .crit 1% .mo
 combat_skill: .id "rake" .level 4 .type "melee" .atk 105% .dmg -40% .crit 2% .move 0 1 .launch 321 .target ~12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg_1" .valid_modes beast
 
 // Slam
-combat_skill: .id "slam" .level 0 .type "melee" .atk 90% .dmg -50% .crit 2% .move 0 2 .launch 432 .target 12 .is_crit_valid True .effect "Push 1A" "Stun 1" "GV_Abom_Gain_Dmg_1" .valid_modes beast
-combat_skill: .id "slam" .level 1 .type "melee" .atk 95% .dmg -50% .crit 3% .move 0 2 .launch 432 .target 12 .is_crit_valid True .effect "Push 1B" "Stun 2" "GV_Abom_Gain_Dmg_1" .valid_modes beast
-combat_skill: .id "slam" .level 2 .type "melee" .atk 100% .dmg -50% .crit 4% .move 0 2 .launch 432 .target 12 .is_crit_valid True .effect "Push 1C" "Stun 3" "GV_Abom_Gain_Dmg_1" .valid_modes beast
-combat_skill: .id "slam" .level 3 .type "melee" .atk 105% .dmg -50% .crit 5% .move 0 2 .launch 432 .target 12 .is_crit_valid True .effect "Push 1D" "Stun 4" "GV_Abom_Gain_Dmg_1" .valid_modes beast
-combat_skill: .id "slam" .level 4 .type "melee" .atk 110% .dmg -50% .crit 6% .move 0 2 .launch 432 .target 12 .is_crit_valid True .effect "Push 1E" "Stun 5" "GV_Abom_Gain_Dmg_1" .valid_modes beast
+combat_skill: .id "slam" .level 0 .type "melee" .atk 90% .dmg -60% .crit 2% .move 0 2 .launch 432 .target 12 .is_crit_valid True .effect "Push 1A" "Stun 1" "GV_Abom_Gain_Dmg_1" .valid_modes beast
+combat_skill: .id "slam" .level 1 .type "melee" .atk 95% .dmg -60% .crit 3% .move 0 2 .launch 432 .target 12 .is_crit_valid True .effect "Push 1B" "Stun 2" "GV_Abom_Gain_Dmg_1" .valid_modes beast
+combat_skill: .id "slam" .level 2 .type "melee" .atk 100% .dmg -60% .crit 4% .move 0 2 .launch 432 .target 12 .is_crit_valid True .effect "Push 1C" "Stun 3" "GV_Abom_Gain_Dmg_1" .valid_modes beast
+combat_skill: .id "slam" .level 3 .type "melee" .atk 105% .dmg -60% .crit 5% .move 0 2 .launch 432 .target 12 .is_crit_valid True .effect "Push 1D" "Stun 4" "GV_Abom_Gain_Dmg_1" .valid_modes beast
+combat_skill: .id "slam" .level 4 .type "melee" .atk 110% .dmg -60% .crit 6% .move 0 2 .launch 432 .target 12 .is_crit_valid True .effect "Push 1E" "Stun 5" "GV_Abom_Gain_Dmg_1" .valid_modes beast
 
 combat_move_skill: .id "move" .level 0 .type "move" .move 1 1 .launch 4321
 

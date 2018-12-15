@@ -2952,7 +2952,7 @@
          "id" : "GV_Jester_Finale_Debuff_Dodge",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
-         "amount" : -0.15,
+         "amount" : -0.10,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,

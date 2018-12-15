@@ -16,9 +16,10 @@
 	</Tags>
 	<ItemDescription>[b]Gyll’s Vanilla: Heroes[/b] redesigns or rebalances all 15 original hero classes.
 		
-	[b][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1408032394]Flagellant is now available![/url][/b]
-	[i]Shieldbreaker is still in the works.[/i]
-
+	[b][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1509926649]Shieldbreaker is now available![/url][/b]
+	[b][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1408032394]Flagellant is available but a big update is in the works[/url][/b]
+	[i]Musketeer is in the works[/i]
+	
 [h1]Design Goals[/h1]
 - Increase the number of viable playstyles for each class
 - Ensure that no class is consistently outshined by any other
@@ -34,7 +35,7 @@
 [b]Trinket Usage[/b]: This mod does not change trinkets, so heroes must still make effective use of all of their unmodded trinkets.
 
 [h1]Changelog[/h1]
-[url=https://dd-tooltips.com/gylls-vanilla]Click to view the changelog, including tooltips and design notes[/url]
+[url=https://dd-tooltips.com/gylls-vanilla]Click to view the changes, including tooltips and design notes[/url]
 
 [h1]Compatibility[/h1]
 This mod uses the .art and .info files for the heroes it modifies, as well as the base camping skills file and the base provisions file. If another mod uses these files, there will be conflicts. Also, full overhauls such as Pitch Black Dungeon that rely on changes being made to every hero will have severe balance issues if used with this mod. If your mod doesn’t fall into either of these categories then congratulations, it’s compatible!
@@ -43,7 +44,7 @@ This mod uses the .art and .info files for the heroes it modifies, as well as th
 Some minimal effort has been expended to make the mod playable in non-English languages, however only English has been thoroughly tested, and in other languages you will encounter English strings and possibly some very long/cut off tooltips. Please contact me if you are willing to translate this mod into another language!
 
 [h1]Thanks[/h1]
-Thanks to Clair de Lune, Chogex, O’Nightmare!, and Tilted Hat for helping me with questions in the Moonlit Dungeon Discord. Thanks to Red Hook Studios for making such a great &amp; moddable game!
+Thanks to Clair de Lune, Chogex, O’Nightmare!, Sasiji, and Tilted Hat for helping me with questions in the Moonlit Dungeon Discord. Thanks to Red Hook Studios for making such a great &amp; moddable game!
 
 [h1]About Gyll’s Vanilla[/h1]
 [b]Gyll’s Vanilla[/b] is a collection of mods for Darkest Dungeon, each of which redesigns a single aspect of the game. These mods are balanced against the vanilla base game and designed for maximum compatibility, creating a solid foundation for your modded campaigns.

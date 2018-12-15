@@ -29,11 +29,11 @@ combat_skill: .id "zealous_accusation" .level 3 .type "melee" .atk 100% .dmg -40
 combat_skill: .id "zealous_accusation" .level 4 .type "melee" .atk 105% .dmg -40% .crit 0% .launch 21 .target ~12 .is_crit_valid True
 
 // Stunning Blow
-combat_skill: .id "stunning_blow" .level 0 .type "melee" .atk 90% .dmg -50% .crit 0% .launch 21 .target 12 .is_crit_valid True .effect "Stun 1"
-combat_skill: .id "stunning_blow" .level 1 .type "melee" .atk 95% .dmg -50% .crit 1% .launch 21 .target 12 .is_crit_valid True .effect "Stun 2"
-combat_skill: .id "stunning_blow" .level 2 .type "melee" .atk 100% .dmg -50% .crit 2% .launch 21 .target 12 .is_crit_valid True .effect "Stun 3"
-combat_skill: .id "stunning_blow" .level 3 .type "melee" .atk 105% .dmg -50% .crit 3% .launch 21 .target 12 .is_crit_valid True .effect "Stun 4"
-combat_skill: .id "stunning_blow" .level 4 .type "melee" .atk 110% .dmg -50% .crit 4% .launch 21 .target 12 .is_crit_valid True .effect "Stun 5"
+combat_skill: .id "stunning_blow" .level 0 .type "melee" .atk 90% .dmg -60% .crit 0% .launch 21 .target 12 .is_crit_valid True .effect "Stun 1"
+combat_skill: .id "stunning_blow" .level 1 .type "melee" .atk 95% .dmg -60% .crit 1% .launch 21 .target 12 .is_crit_valid True .effect "Stun 2"
+combat_skill: .id "stunning_blow" .level 2 .type "melee" .atk 100% .dmg -60% .crit 2% .launch 21 .target 12 .is_crit_valid True .effect "Stun 3"
+combat_skill: .id "stunning_blow" .level 3 .type "melee" .atk 105% .dmg -60% .crit 3% .launch 21 .target 12 .is_crit_valid True .effect "Stun 4"
+combat_skill: .id "stunning_blow" .level 4 .type "melee" .atk 110% .dmg -60% .crit 4% .launch 21 .target 12 .is_crit_valid True .effect "Stun 5"
 
 // Holy Lance
 combat_skill: .id "holy_lance" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .move 0 2 .launch 43 .target 234 .is_crit_valid True .effect "GV_Unholy_Killer_1"

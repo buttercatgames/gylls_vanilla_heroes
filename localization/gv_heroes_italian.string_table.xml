@@ -128,7 +128,7 @@ Finale: +100%% DMG / +3 SPD]]></entry>
 Finale: +100%% DMG / +4 SPD]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_jester_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
--15 DODGE / Finale Disabled!]]></entry>
+-10 DODGE / Finale Disabled!]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_hm_already_marked"><![CDATA[If Target is {colour_start|mark}Marked{colour_end}:]]></entry>
 		

@@ -12,7 +12,7 @@ effect: .name "GV_Abom_XF_To_Beast" .target "performer" .set_mode beast .chance 
 
 effect: .name "GV_Abom_XF_Stress" .target "performer_group_other" .chance 100% .stress 2 .on_hit true .on_miss false .queue true
 
-effect: .name "GV_Abom_XF_Ramp_Stress" .target "performer" .chance 100% .buff_ids "GV_Abom_Reduced_Transform_Stress_1" "GV_Abom_Reduced_Transform_Stress_2" "GV_Abom_Reduced_Transform_Stress_Tooltip_1" "GV_Abom_Reduced_Transform_Stress_Tooltip_2" "GV_Abom_Reduced_Transform_Stress_Tooltip_3" .on_hit true .on_miss false .has_description false
+effect: .name "GV_Abom_XF_Ramp_Stress" .target "performer" .chance 100% .buff_ids "GV_Abom_Reduced_Transform_Stress_1" "GV_Abom_Reduced_Transform_Stress_2" "GV_Abom_Reduced_Transform_Stress_3" "GV_Abom_Reduced_Transform_Stress_Tooltip_1" "GV_Abom_Reduced_Transform_Stress_Tooltip_2" "GV_Abom_Reduced_Transform_Stress_Tooltip_3" .on_hit true .on_miss false .has_description false
 
 effect: .name "GV_Abom_XF_Buff_1" .target "performer" .chance 100% .buff_ids "GV_Abom_Prot_1" .on_hit true .on_miss false
 effect: .name "GV_Abom_XF_Buff_2" .target "performer" .chance 100% .buff_ids "GV_Abom_Prot_2" .on_hit true .on_miss false
@@ -800,7 +800,7 @@ effect: .name "GV_MAA_Mark_Buff_5" .target "performer_group" .chance 100% .buff_
 // Occultist Effects
 //-------------------------
 // *Crit Buff*
-effect: .name "GV_Occ_On_Crit" .target "performer" .chance 100% .buff_source_type bsrc_crit .buff_ids "GV_Occ_Strengthen_Dmg_L" "GV_Occ_Strengthen_Dmg_H" "GV_Occ_Strengthen_Healing_1" "GV_Occ_Strengthen_Move_Skill_1" .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Occ_On_Crit" .target "performer" .chance 100% .buff_source_type bsrc_crit .buff_ids "GV_Occ_Strengthen_Dmg_L_1" "GV_Occ_Strengthen_Dmg_H_1" "GV_Occ_Strengthen_Healing_1" "GV_Occ_Strengthen_Move_Skill_1" .on_hit true .on_miss false .apply_once true
 
 // Sacrificial Stab
 
