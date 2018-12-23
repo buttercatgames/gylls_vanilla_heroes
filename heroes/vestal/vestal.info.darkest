@@ -57,11 +57,11 @@ combat_skill: .id "mace_bash" .level 3 .type "melee" .atk 100% .dmg 0% .crit 5% 
 combat_skill: .id "mace_bash" .level 4 .type "melee" .atk 105% .dmg 0% .crit 6% .launch 21 .target 12 .is_crit_valid True .effect "GV_Vestal_Healing_Buff_5"
 
 // Hand of Light
-combat_skill: .id "gods_hand" .level 0 .type "ranged" .atk 90% .dmg -100% .crit 0% .launch 21 .target 12 .is_crit_valid False .effect "Stun 1" "GV_Vestal_Prot_Debuff_1"
-combat_skill: .id "gods_hand" .level 1 .type "ranged" .atk 95% .dmg -100% .crit 0% .launch 21 .target 12 .is_crit_valid False .effect "Stun 2" "GV_Vestal_Prot_Debuff_2"
-combat_skill: .id "gods_hand" .level 2 .type "ranged" .atk 100% .dmg -100% .crit 0% .launch 21 .target 12 .is_crit_valid False .effect "Stun 3" "GV_Vestal_Prot_Debuff_3"
-combat_skill: .id "gods_hand" .level 3 .type "ranged" .atk 105% .dmg -100% .crit 0% .launch 21 .target 12 .is_crit_valid False .effect "Stun 4" "GV_Vestal_Prot_Debuff_4"
-combat_skill: .id "gods_hand" .level 4 .type "ranged" .atk 110% .dmg -100% .crit 0% .launch 21 .target 12 .is_crit_valid False .effect "Stun 5" "GV_Vestal_Prot_Debuff_5"
+combat_skill: .id "gods_hand" .level 0 .type "ranged" .atk 90% .dmg -100% .crit 0% .launch 21 .target 12 .is_crit_valid False .effect "Stun 1" "GV_Vestal_Prot_Debuff_1" .is_stall_invalidating false
+combat_skill: .id "gods_hand" .level 1 .type "ranged" .atk 95% .dmg -100% .crit 0% .launch 21 .target 12 .is_crit_valid False .effect "Stun 2" "GV_Vestal_Prot_Debuff_2" .is_stall_invalidating false
+combat_skill: .id "gods_hand" .level 2 .type "ranged" .atk 100% .dmg -100% .crit 0% .launch 21 .target 12 .is_crit_valid False .effect "Stun 3" "GV_Vestal_Prot_Debuff_3" .is_stall_invalidating false
+combat_skill: .id "gods_hand" .level 3 .type "ranged" .atk 105% .dmg -100% .crit 0% .launch 21 .target 12 .is_crit_valid False .effect "Stun 4" "GV_Vestal_Prot_Debuff_4" .is_stall_invalidating false
+combat_skill: .id "gods_hand" .level 4 .type "ranged" .atk 110% .dmg -100% .crit 0% .launch 21 .target 12 .is_crit_valid False .effect "Stun 5" "GV_Vestal_Prot_Debuff_5" .is_stall_invalidating false
 
 combat_move_skill: .id "move" .level 0 .type "move" .move 1 1 .launch 4321
 

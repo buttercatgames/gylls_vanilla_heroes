@@ -50,11 +50,11 @@ combat_skill: .id "battlefield_medicine" .level 3 .heal 2 3 .launch 432 .target 
 combat_skill: .id "battlefield_medicine" .level 4 .heal 3 3 .launch 432 .target @1234 .effect "Cure" "GV_Stacking_Heal_5" .is_stall_invalidating false
 
 // Potent Concoction
-combat_skill: .id "emboldening_vapours" .level 0 .launch 432 .target @1234 .effect "GV_PD_Buff_Target_1" "GV_PD_Buff_Self_1"
-combat_skill: .id "emboldening_vapours" .level 1 .launch 432 .target @1234 .effect "GV_PD_Buff_Target_2" "GV_PD_Buff_Self_2"
-combat_skill: .id "emboldening_vapours" .level 2 .launch 432 .target @1234 .effect "GV_PD_Buff_Target_3" "GV_PD_Buff_Self_3"
-combat_skill: .id "emboldening_vapours" .level 3 .launch 432 .target @1234 .effect "GV_PD_Buff_Target_4" "GV_PD_Buff_Self_4"
-combat_skill: .id "emboldening_vapours" .level 4 .launch 432 .target @1234 .effect "GV_PD_Buff_Target_5" "GV_PD_Buff_Self_5"
+combat_skill: .id "emboldening_vapours" .level 0 .launch 432 .target @1234 .effect "GV_PD_Buff_Target_1" "GV_PD_Buff_Self_1" .is_stall_invalidating false
+combat_skill: .id "emboldening_vapours" .level 1 .launch 432 .target @1234 .effect "GV_PD_Buff_Target_2" "GV_PD_Buff_Self_2" .is_stall_invalidating false
+combat_skill: .id "emboldening_vapours" .level 2 .launch 432 .target @1234 .effect "GV_PD_Buff_Target_3" "GV_PD_Buff_Self_3" .is_stall_invalidating false
+combat_skill: .id "emboldening_vapours" .level 3 .launch 432 .target @1234 .effect "GV_PD_Buff_Target_4" "GV_PD_Buff_Self_4" .is_stall_invalidating false
+combat_skill: .id "emboldening_vapours" .level 4 .launch 432 .target @1234 .effect "GV_PD_Buff_Target_5" "GV_PD_Buff_Self_5" .is_stall_invalidating false
 
 // Corpse Explosion
 combat_skill: .id "disorienting_blast" .level 0 .type "ranged" .atk 95% .dmg 0% .crit 10% .launch 432 .target 234 .is_crit_valid True .effect "GV_PD_Corpse_Only" "GV_PD_2_Corpses" "GV_PD_3_Corpses" "GV_Tooltip_PD_Corpse_Explosion" "clear_corpses"

@@ -51,7 +51,7 @@
 		<entry id="str_inventory_description_supplyantiq_orange"><![CDATA[Use to empower the Antiquarian's Nervous Stab, Festering Vapours, and Flashpowder.
 {colour_start|inventory_tooltip_gold_value}[Value: 500 Gold Each]{colour_end}]]></entry>
 		<entry id="str_inventory_description_supplyantiq_personal"><![CDATA[Use to empower the Antiquarian's abilities.]]></entry>
-		<entry id="camping_skill_effect_loot_GV_ANTIQ_CAMP_POWDERS"><![CDATA[Produces powders from the personal stash.]]></entry>
+		<entry id="camping_skill_effect_loot_GV_ANTIQ_CAMP_POWDERS"><![CDATA[Produces powders from the personal stash]]></entry>
 		<entry id="camping_skill_effect_loot_GV_ANTIQ_CAMP_BONUS_POWDERS"><![CDATA[]]></entry>
 		
 		

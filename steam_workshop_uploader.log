@@ -8,8 +8,19 @@ Processing Map Files files...
 
 -------------------------------------------------------------------------------
 Running Localization...
-Parsing localization/gv_heroes.string_table.xml
+Parsing localization/gv_heroes_brazilian.string_table.xml
+Parsing localization/gv_heroes_czech.string_table.xml
+Parsing localization/gv_heroes_english.string_table.xml
+Parsing localization/gv_heroes_french.string_table.xml
+Parsing localization/gv_heroes_german.string_table.xml
+Parsing localization/gv_heroes_italian.string_table.xml
+Parsing localization/gv_heroes_koreana.string_table.xml
+Parsing localization/gv_heroes_koreanb.string_table.xml
+Parsing localization/gv_heroes_polish.string_table.xml
+Parsing localization/gv_heroes_russian.string_table.xml
+Parsing localization/gv_heroes_schinese.string_table.xml
 Parsing localization/gv_heroes_skill_names.string_table.xml
+Parsing localization/gv_heroes_spanish.string_table.xml
 Parsing localization/gv_heroes_tooltip_overwrites.string_table.xml
 
 Building Languages
@@ -27,9 +38,12 @@ Modded files...
 
 heroes/antiquarian/fx/antiquarian.sprite.invigorating_vapours.png
 heroes/antiquarian/fx/antiquarian.sprite.invigorating_vapours_target.png
-heroes/leper/fx/leper.sprite.intim.atlas
-heroes/leper/fx/leper.sprite.intim.png
-heroes/leper/fx/leper.sprite.intim.skel
+heroes/bounty_hunter/fx/bounty_hunter.sprite.refresh_on_kill.atlas
+heroes/bounty_hunter/fx/bounty_hunter.sprite.refresh_on_kill.png
+heroes/bounty_hunter/fx/bounty_hunter.sprite.refresh_on_kill.skel
+heroes/leper/fx/leper.sprite.intimidat.atlas
+heroes/leper/fx/leper.sprite.intimidat.png
+heroes/leper/fx/leper.sprite.intimidat.skel
 panels/icons_equip/supply/inv_supply+antiq_blue.png
 panels/icons_equip/supply/inv_supply+antiq_orange.png
 panels/icons_equip/supply/inv_supply+antiq_personal.png
@@ -48,7 +62,10 @@ fx/antiq_personal/antiq_personal.sprite.skel
 fx/fake_dog_treats/fake_dog_treats.sprite.atlas
 fx/fake_dog_treats/fake_dog_treats.sprite.png
 fx/fake_dog_treats/fake_dog_treats.sprite.skel
+heroes/abomination/abomination.ability.manacles.png
+heroes/abomination/abomination.ability.rage.png
 heroes/abomination/abomination.ability.rake.png
+heroes/abomination/abomination.ability.slam.png
 heroes/abomination/abomination.art.darkest
 heroes/abomination/abomination.info.darkest
 heroes/antiquarian/antiquarian.ability.rapturous.png
@@ -92,7 +109,6 @@ heroes/leper/leper.ability.revenge.png
 heroes/leper/leper.ability.withstand.png
 heroes/leper/leper.art.darkest
 heroes/leper/leper.info.darkest
-heroes/man_at_arms/man_at_arms.ability.crush.png
 heroes/man_at_arms/man_at_arms.ability.rangedstun.png
 heroes/man_at_arms/man_at_arms.art.darkest
 heroes/man_at_arms/man_at_arms.info.darkest
@@ -107,7 +123,9 @@ heroes/vestal/vestal.ability.chastise.png
 heroes/vestal/vestal.ability.hand.png
 heroes/vestal/vestal.art.darkest
 heroes/vestal/vestal.info.darkest
+raid/actor_dot/gv_heroes.actor_dot.json
 raid/camping/default.camping_skills.json
+scripts/layout/gv_heroes.popup_text.layout.darkest
 shared/buffs/gv_heroes.buffs.json
 audio/gv_heroes.campaign.guid_overrides.json
 audio/gv_heroes.campaign.load_order.json
@@ -127,14 +145,26 @@ localization/1385283735_polish.loc
 localization/1385283735_russian.loc
 localization/1385283735_schinese.loc
 localization/1385283735_spanish.loc
-localization/gv_heroes.string_table.xml
+localization/gv_heroes_brazilian.string_table.xml
+localization/gv_heroes_czech.string_table.xml
+localization/gv_heroes_english.string_table.xml
+localization/gv_heroes_french.string_table.xml
+localization/gv_heroes_german.string_table.xml
+localization/gv_heroes_italian.string_table.xml
+localization/gv_heroes_koreana.string_table.xml
+localization/gv_heroes_koreanb.string_table.xml
+localization/gv_heroes_polish.string_table.xml
+localization/gv_heroes_russian.string_table.xml
+localization/gv_heroes_schinese.string_table.xml
 localization/gv_heroes_skill_names.string_table.xml
+localization/gv_heroes_spanish.string_table.xml
 localization/gv_heroes_tooltip_overwrites.string_table.xml
 localization/missing_files.txt
 loot/gv_heroes.loot.json
+modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting..........................................................................................................................................Submitted.
+Submitting.............................................................................................Submitted.
 Saving project file C:\DarkestDungeon\mods\gylls_vanilla_heroes\project.xml
 

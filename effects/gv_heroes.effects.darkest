@@ -446,7 +446,7 @@ effect: .name "GV_Hellion_Bleed_Out_Bleed_3_5" .target "target" .chance 140% .do
 
 
 // *Hellion Exhaust*
-effect: .name "GV_Hellion_Exhaust" .target "performer" .chance 100% .buff_ids "GV_Hellion_Exhaust_Dmg_L" "GV_Hellion_Exhaust_Dmg_H" "GV_Hellion_Exhaust_Bleed"  .duration 3 .on_hit true .on_miss true .apply_once true .queue true .has_description false
+effect: .name "GV_Hellion_Exhaust" .target "performer" .chance 100% .buff_ids "GV_Hellion_Exhaust_Dmg_L" "GV_Hellion_Exhaust_Dmg_H" "GV_Hellion_Exhaust_Bleed" .duration 3 .on_hit true .on_miss true .apply_once true .queue true .has_description false
 
 
 // Highwayman Effects
@@ -842,7 +842,7 @@ effect: .name "GV_Occ_Strengthen_Offense_3" .target "performer" .chance 100% .bu
 effect: .name "GV_Occ_Strengthen_Offense_4" .target "performer" .chance 100% .buff_ids "GV_Occ_Strengthen_Dmg_L_4" "GV_Occ_Strengthen_Dmg_H_4" "GV_Occ_Strengthen_Move_Skill_4" .duration 3 .on_hit true .on_miss true .queue true
 effect: .name "GV_Occ_Strengthen_Offense_5" .target "performer" .chance 100% .buff_ids "GV_Occ_Strengthen_Dmg_L_5" "GV_Occ_Strengthen_Dmg_H_5" "GV_Occ_Strengthen_Move_Skill_5" .duration 3 .on_hit true .on_miss true .queue true
 
-effect: .name "GV_Occ_Stress_Others" .target "performer_group_other" .chance 50% .stress 2 .on_hit true .on_miss true .queue true .apply_once true .can_apply_on_death true .individual_target_actor_rolls true
+effect: .name "GV_Occ_Stress_Others" .target "performer_group_other" .chance 33% .stress 2 .on_hit true .on_miss true .queue true .apply_once true .can_apply_on_death true .individual_target_actor_rolls true
 
 // Daemon's Pull
 
