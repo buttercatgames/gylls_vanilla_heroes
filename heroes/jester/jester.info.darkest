@@ -2,11 +2,11 @@ resistances: .stun 20% .poison 40% .bleed 30% .disease 20% .move 20% .debuff 40%
 
 crit: .effects "GV_Jester_On_Crit"
 
-weapon: .name "jester_weapon_0" .atk 0% .dmg 4 7 .crit 7% .spd 7
-weapon: .name "jester_weapon_1" .atk 0% .dmg 5 8 .crit 8% .spd 7 .upgradeRequirementCode 0
-weapon: .name "jester_weapon_2" .atk 0% .dmg 6 10 .crit 9% .spd 8 .upgradeRequirementCode 1
-weapon: .name "jester_weapon_3" .atk 0% .dmg 6 11 .crit 10% .spd 8 .upgradeRequirementCode 2
-weapon: .name "jester_weapon_4" .atk 0% .dmg 7 13 .crit 11% .spd 9 .upgradeRequirementCode 3
+weapon: .name "jester_weapon_0" .atk 0% .dmg 4 7 .crit 7% .spd 6
+weapon: .name "jester_weapon_1" .atk 0% .dmg 5 8 .crit 8% .spd 6 .upgradeRequirementCode 0
+weapon: .name "jester_weapon_2" .atk 0% .dmg 6 10 .crit 9% .spd 7 .upgradeRequirementCode 1
+weapon: .name "jester_weapon_3" .atk 0% .dmg 6 11 .crit 10% .spd 7 .upgradeRequirementCode 2
+weapon: .name "jester_weapon_4" .atk 0% .dmg 7 13 .crit 11% .spd 8 .upgradeRequirementCode 3
 
 armour: .name "jester_armour_0" .def 10% .prot 0 .hp 20 .spd 0
 armour: .name "jester_armour_1" .def 15% .prot 0 .hp 24 .spd 0 .upgradeRequirementCode 0
@@ -74,4 +74,4 @@ deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHigh
 controlled: .target_rank 3
 id_index: .index 8
 skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
-generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 5 .card_chance 1.0
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 6 .card_chance 1.0

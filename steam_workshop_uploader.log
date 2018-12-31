@@ -59,9 +59,6 @@ fx/antiq_orange/antiq_orange.sprite.skel
 fx/antiq_personal/antiq_personal.sprite.atlas
 fx/antiq_personal/antiq_personal.sprite.png
 fx/antiq_personal/antiq_personal.sprite.skel
-fx/fake_dog_treats/fake_dog_treats.sprite.atlas
-fx/fake_dog_treats/fake_dog_treats.sprite.png
-fx/fake_dog_treats/fake_dog_treats.sprite.skel
 heroes/abomination/abomination.ability.manacles.png
 heroes/abomination/abomination.ability.rage.png
 heroes/abomination/abomination.ability.rake.png
@@ -161,10 +158,9 @@ localization/gv_heroes_spanish.string_table.xml
 localization/gv_heroes_tooltip_overwrites.string_table.xml
 localization/missing_files.txt
 loot/gv_heroes.loot.json
-modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting.............................................................................................Submitted.
+Submitting.......................................................................................................Submitted.
 Saving project file C:\DarkestDungeon\mods\gylls_vanilla_heroes\project.xml
 

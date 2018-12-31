@@ -5,7 +5,7 @@ crit: .effects "on_crit_def"
 weapon: .name "grave_robber_weapon_0" .atk 0% .dmg 4 8 .crit 6% .spd 8
 weapon: .name "grave_robber_weapon_1" .atk 0% .dmg 5 10 .crit 7% .spd 8 .upgradeRequirementCode 0
 weapon: .name "grave_robber_weapon_2" .atk 0% .dmg 6 11 .crit 8% .spd 9 .upgradeRequirementCode 1
-weapon: .name "grave_robber_weapon_3" .atk 0% .dmg 7 13 .crit 9% .spd 9 .upgradeRequirementCode 2
+weapon: .name "grave_robber_weapon_3" .atk 0% .dmg 6 13 .crit 9% .spd 9 .upgradeRequirementCode 2
 weapon: .name "grave_robber_weapon_4" .atk 0% .dmg 7 14 .crit 10% .spd 10 .upgradeRequirementCode 3
 
 armour: .name "grave_robber_armour_0" .def 10% .prot 0 .hp 20 .spd 0
@@ -75,4 +75,4 @@ deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHigh
 controlled: .target_rank 3
 id_index: .index 6
 skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
-generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 5 .card_chance 1.0
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 6 .card_chance 1.0

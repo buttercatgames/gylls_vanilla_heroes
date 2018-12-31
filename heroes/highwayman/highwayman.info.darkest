@@ -16,10 +16,10 @@ armour: .name "highwayman_armour_4" .def 30% .prot 0 .hp 43 .spd 0 .upgradeRequi
 
 // Wicked Slice
 combat_skill: .id "wicked_slice" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .launch 21 .target 12 .is_crit_valid True .effect "GV_HWM_Dodge_Buff_1" .generation_guaranteed true .valid_modes pre
-combat_skill: .id "wicked_slice" .level 1 .type "melee" .atk 90% .dmg 0% .crit 6% .launch 21 .target 12 .is_crit_valid True .effect "GV_HWM_Dodge_Buff_2" .valid_modes pre
-combat_skill: .id "wicked_slice" .level 2 .type "melee" .atk 95% .dmg 0% .crit 7% .launch 21 .target 12 .is_crit_valid True .effect "GV_HWM_Dodge_Buff_3" .valid_modes pre
-combat_skill: .id "wicked_slice" .level 3 .type "melee" .atk 100% .dmg 0% .crit 8% .launch 21 .target 12 .is_crit_valid True .effect "GV_HWM_Dodge_Buff_4" .valid_modes pre
-combat_skill: .id "wicked_slice" .level 4 .type "melee" .atk 105% .dmg 0% .crit 9% .launch 21 .target 12 .is_crit_valid True .effect "GV_HWM_Dodge_Buff_5" .valid_modes pre
+combat_skill: .id "wicked_slice" .level 1 .type "melee" .atk 90% .dmg 0% .crit 6% .launch 21 .target 12 .is_crit_valid True .effect "GV_HWM_Dodge_Buff_1" .valid_modes pre
+combat_skill: .id "wicked_slice" .level 2 .type "melee" .atk 95% .dmg 0% .crit 7% .launch 21 .target 12 .is_crit_valid True .effect "GV_HWM_Dodge_Buff_2" .valid_modes pre
+combat_skill: .id "wicked_slice" .level 3 .type "melee" .atk 100% .dmg 0% .crit 8% .launch 21 .target 12 .is_crit_valid True .effect "GV_HWM_Dodge_Buff_2" .valid_modes pre
+combat_skill: .id "wicked_slice" .level 4 .type "melee" .atk 105% .dmg 0% .crit 9% .launch 21 .target 12 .is_crit_valid True .effect "GV_HWM_Dodge_Buff_3" .valid_modes pre
 
 // Open Vein
 combat_skill: .id "opened_vein" .level 0 .type "melee" .atk 85% .dmg -15% .crit 2% .launch 321 .target 12 .is_crit_valid True .effect "GV_Bleed_1" .valid_modes pre
@@ -76,4 +76,4 @@ id_index: .index 1
 skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
 mode: .id pre .is_raid_default true
 mode: .id post
-generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 5 .card_chance 1.0
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 6 .card_chance 1.0

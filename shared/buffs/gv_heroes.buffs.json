@@ -14,7 +14,8 @@
             "string" : ""
          },
 		 "is_clear_debuff_valid": false,
-		 "has_description": false
+		 "has_description": false,
+		 "remove_on_battle_complete" : true
       },
  	  {
          "id" : "GV_Abom_Disable_Tag_Tooltip",
@@ -28,7 +29,8 @@
             "float" : 0,
             "string" : ""
          },
-		 "is_clear_debuff_valid": false
+		 "is_clear_debuff_valid": false,
+ 		 "remove_on_battle_complete" : true
       },
 	  {
          "id" : "GV_Abom_XF_Debuff_Speed",
@@ -42,7 +44,8 @@
             "float" : 0,
             "string" : ""
          },
-		 "is_clear_debuff_valid": false
+		 "is_clear_debuff_valid": false,
+		 "remove_on_battle_complete" : true
       },
 	  {
          "id" : "GV_Abom_Stressed_Crit_1",
@@ -1845,7 +1848,8 @@
             "float" : 0,
             "string" : ""
          },
-		 "is_clear_debuff_valid": false
+		 "is_clear_debuff_valid": false,
+ 		 "remove_on_battle_complete" : true
       },
 	  {
          "id" : "GV_Hellion_Exhaust_Dmg_H",
@@ -1859,13 +1863,14 @@
             "float" : 0,
             "string" : ""
          },
-		 "is_clear_debuff_valid": false
+		 "is_clear_debuff_valid": false,
+		 "remove_on_battle_complete" : true
       },
 	  {
          "id" : "GV_Hellion_Exhaust_Bleed",
          "stat_type" : "bleed_chance",
          "stat_sub_type" : "",
-         "amount" : -0.25,
+         "amount" : -0.50,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -1873,7 +1878,8 @@
             "float" : 0,
             "string" : ""
          },
-		 "is_clear_debuff_valid": false
+		 "is_clear_debuff_valid": false,
+		 "remove_on_battle_complete" : true
       },
 	  {
          "id" : "GV_Hellion_Adrenaline_Acc_1",
@@ -2499,7 +2505,8 @@
             "float" : 0,
             "string" : ""
          },
-		 "is_clear_debuff_valid": false
+		 "is_clear_debuff_valid": false,
+		 "remove_on_battle_complete" : true
       },
       {
          "id" : "GV_HWM_Exhaust_Spd",
@@ -2513,7 +2520,8 @@
             "float" : 0,
             "string" : ""
          },
-		 "is_clear_debuff_valid": false
+		 "is_clear_debuff_valid": false,
+		 "remove_on_battle_complete" : true
       },
  	  {
          "id" : "GV_HWM_Disable_Tag",
@@ -2528,7 +2536,8 @@
             "string" : ""
          },
 		 "is_clear_debuff_valid": false,
-		 "has_description": false
+		 "has_description": false,
+		 "remove_on_battle_complete" : true
       },
  	  {
          "id" : "GV_HWM_Disable_Tag_Tooltip",
@@ -2542,7 +2551,8 @@
             "float" : 0,
             "string" : ""
          },
-		 "is_clear_debuff_valid": false
+		 "is_clear_debuff_valid": false,
+		 "remove_on_battle_complete" : true
       },
 	  {
          "id" : "GV_Jester_Stress_Healing_Buff_1",
@@ -2946,7 +2956,8 @@
             "float" : 0,
             "string" : "heroic_end"
          },
-		 "is_clear_debuff_valid": false
+		 "is_clear_debuff_valid": false,
+		 "remove_on_battle_complete" : true
       },
   	  {
          "id" : "GV_Jester_Finale_Debuff_Dodge",
@@ -2960,7 +2971,8 @@
             "float" : 0,
             "string" : ""
          },
-		 "is_clear_debuff_valid": false
+		 "is_clear_debuff_valid": false,
+		 "remove_on_battle_complete" : true
       },
   	  {
          "id" : "GV_Jester_Stress_Healing",
@@ -3092,7 +3104,8 @@
             "string" : ""
          },
 		 "is_clear_debuff_valid": false,
-		 "has_description": false
+		 "has_description": false,
+		 "remove_on_battle_complete" : true
       },
  	  {
          "id" : "GV_Jester_Disable_Tag_Tooltip",
@@ -3106,7 +3119,8 @@
             "float" : 0,
             "string" : ""
          },
-		 "is_clear_debuff_valid": false
+		 "is_clear_debuff_valid": false,
+		 "remove_on_battle_complete" : true
       },
       {
          "id" : "GV_Leper_Acc_1",

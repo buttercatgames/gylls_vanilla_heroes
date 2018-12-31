@@ -66,9 +66,6 @@
 		<entry id="str_inventory_title_supplyfake_dog_treats"><![CDATA[Dog Treats]]></entry>
 		<entry id="str_inventory_description_supplyfake_dog_treats"><![CDATA[Greatly increases the hound's vigor for a short time.]]></entry>
 		<entry id="camping_skill_effect_loot_GV_HM_TREATS"><![CDATA[Replenishes Dog Treats]]></entry>
-
-		<!--Actor Dot-->
-		<entry id="str_ui_actor_dot_complete"><![CDATA[]]></entry>
 		
 		<!-- Tooltip Hack Strings -->
 		<entry id="buff_stat_tooltip_upgrade_discount_hwm_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
@@ -80,9 +77,6 @@ Gut Shot Disabled!]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_hwm_disable_gut_shot"><![CDATA[Gut Shot Disabled!]]></entry>
 		
 		<entry id="buff_stat_tooltip_upgrade_discount_bh_refresh_on_kill"><![CDATA[Killing Blows Refresh Skill Use]]></entry>
-		
-		<entry id="buff_stat_tooltip_upgrade_discount_hellion_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
--25%% DMG / -25%% {colour_start|bleed}Bleed{colour_end} Skill Chance]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_jester_disable_finale"><![CDATA[Finale Disabled!]]></entry>
 
@@ -158,13 +152,12 @@ Hound's Rush: Crits Received Chance: +5%% {colour_start|skill_unselectable}(500%
 Hound's Rush: Crits Received Chance: +6%% {colour_start|skill_unselectable}(500%%){colour_end}]]></entry>
 
 
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_base"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
-{colour_start|riposte}Riposte{colour_end}: Triggers on MISS/DODGE Only]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 85 / DMG: -20%% / CRIT: +2%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 90 / DMG: -15%% / CRIT: +3%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 95 / DMG: -10%% / CRIT: +4%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 100 / DMG: -5%% / CRIT: +5%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 105 / CRIT: +6%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_base"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 85 / DMG: -40%% / CRIT: +2%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 90 / DMG: -35%% / CRIT: +3%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 95 / DMG: -30%% / CRIT: +4%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 100 / DMG: -25%% / CRIT: +5%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 105 / DMG: -20%% / CRIT: +6%%]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_base"><![CDATA[Self:
 {colour_start|mark}Mark{colour_end} Target

@@ -39,10 +39,6 @@
 		<entry id="combat_skill_name_man_at_arms_bolster"><![CDATA[Command]]></entry>
 		<entry id="upgrade_tree_name_man_at_arms.bolster"><![CDATA[Command]]></entry>
 
-		<!-- Occultist -->
-	    <entry id="combat_skill_name_occultist_weakening_curse"><![CDATA[Drain Power]]></entry>
-		<entry id="upgrade_tree_name_occultist.weakening_curse"><![CDATA[Drain Power]]></entry>
-		
 		<!-- Plague Doctor -->
 		<entry id="combat_skill_name_plague_doctor_incision"><![CDATA[Amputate]]></entry>
 		<entry id="upgrade_tree_name_plague_doctor.incision"><![CDATA[Amputate]]></entry>

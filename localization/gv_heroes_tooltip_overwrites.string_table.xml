@@ -18,7 +18,6 @@
 		<!-- Fix weird/confusing tooltips -->
 		<entry id="buff_stat_tooltip_combat_stat_add_crit_chance"><![CDATA[%+d%% CRIT]]></entry>
 		<entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRIT]]></entry>
-		<entry id="buff_stat_tooltip_ignore_protection"><![CDATA[%d%% PROT Piercing]]></entry>
 		<entry id="buff_stat_tooltip_stress_dmg_percent"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end} Inflicted]]></entry>
 		<entry id="buff_stat_tooltip_stress_dmg_received_percent"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% DMG Received]]></entry>

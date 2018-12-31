@@ -5,7 +5,7 @@
 effect: .name "GV_On_Crit_Beast_Acc" .target "performer" .chance 100% .buff_source_type bsrc_crit .buff_ids "GV_Abom_Crit_Acc" .duration 3 .on_hit true .on_miss false .apply_once true
 
 // Transform Cooldown
-effect: .name "GV_Abom_Fake_Mark_Self" .target "performer" .chance 0% .tag 1 .duration 3 .on_hit true .on_miss false .has_description false
+effect: .name "GV_Abom_Fake_Mark_Self" .target "performer" .chance 0% .tag 1 .duration 3 .on_hit true .on_miss false .crit_doesnt_apply_to_roll true .has_description false
 
 // Transform -- Human > Beast Effects
 effect: .name "GV_Abom_XF_To_Beast" .target "performer" .set_mode beast .chance 100% .on_hit true .on_miss false .queue false
@@ -446,17 +446,15 @@ effect: .name "GV_Hellion_Bleed_Out_Bleed_3_5" .target "target" .chance 140% .do
 
 
 // *Hellion Exhaust*
-effect: .name "GV_Hellion_Exhaust" .target "performer" .chance 100% .buff_ids "GV_Hellion_Exhaust_Dmg_L" "GV_Hellion_Exhaust_Dmg_H" "GV_Hellion_Exhaust_Bleed" .duration 3 .on_hit true .on_miss true .apply_once true .queue true .has_description false
+effect: .name "GV_Hellion_Exhaust" .target "performer" .chance 100% .buff_ids "GV_Hellion_Exhaust_Bleed" .duration 2 .on_hit true .on_miss true .apply_once true .queue true
 
 
 // Highwayman Effects
 //-------------------------
 // Wicked Slice
-effect: .name "GV_HWM_Dodge_Buff_1" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add 4% .on_hit true .on_miss true
-effect: .name "GV_HWM_Dodge_Buff_2" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add 5% .on_hit true .on_miss true
-effect: .name "GV_HWM_Dodge_Buff_3" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add 6% .on_hit true .on_miss true
-effect: .name "GV_HWM_Dodge_Buff_4" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add 7% .on_hit true .on_miss true
-effect: .name "GV_HWM_Dodge_Buff_5" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add 8% .on_hit true .on_miss true
+effect: .name "GV_HWM_Dodge_Buff_1" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add 4% .duration 2 .on_hit true .on_miss true
+effect: .name "GV_HWM_Dodge_Buff_2" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add 5% .duration 2 .on_hit true .on_miss true
+effect: .name "GV_HWM_Dodge_Buff_3" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add 6% .duration 2 .on_hit true .on_miss true
 
 // Open Vein
 
@@ -472,11 +470,11 @@ effect: .name "GV_HWM_Acc_Vs_Marked_4" .target "performer" .skill_instant true .
 effect: .name "GV_HWM_Acc_Vs_Marked_5" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_HWM_Acc_Vs_Marked_5" .on_hit true .on_miss false .apply_once true
 
 // Duelist's Advance
-effect: .name "GV_HWM_Riposte_1" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 0% .riposte_on_miss_chance_add 100% .attack_rating_add 0% .damage_low_multiply -20% .damage_high_multiply -20% .crit_chance_add 0% .duration 3 .on_hit true .on_miss true .has_description false
-effect: .name "GV_HWM_Riposte_2" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 0% .riposte_on_miss_chance_add 100% .attack_rating_add 5% .damage_low_multiply -15% .damage_high_multiply -15% .crit_chance_add 1% .duration 3 .on_hit true .on_miss true .has_description false
-effect: .name "GV_HWM_Riposte_3" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 0% .riposte_on_miss_chance_add 100% .attack_rating_add 10% .damage_low_multiply -10% .damage_high_multiply -10% .crit_chance_add 2% .duration 3 .on_hit true .on_miss true .has_description false
-effect: .name "GV_HWM_Riposte_4" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 0% .riposte_on_miss_chance_add 100% .attack_rating_add 15% .damage_low_multiply -5% .damage_high_multiply -5% .crit_chance_add 3% .duration 3 .on_hit true .on_miss true .has_description false
-effect: .name "GV_HWM_Riposte_5" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 0% .riposte_on_miss_chance_add 100% .attack_rating_add 20% .damage_low_multiply 0% .damage_high_multiply 0% .crit_chance_add 4% .duration 3 .on_hit true .on_miss true .has_description false
+effect: .name "GV_HWM_Riposte_1" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add 0% .damage_low_multiply -40% .damage_high_multiply -40% .crit_chance_add 0% .duration 3 .on_hit true .on_miss true .has_description false
+effect: .name "GV_HWM_Riposte_2" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add 5% .damage_low_multiply -35% .damage_high_multiply -35% .crit_chance_add 1% .duration 3 .on_hit true .on_miss true .has_description false
+effect: .name "GV_HWM_Riposte_3" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add 10% .damage_low_multiply -30% .damage_high_multiply -30% .crit_chance_add 2% .duration 3 .on_hit true .on_miss true .has_description false
+effect: .name "GV_HWM_Riposte_4" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add 15% .damage_low_multiply -25% .damage_high_multiply -25% .crit_chance_add 3% .duration 3 .on_hit true .on_miss true .has_description false
+effect: .name "GV_HWM_Riposte_5" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add 20% .damage_low_multiply -20% .damage_high_multiply -20% .crit_chance_add 4% .duration 3 .on_hit true .on_miss true .has_description false
 
 effect: .name "GV_HWM_Riposte_Bleed" .target "target" .chance 140% .dotBleed 1 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
 
@@ -637,7 +635,7 @@ effect: .name "GV_Jester_Stress_Heal_Others_Maybe" .target "performer_group_othe
 
 effect: .name "GV_Jester_Finale_Debuff" .target "performer" .chance 100% .buff_ids "GV_Jester_Finale_Debuff_Dodge" "GV_Jester_Disable_Tag" "GV_Jester_Disable_Tag_Tooltip" .duration 3 .on_hit true .on_miss false .queue true .has_description false
 
-effect: .name "GV_Jester_Fake_Mark_Self" .target "performer" .chance 0% .tag 1 .duration 3 .on_hit true .on_miss false .has_description false
+effect: .name "GV_Jester_Fake_Mark_Self" .target "performer" .chance 0% .tag 1 .duration 3 .on_hit true .on_miss true .crit_doesnt_apply_to_roll true .has_description false
 
 // Solo
 effect: .name "GV_Jester_Solo_Debuff_1" .target "target" .chance 100% .combat_stat_buff 1 .defense_rating_add -10% .speed_rating_add -2 .duration 2 .on_hit true .on_miss true .has_description false
@@ -772,7 +770,7 @@ effect: .name "GV_MAA_Riposte_3"  .target "performer" .chance 100% .riposte 1 .r
 effect: .name "GV_MAA_Riposte_4"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .attack_rating_add 15% .damage_low_multiply -25% .damage_high_multiply -25% .crit_chance_add 3% .has_description false
 effect: .name "GV_MAA_Riposte_5"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .attack_rating_add 20% .damage_low_multiply -20% .damage_high_multiply -20% .crit_chance_add 4% .has_description false
 
-effect: .name "GV_MAA_Mark_Self" .target "performer" .chance 100% .tag 1 .combat_stat_buff 1 .duration 2 .on_hit true .on_miss true .queue true .has_description false
+effect: .name "GV_MAA_Mark_Self" .target "performer" .chance 100% .tag 1 .combat_stat_buff 1 .duration 3 .on_hit true .on_miss true .queue true .has_description false
 
 // Command
 
