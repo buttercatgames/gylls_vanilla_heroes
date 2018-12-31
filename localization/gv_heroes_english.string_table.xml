@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
 	<language id="english">
+
 		<!-- Copy from existing strings -->
 		<entry id="buff_rule_data_tooltip_fortifying_vapours"><![CDATA[Restorative Vapours]]></entry>
 		<entry id="buff_rule_data_tooltip_invigorating_vapours"><![CDATA[Rapturous Vapours]]></entry>
@@ -14,8 +15,6 @@
 		<entry id="buff_rule_data_tooltip_whistle"><![CDATA[Target Whistle]]></entry>
 		
 		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[Protect Me]]></entry>
-		<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% Guard Duration]]></entry>
-		<entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[+%d%% Guard Duration]]></entry>
 		
 		<entry id="buff_rule_data_tooltip_corpse"><![CDATA[Corpse]]></entry>
 		
@@ -31,6 +30,7 @@
 		<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if vs. no %ss]]></entry>
 		<entry id="buff_rule_tooltip_skill_false"><![CDATA[Non-%s Skills: %s]]></entry>
 		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|horror}Horror{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
 		
 		<!-- DLC Tooltips -->
 		<entry id="str_ui_refresh_skills"><![CDATA[Refreshed!]]></entry>
@@ -43,12 +43,12 @@
 		<entry id="buff_stat_tooltip_upgrade_discount_gv_abom_reduced_stress"><![CDATA[%d%% Transformation Stress]]></entry>
 		
 		<!-- Antiquarian -->
-		<entry id="str_inventory_title_supplyantiq_blue"><![CDATA[Strange Blue Powder]]></entry>
-		<entry id="str_inventory_title_supplyantiq_orange"><![CDATA[Strange Red Powder]]></entry>
+		<entry id="str_inventory_title_supplyantiq_blue"><![CDATA[Strange Powder]]></entry>
+		<entry id="str_inventory_title_supplyantiq_orange"><![CDATA[Strange Powder]]></entry>
 		<entry id="str_inventory_title_supplyantiq_personal"><![CDATA[Personal Stash]]></entry>
-		<entry id="str_inventory_description_supplyantiq_blue"><![CDATA[Use to empower the Antiquarian's Restorative and Rapturous Vapours.
+		<entry id="str_inventory_description_supplyantiq_blue"><![CDATA[Use to empower the Antiquarian's abilities.
 {colour_start|inventory_tooltip_gold_value}[Value: 500 Gold Each]{colour_end}]]></entry>
-		<entry id="str_inventory_description_supplyantiq_orange"><![CDATA[Use to empower the Antiquarian's Nervous Stab, Festering Vapours, and Flashpowder.
+		<entry id="str_inventory_description_supplyantiq_orange"><![CDATA[Use to empower the Antiquarian's abilities.
 {colour_start|inventory_tooltip_gold_value}[Value: 500 Gold Each]{colour_end}]]></entry>
 		<entry id="str_inventory_description_supplyantiq_personal"><![CDATA[Use to empower the Antiquarian's abilities.]]></entry>
 		<entry id="camping_skill_effect_loot_GV_ANTIQ_CAMP_POWDERS"><![CDATA[Produces powders from the personal stash]]></entry>
@@ -68,9 +68,18 @@
 		<entry id="camping_skill_effect_loot_GV_HM_TREATS"><![CDATA[Replenishes Dog Treats]]></entry>
 		
 		<!-- Tooltip Hack Strings -->
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
--5 SPD / -10 DODGE
-Gut Shot Disabled!]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_bh_pull_1"><![CDATA[{colour_start|move}Pull{colour_end} 2 {colour_start|skill_unselectable}(90%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_bh_pull_2"><![CDATA[{colour_start|move}Pull{colour_end} 2 {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_bh_pull_3"><![CDATA[{colour_start|move}Pull{colour_end} 2 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_bh_pull_4"><![CDATA[{colour_start|move}Pull{colour_end} 2 {colour_start|skill_unselectable}(120%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_bh_pull_5"><![CDATA[{colour_start|move}Pull{colour_end} 2 {colour_start|skill_unselectable}(130%%){colour_end}]]></entry>
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_free_action"><![CDATA[{colour_start|notable}Free Action{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_cooldown_3"><![CDATA[{colour_start|notable}Cooldown: 3 rds{colour_end}]]></entry>
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_exhaust"><![CDATA[{colour_start|mark}Mark{colour_end} Target
+{colour_start|debuff}Debuff Self:{colour_end}
+-5 SPD / -10 DODGE]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_abom_disable_transform"><![CDATA[Transform Disabled!]]></entry>
 
@@ -215,9 +224,10 @@ Refresh Skill Uses]]></entry>
 {colour_start|attacktype}Ranged{colour_end} Skills:
 +10 ACC / +33%% DMG / +5%% CRIT]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
-{colour_start|riposte}Riposte{colour_end}: {colour_start|stun}Stun{colour_end} Self
-{colour_start|riposte}Riposte{colour_end}: Triggers on HIT Only]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte_p1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
+{colour_start|riposte}Riposte{colour_end}: 0 ACC / {colour_start|stun}Stun{colour_end} Self]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte_p2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: Triggers on HIT Only]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no Corpses
 +100%% DMG if 2 Corpses

@@ -1,4 +1,4 @@
-resistances: .stun 30% .poison 40% .bleed 40% .disease 30% .move 30% .debuff 30% .death_blow 67% .trap 40%
+resistances: .stun 30% .poison 30% .bleed 30% .disease 30% .move 30% .debuff 30% .death_blow 67% .trap 40%
 
 crit: .effects "GV_HM_On_Crit"
 

@@ -111,10 +111,10 @@ effect: .name "GV_Antiq_Buff_5" .target "target" .chance 100% .combat_stat_buff 
 effect: .name "GV_Antiq_Stress" .target "performer" .chance 100% .stress 8 .on_hit true .on_miss false .queue true
 
 // Restorative Vapours
-effect: .name "GV_Antiq_Heal_Others_1" .target "target_group_other" .chance 100% .heal 1 .can_crit_heal false .on_hit true .on_miss false .queue true .source_heal_type hero_skill_multi_target
-effect: .name "GV_Antiq_Heal_Others_2" .target "target_group_other" .chance 100% .heal 2 .can_crit_heal false .on_hit true .on_miss false .queue true .source_heal_type hero_skill_multi_target
+effect: .name "GV_Antiq_Heal_Others_1" .target "target_group_other" .chance 100% .dotHpHeal 1 .duration 1 .can_crit_heal false .on_hit true .on_miss false .queue true
+effect: .name "GV_Antiq_Heal_Others_2" .target "target_group_other" .chance 100% .dotHpHeal 2 .duration 1 .can_crit_heal false .on_hit true .on_miss false .queue true
 
-effect: .name "GV_Antiq_Heal_Others_Half" .target "target_group_other" .chance 50% .heal 1 .can_crit_heal false .on_hit true .on_miss false .queue true .source_heal_type hero_skill_multi_target
+effect: .name "GV_Antiq_Heal_Others_Half" .target "target_group_other" .chance 50% .dotHpHeal 1 .duration 1 .can_crit_heal false .on_hit true .on_miss false .queue true .individual_target_actor_rolls	true
 
 // Festering Vapours
 effect: .name "GV_Antiq_Blight_1" .target "target" .chance 100% .dotPoison 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
@@ -130,11 +130,11 @@ effect: .name "GV_Antiq_Super_Blight_4" .target "target_group_other" .chance 30%
 effect: .name "GV_Antiq_Super_Blight_5" .target "target_group_other" .chance 40% .dotPoison 4 .duration 3 .on_hit true .on_miss true .can_apply_on_death true .individual_target_actor_rolls true
 
 // Flashpowder
-effect: .name "GV_Antiq_Distract_1" .target "target" .chance 100% .combat_stat_buff 1 .attack_rating_add -16% .duration 1 .on_hit true .on_miss false .queue true
-effect: .name "GV_Antiq_Distract_2" .target "target" .chance 110% .combat_stat_buff 1 .attack_rating_add -18% .duration 1 .on_hit true .on_miss false .queue true
-effect: .name "GV_Antiq_Distract_3" .target "target" .chance 120% .combat_stat_buff 1 .attack_rating_add -20% .duration 1 .on_hit true .on_miss false .queue true
-effect: .name "GV_Antiq_Distract_4" .target "target" .chance 130% .combat_stat_buff 1 .attack_rating_add -22% .duration 1 .on_hit true .on_miss false .queue true
-effect: .name "GV_Antiq_Distract_5" .target "target" .chance 140% .combat_stat_buff 1 .attack_rating_add -24% .duration 1 .on_hit true .on_miss false .queue true
+effect: .name "GV_Antiq_Distract_1" .target "target" .chance 100% .combat_stat_buff 1 .attack_rating_add -12% .duration 1 .on_hit true .on_miss false .queue true
+effect: .name "GV_Antiq_Distract_2" .target "target" .chance 110% .combat_stat_buff 1 .attack_rating_add -13% .duration 1 .on_hit true .on_miss false .queue true
+effect: .name "GV_Antiq_Distract_3" .target "target" .chance 120% .combat_stat_buff 1 .attack_rating_add -15% .duration 1 .on_hit true .on_miss false .queue true
+effect: .name "GV_Antiq_Distract_4" .target "target" .chance 130% .combat_stat_buff 1 .attack_rating_add -16% .duration 1 .on_hit true .on_miss false .queue true
+effect: .name "GV_Antiq_Distract_5" .target "target" .chance 140% .combat_stat_buff 1 .attack_rating_add -18% .duration 1 .on_hit true .on_miss false .queue true
 
 effect: .name "GV_Antiq_Push_1" .target "target" .push 1 .chance 100% .on_hit true .on_miss false .can_apply_on_death true
 effect: .name "GV_Antiq_Push_2" .target "target" .push 1 .chance 110% .on_hit true .on_miss false .can_apply_on_death true
@@ -153,9 +153,10 @@ effect: .name "GV_Antiq_Stress_Small" .target "performer" .chance 100% .stress 4
 effect: .name "GV_Antiq_Extra_Stress_Taken" .target "performer" .chance 100% .buff_ids "GV_Antiq_Extra_Stress_Taken" .duration 4 .on_hit true .on_miss false .queue true
 
 // *Items*
-effect: .name "antiq_blue" .target "global" .item 1 .chance 100% .buff_ids "GV_Antiq_Healing" "GV_Antiq_Stress_Free_Buff" .duration 1 .on_hit true .on_miss true .apply_once true
-effect: .name "antiq_orange" .target "global" .item 1 .chance 100% .buff_ids "GV_Antiq_Stab_Acc" "GV_Antiq_Stab_Dmg_L" "GV_Antiq_Stab_Dmg_H" "GV_Antiq_Blight_Skill" "GV_Antiq_Flashpowder_Move_Skill" .duration 1 .on_hit true .on_miss true .apply_once true
-effect: .name "antiq_personal" .target "global" .item 1 .chance 100% .buff_ids "GV_Antiq_Healing" "GV_Antiq_Stress_Free_Buff" "GV_Antiq_Stab_Acc" "GV_Antiq_Stab_Dmg_L" "GV_Antiq_Stab_Dmg_H" "GV_Antiq_Blight_Skill" "GV_Antiq_Flashpowder_Move_Skill" .duration 1 .on_hit true .on_miss true .apply_once true
+effect: .name "antiq_blue" .target "performer" .item 1 .chance 100% .use_item_type supply .use_item_id antiq_orange .on_hit true .on_miss true .apply_once true
+effect: .name "antiq_personal" .target "performer" .item 1 .chance 100% .use_item_type supply .use_item_id antiq_orange .on_hit true .on_miss true .apply_once true
+
+effect: .name "antiq_orange" .target "performer" .item 1 .chance 100% .buff_ids "GV_Antiq_Stab_Acc" "GV_Antiq_Stab_Dmg_L" "GV_Antiq_Stab_Dmg_H" "GV_Antiq_Blight_Skill" "GV_Antiq_Flashpowder_Move_Skill" "GV_Antiq_Healing" "GV_Antiq_Super_Hots" "GV_Antiq_Stress_Free_Buff" .duration 1 .on_hit true .on_miss true .apply_once true
 
 
 // Arbalest Effects
@@ -239,8 +240,11 @@ effect: .name "GV_BH_Mark_Target_4" .target "target" .chance 130% .tag 1 .combat
 effect: .name "GV_BH_Mark_Target_5" .target "target" .chance 140% .tag 1 .combat_stat_buff 1 .protection_rating_add -30% .duration 3 .on_hit true .on_miss true .queue true
 
 // Come Hither
-effect: .name "GV_BH_Weak_Pull_80" .target "target" .pull 2 .chance 80% .on_hit true .on_miss false .can_apply_on_death true 
-effect: .name "GV_BH_Weak_Pull_90" .target "target" .pull 2 .chance 90% .on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "GV_BH_Pull_1" .target "target" .pull 2 .chance 90% .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "GV_BH_Pull_2" .target "target" .pull 2 .chance 100% .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "GV_BH_Pull_3" .target "target" .pull 2 .chance 110% .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "GV_BH_Pull_4" .target "target" .pull 2 .chance 120% .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "GV_BH_Pull_5" .target "target" .pull 2 .chance 130% .on_hit true .on_miss false .can_apply_on_death true .has_description false
 
 effect: .name "GV_BH_Refresh_On_Kill" .target "performer" .chance 100% .actor_dot "refresh_on_kill" .on_hit true .on_miss true .queue true
 effect: .name "GV_Rearm" .target "target" .chance 100% .on_hit true .on_miss true .refreshes_skill_uses true .queue true
@@ -262,13 +266,13 @@ effect: .name "GV_BH_Finish_Him_Acc_3" .target "performer" .chance 100% .skill_i
 effect: .name "GV_BH_Finish_Him_Acc_4" .target "performer" .chance 100% .skill_instant true .buff_ids "GV_BH_Acc_Vs_50_4" .on_hit true .on_miss false
 effect: .name "GV_BH_Finish_Him_Acc_5" .target "performer" .chance 100% .skill_instant true .buff_ids "GV_BH_Acc_Vs_50_5" .on_hit true .on_miss false
 
-effect: .name "GV_BH_Stun_Killer" .target "performer" .chance 100% .keyStatus "stunned" .combat_stat_buff 1 .damage_low_multiply 50% .damage_high_multiply 50% .on_hit true .on_miss false
+effect: .name "GV_BH_Bleed_Killer" .target "performer" .chance 100% .keyStatus "bleeding" .combat_stat_buff 1 .damage_low_multiply 50% .damage_high_multiply 50% .on_hit true .on_miss false
 
-effect: .name "GV_BH_Bleed_Killer_1" .target "performer" .chance 100% .keyStatus "bleeding" .combat_stat_buff 1 .crit_chance_add 15% .on_hit true .on_miss false
-effect: .name "GV_BH_Bleed_Killer_2" .target "performer" .chance 100% .keyStatus "bleeding" .combat_stat_buff 1 .crit_chance_add 16% .on_hit true .on_miss false
-effect: .name "GV_BH_Bleed_Killer_3" .target "performer" .chance 100% .keyStatus "bleeding" .combat_stat_buff 1 .crit_chance_add 17% .on_hit true .on_miss false
-effect: .name "GV_BH_Bleed_Killer_4" .target "performer" .chance 100% .keyStatus "bleeding" .combat_stat_buff 1 .crit_chance_add 18% .on_hit true .on_miss false
-effect: .name "GV_BH_Bleed_Killer_5" .target "performer" .chance 100% .keyStatus "bleeding" .combat_stat_buff 1 .crit_chance_add 20% .on_hit true .on_miss false
+effect: .name "GV_BH_Stun_Killer_1" .target "performer" .chance 100% .keyStatus "stunned" .combat_stat_buff 1 .crit_chance_add 15% .on_hit true .on_miss false
+effect: .name "GV_BH_Stun_Killer_2" .target "performer" .chance 100% .keyStatus "stunned" .combat_stat_buff 1 .crit_chance_add 16% .on_hit true .on_miss false
+effect: .name "GV_BH_Stun_Killer_3" .target "performer" .chance 100% .keyStatus "stunned" .combat_stat_buff 1 .crit_chance_add 17% .on_hit true .on_miss false
+effect: .name "GV_BH_Stun_Killer_4" .target "performer" .chance 100% .keyStatus "stunned" .combat_stat_buff 1 .crit_chance_add 18% .on_hit true .on_miss false
+effect: .name "GV_BH_Stun_Killer_5" .target "performer" .chance 100% .keyStatus "stunned" .combat_stat_buff 1 .crit_chance_add 20% .on_hit true .on_miss false
 
 // Caltrops
 effect: .name "GV_BH_Caltrops_Debuff_1" .target "target" .chance 110% .buff_ids "GV_BH_Dodge_Debuff_1" "GV_BH_Move_Res_Debuff_1" .duration 3 .on_hit true .on_miss false
@@ -368,11 +372,7 @@ effect: .name "GV_GR_Dagger_Dmg_Poisoned" .target "performer" .chance 100% .keyS
 
 
 // In the Zone
-effect: .name "GV_GR_Riposte_1" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 0% .duration 2 .on_hit true .on_miss true .attack_rating_add -20% .damage_low_multiply 0% .damage_high_multiply 0% .crit_chance_add 0% .has_description false
-effect: .name "GV_GR_Riposte_2" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 0% .duration 2 .on_hit true .on_miss true .attack_rating_add -15% .damage_low_multiply 0% .damage_high_multiply 0% .crit_chance_add 0% .has_description false
-effect: .name "GV_GR_Riposte_3" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 0% .duration 2 .on_hit true .on_miss true .attack_rating_add -10% .damage_low_multiply 0% .damage_high_multiply 0% .crit_chance_add 0% .has_description false
-effect: .name "GV_GR_Riposte_4" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 0% .duration 2 .on_hit true .on_miss true .attack_rating_add -5% .damage_low_multiply 0% .damage_high_multiply 0% .crit_chance_add 0% .has_description false
-effect: .name "GV_GR_Riposte_5" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 0% .duration 2 .on_hit true .on_miss true .damage_low_multiply 0% .damage_high_multiply 0% .crit_chance_add 0% .has_description false
+effect: .name "GV_GR_Riposte" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 0% .duration 2 .on_hit true .on_miss true .damage_low_multiply 0% .damage_high_multiply 0% .crit_chance_add 0% .has_description false
 
 effect: .name "GV_GR_Stun_Self" .target "performer" .chance 500% .stun 1 .on_hit true .on_miss true .queue true
 
@@ -490,6 +490,7 @@ effect: .name "GV_HWM_Mark_Killer_5" .target "performer" .chance 100% .keyStatus
 effect: .name "DNG_HWM_Untag_Target" .target "target" .chance 100% .untag 1	.on_hit true .on_miss false .has_description false .queue true
 
 // Gut Shot
+effect: .name "GV_HWM_Mark" .target "target" .chance 100% .tag 1 .duration 1 .on_hit true .on_miss false .has_description false
 effect: .name "GV_HWM_Exhaust" .target "performer" .chance 100% .buff_ids "GV_HWM_Exhaust_Spd" "GV_HWM_Exhaust_Dodge" "GV_HWM_Disable_Tag" "GV_HWM_Disable_Tag_Tooltip" .duration 3 .on_hit true .on_miss true .queue true .has_description false
 effect: .name "GV_HWM_Exhaust_Tooltip" .target "performer" .chance 100% .skill_instant true .buff_ids "GV_HWM_Exhaust_Tooltip" .on_hit true .on_miss true
 
@@ -499,7 +500,8 @@ effect: .name "GV_HWM_Exhaust_Tooltip" .target "performer" .chance 100% .skill_i
 
 // Houndmaster Effects
 //-------------------------
-effect: .name "fake_dog_treats" .target "performer" .chance 100% .buff_ids "GV_HM_Debuff_Chance_vs_Not_Marked" .duration 3 .on_hit true .on_miss false
+effect: .name "dog_treats" .target "performer" .item 1 .duration 3 .chance 100% .combat_stat_buff 1 .attack_rating_add 17% .damage_low_multiply 52%  .damage_high_multiply 52% 
+
 effect: .name "GV_HM_On_Crit" .target "performer" .chance 100% .buff_source_type bsrc_crit .buff_ids "GV_HM_On_Crit" .duration 2 .on_hit true .on_miss false .apply_once true
 
 // Blackjack
@@ -633,7 +635,8 @@ effect: .name "GV_Jester_Stress_Heal_Others_3" .target "performer_group_other" .
 
 effect: .name "GV_Jester_Stress_Heal_Others_Maybe" .target "performer_group_other" .chance 50% .healstress 1 .on_hit true .on_miss false .has_description false .individual_target_actor_rolls true
 
-effect: .name "GV_Jester_Finale_Debuff" .target "performer" .chance 100% .buff_ids "GV_Jester_Finale_Debuff_Dodge" "GV_Jester_Disable_Tag" "GV_Jester_Disable_Tag_Tooltip" .duration 3 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "GV_Jester_Finale_Cooldown" .target "performer" .chance 100% .buff_ids "GV_Jester_Disable_Tag" "GV_Jester_Disable_Tag_Tooltip" .duration 3 .on_hit true .on_miss false .has_description false .queue true
+effect: .name "GV_Jester_Finale_Debuff" .target "performer" .chance 100% .buff_ids "GV_Jester_Finale_Debuff_Dodge" .duration 3 .on_hit true .on_miss false .queue true
 
 effect: .name "GV_Jester_Fake_Mark_Self" .target "performer" .chance 0% .tag 1 .duration 3 .on_hit true .on_miss true .crit_doesnt_apply_to_roll true .has_description false
 
@@ -713,11 +716,11 @@ effect: .name "GV_Leper_Team_Stress_Resist_Buff_4" .target "performer_group" .ch
 effect: .name "GV_Leper_Team_Stress_Resist_Buff_5" .target "performer_group" .chance 100% .buff_ids "GV_Leper_Stress_Resist_5" .duration 2 .on_hit true .on_miss true .queue true
 
 // Withstand
-effect: .name "GV_Leper_Stress_Resist_Buff_1" .target "performer" .chance 100% .buff_ids "GV_Leper_Prot_1" "GV_Leper_Stress_Resist_1" "GV_Leper_Heal_Received_1" .duration 3 .on_hit true .on_miss false
-effect: .name "GV_Leper_Stress_Resist_Buff_2" .target "performer" .chance 100% .buff_ids "GV_Leper_Prot_2" "GV_Leper_Stress_Resist_2" "GV_Leper_Heal_Received_2" .duration 3 .on_hit true .on_miss false
-effect: .name "GV_Leper_Stress_Resist_Buff_3" .target "performer" .chance 100% .buff_ids "GV_Leper_Prot_3" "GV_Leper_Stress_Resist_3" "GV_Leper_Heal_Received_3" .duration 3 .on_hit true .on_miss false
-effect: .name "GV_Leper_Stress_Resist_Buff_4" .target "performer" .chance 100% .buff_ids "GV_Leper_Prot_4" "GV_Leper_Stress_Resist_4" "GV_Leper_Heal_Received_4" .duration 3 .on_hit true .on_miss false
-effect: .name "GV_Leper_Stress_Resist_Buff_5" .target "performer" .chance 100% .buff_ids "GV_Leper_Prot_5" "GV_Leper_Stress_Resist_5" "GV_Leper_Heal_Received_5" .duration 3 .on_hit true .on_miss false
+effect: .name "GV_Leper_Stress_Resist_Buff_1" .target "performer" .chance 100% .buff_ids "GV_Leper_Prot_1" "GV_Leper_Stress_Resist_1" .duration 3 .on_hit true .on_miss false
+effect: .name "GV_Leper_Stress_Resist_Buff_2" .target "performer" .chance 100% .buff_ids "GV_Leper_Prot_2" "GV_Leper_Stress_Resist_2" .duration 3 .on_hit true .on_miss false
+effect: .name "GV_Leper_Stress_Resist_Buff_3" .target "performer" .chance 100% .buff_ids "GV_Leper_Prot_3" "GV_Leper_Stress_Resist_3" .duration 3 .on_hit true .on_miss false
+effect: .name "GV_Leper_Stress_Resist_Buff_4" .target "performer" .chance 100% .buff_ids "GV_Leper_Prot_4" "GV_Leper_Stress_Resist_4" .duration 3 .on_hit true .on_miss false
+effect: .name "GV_Leper_Stress_Resist_Buff_5" .target "performer" .chance 100% .buff_ids "GV_Leper_Prot_5" "GV_Leper_Stress_Resist_5" .duration 3 .on_hit true .on_miss false
 
 // Solemnity
 effect: .name "GV_Leper_Heal_Self_1" .target "performer" .chance 100% .heal 5 .on_hit true .on_miss false .queue false .source_heal_type hero_skill
@@ -934,6 +937,8 @@ effect: .name "GV_Heal_Target_For_1" .target "target" .chance 100% .heal 1 .on_h
 effect: .name "GV_Heal_Target_For_2" .target "target" .chance 100% .heal 2 .on_hit true .on_miss false .source_heal_type hero_skill_multi_target
 effect: .name "GV_Heal_Target_For_3" .target "target" .chance 100% .heal 3 .on_hit true .on_miss false .source_heal_type hero_skill_multi_target
 effect: .name "GV_Heal_Target_For_4" .target "target" .chance 100% .heal 4 .on_hit true .on_miss false .source_heal_type hero_skill_multi_target
+effect: .name "GV_Heal_Target_For_5" .target "target" .chance 100% .heal 5 .on_hit true .on_miss false .source_heal_type hero_skill_multi_target
+effect: .name "GV_Heal_Target_For_6" .target "target" .chance 100% .heal 6 .on_hit true .on_miss false .source_heal_type hero_skill_multi_target
 
 // Weak Stuns
 effect: .name "GV_Weak_Stun_1" .target "target" .chance 90% .stun 1 .on_hit true .on_miss false .queue true
@@ -1076,10 +1081,20 @@ effect: .name "GV_Eldritch_Killer_5" .target "performer" .chance 100% .curio_res
 
 // Tooltip Hacks
 //-------------------------
+effect: .name "GV_Tooltip_Free_Action" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_Free_Action" .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Tooltip_Cooldown_3" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_Cooldown_3" .on_hit true .on_miss false .apply_once true
+
+effect: .name "GV_Tooltip_BH_Pull_1" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_BH_Pull_1" .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Tooltip_BH_Pull_2" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_BH_Pull_2" .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Tooltip_BH_Pull_3" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_BH_Pull_3" .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Tooltip_BH_Pull_4" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_BH_Pull_4" .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Tooltip_BH_Pull_5" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_BH_Pull_5" .on_hit true .on_miss false .apply_once true
+
 effect: .name "GV_Tooltip_BH_Refresh_On_Kill" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_BH_Refresh_On_Kill" .on_hit true .on_miss false .apply_once true
 
 effect: .name "GV_Tooltip_PD_Corpse_Explosion" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_PD_Corpse_Explosion" .on_hit true .on_miss false .apply_once true
-effect: .name "GV_Tooltip_GR_Riposte" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_GR_Riposte" .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Tooltip_GR_Riposte_P1" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_GR_Riposte_P1" .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Tooltip_GR_Riposte_P2" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_GR_Riposte_P2" .on_hit true .on_miss false .apply_once true
 effect: .name "GV_Tooltip_Hellion_Exhaust" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_Hellion_Exhaust" .on_hit true .on_miss false .apply_once true
 effect: .name "GV_Tooltip_Jester_Exhaust" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_Jester_Exhaust" .on_hit true .on_miss false .apply_once true
 effect: .name "GV_Tooltip_Jester_Finale_Damage" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_Jester_Finale_Damage" .on_hit true .on_miss false .apply_once true
