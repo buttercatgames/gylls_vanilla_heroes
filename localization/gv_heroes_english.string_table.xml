@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
 	<language id="english">
-
 		<!-- Copy from existing strings -->
 		<entry id="buff_rule_data_tooltip_fortifying_vapours"><![CDATA[Restorative Vapours]]></entry>
 		<entry id="buff_rule_data_tooltip_invigorating_vapours"><![CDATA[Rapturous Vapours]]></entry>
@@ -68,14 +67,15 @@
 		<entry id="camping_skill_effect_loot_GV_HM_TREATS"><![CDATA[Replenishes Dog Treats]]></entry>
 		
 		<!-- Tooltip Hack Strings -->
+
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_free_action"><![CDATA[{colour_start|notable}Free Action{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_cooldown_3"><![CDATA[{colour_start|notable}Cooldown: 3 rds{colour_end}]]></entry>
+
 		<entry id="buff_stat_tooltip_upgrade_discount_bh_pull_1"><![CDATA[{colour_start|move}Pull{colour_end} 2 {colour_start|skill_unselectable}(90%%){colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_bh_pull_2"><![CDATA[{colour_start|move}Pull{colour_end} 2 {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_bh_pull_3"><![CDATA[{colour_start|move}Pull{colour_end} 2 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_bh_pull_4"><![CDATA[{colour_start|move}Pull{colour_end} 2 {colour_start|skill_unselectable}(120%%){colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_bh_pull_5"><![CDATA[{colour_start|move}Pull{colour_end} 2 {colour_start|skill_unselectable}(130%%){colour_end}]]></entry>
-		
-		<entry id="buff_stat_tooltip_upgrade_discount_gv_free_action"><![CDATA[{colour_start|notable}Free Action{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_gv_cooldown_3"><![CDATA[{colour_start|notable}Cooldown: 3 rds{colour_end}]]></entry>
 		
 		<entry id="buff_stat_tooltip_upgrade_discount_hwm_exhaust"><![CDATA[{colour_start|mark}Mark{colour_end} Target
 {colour_start|debuff}Debuff Self:{colour_end}
@@ -83,6 +83,9 @@
 
 		<entry id="buff_stat_tooltip_upgrade_discount_abom_disable_transform"><![CDATA[Transform Disabled!]]></entry>
 
+		<entry id="buff_stat_tooltip_upgrade_discount_hellion_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+-25%% DMG / -25%% {colour_start|bleed}Bleed{colour_end} Skill Chance]]></entry>
+		
 		<entry id="buff_stat_tooltip_upgrade_discount_hwm_disable_gut_shot"><![CDATA[Gut Shot Disabled!]]></entry>
 		
 		<entry id="buff_stat_tooltip_upgrade_discount_bh_refresh_on_kill"><![CDATA[Killing Blows Refresh Skill Use]]></entry>
@@ -162,20 +165,20 @@ Hound's Rush: Crits Received Chance: +6%% {colour_start|skill_unselectable}(500%
 
 
 		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_base"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 85 / DMG: -40%% / CRIT: +2%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 90 / DMG: -35%% / CRIT: +3%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 95 / DMG: -30%% / CRIT: +4%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 85 / DMG: -25%% / CRIT: +2%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 90 / DMG: -25%% / CRIT: +3%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 95 / DMG: -25%% / CRIT: +4%%]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 100 / DMG: -25%% / CRIT: +5%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 105 / DMG: -20%% / CRIT: +6%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 105 / DMG: -25%% / CRIT: +6%%]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_base"><![CDATA[Self:
 {colour_start|mark}Mark{colour_end} Target
 Activates {colour_start|riposte}Riposte{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 85 / DMG: -40%% / CRIT: +2%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 90 / DMG: -35%% / CRIT: +3%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 95 / DMG: -30%% / CRIT: +4%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 85 / DMG: -25%% / CRIT: +2%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 90 / DMG: -25%% / CRIT: +3%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 95 / DMG: -25%% / CRIT: +4%%]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 100 / DMG: -25%% / CRIT: +5%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 105 / DMG: -20%% / CRIT: +6%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 105 / DMG: -25%% / CRIT: +6%%]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
 +10 ACC / +3 SPD]]></entry>
@@ -229,9 +232,8 @@ Refresh Skill Uses]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte_p2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: Triggers on HIT Only]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[-100%% ACC if no Corpses
-+100%% DMG if 2 Corpses
-+100%% DMG if 3 Corpses]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[Deals 100%% DMG per Corpse
+Always MISS if no Corpses]]></entry>
 	</language>
 </root>
 

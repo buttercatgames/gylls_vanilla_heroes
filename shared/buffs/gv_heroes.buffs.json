@@ -1844,7 +1844,7 @@
          "id" : "GV_Hellion_Exhaust_Bleed",
          "stat_type" : "bleed_chance",
          "stat_sub_type" : "",
-         "amount" : -0.50,
+         "amount" : -0.25,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -4629,10 +4629,36 @@
          }
       },
 	  {
-         "id" : "GV_PD_Corpse_Only",
+         "id" : "GV_PD_Corpse_Only_Acc",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "attack_rating",
          "amount" : -1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 1,
+            "string" : "corpse"
+         }
+      },
+	  {
+         "id" : "GV_PD_Corpse_Only_Dmg_L",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -5.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 1,
+            "string" : "corpse"
+         }
+      },
+	  {
+         "id" : "GV_PD_Corpse_Only_Dmg_H",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -5.0,
          "remove_if_not_active" : false,
          "rule_type" : "monster_type_count_min",
          "is_false_rule" : true,
@@ -5932,6 +5958,19 @@
          "id" : "GV_HWM_Exhaust_Tooltip",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "hwm_exhaust",
+         "amount" : -0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "GV_Tooltip_Hellion_Exhaust",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "hellion_exhaust",
          "amount" : -0,
          "remove_if_not_active" : false,
          "rule_type" : "always",

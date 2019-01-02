@@ -50,11 +50,11 @@ combat_skill: .id "flashbang" .level 3 .type "ranged" .atk 110% .dmg -100% .crit
 combat_skill: .id "flashbang" .level 4 .type "ranged" .atk 115% .dmg -100% .crit 0% .launch 432 .target 234 .ignore_stealth true .is_crit_valid False .effect "Stun 5" "Disorient 5" "Destealth" .is_stall_invalidating false .valid_modes pre
 
 // Finish Him
-combat_skill: .id "finish_him" .level 0 .type "melee" .atk 85% .dmg 0% .crit 8% .launch 321 .target 12 .is_crit_valid True .effect "GV_BH_Finish_Him_Acc_1" "GV_BH_Bleed_Killer" "GV_BH_Stun_Killer_1" .valid_modes pre
-combat_skill: .id "finish_him" .level 1 .type "melee" .atk 90% .dmg 0% .crit 9% .launch 321 .target 12 .is_crit_valid True .effect "GV_BH_Finish_Him_Acc_2" "GV_BH_Bleed_Killer" "GV_BH_Stun_Killer_2" .valid_modes pre
-combat_skill: .id "finish_him" .level 2 .type "melee" .atk 95% .dmg 0% .crit 10% .launch 321 .target 12 .is_crit_valid True .effect "GV_BH_Finish_Him_Acc_3" "GV_BH_Bleed_Killer" "GV_BH_Stun_Killer_3" .valid_modes pre
-combat_skill: .id "finish_him" .level 3 .type "melee" .atk 100% .dmg 0% .crit 11% .launch 321 .target 12 .is_crit_valid True .effect "GV_BH_Finish_Him_Acc_4" "GV_BH_Bleed_Killer" "GV_BH_Stun_Killer_4" .valid_modes pre
-combat_skill: .id "finish_him" .level 4 .type "melee" .atk 105% .dmg 0% .crit 12% .launch 321 .target 12 .is_crit_valid True .effect "GV_BH_Finish_Him_Acc_5" "GV_BH_Bleed_Killer" "GV_BH_Stun_Killer_5" .valid_modes pre
+combat_skill: .id "finish_him" .level 0 .type "melee" .atk 85% .dmg 0% .crit 8% .launch 321 .target 12 .is_crit_valid True .effect "GV_BH_Finish_Him_Acc_1" "GV_BH_Stun_Killer" "GV_BH_Bleed_Killer_1" .valid_modes pre
+combat_skill: .id "finish_him" .level 1 .type "melee" .atk 90% .dmg 0% .crit 9% .launch 321 .target 12 .is_crit_valid True .effect "GV_BH_Finish_Him_Acc_2" "GV_BH_Stun_Killer" "GV_BH_Bleed_Killer_2" .valid_modes pre
+combat_skill: .id "finish_him" .level 2 .type "melee" .atk 95% .dmg 0% .crit 10% .launch 321 .target 12 .is_crit_valid True .effect "GV_BH_Finish_Him_Acc_3" "GV_BH_Stun_Killer" "GV_BH_Bleed_Killer_3" .valid_modes pre
+combat_skill: .id "finish_him" .level 3 .type "melee" .atk 100% .dmg 0% .crit 11% .launch 321 .target 12 .is_crit_valid True .effect "GV_BH_Finish_Him_Acc_4" "GV_BH_Stun_Killer" "GV_BH_Bleed_Killer_4" .valid_modes pre
+combat_skill: .id "finish_him" .level 4 .type "melee" .atk 105% .dmg 0% .crit 12% .launch 321 .target 12 .is_crit_valid True .effect "GV_BH_Finish_Him_Acc_5" "GV_BH_Stun_Killer" "GV_BH_Bleed_Killer_5" .valid_modes pre
 
 // Caltrops
 combat_skill: .id "hook_and_slice" .level 0 .type "ranged" .atk 100% .dmg -90% .crit 0% .launch 32 .target ~34 .is_crit_valid True .effect "GV_Bleed_1" "GV_BH_Caltrops_Debuff_1" .valid_modes pre
