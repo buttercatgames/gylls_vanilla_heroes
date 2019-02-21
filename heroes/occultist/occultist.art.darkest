@@ -17,7 +17,7 @@ combat_skill: .id "abyssal_artillery" .icon "two" .anim "attack_skull" .fx "abys
 combat_skill: .id "weakening_curse" .icon "three" .anim "attack_ranged" .fx "weakening_curse" .targchestfx "weakening_curse_target" .condensed_tooltip_stats true
 combat_skill: .id "wyrd_reconstruction" .icon "four" .anim "attack_heal" .fx "wyrd_reconstruction" .targfx "wyrd_reconstruction_target" .condensed_tooltip_stats true
 combat_skill: .id "disruptive_curse" .icon "five" .anim "attack_ranged" .fx "weakening_curse" .targchestfx "disruptive_curse_target" .condensed_tooltip_stats true
-combat_skill: .id "hands_from_abyss" .icon "six" .anim "attack_skull" .fx "abyssal_artillery" .targfx "hands_from_abyss_target" .condensed_tooltip_stats true .condensed_tooltip_effects true
+combat_skill: .id "hands_from_abyss" .icon "six" .anim "attack_skull" .fx "abyssal_artillery" .targfx "hands_from_abyss_target" .condensed_tooltip_stats true
 combat_skill: .id "daemons_pull" .icon "seven" .anim "attack_ranged" .fx "weakening_curse" .targchestfx "daemons_pull_target" .condensed_tooltip_stats true
 
 combat_move_skill: .id "move" .icon "generic_move" .anim "idle"

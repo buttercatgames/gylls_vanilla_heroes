@@ -41,6 +41,9 @@ heroes/antiquarian/fx/antiquarian.sprite.invigorating_vapours_target.png
 heroes/bounty_hunter/fx/bounty_hunter.sprite.refresh_on_kill.atlas
 heroes/bounty_hunter/fx/bounty_hunter.sprite.refresh_on_kill.png
 heroes/bounty_hunter/fx/bounty_hunter.sprite.refresh_on_kill.skel
+heroes/crusader/fx/crusader.sprite.curse_target.atlas
+heroes/crusader/fx/crusader.sprite.curse_target.png
+heroes/crusader/fx/crusader.sprite.curse_target.skel
 heroes/leper/fx/leper.sprite.intimidat.atlas
 heroes/leper/fx/leper.sprite.intimidat.png
 heroes/leper/fx/leper.sprite.intimidat.skel
@@ -162,6 +165,6 @@ modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting.........................................................................................................................Submitted.
+Submitting.......................................................................................................Submitted.
 Saving project file C:\DarkestDungeon\mods\gylls_vanilla_heroes\project.xml
 

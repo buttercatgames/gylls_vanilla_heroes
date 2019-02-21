@@ -15,7 +15,7 @@ armour: .name "crusader_armour_4" .icon "eqp_armour_4.png"
 combat_skill: .id "smite" .icon "smite" .anim "attack_sword" .fx "smite" .targchestfx "blood_splatter" .condensed_tooltip_stats true
 combat_skill: .id "zealous_accusation" .icon "cleave" .anim "attack_sword" .fx "smite" .targchestfx "blood_splatter" .condensed_tooltip_stats true
 combat_skill: .id "stunning_blow" .icon "three" .anim "attack_stun" .fx "stunning_blow" .targheadfx "stunning_blow_target" .condensed_tooltip_stats true
-combat_skill: .id "bulwark_of_faith" .icon "scroll" .anim "attack_scroll" .fx "bulwark_of_faith" .targchestfx "stunning_blow_target" .condensed_tooltip_stats true
+combat_skill: .id "bulwark_of_faith" .icon "scroll" .anim "attack_scroll" .fx "bulwark_of_faith" .targfx "curse_target" .target_area_pos_offset 225 0 .condensed_tooltip_stats true
 combat_skill: .id "battle_heal" .icon "five" .anim "attack_heal" .fx "battle_heal" .targfx "battle_heal_target" .condensed_tooltip_stats true
 combat_skill: .id "holy_lance" .icon "six" .anim "attack_charge" .fx "holy_lance" .targchestfx "blood_splatter" .condensed_tooltip_stats true
 combat_skill: .id "inspiring_cry" .icon "seven" .anim "attack_banner" .fx "inspiring_cry" .condensed_tooltip_stats true

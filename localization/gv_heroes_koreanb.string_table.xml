@@ -17,16 +17,17 @@
 		
 		<entry id="buff_rule_data_tooltip_corpse"><![CDATA[Corpse]]></entry>
 		
+		<entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[%s vs %d%% HP or less]]></entry>
+		
 		<!-- Copy from Seraph -->
 		<entry id="buff_stat_tooltip_upgrade_discount_consume_mark"><![CDATA[Consume {colour_start|mark}Mark{colour_end}]]></entry>
 
 		
 		<!-- Existing Effects Missing Tooltips -->
+		<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if vs. no %ss]]></entry>
 		<entry id="effect_tooltip_cure_bleed"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}]]></entry>
 		<entry id="effect_tooltip_target_enemy_group"><![CDATA[Enemy Party:]]></entry>
 		<entry id="effect_tooltip_target_group_other"><![CDATA[Others:]]></entry>
-		<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if vs. %s (%d+)]]></entry>
-		<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if vs. no %ss]]></entry>
 		<entry id="buff_rule_tooltip_skill_false"><![CDATA[Non-%s Skills: %s]]></entry>
 		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|horror}Horror{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
@@ -84,7 +85,7 @@
 		<entry id="buff_stat_tooltip_upgrade_discount_abom_disable_transform"><![CDATA[Transform Disabled!]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_hellion_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
--25%% DMG / -25%% {colour_start|bleed}Bleed{colour_end} Skill Chance]]></entry>
+-50%% DMG / -50%% {colour_start|bleed}Bleed{colour_end} Skill Chance]]></entry>
 		
 		<entry id="buff_stat_tooltip_upgrade_discount_hwm_disable_gut_shot"><![CDATA[Gut Shot Disabled!]]></entry>
 		
@@ -227,8 +228,8 @@ Refresh Skill Uses]]></entry>
 {colour_start|attacktype}Ranged{colour_end} Skills:
 +10 ACC / +33%% DMG / +5%% CRIT]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte_p1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
-{colour_start|riposte}Riposte{colour_end}: 0 ACC / {colour_start|stun}Stun{colour_end} Self]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte_p1"><![CDATA[If HIT While {colour_start|buff}Buff{colour_end} Active:
+{colour_start|stun}Stun{colour_end} Self]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte_p2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: Triggers on HIT Only]]></entry>
 

@@ -13,10 +13,10 @@
         {"event_id": "event:/char/ally/houndmaster_hounds_rush_miss_hound", "guid_override":"{c8a3c594-c7dc-43a3-aec6-f2899b9989cc}"},		
 		{"event_id": "event:/char/ally/houndmaster_hounds_harry_hound",        "guid_override":"{dc787556-3fef-4a6b-9612-b0391ad5b020}"},
         {"event_id": "event:/char/ally/houndmaster_hounds_harry_miss_hound",   "guid_override":"{d91c4a47-4064-463b-8f00-bc20af92625c}"},
-        {"event_id": "event:/char/ally/houndmaster_lick_wounds_human",           "guid_override":"{dc787556-3fef-4a6b-9612-b0391ad5b020}"},
-        {"event_id": "event:/char/ally/houndmaster_lick_wounds_miss_human",      "guid_override":"{d91c4a47-4064-463b-8f00-bc20af92625c}"},
-        {"event_id": "event:/char/ally/houndmaster_lick_wounds_hound",           "guid_override":"{dc787556-3fef-4a6b-9612-b0391ad5b020}"},
-        {"event_id": "event:/char/ally/houndmaster_lick_wounds_miss_hound",      "guid_override":"{d91c4a47-4064-463b-8f00-bc20af92625c}"},
+        {"event_id": "event:/char/ally/houndmaster_lick_wounds_human",           "guid_override":"{613d6b0c-36c2-4e49-a967-0ef2c6d7ed03}"},
+        {"event_id": "event:/char/ally/houndmaster_lick_wounds_miss_human",      "guid_override":"{c85da990-3ca2-4c65-bdb8-8042a41522d7}"},
+        {"event_id": "event:/char/ally/houndmaster_lick_wounds_hound",           "guid_override":"{613d6b0c-36c2-4e49-a967-0ef2c6d7ed03}"},
+        {"event_id": "event:/char/ally/houndmaster_lick_wounds_miss_hound",      "guid_override":"{c85da990-3ca2-4c65-bdb8-8042a41522d7}"},
 		
 		{"event_id": "event:/general/items/fake_dog_treats",      "guid_override":"{24b8c275-d244-4e03-9cc2-321b17483596}"},
 		

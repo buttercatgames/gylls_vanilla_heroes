@@ -43,11 +43,11 @@ combat_skill: .id "divine_grace" .level 3 .heal 6 8 .launch 432 .target @4321 .i
 combat_skill: .id "divine_grace" .level 4 .heal 7 9 .launch 432 .target @4321 .is_stall_invalidating false
 
 // Illumination
-combat_skill: .id "gods_illumination" .level 0 .type "ranged" .atk 100% .dmg -50% .crit 0% .launch 432 .target ~34 .is_crit_valid True .effect "GV_Vestal_Dodge_Debuff_1" "Destealth"
-combat_skill: .id "gods_illumination" .level 1 .type "ranged" .atk 105% .dmg -50% .crit 1% .launch 432 .target ~34 .is_crit_valid True .effect "GV_Vestal_Dodge_Debuff_2" "Destealth"
-combat_skill: .id "gods_illumination" .level 2 .type "ranged" .atk 110% .dmg -50% .crit 2% .launch 432 .target ~34 .is_crit_valid True .effect "GV_Vestal_Dodge_Debuff_3" "Destealth"
-combat_skill: .id "gods_illumination" .level 3 .type "ranged" .atk 115% .dmg -50% .crit 3% .launch 432 .target ~34 .is_crit_valid True .effect "GV_Vestal_Dodge_Debuff_4" "Destealth"
-combat_skill: .id "gods_illumination" .level 4 .type "ranged" .atk 120% .dmg -50% .crit 4% .launch 432 .target ~34 .is_crit_valid True .effect "GV_Vestal_Dodge_Debuff_5" "Destealth"
+combat_skill: .id "gods_illumination" .level 0 .type "ranged" .atk 100% .dmg -50% .crit -2% .launch 432 .target ~34 .is_crit_valid True .effect "GV_Vestal_Dodge_Debuff_1" "Destealth"
+combat_skill: .id "gods_illumination" .level 1 .type "ranged" .atk 105% .dmg -50% .crit -1% .launch 432 .target ~34 .is_crit_valid True .effect "GV_Vestal_Dodge_Debuff_2" "Destealth"
+combat_skill: .id "gods_illumination" .level 2 .type "ranged" .atk 110% .dmg -50% .crit 0% .launch 432 .target ~34 .is_crit_valid True .effect "GV_Vestal_Dodge_Debuff_3" "Destealth"
+combat_skill: .id "gods_illumination" .level 3 .type "ranged" .atk 115% .dmg -50% .crit 1% .launch 432 .target ~34 .is_crit_valid True .effect "GV_Vestal_Dodge_Debuff_4" "Destealth"
+combat_skill: .id "gods_illumination" .level 4 .type "ranged" .atk 120% .dmg -50% .crit 2% .launch 432 .target ~34 .is_crit_valid True .effect "GV_Vestal_Dodge_Debuff_5" "Destealth"
 
 // Chastise
 combat_skill: .id "mace_bash" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .launch 21 .target 12 .is_crit_valid True .effect "GV_Vestal_Healing_Buff_1"
