@@ -50,7 +50,6 @@ heroes/leper/fx/leper.sprite.intimidat.skel
 panels/icons_equip/supply/inv_supply+antiq_blue.png
 panels/icons_equip/supply/inv_supply+antiq_orange.png
 panels/icons_equip/supply/inv_supply+antiq_personal.png
-panels/icons_equip/supply/inv_supply+fake_dog_treats.png
 audio/secondary_banks/gv_heroes.bank
 campaign/provision/provision.json
 fx/antiq_blue/antiq_blue.sprite.atlas
@@ -124,7 +123,6 @@ heroes/vestal/vestal.ability.hand.png
 heroes/vestal/vestal.art.darkest
 heroes/vestal/vestal.info.darkest
 raid/actor_dot/gv_heroes.actor_dot.json
-raid/camping/default.camping_skills.json
 scripts/layout/gv_heroes.popup_text.layout.darkest
 shared/buffs/gv_heroes.buffs.json
 audio/gv_heroes.campaign.guid_overrides.json
@@ -161,10 +159,9 @@ localization/gv_heroes_spanish.string_table.xml
 localization/gv_heroes_tooltip_overwrites.string_table.xml
 localization/missing_files.txt
 loot/gv_heroes.loot.json
-modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting.......................................................................................................Submitted.
+Submitting....................................................................................................................Submitted.
 Saving project file C:\DarkestDungeon\mods\gylls_vanilla_heroes\project.xml
 

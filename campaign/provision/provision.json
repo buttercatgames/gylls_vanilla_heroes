@@ -119,7 +119,7 @@
             "hero_class": "antiquarian",
             "item_lists": 
             [
-                { "type": "supply", "id": "antiq_personal", "amount": 1 }
+                { "type": "supply", "id": "skeleton_key", "amount": 1 }
             ]
         }                
     ],    

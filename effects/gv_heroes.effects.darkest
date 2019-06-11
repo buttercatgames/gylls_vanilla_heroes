@@ -111,10 +111,11 @@ effect: .name "GV_Antiq_Buff_5" .target "target" .chance 100% .combat_stat_buff 
 effect: .name "GV_Antiq_Stress" .target "performer" .chance 100% .stress 8 .on_hit true .on_miss false .queue true
 
 // Restorative Vapours
-effect: .name "GV_Antiq_Heal_Others_1" .target "target_group_other" .chance 50% .dotHpHeal 1 .duration 1 .can_crit_heal false .on_hit true .on_miss false .queue true .individual_target_actor_rolls true
-effect: .name "GV_Antiq_Heal_Others_2" .target "target_group_other" .chance 50% .dotHpHeal 2 .duration 1 .can_crit_heal false .on_hit true .on_miss false .queue true .individual_target_actor_rolls true
+effect: .name "GV_Antiq_Heal_Buff" .target "performer" .skill_instant true .buff_ids "GV_Antiq_Heal_Buff" .on_hit true .on_miss false .has_description false
 
-effect: .name "GV_Antiq_Heal_Others_Half" .target "target_group_other" .chance 50% .dotHpHeal 1 .duration 1 .can_crit_heal false .on_hit true .on_miss false .queue true .individual_target_actor_rolls	true
+effect: .name "GV_Antiq_Heal_Others_1" .target "target_group_other" .chance 100% .heal 0.5 .can_crit_heal false .source_heal_type companion .on_hit true .on_miss false .queue true .individual_target_actor_rolls true .has_description false
+effect: .name "GV_Antiq_Heal_Others_2" .target "target_group_other" .chance 100% .heal 1 .can_crit_heal false .source_heal_type companion .on_hit true .on_miss false .queue true .individual_target_actor_rolls true .has_description false
+effect: .name "GV_Antiq_Heal_Others_Maybe" .target "target_group_other" .chance 50% .heal 0.5 .can_crit_heal false .source_heal_type companion .on_hit true .on_miss false .queue true .individual_target_actor_rolls true .has_description false
 
 // Festering Vapours
 effect: .name "GV_Antiq_Blight_1" .target "target" .chance 100% .dotPoison 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
@@ -153,10 +154,11 @@ effect: .name "GV_Antiq_Stress_Small" .target "performer" .chance 100% .stress 4
 effect: .name "GV_Antiq_Extra_Stress_Taken" .target "performer" .chance 100% .buff_ids "GV_Antiq_Extra_Stress_Taken" .duration 4 .on_hit true .on_miss false .queue true
 
 // *Items*
-effect: .name "antiq_blue" .target "performer" .item 1 .chance 100% .use_item_type supply .use_item_id antiq_orange .on_hit true .on_miss true .apply_once true
-effect: .name "antiq_personal" .target "performer" .item 1 .chance 100% .use_item_type supply .use_item_id antiq_orange .on_hit true .on_miss true .apply_once true
+effect: .name "antiq_blue" .target "performer" .item 1 .chance 100% .buff_ids "GV_Antiq_Healing" "GV_Super_Antiq_Heal_Buff" "GV_Antiq_Stress_Free_Buff" .duration 1 .on_hit true .on_miss true .apply_once true
 
-effect: .name "antiq_orange" .target "performer" .item 1 .chance 100% .buff_ids "GV_Antiq_Stab_Acc" "GV_Antiq_Stab_Dmg_L" "GV_Antiq_Stab_Dmg_H" "GV_Antiq_Blight_Skill" "GV_Antiq_Flashpowder_Move_Skill" "GV_Antiq_Healing" "GV_Antiq_Super_Hots" "GV_Antiq_Stress_Free_Buff" .duration 1 .on_hit true .on_miss true .apply_once true
+effect: .name "antiq_orange" .target "performer" .item 1 .chance 100% .buff_ids "GV_Antiq_Stab_Acc" "GV_Antiq_Stab_Dmg_L" "GV_Antiq_Stab_Dmg_H" "GV_Antiq_Blight_Skill" "GV_Antiq_Flashpowder_Move_Skill" .duration 1 .on_hit true .on_miss true .apply_once true
+
+effect: .name "antiq_personal" .target "performer" .item 1 .chance 100% .buff_ids "GV_Antiq_Healing" "GV_Super_Antiq_Heal_Buff" "GV_Antiq_Stress_Free_Buff" "GV_Antiq_Stab_Acc" "GV_Antiq_Stab_Dmg_L" "GV_Antiq_Stab_Dmg_H" "GV_Antiq_Blight_Skill" "GV_Antiq_Flashpowder_Move_Skill" .on_hit true .on_miss true .apply_once true
 
 
 // Arbalest Effects
@@ -479,7 +481,8 @@ effect: .name "GV_HWM_Riposte_5" .target "performer" .chance 100% .riposte 1 .ri
 effect: .name "GV_HWM_Riposte_Bleed" .target "target" .chance 140% .dotBleed 1 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
 
 // Cold Blood
-effect: .name "GV_HWM_Bleed_Killer" .target "performer" .chance 100% .keyStatus "bleeding" .combat_stat_buff 1 .damage_low_multiply 75% .damage_high_multiply 75% .on_hit true .on_miss false
+effect: .name "GV_HWM_Bleed_Killer" .target "performer" .chance 100% .keyStatus "bleeding" .combat_stat_buff 1 .damage_low_multiply 50% .damage_high_multiply 50% .on_hit true .on_miss false
+effect: .name "GV_HWM_Double_Crit_Vs_Bleed" .target "performer" .chance 100% .skill_instant true .buff_ids "GV_HWM_Double_Crit_Vs_Bleed" .on_hit true .on_miss true
 
 effect: .name "GV_HWM_Mark_Killer_1" .target "performer" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .crit_chance_add 15% .on_hit true .on_miss false
 effect: .name "GV_HWM_Mark_Killer_2" .target "performer" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .crit_chance_add 16% .on_hit true .on_miss false
@@ -1083,6 +1086,10 @@ effect: .name "GV_Eldritch_Killer_5" .target "performer" .chance 100% .curio_res
 //-------------------------
 effect: .name "GV_Tooltip_Free_Action" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_Free_Action" .on_hit true .on_miss false .apply_once true
 effect: .name "GV_Tooltip_Cooldown_3" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_Cooldown_3" .on_hit true .on_miss false .apply_once true
+
+effect: .name "GV_Tooltip_Antiq_Side_Heal_1" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_Antiq_Side_Heal_1" .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Tooltip_Antiq_Side_Heal_2" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_Antiq_Side_Heal_2" .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Tooltip_Antiq_Side_Heal_3" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_Antiq_Side_Heal_3" .on_hit true .on_miss false .apply_once true
 
 effect: .name "GV_Tooltip_BH_Pull_1" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_BH_Pull_1" .on_hit true .on_miss false .apply_once true
 effect: .name "GV_Tooltip_BH_Pull_2" .target "performer" .skill_instant true .chance 100% .buff_ids "GV_Tooltip_BH_Pull_2" .on_hit true .on_miss false .apply_once true

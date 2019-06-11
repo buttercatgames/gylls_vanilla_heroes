@@ -43,16 +43,21 @@
 		<entry id="buff_stat_tooltip_upgrade_discount_gv_abom_reduced_stress"><![CDATA[%d%% Transformation Stress]]></entry>
 		
 		<!-- Antiquarian -->
-		<entry id="str_inventory_title_supplyantiq_blue"><![CDATA[Strange Powder]]></entry>
-		<entry id="str_inventory_title_supplyantiq_orange"><![CDATA[Strange Powder]]></entry>
+		<entry id="buff_stat_tooltip_hp_heal_percent_companion"><![CDATA[Restorative Vapours (Others): %+d%% {colour_start|healhp}Healing{colour_end} Skills]]></entry>
+
+		<entry id="buff_stat_tooltip_hp_heal_amount_companion"><![CDATA[Restorative Vapours (Others): %+d HP {colour_start|healhp}Healed{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplyantiq_blue"><![CDATA[Strange Blue Powder]]></entry>
+		<entry id="str_inventory_title_supplyantiq_orange"><![CDATA[Strange Red Powder]]></entry>
 		<entry id="str_inventory_title_supplyantiq_personal"><![CDATA[Personal Stash]]></entry>
-		<entry id="str_inventory_description_supplyantiq_blue"><![CDATA[Use to empower the Antiquarian's abilities.
+<entry id="str_inventory_description_supplyantiq_blue"><![CDATA[Use to empower the Antiquarian's Restorative and Rapturous Vapours.
 {colour_start|inventory_tooltip_gold_value}[Value: 500 Gold Each]{colour_end}]]></entry>
-		<entry id="str_inventory_description_supplyantiq_orange"><![CDATA[Use to empower the Antiquarian's abilities.
+		<entry id="str_inventory_description_supplyantiq_orange"><![CDATA[Use to empower the Antiquarian's Nervous Stab, Festering Vapours, and Flashpowder.
 {colour_start|inventory_tooltip_gold_value}[Value: 500 Gold Each]{colour_end}]]></entry>
 		<entry id="str_inventory_description_supplyantiq_personal"><![CDATA[Use to empower the Antiquarian's abilities.]]></entry>
 		<entry id="camping_skill_effect_loot_GV_ANTIQ_CAMP_POWDERS"><![CDATA[Produces powders from the personal stash]]></entry>
 		<entry id="camping_skill_effect_loot_GV_ANTIQ_CAMP_BONUS_POWDERS"><![CDATA[]]></entry>
+		
 		
 		
 		<!-- Houndmaster -->
@@ -68,7 +73,13 @@
 		<entry id="camping_skill_effect_loot_GV_HM_TREATS"><![CDATA[Replenishes Dog Treats]]></entry>
 		
 		<!-- Tooltip Hack Strings -->
-
+		<entry id="buff_stat_tooltip_upgrade_discount_antiq_side_heal_1"><![CDATA[Others:
+{colour_start|healhp}Heal{colour_end} 1 HP]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_antiq_side_heal_2"><![CDATA[Others:
+{colour_start|healhp}Heal{colour_end} 1-2]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_antiq_side_heal_3"><![CDATA[Others:
+{colour_start|healhp}Heal{colour_end} 2 HP]]></entry>
+		
 		<entry id="buff_stat_tooltip_upgrade_discount_gv_free_action"><![CDATA[{colour_start|notable}Free Action{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_gv_cooldown_3"><![CDATA[{colour_start|notable}Cooldown: 3 rds{colour_end}]]></entry>
 
