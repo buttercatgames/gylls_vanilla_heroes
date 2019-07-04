@@ -17,7 +17,7 @@
 		
 		<entry id="buff_rule_data_tooltip_corpse"><![CDATA[Corpse]]></entry>
 		
-		<entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[%s vs %d%% HP or less]]></entry>
+		<entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[{?effect}%s vs {?amount}%d%% HP or less]]></entry>
 		
 		<!-- Copy from Seraph -->
 		<entry id="buff_stat_tooltip_upgrade_discount_consume_mark"><![CDATA[Consume {colour_start|mark}Mark{colour_end}]]></entry>

@@ -41,10 +41,13 @@
 This mod uses the .art and .info files for the heroes it modifies, as well as the base camping skills file and the base provisions file. If another mod uses these files, there will be conflicts. Also, full overhauls such as Pitch Black Dungeon that rely on changes being made to every hero will have severe balance issues if used with this mod. If your mod doesn’t fall into either of these categories then congratulations, it’s compatible!
 
 [h1]Localization[/h1]
-Some minimal effort has been expended to make the mod playable in non-English languages, however only English has been thoroughly tested, and in other languages you will encounter English strings and possibly some very long/cut off tooltips. Please contact me if you are willing to translate this mod into another language!
+[b]Korean[/b] localization is now available - Big thanks to [b]Ruque[/b] and [b]Nickel[/b] for the translation
+All other non-English languages are playable but will have some English strings, please leave a comment if you&apos;re willing to translate another language.
 
 [h1]Thanks[/h1]
-Thanks to Clair de Lune, Chogex, O’Nightmare!, Sasiji, and Tilted Hat for helping me with questions in the Moonlit Dungeon Discord. Thanks to Red Hook Studios for making such a great &amp; moddable game!
+Thanks to Clair de Lune, Chogex, O’Nightmare!, Sasiji, and Tilted Hat for helping me with questions in the Moonlit Dungeon Discord.
+Thanks to Nive, Kope, Shay, &amp; Rothag for significant feedback and ideas
+Thanks to Red Hook Studios for making such a great &amp; moddable game!
 
 [h1]About Gyll’s Vanilla[/h1]
 [b]Gyll’s Vanilla[/b] is a collection of mods for Darkest Dungeon, each of which redesigns a single aspect of the game. These mods are balanced against the vanilla base game and designed for maximum compatibility, creating a solid foundation for your modded campaigns.
