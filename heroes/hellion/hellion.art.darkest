@@ -14,11 +14,11 @@ armour: .name "hellion_armour_4" .icon "eqp_armour_4.png"
 
 combat_skill: .id "wicked_hack" .icon "one" .anim "attack_high" .fx "wicked_hack" .targchestfx "blood_splatter" .condensed_tooltip_stats true
 combat_skill: .id "iron_swan" .icon "two" .anim "attack_leap" .fx "iron_swan" .targchestfx "blood_splatter" .condensed_tooltip_stats true
+combat_skill: .id "breakthru" .icon "breakthru" .anim "attack_charge" .fx "breakthru" .targchestfx "blood_splatter" .area_pos_offset 50 0 .target_area_pos_offset -50 0 .condensed_tooltip_stats true
+combat_skill: .id "bleed_out" .icon "seven" .anim "attack_low" .fx "bleed_out" .targchestfx "blood_splatter" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
 combat_skill: .id "barbaric_yawp" .icon "three" .anim "attack_ranged" .fx "barbaric_yawp" .targchestfx "blood_splatter" .condensed_tooltip_stats true
 combat_skill: .id "if_it_bleeds" .icon "four" .anim "attack_high" .fx "if_it_bleeds" .targchestfx "blood_splatter" .condensed_tooltip_stats true
-combat_skill: .id "breakthru" .icon "breakthru" .anim "attack_charge" .fx "breakthru" .targchestfx "blood_splatter" .area_pos_offset 50 0 .target_area_pos_offset -50 0 .condensed_tooltip_stats true
-combat_skill: .id "adrenaline_rush" .icon "six" .anim "attack_buff" .fx "adrenaline_rush" .condensed_tooltip_stats true
-combat_skill: .id "bleed_out" .icon "seven" .anim "attack_low" .fx "bleed_out" .targchestfx "blood_splatter" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
+combat_skill: .id "adrenaline_rush" .icon "will" .anim "attack_buff" .fx "adrenaline_rush" .targfx "adrenaline_rush" .condensed_tooltip_stats true
 
 combat_move_skill: .id "move" .icon "generic_move" .anim "idle"
 

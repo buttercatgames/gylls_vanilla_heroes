@@ -1,6 +1,6 @@
 resistances: .stun 20% .poison 30% .bleed 40% .disease 40% .move 20% .debuff 60% .death_blow 67% .trap 10%
 
-crit: .effects "on_crit_healdone"
+crit: .effects "GV_occ_on_crit_healdone"
 
 weapon: .name "occultist_weapon_0" .atk 0% .dmg 4 8 .crit 6% .spd 6
 weapon: .name "occultist_weapon_1" .atk 0% .dmg 5 10 .crit 7% .spd 6 .upgradeRequirementCode 0
@@ -50,11 +50,11 @@ combat_skill: .id "disruptive_curse" .level 3 .type "ranged" .atk 110% .dmg -90%
 combat_skill: .id "disruptive_curse" .level 4 .type "ranged" .atk 115% .dmg -90% .crit 4% .launch 4321 .target 1234 .is_crit_valid True .effect "GV_Occ_Mark_Debuff_5" "Mark Target" .is_stall_invalidating True
 
 // Hands from the Abyss
-combat_skill: .id "hands_from_abyss" .level 0 .type "ranged" .atk 90% .dmg -50% .crit 2% .launch 12 .target 123 .is_crit_valid True .effect "Stun 1" "GV_Occ_Strengthen_Offense_1" "GV_Occ_Stress_Others"
-combat_skill: .id "hands_from_abyss" .level 1 .type "ranged" .atk 95% .dmg -50% .crit 3% .launch 12 .target 123 .is_crit_valid True .effect "Stun 2" "GV_Occ_Strengthen_Offense_2" "GV_Occ_Stress_Others"
-combat_skill: .id "hands_from_abyss" .level 2 .type "ranged" .atk 100% .dmg -50% .crit 4% .launch 12 .target 123 .is_crit_valid True .effect "Stun 3" "GV_Occ_Strengthen_Offense_3" "GV_Occ_Stress_Others"
-combat_skill: .id "hands_from_abyss" .level 3 .type "ranged" .atk 105% .dmg -50% .crit 5% .launch 12 .target 123 .is_crit_valid True .effect "Stun 4" "GV_Occ_Strengthen_Offense_4" "GV_Occ_Stress_Others"
-combat_skill: .id "hands_from_abyss" .level 4 .type "ranged" .atk 110% .dmg -50% .crit 6% .launch 12 .target 123 .is_crit_valid True .effect "Stun 5" "GV_Occ_Strengthen_Offense_5" "GV_Occ_Stress_Others"
+combat_skill: .id "hands_from_abyss" .level 0 .type "ranged" .atk 90% .dmg -50% .crit 5% .launch 21 .target 123 .is_crit_valid True .effect "Stun 1" "GV_Occ_Strengthen_Offense_1" "GV_Occ_Stress_Others"
+combat_skill: .id "hands_from_abyss" .level 1 .type "ranged" .atk 95% .dmg -50% .crit 6% .launch 21 .target 123 .is_crit_valid True .effect "Stun 2" "GV_Occ_Strengthen_Offense_2" "GV_Occ_Stress_Others"
+combat_skill: .id "hands_from_abyss" .level 2 .type "ranged" .atk 100% .dmg -50% .crit 7% .launch 21 .target 123 .is_crit_valid True .effect "Stun 3" "GV_Occ_Strengthen_Offense_3" "GV_Occ_Stress_Others"
+combat_skill: .id "hands_from_abyss" .level 3 .type "ranged" .atk 105% .dmg -50% .crit 8% .launch 21 .target 123 .is_crit_valid True .effect "Stun 4" "GV_Occ_Strengthen_Offense_4" "GV_Occ_Stress_Others"
+combat_skill: .id "hands_from_abyss" .level 4 .type "ranged" .atk 110% .dmg -50% .crit 9% .launch 21 .target 123 .is_crit_valid True .effect "Stun 5" "GV_Occ_Strengthen_Offense_5" "GV_Occ_Stress_Others"
 
 // Daemon's Pull
 combat_skill: .id "daemons_pull" .level 0 .type "ranged" .atk 90% .dmg -50% .crit 5% .launch 432 .target 34 .is_crit_valid True .effect "Pull 2B" "clear_corpses"

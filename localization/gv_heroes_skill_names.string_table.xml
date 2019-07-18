@@ -20,14 +20,18 @@
 		<entry id="upgrade_tree_name_grave_robber.toxin_trickery"><![CDATA[In the Zone]]></entry>
 
 		<!-- Highwayman -->
-		<entry id="combat_skill_name_highwayman_pistol_shot"><![CDATA[Gut Shot]]></entry>
-		<entry id="upgrade_tree_name_highwayman.pistol_shot"><![CDATA[Gut Shot]]></entry>
-		<entry id="combat_skill_name_highwayman_take_aim"><![CDATA[Cold Blood]]></entry>
-		<entry id="upgrade_tree_name_highwayman.take_aim"><![CDATA[Cold Blood]]></entry>
+		<entry id="combat_skill_name_highwayman_pistol_shot"><![CDATA[Cold Blood]]></entry>
+		<entry id="upgrade_tree_name_highwayman.pistol_shot"><![CDATA[Cold Blood]]></entry>
+		<entry id="combat_skill_name_highwayman_take_aim"><![CDATA[Gut Shot]]></entry>
+		<entry id="upgrade_tree_name_highwayman.take_aim"><![CDATA[Gut Shot]]></entry>
+
+		<!-- Hellion -->
+		<entry id="combat_skill_name_hellion_adrenaline_rush"><![CDATA[Indomitable Will]]></entry>
+		<entry id="upgrade_tree_name_hellion.adrenaline_rush"><![CDATA[Indomitable Will]]></entry>
 		
 		<!-- Houndmaster -->
-		<entry id="upgrade_tree_name_houndmaster.hounds_harry"><![CDATA[Go Fetch]]></entry>
 		<entry id="combat_skill_name_houndmaster_hounds_harry"><![CDATA[Go Fetch]]></entry>
+		<entry id="upgrade_tree_name_houndmaster.hounds_harry"><![CDATA[Go Fetch]]></entry>
 
 		<!-- Leper -->
 		<entry id="combat_skill_name_leper_focus"><![CDATA[Overpower]]></entry>
@@ -46,10 +50,6 @@
 		<entry id="upgrade_tree_name_plague_doctor.emboldening_vapours"><![CDATA[Potent Concoction]]></entry>
 		<entry id="combat_skill_name_plague_doctor_disorienting_blast"><![CDATA[Corpse Explosion]]></entry>
 		<entry id="upgrade_tree_name_plague_doctor.disorienting_blast"><![CDATA[Corpse Explosion]]></entry>
-
-		<!-- Vestal -->
-		<entry id="combat_skill_name_vestal_mace_bash"><![CDATA[Chastise]]></entry>
-		<entry id="upgrade_tree_name_vestal.mace_bash"><![CDATA[Chastise]]></entry>
 	</language>
 </root>
 

@@ -13,15 +13,6 @@
          ]
       },
       {
-         "id" : "GV_ANTIQ_CAMP_POWDERS",
-         "difficulty" : 0,
-         "dungeon" : "",
-         "entries" :
-         [
-            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "antiq_personal", "amount" : 1 }}
-         ]
-      },
-      {
          "id" : "GV_ANTIQ_CAMP_BONUS_POWDERS",
          "difficulty" : 0,
          "dungeon" : "",

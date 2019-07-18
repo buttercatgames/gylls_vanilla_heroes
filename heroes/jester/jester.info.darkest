@@ -29,11 +29,11 @@ combat_skill: .id "slice_off" .level 3 .type "melee" .atk 110% .dmg -33% .crit 1
 combat_skill: .id "slice_off" .level 4 .type "melee" .atk 115% .dmg -33% .crit 12% .launch 32 .target 23 .is_crit_valid True .effect "GV_Bleed_Strong_5"
 
 // Harvest
-combat_skill: .id "harvest" .level 0 .type "melee" .atk 90% .dmg -50% .crit 0% .launch 32 .target ~23 .is_crit_valid True .effect "GV_Bleed_1" "Destealth"
-combat_skill: .id "harvest" .level 1 .type "melee" .atk 95% .dmg -50% .crit 1% .launch 32 .target ~23 .is_crit_valid True .effect "GV_Bleed_2" "Destealth"
-combat_skill: .id "harvest" .level 2 .type "melee" .atk 100% .dmg -50% .crit 2% .launch 32 .target ~23 .is_crit_valid True .effect "GV_Bleed_3" "Destealth"
-combat_skill: .id "harvest" .level 3 .type "melee" .atk 105% .dmg -50% .crit 3% .launch 32 .target ~23 .is_crit_valid True .effect "GV_Bleed_4" "Destealth"
-combat_skill: .id "harvest" .level 4 .type "melee" .atk 110% .dmg -50% .crit 4% .launch 32 .target ~23 .is_crit_valid True .effect "GV_Bleed_5" "Destealth"
+combat_skill: .id "harvest" .level 0 .type "melee" .atk 90% .dmg -50% .crit 0% .launch 32 .target ~23 .ignore_stealth true .is_crit_valid True .effect "GV_Bleed_1" "Destealth"
+combat_skill: .id "harvest" .level 1 .type "melee" .atk 95% .dmg -50% .crit 1% .launch 32 .target ~23 .ignore_stealth true .is_crit_valid True .effect "GV_Bleed_2" "Destealth"
+combat_skill: .id "harvest" .level 2 .type "melee" .atk 100% .dmg -50% .crit 2% .launch 32 .target ~23 .ignore_stealth true .is_crit_valid True .effect "GV_Bleed_3" "Destealth"
+combat_skill: .id "harvest" .level 3 .type "melee" .atk 105% .dmg -50% .crit 3% .launch 32 .target ~23 .ignore_stealth true .is_crit_valid True .effect "GV_Bleed_4" "Destealth"
+combat_skill: .id "harvest" .level 4 .type "melee" .atk 110% .dmg -50% .crit 4% .launch 32 .target ~23 .ignore_stealth true .is_crit_valid True .effect "GV_Bleed_5" "Destealth"
 
 // Inspiring Tune
 combat_skill: .id "inspiring_tune" .level 0 .launch 43 .target @1234 .is_crit_valid True .effect "GV_Jester_Stress_Heal_1" .is_stall_invalidating false

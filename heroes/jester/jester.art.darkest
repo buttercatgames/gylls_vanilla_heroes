@@ -13,7 +13,7 @@ armour: .name "jester_armour_3" .icon "eqp_armour_3.png"
 armour: .name "jester_armour_4" .icon "eqp_armour_4.png"
 
 combat_skill: .id "dirk_stab" .icon "one" .anim "attack_dirk" .fx "dirk_stab" .targchestfx "blood_splatter" .condensed_tooltip_stats true
-combat_skill: .id "harvest" .icon "two" .anim "attack_sickle" .fx "harvest" .targchestfx "blood_splatter" .area_pos_offset 0 25	.condensed_tooltip_stats true		
+combat_skill: .id "harvest" .icon "two" .anim "attack_sickle" .fx "harvest" .targchestfx "blood_splatter" .area_pos_offset 0 25	.condensed_tooltip_stats true
 combat_skill: .id "heroic_end" .icon "finale" .anim "attack_bow" .fx "finale" .targchestfx "finale_target" .condensed_tooltip_stats true
 combat_skill: .id "solo" .icon "four" .anim "attack_powerslide" .fx "solo" .targchestfx "solo_target" .area_pos_offset 75 25 .target_area_pos_offset -150 25 .condensed_tooltip_stats true
 combat_skill: .id "slice_off" .icon "five" .anim "attack_sickle" .fx "slice_off" .targchestfx "blood_splatter" .area_pos_offset 0 25 .condensed_tooltip_stats true
