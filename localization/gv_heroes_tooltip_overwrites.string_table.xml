@@ -14,12 +14,15 @@
 	    <entry id="skill_ignore_guard"><![CDATA[Bypass {colour_start|guard}Guard{colour_end}]]></entry>
 		<entry id="effect_clear_guarded"><![CDATA[Breaks {colour_start|guard}Guard{colour_end}]]></entry>
 		<entry id="effect_clear_guarding"><![CDATA[Breaks {colour_start|guard}Guard{colour_end}]]></entry>
-		
+		<entry id="buff_rule_tooltip_is_guarded"><![CDATA[%s while {colour_start|guard}Guarded{colour_end}]]></entry>
+		<entry id="buff_rule_tooltip_target_is_guarded"><![CDATA[%s vs {colour_start|guard}Guarded{colour_end}]]></entry>		
+
 		<!-- Fix weird/confusing tooltips -->
 		<entry id="buff_stat_tooltip_combat_stat_add_crit_chance"><![CDATA[%+d%% CRIT]]></entry>
 		<entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRIT]]></entry>
 		<entry id="buff_stat_tooltip_stress_dmg_percent"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end} Inflicted]]></entry>
 		<entry id="buff_stat_tooltip_stress_dmg_received_percent"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_stress_heal_percent"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end} Healing]]></entry>
 		<entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% DMG Received]]></entry>
 		
 		<entry id="buff_stat_tooltip_ignore_protection"><![CDATA[%d%% PROT Piercing]]></entry>
@@ -34,21 +37,5 @@
 		<!-- Stress Healing -->
 		<entry id="buff_stat_tooltip_stress_heal_percent"><![CDATA[%+d%% {colour_start|stress}Stress {colour_end}Healing Done]]></entry>
 		
-	</language>
-	
-	<language id="french">
-		<!-- Shorter tooltips -->
-		<entry id="str_skill_tooltip_acc_base"><![CDATA[PRÉ : %.0f]]></entry>
-		<entry id="str_skill_tooltip_crit_mod"><![CDATA[CRIT : %.1f%%]]></entry>
-		<entry id="str_skill_tooltip_dmg_mod"><![CDATA[DGT : %.0f%%]]></entry>
-
-		<entry id="effect_base_chance_format"><![CDATA[{colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>
-		
-		<!-- More colors -->
-		<entry id="effect_tooltip_stress_heal_format"><![CDATA[{colour_start|stress}Heal{colour_end} %d Stress]]></entry>
-		<entry id="effect_tooltip_torch_format"><![CDATA[{colour_start|torch}Torche{colour_end} %+d]]></entry>
-		
-		<!-- Fix weird/confusing tooltips -->
-		<entry id="buff_stat_tooltip_stress_dmg_percent"><![CDATA[DGT de {colour_start|stress}stress{colour_end} infligés : %+d%%]]></entry>
 	</language>
 </root>

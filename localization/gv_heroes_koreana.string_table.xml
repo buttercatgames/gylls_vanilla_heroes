@@ -1,7 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
 	<language id="koreana">
-		<!-- Copy from existing strings -->
+		<!-- Skill Names -->
+		<!-- Antiquarian -->
+		<entry id="combat_skill_name_antiquarian_fortifying_vapours"><![CDATA[복원의 연막]]></entry>
+		<entry id="upgrade_tree_name_antiquarian.fortifying_vapours"><![CDATA[복원의 연막]]></entry>
+		<entry id="combat_skill_name_antiquarian_invigorating_vapours"><![CDATA[고양의 연막]]></entry>
+		<entry id="upgrade_tree_name_antiquarian.invigorating_vapours"><![CDATA[고양의 연막]]></entry>
+
+		<!-- Crusader -->
+	    <entry id="combat_skill_name_crusader_zealous_accusation"><![CDATA[광신적 가르기]]></entry>
+		<entry id="upgrade_tree_name_crusader.zealous_accusation"><![CDATA[광신적 가르기]]></entry>
+		<entry id="combat_skill_name_crusader_bulwark_of_faith"><![CDATA[종부 성사]]></entry>
+		<entry id="upgrade_tree_name_crusader.bulwark_of_faith"><![CDATA[종부 성사]]></entry>
+		
+		<!-- Grave Robber -->
+		<entry id="combat_skill_name_grave_robber_pick"><![CDATA[깎아내기]]></entry>
+		<entry id="upgrade_tree_name_grave_robber.pick"><![CDATA[깎아내기]]></entry>
+		<entry id="combat_skill_name_grave_robber_toxin_trickery"><![CDATA[극약처방]]></entry>
+		<entry id="upgrade_tree_name_grave_robber.toxin_trickery"><![CDATA[극약처방]]></entry>
+
+		<!-- Hellion -->
+		<entry id="combat_skill_name_hellion_adrenaline_rush"><![CDATA[불굴의 의지]]></entry>
+		<entry id="upgrade_tree_name_hellion.adrenaline_rush"><![CDATA[불굴의 의지]]></entry>
+		
+		<!-- Highwayman -->
+		<entry id="combat_skill_name_highwayman_pistol_shot"><![CDATA[냉혈한]]></entry>
+		<entry id="upgrade_tree_name_highwayman.pistol_shot"><![CDATA[냉혈한]]></entry>
+		<entry id="combat_skill_name_highwayman_take_aim"><![CDATA[몸통 쏘기]]></entry>
+		<entry id="upgrade_tree_name_highwayman.take_aim"><![CDATA[몸통 쏘기]]></entry>
+		
+		<!-- Houndmaster -->
+		<entry id="upgrade_tree_name_houndmaster.hounds_harry"><![CDATA[가져와!]]></entry>
+		<entry id="combat_skill_name_houndmaster_hounds_harry"><![CDATA[가져와!]]></entry>
+
+		<!-- Leper -->
+		<entry id="combat_skill_name_leper_focus"><![CDATA[압도]]></entry>
+		<entry id="upgrade_tree_name_leper.focus"><![CDATA[압도]]></entry>
+		
+		<!-- Man-At-Arms -->
+	    <entry id="combat_skill_name_man_at_arms_command"><![CDATA[위협]]></entry>
+		<entry id="upgrade_tree_name_man_at_arms.command"><![CDATA[위협]]></entry>
+		<entry id="combat_skill_name_man_at_arms_bolster"><![CDATA[지휘]]></entry>
+		<entry id="upgrade_tree_name_man_at_arms.bolster"><![CDATA[지휘]]></entry>
+
+		<!-- Plague Doctor -->
+		<entry id="combat_skill_name_plague_doctor_incision"><![CDATA[절단]]></entry>
+		<entry id="upgrade_tree_name_plague_doctor.incision"><![CDATA[절단]]></entry>
+		<entry id="combat_skill_name_plague_doctor_emboldening_vapours"><![CDATA[독한 혼합물]]></entry>
+		<entry id="upgrade_tree_name_plague_doctor.emboldening_vapours"><![CDATA[독한 혼합물]]></entry>
+		<entry id="combat_skill_name_plague_doctor_disorienting_blast"><![CDATA[시체 폭발]]></entry>
+		<entry id="upgrade_tree_name_plague_doctor.disorienting_blast"><![CDATA[시체 폭발]]></entry>
+
+		<!-- Vestal -->
+		<entry id="combat_skill_name_vestal_mace_bash"><![CDATA[태형]]></entry>
+		<entry id="upgrade_tree_name_vestal.mace_bash"><![CDATA[태형]]></entry>
+
+		
+		<!-- Skill buff names -  copied from existing strings -->
 		<entry id="buff_rule_data_tooltip_fortifying_vapours"><![CDATA[복원의 연막]]></entry>
 		<entry id="buff_rule_data_tooltip_invigorating_vapours"><![CDATA[고양의 연막]]></entry>
 		<entry id="buff_rule_data_tooltip_flashpowder"><![CDATA[섬광 가루]]></entry>
@@ -12,15 +68,9 @@
 		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[대단원]]></entry>
 		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[격려의 선율]]></entry>
 		<entry id="buff_rule_data_tooltip_whistle"><![CDATA[목표물 지정]]></entry>
-		
 		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[동료 방패]]></entry>
-		
 		<entry id="buff_rule_data_tooltip_corpse"><![CDATA[시체]]></entry>
 		
-		<entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[대상 체력이 {?amount}%d%% 이하 {?effect}%s]]></entry>
-		
-		<!-- Copy from Seraph -->
-		<entry id="buff_stat_tooltip_upgrade_discount_consume_mark"><![CDATA[{colour_start|mark}표식{colour_end} 제거]]></entry>
 		
 		<!-- Existing Effects Missing Tooltips -->
 		<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[대상이 %ss 아니라면 %s]]></entry>
@@ -31,15 +81,18 @@
 		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[{colour_start|horror}공포{colour_end} 제거]]></entry>
 		<entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[{colour_start|healhp}턴 당 회복{colour_end} %+d%%]]></entry>
 		
+		
 		<!-- DLC Tooltips -->
 		<entry id="str_ui_refresh_skills"><![CDATA[초기화!]]></entry>
 		<entry id="effect_refresh_skill_uses"><![CDATA[기술 재사용 가능]]></entry>
 		
-		<!-- New Custom Strings -->
-
+		
+		<!-- Custom Tooltips & Other Strings -->
 		<!-- Abomination -->
 		<entry id="abomination+str_combat_knockback"><![CDATA[]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_gv_abom_reduced_stress"><![CDATA[변신 스트레스 %d%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_abom_tooltip_reduced_stress"><![CDATA[변신 스트레스 %d%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_abom_tooltip_disable_transform"><![CDATA[변신 불가!]]></entry>
+
 		
 		<!-- Antiquarian -->
 		<entry id="buff_stat_tooltip_hp_heal_percent_companion"><![CDATA[복원의 연막 (동료에게): {colour_start|healhp}회복{colour_end} 기술 %+d%%]]></entry>
@@ -47,204 +100,175 @@
 		<entry id="buff_stat_tooltip_hp_heal_amount_companion"><![CDATA[복원의 연막 (동료에게): 체력 {colour_start|healhp}회복{colour_end} %+d]]></entry>
 		
 		<entry id="str_inventory_title_supplyantiq_blue"><![CDATA[수상한 파란 가루]]></entry>
+
 		<entry id="str_inventory_title_supplyantiq_orange"><![CDATA[수상한 붉은 가루]]></entry>
-		<entry id="str_inventory_title_supplyantiq_personal"><![CDATA[빼돌린 몫]]></entry>
-<entry id="str_inventory_description_supplyantiq_blue"><![CDATA[유물수집가의 복원의 연막과 고양의 연막을 강화
+
+		<entry id="str_inventory_description_supplyantiq_blue"><![CDATA[유물수집가의 복원의 연막과 고양의 연막을 강화
 {colour_start|inventory_tooltip_gold_value}[가치: 개당 500 골드]{colour_end}]]></entry>
+
 		<entry id="str_inventory_description_supplyantiq_orange"><![CDATA[유물수집가의 서툰 칼질, 부패의 연막, 섬광 가루를 강화
 {colour_start|inventory_tooltip_gold_value}[가치: 개당 500 골드]{colour_end}]]></entry>
-		<entry id="str_inventory_description_supplyantiq_personal"><![CDATA[유물수집가의 기술 강화]]></entry>
-		<entry id="camping_skill_effect_loot_GV_ANTIQ_CAMP_POWDERS"><![CDATA[빼돌린 몫에서 각종 가루 생성]]></entry>
-		<entry id="camping_skill_effect_loot_GV_ANTIQ_CAMP_BONUS_POWDERS"><![CDATA[]]></entry>
-		
-		
-		
-		<!-- Houndmaster -->
-		<entry id="str_skill_mode_info_hound"><![CDATA[]]></entry>
 
-		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[가만있거라 얘야!]]></entry>
-		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[애가 늙어서 다른 애들이랑 어울리려 하지 않는다네, 미안하군.]]></entry>
-		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[가만히! 가만!]]></entry>
-		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[애가 날이 서 있네. 떨어뜨려 두는게 낫겠군.]]></entry>
-		
-		<entry id="str_inventory_title_supplyfake_dog_treats"><![CDATA[개 간식]]></entry>
-		<entry id="str_inventory_description_supplyfake_dog_treats"><![CDATA[일시적으로 사냥개에게 활력을 북돋아 줍니다.]]></entry>
-		<entry id="camping_skill_effect_loot_GV_HM_TREATS"><![CDATA[개 간식 보충]]></entry>
-		
-		<!-- Tooltip Hack Strings -->
-		<entry id="buff_stat_tooltip_upgrade_discount_antiq_side_heal_1"><![CDATA[동료에게:
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_tooltip_antiq_side_heal_1"><![CDATA[동료에게:
 체력 1 {colour_start|healhp}회복{colour_end} {colour_start|skill_unselectable}(50%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_antiq_side_heal_2"><![CDATA[동료에게:
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_tooltip_antiq_side_heal_2"><![CDATA[동료에게:
 체력 1 {colour_start|healhp}회복{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_antiq_side_heal_3"><![CDATA[동료에게:
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_tooltip_antiq_side_heal_3"><![CDATA[동료에게:
 체력 1-2 {colour_start|healhp}회복{colour_end}]]></entry>
+
+
+		<!-- Bounty Hunter -->
+		<entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[대상 체력이 {?amount}%d%% 이하 {?effect}%s]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_bh_tooltip_pull_1"><![CDATA[{colour_start|move}당겨오기{colour_end} 2 {colour_start|skill_unselectable}(90%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_bh_tooltip_pull_2"><![CDATA[{colour_start|move}당겨오기{colour_end} 2 {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_bh_tooltip_pull_3"><![CDATA[{colour_start|move}당겨오기{colour_end} 2 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_bh_tooltip_pull_4"><![CDATA[{colour_start|move}당겨오기{colour_end} 2 {colour_start|skill_unselectable}(120%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_bh_tooltip_pull_5"><![CDATA[{colour_start|move}당겨오기{colour_end} 2 {colour_start|skill_unselectable}(130%%){colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_bh_tooltip_refresh_on_kill"><![CDATA[죽이면 재사용 가능]]></entry>
+
 		
-		<entry id="buff_stat_tooltip_upgrade_discount_gv_free_action"><![CDATA[{colour_start|notable}자유 행동{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_gv_cooldown_3"><![CDATA[{colour_start|notable}재사용 대기시간: 3 턴{colour_end}]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_bh_pull_1"><![CDATA[{colour_start|move}당겨오기{colour_end} 2 {colour_start|skill_unselectable}(90%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_bh_pull_2"><![CDATA[{colour_start|move}당겨오기{colour_end} 2 {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_bh_pull_3"><![CDATA[{colour_start|move}당겨오기{colour_end} 2 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_bh_pull_4"><![CDATA[{colour_start|move}당겨오기{colour_end} 2 {colour_start|skill_unselectable}(120%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_bh_pull_5"><![CDATA[{colour_start|move}당겨오기{colour_end} 2 {colour_start|skill_unselectable}(130%%){colour_end}]]></entry>
-		
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_exhaust"><![CDATA[대상 {colour_start|mark}표식{colour_end}
-{colour_start|debuff}자신 약화:{colour_end}
-속도 -5 / 회피 -10]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_abom_disable_transform"><![CDATA[변신 불가!]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_hellion_exhaust"><![CDATA[{colour_start|debuff}자신 약화:{colour_end}
-피해 -50%% / {colour_start|bleed}출혈{colour_end} 기술 확률 -50%%]]></entry>
-		
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_disable_gut_shot"><![CDATA[몸통 쏘기 사용 불가!]]></entry>
-		
-		<entry id="buff_stat_tooltip_upgrade_discount_bh_refresh_on_kill"><![CDATA[죽이면 재사용 가능]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_disable_finale"><![CDATA[대단원 사용 불가!]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_finale_damage"><![CDATA[{colour_start|buff}자신 강화:{colour_end} 대단원: +100%% DMG]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_1"><![CDATA[{colour_start|debuff}약화:{colour_end}
-회피 -10 / 속도 -2 {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_2"><![CDATA[{colour_start|debuff}약화:{colour_end}
-회피 -12 / 속도 -2 {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_3"><![CDATA[{colour_start|debuff}약화:{colour_end}
-회피 -15 / 속도 -3 {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_4"><![CDATA[{colour_start|debuff}약화:{colour_end}
-회피 -17 / 속도 -3 {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_5"><![CDATA[{colour_start|debuff}약화:{colour_end}
-회피 -20 / 속도 -4 {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_1"><![CDATA[동료에게:
-스트레스 1 {colour_start|stress}회복{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_2"><![CDATA[동료에게:
-스트레스 1 {colour_start|stress}회복{colour_end} / 스트레스 1 {colour_start|stress}회복{colour_end} (50%%)]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_3"><![CDATA[동료에게:
-스트레스 2 {colour_start|stress}회복{colour_end}]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_1"><![CDATA[{colour_start|debuff}약화:{colour_end}
-방어 -15%% {colour_start|skill_unselectable}(100%%){colour_end}
-{colour_start|buff}자신 강화:{colour_end}
-대단원: 피해 +100%% / 속도 +2]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_2"><![CDATA[{colour_start|debuff}약화:{colour_end}
-방어 -17%% {colour_start|skill_unselectable}(110%%){colour_end}
-{colour_start|buff}자신 강화:{colour_end}
-대단원: 피해 +100%% / 속도 +2]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_3"><![CDATA[{colour_start|debuff}약화:{colour_end}
-방어 -20%% {colour_start|skill_unselectable}(120%%){colour_end}
-{colour_start|buff}자신 강화:{colour_end}
-대단원: 피해 +100%% / 속도 +3]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_4"><![CDATA[{colour_start|debuff}약화:{colour_end}
-방어 -22%% {colour_start|skill_unselectable}(130%%){colour_end}
-{colour_start|buff}자신 강화:{colour_end}
-대단원: 피해 +100%% / 속도 +3]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_5"><![CDATA[{colour_start|debuff}약화:{colour_end}
-방어 -25%% {colour_start|skill_unselectable}(140%%){colour_end}
-{colour_start|buff}자신 강화:{colour_end}
-대단원: 피해 +100%% / 속도 +4]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_exhaust"><![CDATA[{colour_start|debuff}자신 약화:{colour_end}
-회피 -10 / 대단원 사용 불가!]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_hm_already_marked"><![CDATA[대상이 {colour_start|mark}표식 찍힘{colour_end}:]]></entry>
-		
-		<entry id="buff_stat_tooltip_upgrade_discount_hm_go_fetch_bleed_1"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(100%%){colour_end}
-턴당 2 피해, 3턴 지속]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hm_go_fetch_bleed_2"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(110%%){colour_end}
-턴당 2 피해, 3턴 지속]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hm_go_fetch_bleed_3"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(120%%){colour_end}
-턴당 3 피해, 3턴 지속]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hm_go_fetch_bleed_4"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(130%%){colour_end}
-턴당 3 피해, 3턴 지속]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hm_go_fetch_bleed_5"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(140%%){colour_end}
-턴당 4 피해, 3턴 지속]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_hm_mark_condition"><![CDATA[대상이 {colour_start|mark}표식 찍힘{colour_end}:
-{colour_start|debuff}약화:{colour_end}]]></entry>
-		
-		<entry id="buff_stat_tooltip_upgrade_discount_hm_mark_debuff_1"><![CDATA[사냥개 돌진: 받는 피해 +100%%{colour_start|skill_unselectable}(500%%){colour_end}
-사냥개 돌진: 치명타 받는 확률: +2%% {colour_start|skill_unselectable}(500%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hm_mark_debuff_2"><![CDATA[사냥개 돌진: 받는 피해 +100%% {colour_start|skill_unselectable}(500%%){colour_end}
-사냥개 돌진: 치명타 받는 확률: +3%% {colour_start|skill_unselectable}(500%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hm_mark_debuff_3"><![CDATA[사냥개 돌진: 받는 피해 +100%% {colour_start|skill_unselectable}(500%%){colour_end}
-사냥개 돌진: 치명타 받는 확률: +4%% {colour_start|skill_unselectable}(500%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hm_mark_debuff_4"><![CDATA[사냥개 돌진: 받는 피해 +100%% {colour_start|skill_unselectable}(500%%){colour_end}
-사냥개 돌진: 치명타 받는 확률: +5%% {colour_start|skill_unselectable}(500%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hm_mark_debuff_5"><![CDATA[사냥개 돌진: 받는 피해 +100%% {colour_start|skill_unselectable}(500%%){colour_end}
-사냥개 돌진: 치명타 받는 확률: +6%% {colour_start|skill_unselectable}(500%%){colour_end}]]></entry>
-
-
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_base"><![CDATA[{colour_start|riposte}반격{colour_end} 활성화]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_1"><![CDATA[{colour_start|riposte}반격{colour_end}: 명중: 85 / 피해: -25%% / 치명타: +2%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_2"><![CDATA[{colour_start|riposte}반격{colour_end}: 명중: 90 / 피해: -25%% / 치명타: +3%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_3"><![CDATA[{colour_start|riposte}반격{colour_end}: 명중: 95 / 피해: -25%% / 치명타: +4%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_4"><![CDATA[{colour_start|riposte}반격{colour_end}: 명중: 100 / 피해: -25%% / 치명타: +5%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_5"><![CDATA[{colour_start|riposte}반격{colour_end}: 명중: 105 / 피해: -25%% / 치명타: +6%%]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_base"><![CDATA[자신에게:
-{colour_start|mark}표식{colour_end}
-{colour_start|riposte}반격{colour_end} 활성화]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_1"><![CDATA[{colour_start|riposte}반격{colour_end}: 명중: 85 / 피해: -25%% / 치명타: +2%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_2"><![CDATA[{colour_start|riposte}반격{colour_end}: 명중: 90 / 피해: -25%% / 치명타: +3%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_3"><![CDATA[{colour_start|riposte}반격{colour_end}: 명중: 95 / 피해: -25%% / 치명타: +4%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_4"><![CDATA[{colour_start|riposte}반격{colour_end}: 명중: 100 / 피해: -25%% / 치명타: +5%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_5"><![CDATA[{colour_start|riposte}반격{colour_end}: 명중: 105 / 피해: -25%% / 치명타: +6%%]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
-명중 +10 / 속도 +3 ]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
-명중 +11 / 속도 +3]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
-명중 +12 / 속도 +4]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
-명중 +13 / 속도 +4]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
-명중 +15 / 속도 +5]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_fade_base"><![CDATA[자신에게:
-{colour_start|stealth}은신{colour_end} (2 턴)
-기술 재사용 가능]]></entry>
-		
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_fade_1"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
-{colour_start|attacktype}원거리{colour_end} 기술:
-명중 +10  / 피해 +40%% / 치명타 +6%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_fade_2"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
-{colour_start|attacktype}원거리{colour_end} 기술:
-명중 +12 / 피해 +42%% / 치명타 +7%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_fade_3"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
-{colour_start|attacktype}원거리{colour_end} 기술:
-명중 +15 / 피해 +45%% / 치명타 +8%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_fade_4"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
-{colour_start|attacktype}원거리{colour_end} 기술:
-명중 +17 / 피해 +47%% / 치명타 +9%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_fade_5"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
-{colour_start|attacktype}원거리{colour_end} 기술:
-명중 +20 / 피해 +50%% / 치명타 +10%%]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_1"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
+		<!-- Grave Robber -->
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_gr_tooltip_buff_1"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
 {colour_start|attacktype}원거리{colour_end} 기술:
 명중 +5 / 피해 +25%% / 치명타 +3%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_2"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_gr_tooltip_buff_2"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
 {colour_start|attacktype}원거리{colour_end} 기술:
 명중 +6 / 피해 +27%% / 치명타 +3%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_3"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_gr_tooltip_buff_3"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
 {colour_start|attacktype}원거리{colour_end} 기술:
 명중 +7 / 피해 +29%% / 치명타 +4%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_4"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_gr_tooltip_buff_4"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
 {colour_start|attacktype}원거리{colour_end} 기술:
 명중 +8 / 피해 +31%% / 치명타 +4%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_5"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_gr_tooltip_buff_5"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
 {colour_start|attacktype}원거리{colour_end} 기술:
 명중 +10 / 피해 +33%% / 치명타 +5%%]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte_p1"><![CDATA[{colour_start|buff}강화{colour_end} 상태에서 맞음:
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_gr_tooltip_riposte"><![CDATA[{colour_start|buff}강화{colour_end} 상태에서 맞음:
 자신에게 {colour_start|stun}기절{colour_end}]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte_p2"><![CDATA[{colour_start|riposte}반격{colour_end}: 맞을 때만 활성화]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[시체 하나 당 피해 100%%
+		<!-- Hellion -->
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hellion_tooltip_exhaust"><![CDATA[{colour_start|debuff}자신 약화:{colour_end}
+피해 -50%% / {colour_start|bleed}출혈{colour_end} 기술 확률 -50%%]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hellion_tooltip_will_1"><![CDATA[{colour_start|blight}중독{colour_end} 치료
+자신에게:
+체력 1-1 {colour_start|healhp}회복{colour_end}
+{colour_start|blight}중독{colour_end} 치료]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hellion_tooltip_will_2"><![CDATA[{colour_start|blight}중독{colour_end} 치료
+자신에게:
+체력 1-2 {colour_start|healhp}회복{colour_end}
+{colour_start|blight}중독{colour_end} 치료]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hellion_tooltip_will_3"><![CDATA[{colour_start|blight}중독{colour_end} 치료
+자신에게:
+체력 2-2 {colour_start|healhp}회복{colour_end}
+{colour_start|blight}중독{colour_end} 치료]]></entry>
+		
+		<!-- Highwayman -->
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hwm_tooltip_riposte_base"><![CDATA[{colour_start|riposte}반격{colour_end} 활성화]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hwm_tooltip_riposte_1"><![CDATA[{colour_start|riposte}반격{colour_end}: 명중: 85 / 피해: -25%% / 치명타: +2%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hwm_tooltip_riposte_2"><![CDATA[{colour_start|riposte}반격{colour_end}: 명중: 90 / 피해: -25%% / 치명타: +3%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hwm_tooltip_riposte_3"><![CDATA[{colour_start|riposte}반격{colour_end}: 명중: 95 / 피해: -25%% / 치명타: +4%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hwm_tooltip_riposte_4"><![CDATA[{colour_start|riposte}반격{colour_end}: 명중: 100 / 피해: -25%% / 치명타: +5%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hwm_tooltip_riposte_5"><![CDATA[{colour_start|riposte}반격{colour_end}: 명중: 105 / 피해: -25%% / 치명타: +6%%]]></entry>
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hwm_tooltip_exhaust"><![CDATA[대상 {colour_start|mark}표식{colour_end}
+{colour_start|debuff}자신 약화:{colour_end}
+속도 -5 / 회피 -10]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hwm_tooltip_disable_gut_shot"><![CDATA[몸통 쏘기 사용 불가!]]></entry>
+
+		
+		<!-- Houndmaster -->
+		<entry id="str_skill_mode_info_hound"><![CDATA[]]></entry>
+	
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hm_tooltip_already_marked"><![CDATA[대상이 {colour_start|mark}표식 찍힘{colour_end}:]]></entry>
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hm_tooltip_go_fetch_bleed_1"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(100%%){colour_end}
+턴당 2 피해, 3턴 지속]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hm_tooltip_go_fetch_bleed_2"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(110%%){colour_end}
+턴당 2 피해, 3턴 지속]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hm_tooltip_go_fetch_bleed_3"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(120%%){colour_end}
+턴당 3 피해, 3턴 지속]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hm_tooltip_go_fetch_bleed_4"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(130%%){colour_end}
+턴당 3 피해, 3턴 지속]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hm_tooltip_go_fetch_bleed_5"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(140%%){colour_end}
+턴당 4 피해, 3턴 지속]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hm_tooltip_mark_condition"><![CDATA[대상이 {colour_start|mark}표식 찍힘{colour_end}:
+{colour_start|debuff}약화:{colour_end}]]></entry>
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hm_tooltip_mark_debuff_1"><![CDATA[사냥개 돌진: 받는 피해 +100%%{colour_start|skill_unselectable}(500%%){colour_end}
+사냥개 돌진: 치명타 받는 확률: +2%% {colour_start|skill_unselectable}(500%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hm_tooltip_mark_debuff_2"><![CDATA[사냥개 돌진: 받는 피해 +100%% {colour_start|skill_unselectable}(500%%){colour_end}
+사냥개 돌진: 치명타 받는 확률: +3%% {colour_start|skill_unselectable}(500%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hm_tooltip_mark_debuff_3"><![CDATA[사냥개 돌진: 받는 피해 +100%% {colour_start|skill_unselectable}(500%%){colour_end}
+사냥개 돌진: 치명타 받는 확률: +4%% {colour_start|skill_unselectable}(500%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hm_tooltip_mark_debuff_4"><![CDATA[사냥개 돌진: 받는 피해 +100%% {colour_start|skill_unselectable}(500%%){colour_end}
+사냥개 돌진: 치명타 받는 확률: +5%% {colour_start|skill_unselectable}(500%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hm_tooltip_mark_debuff_5"><![CDATA[사냥개 돌진: 받는 피해 +100%% {colour_start|skill_unselectable}(500%%){colour_end}
+사냥개 돌진: 치명타 받는 확률: +6%% {colour_start|skill_unselectable}(500%%){colour_end}]]></entry>
+	
+		
+		<!-- Plague Doctor -->
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_pd_tooltip_corpse_explosion"><![CDATA[시체 하나 당 피해 100%%
 시체가 없으면 항상 빗나감]]></entry>
+
+		
+		<!-- Jester -->
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_jester_tooltip_disable_finale"><![CDATA[대단원 사용 불가!]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_jester_tooltip_solo_debuff_1"><![CDATA[{colour_start|debuff}약화:{colour_end}
+회피 -10 / 속도 -2 {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_jester_tooltip_solo_debuff_2"><![CDATA[{colour_start|debuff}약화:{colour_end}
+회피 -12 / 속도 -2 {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_jester_tooltip_solo_debuff_3"><![CDATA[{colour_start|debuff}약화:{colour_end}
+회피 -15 / 속도 -3 {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_jester_tooltip_solo_debuff_4"><![CDATA[{colour_start|debuff}약화:{colour_end}
+회피 -17 / 속도 -3 {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_jester_tooltip_solo_debuff_5"><![CDATA[{colour_start|debuff}약화:{colour_end}
+회피 -20 / 속도 -4 {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_jester_tooltip_stress_heal_1"><![CDATA[동료에게:
+스트레스 1 {colour_start|stress}회복{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_jester_tooltip_stress_heal_2"><![CDATA[동료에게:
+스트레스 1 {colour_start|stress}회복{colour_end} / 스트레스 1 {colour_start|stress}회복{colour_end} (50%%)]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_jester_tooltip_stress_heal_3"><![CDATA[동료에게:
+스트레스 2 {colour_start|stress}회복{colour_end}]]></entry>
+
+
+		<!-- Leper -->
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_leper_tooltip_push_buff_1"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
+명중 +10 / 속도 +3 ]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_leper_tooltip_push_buff_2"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
+명중 +11 / 속도 +3]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_leper_tooltip_push_buff_3"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
+명중 +12 / 속도 +4]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_leper_tooltip_push_buff_4"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
+명중 +13 / 속도 +4]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_leper_tooltip_push_buff_5"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
+명중 +15 / 속도 +5]]></entry>
+
+
+		<!-- Man-at-Arms -->
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_maa_tooltip_riposte_base"><![CDATA[자신에게:
+{colour_start|mark}표식{colour_end}
+{colour_start|riposte}반격{colour_end} 활성화]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_maa_tooltip_riposte_1"><![CDATA[{colour_start|riposte}반격{colour_end}: 명중: 85 / 피해: -25%% / 치명타: +2%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_maa_tooltip_riposte_2"><![CDATA[{colour_start|riposte}반격{colour_end}: 명중: 90 / 피해: -25%% / 치명타: +3%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_maa_tooltip_riposte_3"><![CDATA[{colour_start|riposte}반격{colour_end}: 명중: 95 / 피해: -25%% / 치명타: +4%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_maa_tooltip_riposte_4"><![CDATA[{colour_start|riposte}반격{colour_end}: 명중: 100 / 피해: -25%% / 치명타: +5%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_maa_tooltip_riposte_5"><![CDATA[{colour_start|riposte}반격{colour_end}: 명중: 105 / 피해: -25%% / 치명타: +6%%]]></entry>
+		
+		
+		<!-- Shared Tooltips -->
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_free_action"><![CDATA[{colour_start|notable}자유 행동{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_cooldown_2"><![CDATA[{colour_start|notable}재사용 대기시간: 2 턴{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_cooldown_3"><![CDATA[{colour_start|notable}재사용 대기시간: 3 턴{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_consume_mark"><![CDATA[{colour_start|mark}표식{colour_end} 제거]]></entry>
 	</language>
 </root>
-

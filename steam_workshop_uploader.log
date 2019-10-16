@@ -19,7 +19,6 @@ Parsing localization/gv_heroes_koreanb.string_table.xml
 Parsing localization/gv_heroes_polish.string_table.xml
 Parsing localization/gv_heroes_russian.string_table.xml
 Parsing localization/gv_heroes_schinese.string_table.xml
-Parsing localization/gv_heroes_skill_names.string_table.xml
 Parsing localization/gv_heroes_spanish.string_table.xml
 Parsing localization/gv_heroes_tooltip_overwrites.string_table.xml
 
@@ -88,6 +87,7 @@ heroes/grave_robber/grave_robber.art.darkest
 heroes/grave_robber/grave_robber.info.darkest
 heroes/grave_robber/grave_robber_guild_header.png
 heroes/hellion/hellion.ability.breakthru.png
+heroes/hellion/hellion.ability.will.png
 heroes/hellion/hellion.art.darkest
 heroes/hellion/hellion.info.darkest
 heroes/hellion/hellion_guild_header.png
@@ -130,7 +130,7 @@ audio/gv_heroes.campaign.load_order.json
 colours/gv_heroes.colours.darkest
 effects/gv_heroes.effects.darkest
 inventory/gv_heroes.inventory.extra_stack_limits.darkest
-inventory/gv_heroes.supply.inventory.items.darkest
+inventory/gv_heroes.inventory.items.darkest
 localization/1385283735_brazilian.loc
 localization/1385283735_czech.loc
 localization/1385283735_english.loc
@@ -154,14 +154,14 @@ localization/gv_heroes_koreanb.string_table.xml
 localization/gv_heroes_polish.string_table.xml
 localization/gv_heroes_russian.string_table.xml
 localization/gv_heroes_schinese.string_table.xml
-localization/gv_heroes_skill_names.string_table.xml
 localization/gv_heroes_spanish.string_table.xml
 localization/gv_heroes_tooltip_overwrites.string_table.xml
 localization/missing_files.txt
 loot/gv_heroes.loot.json
+modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting.....................................................................................................................Submitted.
+Submitting.................................................................................................................Submitted.
 Saving project file C:\DarkestDungeon\mods\gylls_vanilla_heroes\project.xml
 

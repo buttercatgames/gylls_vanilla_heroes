@@ -1,7 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
 	<language id="brazilian">
-		<!-- Copy from existing strings -->
+		<!-- Skill Names -->
+		<!-- Antiquarian -->
+		<entry id="combat_skill_name_antiquarian_fortifying_vapours"><![CDATA[Restorative Vapours]]></entry>
+		<entry id="upgrade_tree_name_antiquarian.fortifying_vapours"><![CDATA[Restorative Vapours]]></entry>
+		<entry id="combat_skill_name_antiquarian_invigorating_vapours"><![CDATA[Rapturous Vapours]]></entry>
+		<entry id="upgrade_tree_name_antiquarian.invigorating_vapours"><![CDATA[Rapturous Vapours]]></entry>
+
+		
+		<!-- Crusader -->
+	    <entry id="combat_skill_name_crusader_zealous_accusation"><![CDATA[Zealous Cleave]]></entry>
+		<entry id="upgrade_tree_name_crusader.zealous_accusation"><![CDATA[Zealous Cleave]]></entry>
+		<entry id="combat_skill_name_crusader_bulwark_of_faith"><![CDATA[Last Rites]]></entry>
+		<entry id="upgrade_tree_name_crusader.bulwark_of_faith"><![CDATA[Last Rites]]></entry>
+		
+		
+		<!-- Grave Robber -->
+		<entry id="combat_skill_name_grave_robber_pick"><![CDATA[Chip Away]]></entry>
+		<entry id="upgrade_tree_name_grave_robber.pick"><![CDATA[Chip Away]]></entry>
+		<entry id="combat_skill_name_grave_robber_toxin_trickery"><![CDATA[In the Zone]]></entry>
+		<entry id="upgrade_tree_name_grave_robber.toxin_trickery"><![CDATA[In the Zone]]></entry>
+
+		
+		<!-- Highwayman -->
+		<entry id="combat_skill_name_highwayman_pistol_shot"><![CDATA[Cold Blood]]></entry>
+		<entry id="upgrade_tree_name_highwayman.pistol_shot"><![CDATA[Cold Blood]]></entry>
+		<entry id="combat_skill_name_highwayman_take_aim"><![CDATA[Gut Shot]]></entry>
+		<entry id="upgrade_tree_name_highwayman.take_aim"><![CDATA[Gut Shot]]></entry>
+
+		
+		<!-- Hellion -->
+		<entry id="combat_skill_name_hellion_adrenaline_rush"><![CDATA[Indomitable Will]]></entry>
+		<entry id="upgrade_tree_name_hellion.adrenaline_rush"><![CDATA[Indomitable Will]]></entry>
+		
+		
+		<!-- Houndmaster -->
+		<entry id="combat_skill_name_houndmaster_hounds_harry"><![CDATA[Go Fetch]]></entry>
+		<entry id="upgrade_tree_name_houndmaster.hounds_harry"><![CDATA[Go Fetch]]></entry>
+
+		
+		<!-- Leper -->
+		<entry id="combat_skill_name_leper_focus"><![CDATA[Overpower]]></entry>
+		<entry id="upgrade_tree_name_leper.focus"><![CDATA[Overpower]]></entry>
+		
+		
+		<!-- Man-At-Arms -->
+	    <entry id="combat_skill_name_man_at_arms_command"><![CDATA[Browbeat]]></entry>
+		<entry id="upgrade_tree_name_man_at_arms.command"><![CDATA[Browbeat]]></entry>
+		<entry id="combat_skill_name_man_at_arms_bolster"><![CDATA[Command]]></entry>
+		<entry id="upgrade_tree_name_man_at_arms.bolster"><![CDATA[Command]]></entry>
+
+		
+		<!-- Plague Doctor -->
+		<entry id="combat_skill_name_plague_doctor_incision"><![CDATA[Amputate]]></entry>
+		<entry id="upgrade_tree_name_plague_doctor.incision"><![CDATA[Amputate]]></entry>
+		<entry id="combat_skill_name_plague_doctor_emboldening_vapours"><![CDATA[Potent Concoction]]></entry>
+		<entry id="upgrade_tree_name_plague_doctor.emboldening_vapours"><![CDATA[Potent Concoction]]></entry>
+		<entry id="combat_skill_name_plague_doctor_disorienting_blast"><![CDATA[Corpse Explosion]]></entry>
+		<entry id="upgrade_tree_name_plague_doctor.disorienting_blast"><![CDATA[Corpse Explosion]]></entry>
+
+		
+		<!-- Skill buff names -  copied from existing strings -->
 		<entry id="buff_rule_data_tooltip_fortifying_vapours"><![CDATA[Restorative Vapours]]></entry>
 		<entry id="buff_rule_data_tooltip_invigorating_vapours"><![CDATA[Rapturous Vapours]]></entry>
 		<entry id="buff_rule_data_tooltip_flashpowder"><![CDATA[Flashpowder]]></entry>
@@ -11,36 +71,32 @@
 		<entry id="buff_rule_data_tooltip_solo"><![CDATA[Solo]]></entry>
 		<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[Finale]]></entry>
 		<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[Inspiring Tune]]></entry>
-		<entry id="buff_rule_data_tooltip_whistle"><![CDATA[Target Whistle]]></entry>
-		
+		<entry id="buff_rule_data_tooltip_whistle"><![CDATA[Target Whistle]]></entry>	
 		<entry id="buff_rule_data_tooltip_protect_me"><![CDATA[Protect Me]]></entry>
-		
 		<entry id="buff_rule_data_tooltip_corpse"><![CDATA[Corpse]]></entry>
 		
-		<entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[{?effect}%s vs {?amount}%d%% HP or less]]></entry>
-		
-		<!-- Copy from Seraph -->
-		<entry id="buff_stat_tooltip_upgrade_discount_consume_mark"><![CDATA[Consume {colour_start|mark}Mark{colour_end}]]></entry>
-
 		
 		<!-- Existing Effects Missing Tooltips -->
 		<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if vs. no %ss]]></entry>
 		<entry id="effect_tooltip_cure_bleed"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}]]></entry>
+		<entry id="effect_tooltip_cure_poison"><![CDATA[Cure {colour_start|blight}Blight{colour_end}]]></entry>
 		<entry id="effect_tooltip_target_enemy_group"><![CDATA[Enemy Party:]]></entry>
 		<entry id="effect_tooltip_target_group_other"><![CDATA[Others:]]></entry>
 		<entry id="buff_rule_tooltip_skill_false"><![CDATA[Non-%s Skills: %s]]></entry>
 		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|horror}Horror{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
 		
+		
 		<!-- DLC Tooltips -->
 		<entry id="str_ui_refresh_skills"><![CDATA[Refreshed!]]></entry>
 		<entry id="effect_refresh_skill_uses"><![CDATA[Refresh Skill Uses]]></entry>
 		
-		<!-- New Custom Strings -->
-
+		
+		<!-- Custom Tooltips & Other Strings -->
 		<!-- Abomination -->
 		<entry id="abomination+str_combat_knockback"><![CDATA[]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_gv_abom_reduced_stress"><![CDATA[%d%% Transformation Stress]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_abom_tooltip_reduced_stress"><![CDATA[%d%% Transformation Stress]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_abom_tooltip_disable_transform"><![CDATA[Transform Disabled!]]></entry>
 		
 		<!-- Antiquarian -->
 		<entry id="buff_stat_tooltip_hp_heal_percent_companion"><![CDATA[Restorative Vapours (Others): %+d%% {colour_start|healhp}Healing{colour_end} Skills]]></entry>
@@ -48,204 +104,175 @@
 		<entry id="buff_stat_tooltip_hp_heal_amount_companion"><![CDATA[Restorative Vapours (Others): %+d HP {colour_start|healhp}Healed{colour_end}]]></entry>
 		
 		<entry id="str_inventory_title_supplyantiq_blue"><![CDATA[Strange Blue Powder]]></entry>
+		
 		<entry id="str_inventory_title_supplyantiq_orange"><![CDATA[Strange Red Powder]]></entry>
-		<entry id="str_inventory_title_supplyantiq_personal"><![CDATA[Personal Stash]]></entry>
-<entry id="str_inventory_description_supplyantiq_blue"><![CDATA[Use to empower the Antiquarian's Restorative and Rapturous Vapours.
+
+		<entry id="str_inventory_description_supplyantiq_blue"><![CDATA[Use to empower the Antiquarian's Restorative and Rapturous Vapours.
 {colour_start|inventory_tooltip_gold_value}[Value: 500 Gold Each]{colour_end}]]></entry>
+
 		<entry id="str_inventory_description_supplyantiq_orange"><![CDATA[Use to empower the Antiquarian's Nervous Stab, Festering Vapours, and Flashpowder.
 {colour_start|inventory_tooltip_gold_value}[Value: 500 Gold Each]{colour_end}]]></entry>
-		<entry id="str_inventory_description_supplyantiq_personal"><![CDATA[Use to empower the Antiquarian's abilities.]]></entry>
-		<entry id="camping_skill_effect_loot_GV_ANTIQ_CAMP_POWDERS"><![CDATA[Produces powders from the personal stash]]></entry>
-		<entry id="camping_skill_effect_loot_GV_ANTIQ_CAMP_BONUS_POWDERS"><![CDATA[]]></entry>
-		
-		
-		
-		<!-- Houndmaster -->
-		<entry id="str_skill_mode_info_hound"><![CDATA[]]></entry>
 
-		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[Down girl!]]></entry>
-		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[The old girl doesn't play well with others, I'm afraid.]]></entry>
-		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[Heel! Heel!]]></entry>
-		<entry id="str_incompatible_party_member_houndmaster_limit"><![CDATA[The pups are on edge. Best keep them separate.]]></entry>
-		
-		<entry id="str_inventory_title_supplyfake_dog_treats"><![CDATA[Dog Treats]]></entry>
-		<entry id="str_inventory_description_supplyfake_dog_treats"><![CDATA[Greatly increases the hound's vigor for a short time.]]></entry>
-		<entry id="camping_skill_effect_loot_GV_HM_TREATS"><![CDATA[Replenishes Dog Treats]]></entry>
-		
-		<!-- Tooltip Hack Strings -->
-		<entry id="buff_stat_tooltip_upgrade_discount_antiq_side_heal_1"><![CDATA[Others:
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_tooltip_antiq_side_heal_1"><![CDATA[Others:
+{colour_start|healhp}Heal{colour_end} 1 HP {colour_start|skill_unselectable}(50%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_tooltip_antiq_side_heal_2"><![CDATA[Others:
 {colour_start|healhp}Heal{colour_end} 1 HP]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_antiq_side_heal_2"><![CDATA[Others:
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_tooltip_antiq_side_heal_3"><![CDATA[Others:
 {colour_start|healhp}Heal{colour_end} 1-2]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_antiq_side_heal_3"><![CDATA[Others:
-{colour_start|healhp}Heal{colour_end} 2 HP]]></entry>
+
+
+		<!-- Bounty Hunter -->
+		<entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[{?effect}%s vs {?amount}%d%% HP or less]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_bh_tooltip_pull_1"><![CDATA[{colour_start|move}Pull{colour_end} 2 {colour_start|skill_unselectable}(90%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_bh_tooltip_pull_2"><![CDATA[{colour_start|move}Pull{colour_end} 2 {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_bh_tooltip_pull_3"><![CDATA[{colour_start|move}Pull{colour_end} 2 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_bh_tooltip_pull_4"><![CDATA[{colour_start|move}Pull{colour_end} 2 {colour_start|skill_unselectable}(120%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_bh_tooltip_pull_5"><![CDATA[{colour_start|move}Pull{colour_end} 2 {colour_start|skill_unselectable}(130%%){colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_bh_tooltip_refresh_on_kill"><![CDATA[Killing Blows Refresh Skill Use]]></entry>
+
 		
-		<entry id="buff_stat_tooltip_upgrade_discount_gv_free_action"><![CDATA[{colour_start|notable}Free Action{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_gv_cooldown_3"><![CDATA[{colour_start|notable}Cooldown: 3 rds{colour_end}]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_bh_pull_1"><![CDATA[{colour_start|move}Pull{colour_end} 2 {colour_start|skill_unselectable}(90%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_bh_pull_2"><![CDATA[{colour_start|move}Pull{colour_end} 2 {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_bh_pull_3"><![CDATA[{colour_start|move}Pull{colour_end} 2 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_bh_pull_4"><![CDATA[{colour_start|move}Pull{colour_end} 2 {colour_start|skill_unselectable}(120%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_bh_pull_5"><![CDATA[{colour_start|move}Pull{colour_end} 2 {colour_start|skill_unselectable}(130%%){colour_end}]]></entry>
-		
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_exhaust"><![CDATA[{colour_start|mark}Mark{colour_end} Target
-{colour_start|debuff}Debuff Self:{colour_end}
--5 SPD / -10 DODGE]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_abom_disable_transform"><![CDATA[Transform Disabled!]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_hellion_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
--50%% DMG / -50%% {colour_start|bleed}Bleed{colour_end} Skill Chance]]></entry>
-		
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_disable_gut_shot"><![CDATA[Gut Shot Disabled!]]></entry>
-		
-		<entry id="buff_stat_tooltip_upgrade_discount_bh_refresh_on_kill"><![CDATA[Killing Blows Refresh Skill Use]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_disable_finale"><![CDATA[Finale Disabled!]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_finale_damage"><![CDATA[{colour_start|buff}Buff Self:{colour_end} Finale: +100%% DMG]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
--10 DODGE / -2 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
--12 DODGE / -2 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
--15 DODGE / -3 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
--17 DODGE / -3 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_solo_debuff_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
--20 DODGE / -4 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_1"><![CDATA[Other Heroes:
-{colour_start|stress}Heal{colour_end} 1 Stress]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_2"><![CDATA[Other Heroes:
-{colour_start|stress}Heal{colour_end} 1 Stress / {colour_start|stress}Heal{colour_end} 1 Stress (50%%)]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_stress_heal_3"><![CDATA[Other Heroes:
-{colour_start|stress}Heal{colour_end} 2 Stress]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
--15%% PROT {colour_start|skill_unselectable}(100%%){colour_end}
-{colour_start|buff}Buff Self:{colour_end}
-Finale: +100%% DMG / +2 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
--17%% PROT {colour_start|skill_unselectable}(110%%){colour_end}
-{colour_start|buff}Buff Self:{colour_end}
-Finale: +100%% DMG / +2 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
--20%% PROT {colour_start|skill_unselectable}(120%%){colour_end}
-{colour_start|buff}Buff Self:{colour_end}
-Finale: +100%% DMG / +3 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
--22%% PROT {colour_start|skill_unselectable}(130%%){colour_end}
-{colour_start|buff}Buff Self:{colour_end}
-Finale: +100%% DMG / +3 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_dirk_buff_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
--25%% PROT {colour_start|skill_unselectable}(140%%){colour_end}
-{colour_start|buff}Buff Self:{colour_end}
-Finale: +100%% DMG / +4 SPD]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_jester_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
--10 DODGE / Finale Disabled!]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_hm_already_marked"><![CDATA[If Target is {colour_start|mark}Marked{colour_end}:]]></entry>
-		
-		<entry id="buff_stat_tooltip_upgrade_discount_hm_go_fetch_bleed_1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(100%%){colour_end}
-2 pts/rd for 3 rds]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hm_go_fetch_bleed_2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(110%%){colour_end}
-2 pts/rd for 3 rds]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hm_go_fetch_bleed_3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(120%%){colour_end}
-3 pts/rd for 3 rds]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hm_go_fetch_bleed_4"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%%){colour_end}
-3 pts/rd for 3 rds]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hm_go_fetch_bleed_5"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%%){colour_end}
-4 pts/rd for 3 rds]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_hm_mark_condition"><![CDATA[If Target is already {colour_start|mark}Marked{colour_end}:
-{colour_start|debuff}Debuff Target:{colour_end}]]></entry>
-		
-		<entry id="buff_stat_tooltip_upgrade_discount_hm_mark_debuff_1"><![CDATA[Hound's Rush: +100%% DMG Received {colour_start|skill_unselectable}(500%%){colour_end}
-Hound's Rush: Crits Received Chance: +2%% {colour_start|skill_unselectable}(500%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hm_mark_debuff_2"><![CDATA[Hound's Rush: +100%% DMG Received {colour_start|skill_unselectable}(500%%){colour_end}
-Hound's Rush: Crits Received Chance: +3%% {colour_start|skill_unselectable}(500%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hm_mark_debuff_3"><![CDATA[Hound's Rush: +100%% DMG Received {colour_start|skill_unselectable}(500%%){colour_end}
-Hound's Rush: Crits Received Chance: +4%% {colour_start|skill_unselectable}(500%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hm_mark_debuff_4"><![CDATA[Hound's Rush: +100%% DMG Received {colour_start|skill_unselectable}(500%%){colour_end}
-Hound's Rush: Crits Received Chance: +5%% {colour_start|skill_unselectable}(500%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hm_mark_debuff_5"><![CDATA[Hound's Rush: +100%% DMG Received {colour_start|skill_unselectable}(500%%){colour_end}
-Hound's Rush: Crits Received Chance: +6%% {colour_start|skill_unselectable}(500%%){colour_end}]]></entry>
-
-
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_base"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 85 / DMG: -25%% / CRIT: +2%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 90 / DMG: -25%% / CRIT: +3%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 95 / DMG: -25%% / CRIT: +4%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 100 / DMG: -25%% / CRIT: +5%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_hwm_riposte_5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 105 / DMG: -25%% / CRIT: +6%%]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_base"><![CDATA[Self:
-{colour_start|mark}Mark{colour_end} Target
-Activates {colour_start|riposte}Riposte{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 85 / DMG: -25%% / CRIT: +2%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 90 / DMG: -25%% / CRIT: +3%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 95 / DMG: -25%% / CRIT: +4%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 100 / DMG: -25%% / CRIT: +5%%]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_maa_riposte_5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 105 / DMG: -25%% / CRIT: +6%%]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
-+10 ACC / +3 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
-+11 ACC / +3 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
-+12 ACC / +4 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
-+13 ACC / +4 SPD]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_leper_push_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
-+15 ACC / +5 SPD]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_fade_base"><![CDATA[Self:
-{colour_start|stealth}Stealth{colour_end} (2 rds)
-Refresh Skill Uses]]></entry>
-		
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_fade_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
-{colour_start|attacktype}Ranged{colour_end} Skills:
-+10 ACC / +40%% DMG / +6%% CRIT]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_fade_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
-{colour_start|attacktype}Ranged{colour_end} Skills:
-+12 ACC / +42%% DMG / +7%% CRIT]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_fade_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
-{colour_start|attacktype}Ranged{colour_end} Skills:
-+15 ACC / +45%% DMG / +8%% CRIT]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_fade_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
-{colour_start|attacktype}Ranged{colour_end} Skills:
-+17 ACC / +47%% DMG / +9%% CRIT]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_fade_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
-{colour_start|attacktype}Ranged{colour_end} Skills:
-+20 ACC / +50%% DMG / +10%% CRIT]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+		<!-- Grave Robber -->
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_gr_tooltip_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
 {colour_start|attacktype}Ranged{colour_end} Skills:
 +5 ACC / +25%% DMG / +3%% CRIT]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_gr_tooltip_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
 {colour_start|attacktype}Ranged{colour_end} Skills:
 +6 ACC / +27%% DMG / +3%% CRIT]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_gr_tooltip_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
 {colour_start|attacktype}Ranged{colour_end} Skills:
 +7 ACC / +29%% DMG / +4%% CRIT]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_gr_tooltip_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
 {colour_start|attacktype}Ranged{colour_end} Skills:
 +8 ACC / +31%% DMG / +4%% CRIT]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_gr_tooltip_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
 {colour_start|attacktype}Ranged{colour_end} Skills:
 +10 ACC / +33%% DMG / +5%% CRIT]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte_p1"><![CDATA[If HIT While {colour_start|buff}Buff{colour_end} Active:
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_gr_tooltip_riposte"><![CDATA[If HIT While {colour_start|buff}Buff{colour_end} Active:
 {colour_start|stun}Stun{colour_end} Self]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_gr_riposte_p2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: Triggers on HIT Only]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_corpse_explosion"><![CDATA[Deals 100%% DMG per Corpse
-Always MISS if no Corpses]]></entry>
+		<!-- Hellion -->
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hellion_tooltip_exhaust"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+-50%% DMG / -50%% {colour_start|bleed}Bleed{colour_end} Skill Chance]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hellion_tooltip_will_1"><![CDATA[Cure {colour_start|blight}Blight{colour_end}
+Self:
+{colour_start|healhp}Heal{colour_end} 1-1
+Cure {colour_start|blight}Blight{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hellion_tooltip_will_2"><![CDATA[Cure {colour_start|blight}Blight{colour_end}
+Self:
+{colour_start|healhp}Heal{colour_end} 1-2
+Cure {colour_start|blight}Blight{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hellion_tooltip_will_3"><![CDATA[Cure {colour_start|blight}Blight{colour_end}
+Self:
+{colour_start|healhp}Heal{colour_end} 2-2
+Cure {colour_start|blight}Blight{colour_end}]]></entry>
+		
+		<!-- Highwayman -->
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hwm_tooltip_riposte_base"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hwm_tooltip_riposte_1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 85 / DMG: -25%% / CRIT: +2%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hwm_tooltip_riposte_2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 90 / DMG: -25%% / CRIT: +3%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hwm_tooltip_riposte_3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 95 / DMG: -25%% / CRIT: +4%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hwm_tooltip_riposte_4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 100 / DMG: -25%% / CRIT: +5%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hwm_tooltip_riposte_5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 105 / DMG: -25%% / CRIT: +6%%]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hwm_tooltip_exhaust"><![CDATA[{colour_start|mark}Mark{colour_end} Target
+{colour_start|debuff}Debuff Self:{colour_end}
+-5 SPD / -10 DODGE]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hwm_tooltip_disable_gut_shot"><![CDATA[Gut Shot Disabled!]]></entry>
+
+		
+		<!-- Houndmaster -->
+		<entry id="str_skill_mode_info_hound"><![CDATA[]]></entry>
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hm_tooltip_already_marked"><![CDATA[If Target is {colour_start|mark}Marked{colour_end}:]]></entry>
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hm_tooltip_go_fetch_bleed_1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(100%%){colour_end}
+2 pts/rd for 3 rds]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hm_tooltip_go_fetch_bleed_2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(110%%){colour_end}
+2 pts/rd for 3 rds]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hm_tooltip_go_fetch_bleed_3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(120%%){colour_end}
+3 pts/rd for 3 rds]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hm_tooltip_go_fetch_bleed_4"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%%){colour_end}
+3 pts/rd for 3 rds]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hm_tooltip_go_fetch_bleed_5"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%%){colour_end}
+4 pts/rd for 3 rds]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hm_tooltip_mark_condition"><![CDATA[If Target is already {colour_start|mark}Marked{colour_end}:
+{colour_start|debuff}Debuff Target:{colour_end}]]></entry>
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hm_tooltip_mark_debuff_1"><![CDATA[Hound's Rush: +125%% DMG Received {colour_start|skill_unselectable}(500%%){colour_end}
+Hound's Rush: Crits Received Chance: +2%% {colour_start|skill_unselectable}(500%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hm_tooltip_mark_debuff_2"><![CDATA[Hound's Rush: +125%% DMG Received {colour_start|skill_unselectable}(500%%){colour_end}
+Hound's Rush: Crits Received Chance: +3%% {colour_start|skill_unselectable}(500%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hm_tooltip_mark_debuff_3"><![CDATA[Hound's Rush: +125%% DMG Received {colour_start|skill_unselectable}(500%%){colour_end}
+Hound's Rush: Crits Received Chance: +4%% {colour_start|skill_unselectable}(500%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hm_tooltip_mark_debuff_4"><![CDATA[Hound's Rush: +125%% DMG Received {colour_start|skill_unselectable}(500%%){colour_end}
+Hound's Rush: Crits Received Chance: +5%% {colour_start|skill_unselectable}(500%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_hm_tooltip_mark_debuff_5"><![CDATA[Hound's Rush: +125%% DMG Received {colour_start|skill_unselectable}(500%%){colour_end}
+Hound's Rush: Crits Received Chance: +6%% {colour_start|skill_unselectable}(500%%){colour_end}]]></entry>
+		
+		
+		<!-- Plague Doctor -->
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_pd_tooltip_corpse_explosion"><![CDATA[Deals 100%% DMG per Corpse Cleared]]></entry>
+
+		
+		<!-- Jester -->
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_jester_tooltip_disable_finale"><![CDATA[Finale Disabled!]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_jester_tooltip_solo_debuff_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-10 DODGE / -2 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_jester_tooltip_solo_debuff_2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-12 DODGE / -2 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_jester_tooltip_solo_debuff_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-15 DODGE / -3 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_jester_tooltip_solo_debuff_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-17 DODGE / -3 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_jester_tooltip_solo_debuff_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+-20 DODGE / -4 SPD {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_jester_tooltip_stress_heal_1"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 1 Stress]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_jester_tooltip_stress_heal_2"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 1 Stress / {colour_start|stress}Heal{colour_end} 1 Stress (50%%)]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_jester_tooltip_stress_heal_3"><![CDATA[Other Heroes:
+{colour_start|stress}Heal{colour_end} 2 Stress]]></entry>
+
+
+		<!-- Leper -->
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_leper_tooltip_push_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++10 ACC / +3 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_leper_tooltip_push_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++11 ACC / +3 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_leper_tooltip_push_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++12 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_leper_tooltip_push_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++13 ACC / +4 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_leper_tooltip_push_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++15 ACC / +5 SPD]]></entry>
+
+
+		<!-- Man-at-Arms -->
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_maa_tooltip_riposte_base"><![CDATA[Self:
+{colour_start|mark}Mark{colour_end} Target
+Activates {colour_start|riposte}Riposte{colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_maa_tooltip_riposte_1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 85 / DMG: -25%% / CRIT: +2%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_maa_tooltip_riposte_2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 90 / DMG: -25%% / CRIT: +3%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_maa_tooltip_riposte_3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 95 / DMG: -25%% / CRIT: +4%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_maa_tooltip_riposte_4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 100 / DMG: -25%% / CRIT: +5%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_maa_tooltip_riposte_5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: ACC: 105 / DMG: -25%% / CRIT: +6%%]]></entry>
+		
+		
+		<!-- Shared Tooltips -->
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_free_action"><![CDATA[{colour_start|notable}Free Action{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_cooldown_2"><![CDATA[{colour_start|notable}Cooldown: 2 rds{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_gv_cooldown_3"><![CDATA[{colour_start|notable}Cooldown: 3 rds{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_consume_mark"><![CDATA[Consume {colour_start|mark}Mark{colour_end}]]></entry>
 	</language>
 </root>
 

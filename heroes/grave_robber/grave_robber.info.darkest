@@ -1,6 +1,6 @@
 resistances: .stun 20% .poison 50% .bleed 30% .disease 30% .move 20% .debuff 30% .death_blow 67% .trap 50%
 
-crit: .effects "GV_on_crit_dmgblighted"
+crit: .effects "GV_GR_On_Crit"
 
 weapon: .name "grave_robber_weapon_0" .atk 0% .dmg 4 8 .crit 6% .spd 8
 weapon: .name "grave_robber_weapon_1" .atk 0% .dmg 5 10 .crit 7% .spd 8 .upgradeRequirementCode 0
@@ -29,18 +29,18 @@ combat_skill: .id "thrown_dagger" .level 3 .type "ranged" .atk 105% .dmg 0% .cri
 combat_skill: .id "thrown_dagger" .level 4 .type "ranged" .atk 110% .dmg 0% .crit 9% .launch 43 .target 1234 .is_crit_valid True .effect "GV_GR_Throw_Buffs_5" "GV_GR_Dagger_Dmg_Marked" "GV_GR_Dagger_Dmg_Poisoned"
 
 // Flashing Daggers
-combat_skill: .id "flashing_daggers" .level 0 .type "ranged" .atk 70% .dmg 0% .crit -4% .launch 43 .target ~23 .ignore_stealth true .is_crit_valid True .effect "Destealth"
-combat_skill: .id "flashing_daggers" .level 1 .type "ranged" .atk 75% .dmg 0% .crit -3% .launch 43 .target ~23 .ignore_stealth true .is_crit_valid True .effect "Destealth"
-combat_skill: .id "flashing_daggers" .level 2 .type "ranged" .atk 80% .dmg 0% .crit -2% .launch 43 .target ~23 .ignore_stealth true .is_crit_valid True .effect "Destealth"
-combat_skill: .id "flashing_daggers" .level 3 .type "ranged" .atk 85% .dmg 0% .crit -1% .launch 43 .target ~23 .ignore_stealth true .is_crit_valid True .effect "Destealth"
-combat_skill: .id "flashing_daggers" .level 4 .type "ranged" .atk 90% .dmg 0% .crit 0% .launch 43 .target ~23 .ignore_stealth true .is_crit_valid True .effect "Destealth"
+combat_skill: .id "flashing_daggers" .level 0 .type "ranged" .atk 70% .dmg -10% .crit -4% .launch 43 .target ~23 .ignore_stealth true .is_crit_valid True .effect "Destealth"
+combat_skill: .id "flashing_daggers" .level 1 .type "ranged" .atk 75% .dmg -10% .crit -3% .launch 43 .target ~23 .ignore_stealth true .is_crit_valid True .effect "Destealth"
+combat_skill: .id "flashing_daggers" .level 2 .type "ranged" .atk 80% .dmg -10% .crit -2% .launch 43 .target ~23 .ignore_stealth true .is_crit_valid True .effect "Destealth"
+combat_skill: .id "flashing_daggers" .level 3 .type "ranged" .atk 85% .dmg -10% .crit -1% .launch 43 .target ~23 .ignore_stealth true .is_crit_valid True .effect "Destealth"
+combat_skill: .id "flashing_daggers" .level 4 .type "ranged" .atk 90% .dmg -10% .crit 0% .launch 43 .target ~23 .ignore_stealth true .is_crit_valid True .effect "Destealth"
 
 // In the Zone
-combat_skill: .id "toxin_trickery" .level 0 .launch 43 .target .is_crit_valid False .effect "GV_Tooltip_Free_Action" "GV_GR_Riposte" "GV_GR_Zone_Buffs_1" "GV_Tooltip_GR_Buff_1" "GV_Tooltip_GR_Riposte_P1" .is_continue_turn True .per_turn_limit 1 .per_battle_limit 1 .is_stall_invalidating false .refresh_after_each_wave true .is_stall_invalidating false
-combat_skill: .id "toxin_trickery" .level 1 .launch 43 .target .is_crit_valid False .effect "GV_Tooltip_Free_Action" "GV_GR_Riposte" "GV_GR_Zone_Buffs_2" "GV_Tooltip_GR_Buff_2" "GV_Tooltip_GR_Riposte_P1" .is_continue_turn True .per_turn_limit 1 .per_battle_limit 1 .is_stall_invalidating false .refresh_after_each_wave true .is_stall_invalidating false
-combat_skill: .id "toxin_trickery" .level 2 .launch 43 .target .is_crit_valid False .effect "GV_Tooltip_Free_Action" "GV_GR_Riposte" "GV_GR_Zone_Buffs_3" "GV_Tooltip_GR_Buff_3" "GV_Tooltip_GR_Riposte_P1" .is_continue_turn True .per_turn_limit 1 .per_battle_limit 1 .is_stall_invalidating false .refresh_after_each_wave true .is_stall_invalidating false
-combat_skill: .id "toxin_trickery" .level 3 .launch 43 .target .is_crit_valid False .effect "GV_Tooltip_Free_Action" "GV_GR_Riposte" "GV_GR_Zone_Buffs_4" "GV_Tooltip_GR_Buff_4" "GV_Tooltip_GR_Riposte_P1" .is_continue_turn True .per_turn_limit 1 .per_battle_limit 1 .is_stall_invalidating false .refresh_after_each_wave true .is_stall_invalidating false
-combat_skill: .id "toxin_trickery" .level 4 .launch 43 .target .is_crit_valid False .effect "GV_Tooltip_Free_Action" "GV_GR_Riposte" "GV_GR_Zone_Buffs_5" "GV_Tooltip_GR_Buff_5" "GV_Tooltip_GR_Riposte_P1" .is_continue_turn True .per_turn_limit 1 .per_battle_limit 1 .is_stall_invalidating false .refresh_after_each_wave true .is_stall_invalidating false
+combat_skill: .id "toxin_trickery" .level 0 .launch 43 .target .is_crit_valid False .effect "GV_Tooltip_Free_Action" "GV_GR_Riposte" "GV_GR_Zone_Buffs_1" "GV_GR_Tooltip_Buff_1" "GV_GR_Tooltip_Riposte" .is_continue_turn True .per_turn_limit 1 .per_battle_limit 1 .is_stall_invalidating false .refresh_after_each_wave true .is_stall_invalidating false
+combat_skill: .id "toxin_trickery" .level 1 .launch 43 .target .is_crit_valid False .effect "GV_Tooltip_Free_Action" "GV_GR_Riposte" "GV_GR_Zone_Buffs_2" "GV_GR_Tooltip_Buff_2" "GV_GR_Tooltip_Riposte" .is_continue_turn True .per_turn_limit 1 .per_battle_limit 1 .is_stall_invalidating false .refresh_after_each_wave true .is_stall_invalidating false
+combat_skill: .id "toxin_trickery" .level 2 .launch 43 .target .is_crit_valid False .effect "GV_Tooltip_Free_Action" "GV_GR_Riposte" "GV_GR_Zone_Buffs_3" "GV_GR_Tooltip_Buff_3" "GV_GR_Tooltip_Riposte" .is_continue_turn True .per_turn_limit 1 .per_battle_limit 1 .is_stall_invalidating false .refresh_after_each_wave true .is_stall_invalidating false
+combat_skill: .id "toxin_trickery" .level 3 .launch 43 .target .is_crit_valid False .effect "GV_Tooltip_Free_Action" "GV_GR_Riposte" "GV_GR_Zone_Buffs_4" "GV_GR_Tooltip_Buff_4" "GV_GR_Tooltip_Riposte" .is_continue_turn True .per_turn_limit 1 .per_battle_limit 1 .is_stall_invalidating false .refresh_after_each_wave true .is_stall_invalidating false
+combat_skill: .id "toxin_trickery" .level 4 .launch 43 .target .is_crit_valid False .effect "GV_Tooltip_Free_Action" "GV_GR_Riposte" "GV_GR_Zone_Buffs_5" "GV_GR_Tooltip_Buff_5" "GV_GR_Tooltip_Riposte" .is_continue_turn True .per_turn_limit 1 .per_battle_limit 1 .is_stall_invalidating false .refresh_after_each_wave true .is_stall_invalidating false
 
 // Lunge
 combat_skill: .id "lunge" .level 0 .type "melee" .atk 85% .dmg 25% .crit 8% .move 0 2 .launch 43 .target 123 .is_crit_valid True

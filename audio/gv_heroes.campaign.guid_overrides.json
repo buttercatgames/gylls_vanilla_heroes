@@ -10,8 +10,6 @@
 		{"event_id": "event:/char/ally/crusader_bulwark_of_faith_miss",      "guid_override":"{cc20caa3-5a59-40a4-9262-475e7a4fa85b}"},
 		{"event_id": "event:/char/ally/grave_robber_riposte1",	"guid_override":"{0ec07f3b-1d46-4075-8453-dd317668b25c}"},
 		{"event_id": "event:/char/ally/grave_robber_riposte1_miss",	"guid_override":"{84544d80-da50-49cd-99f9-7832706a4414}"},
-		{"event_id": "event:/char/ally/hellion_if_it_bleeds",      "guid_override":"{a7ccccfc-9d25-4be0-9ed5-8c0f21138771}"},
-		{"event_id": "event:/char/ally/hellion_if_it_bleeds_miss",      "guid_override":"{d2ed1258-39f1-4e02-ace6-0fc362df33a2}"},
 		{"event_id": "event:/char/ally/plague_doctor_disorienting_blast",	"guid_override":"{92d36f75-f421-496e-87ad-ddde5d09d58c}"},
 		{"event_id": "event:/char/ally/leper_intimidate",	"guid_override":"{12879d0a-384d-4f86-9221-00c63d60f8a6}"},
 		{"event_id": "event:/char/ally/leper_intimidate_miss",	"guid_override":"{2ec94a0f-39c3-4035-819a-462a105a6f45}"},
