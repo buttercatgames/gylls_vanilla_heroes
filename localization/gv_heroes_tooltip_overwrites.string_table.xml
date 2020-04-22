@@ -22,7 +22,7 @@
 		<entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRIT]]></entry>
 		<entry id="buff_stat_tooltip_stress_dmg_percent"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end} Inflicted]]></entry>
 		<entry id="buff_stat_tooltip_stress_dmg_received_percent"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_stress_heal_percent"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end} Healing]]></entry>
+		<entry id="buff_stat_tooltip_stress_heal_percent"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end} Healing Done]]></entry>
 		<entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% DMG Received]]></entry>
 		
 		<entry id="buff_stat_tooltip_ignore_protection"><![CDATA[%d%% PROT Piercing]]></entry>
@@ -32,10 +32,6 @@
 	    <entry id="effect_stealth_format"><![CDATA[{colour_start|stealth}Stealth{colour_end} (%d rds)]]></entry>
 		
 		<!-- Actor Status False -->
-		<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s if NOT %s]]></entry>
-		
-		<!-- Stress Healing -->
-		<entry id="buff_stat_tooltip_stress_heal_percent"><![CDATA[%+d%% {colour_start|stress}Stress {colour_end}Healing Done]]></entry>
-		
+		<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s if NOT %s]]></entry>		
 	</language>
 </root>

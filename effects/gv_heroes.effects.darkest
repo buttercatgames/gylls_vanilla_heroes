@@ -51,7 +51,11 @@ effect: .name "GV_Abom_Absolution_Heal_2" .target "performer" .chance 100% .heal
 effect: .name "GV_Abom_Absolution_Heal_3" .target "performer" .chance 100% .heal 4 .on_hit true .on_miss false .queue false .source_heal_type hero_skill
 
 // Rage & Rake
-effect: .name "GV_Abom_Gain_Dmg" .target "performer" .chance 100% .buff_ids "GV_Abom_DMG_L" "GV_Abom_DMG_H" .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Abom_Gain_Dmg_1" .target "performer" .chance 100% .buff_ids "GV_Abom_DMG_L_1" "GV_Abom_DMG_H_1" .duration 5 .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Abom_Gain_Dmg_2" .target "performer" .chance 100% .buff_ids "GV_Abom_DMG_L_2" "GV_Abom_DMG_H_2" .duration 5 .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Abom_Gain_Dmg_3" .target "performer" .chance 100% .buff_ids "GV_Abom_DMG_L_3" "GV_Abom_DMG_H_3" .duration 5 .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Abom_Gain_Dmg_4" .target "performer" .chance 100% .buff_ids "GV_Abom_DMG_L_4" "GV_Abom_DMG_H_4" .duration 5 .on_hit true .on_miss false .apply_once true
+effect: .name "GV_Abom_Gain_Dmg_5" .target "performer" .chance 100% .buff_ids "GV_Abom_DMG_L_5" "GV_Abom_DMG_H_5" .duration 5 .on_hit true .on_miss false .apply_once true
 
 // Slam
 effect: .name "GV_Abom_Slam_Debuff_1" .target "target" .chance 110% .combat_stat_buff 1 .speed_rating_add -4 .duration 2 .on_hit true .on_miss false
@@ -191,8 +195,6 @@ effect: .name "GV_Arb_Self_Speed_5" .target "performer" .chance 100% .combat_sta
 // Rallying Flare
 effect: .name "GV_Arb_Flare_Clear" .target "target" .chance 100% .clearDotStress 1 .on_hit true .on_miss false
 
-effect: .name "GV_Arb_Destealth_Enemies" .target "target_enemy_group" .chance 100% .unstealth 1 .on_hit true .on_miss false .apply_once true
-
 effect: .name "GV_Arb_Flare_Buff_1" .target "target" .chance 100% .buff_ids "GV_Arb_Stress_Resist_1" .duration 2 .on_hit true .on_miss false
 effect: .name "GV_Arb_Flare_Buff_2" .target "target" .chance 100% .buff_ids "GV_Arb_Stress_Resist_2" .duration 2 .on_hit true .on_miss false
 effect: .name "GV_Arb_Flare_Buff_3" .target "target" .chance 100% .buff_ids "GV_Arb_Stress_Resist_3" .duration 2 .on_hit true .on_miss false
@@ -214,11 +216,11 @@ effect: .name "GV_Man_Hitter_5" .target "performer" .chance 100% .monsterType "m
 effect: .name "GV_BH_Dmg_Marked" .target "performer" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 75% .damage_high_multiply 75%	.on_hit true .on_miss false
 
 // Mark for Death
-effect: .name "GV_BH_Mark_Target_1" .target "target" .chance 100% .tag 1 .combat_stat_buff 1 .protection_rating_add -20% .duration 3 .on_hit true .on_miss true .queue true
-effect: .name "GV_BH_Mark_Target_2" .target "target" .chance 110% .tag 1 .combat_stat_buff 1 .protection_rating_add -22% .duration 3 .on_hit true .on_miss true .queue true
-effect: .name "GV_BH_Mark_Target_3" .target "target" .chance 120% .tag 1 .combat_stat_buff 1 .protection_rating_add -25% .duration 3 .on_hit true .on_miss true .queue true
-effect: .name "GV_BH_Mark_Target_4" .target "target" .chance 130% .tag 1 .combat_stat_buff 1 .protection_rating_add -27% .duration 3 .on_hit true .on_miss true .queue true
-effect: .name "GV_BH_Mark_Target_5" .target "target" .chance 140% .tag 1 .combat_stat_buff 1 .protection_rating_add -30% .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "GV_BH_Mark_Target_1" .target "target" .chance 100% .tag 1 .combat_stat_buff 1 .protection_rating_add -15% .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "GV_BH_Mark_Target_2" .target "target" .chance 110% .tag 1 .combat_stat_buff 1 .protection_rating_add -17% .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "GV_BH_Mark_Target_3" .target "target" .chance 120% .tag 1 .combat_stat_buff 1 .protection_rating_add -20% .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "GV_BH_Mark_Target_4" .target "target" .chance 130% .tag 1 .combat_stat_buff 1 .protection_rating_add -22% .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "GV_BH_Mark_Target_5" .target "target" .chance 140% .tag 1 .combat_stat_buff 1 .protection_rating_add -25% .duration 3 .on_hit true .on_miss true .queue true
 
 // Come Hither
 effect: .name "GV_BH_Pull_1" .target "target" .pull 2 .chance 90% .on_hit true .on_miss false .can_apply_on_death true .has_description false
@@ -323,10 +325,10 @@ effect: .name "GV_GR_On_Crit" .target "performer" .chance 100% .buff_source_type
 
 // Chip Away
 effect: .name "GV_GR_Chip_Armor_1" .target "target" .chance 100% .combat_stat_buff 1 .protection_rating_add -25% .duration 3 .on_hit true .on_miss false .queue true
-effect: .name "GV_GR_Chip_Armor_2" .target "target" .chance 110% .combat_stat_buff 1 .protection_rating_add -33% .duration 3 .on_hit true .on_miss false .queue true
-effect: .name "GV_GR_Chip_Armor_3" .target "target" .chance 120% .combat_stat_buff 1 .protection_rating_add -40% .duration 3 .on_hit true .on_miss false .queue true
-effect: .name "GV_GR_Chip_Armor_4" .target "target" .chance 130% .combat_stat_buff 1 .protection_rating_add -45% .duration 3 .on_hit true .on_miss false .queue true
-effect: .name "GV_GR_Chip_Armor_5" .target "target" .chance 140% .combat_stat_buff 1 .protection_rating_add -50% .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_GR_Chip_Armor_2" .target "target" .chance 110% .combat_stat_buff 1 .protection_rating_add -28% .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_GR_Chip_Armor_3" .target "target" .chance 120% .combat_stat_buff 1 .protection_rating_add -33% .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_GR_Chip_Armor_4" .target "target" .chance 130% .combat_stat_buff 1 .protection_rating_add -36% .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_GR_Chip_Armor_5" .target "target" .chance 140% .combat_stat_buff 1 .protection_rating_add -40% .duration 3 .on_hit true .on_miss false .queue true
 
 effect: .name "GV_GR_Pierce_Armor_1" .target "performer" .chance 100% .skill_instant true .buff_ids "GV_GR_Pierce_Armor_1" .on_hit true .on_miss false
 effect: .name "GV_GR_Pierce_Armor_2" .target "performer" .chance 100% .skill_instant true .buff_ids "GV_GR_Pierce_Armor_2" .on_hit true .on_miss false
@@ -398,11 +400,11 @@ effect: .name "GV_Hellion_Weak_Stun_5" .target "target" .chance 130% .stun 1 .on
 effect: .name "GV_Hellion_Stun_Vs_Bleeding" .target "performer" .chance 100% .skill_instant true .buff_ids "GV_Hellion_Stun_Vs_Bleeding" .on_hit true .on_miss false .apply_once true
 
 // If It Bleeds
-effect: .name "GV_Hellion_Bleeds_Buff_1" .target "performer_group" .chance 100% .buff_ids "GV_Hellion_Bleeds_AP_Buff_1" .duration 3 .on_hit true .on_miss false .queue true
-effect: .name "GV_Hellion_Bleeds_Buff_2" .target "performer_group" .chance 100% .buff_ids "GV_Hellion_Bleeds_AP_Buff_2" .duration 3 .on_hit true .on_miss false .queue true
-effect: .name "GV_Hellion_Bleeds_Buff_3" .target "performer_group" .chance 100% .buff_ids "GV_Hellion_Bleeds_AP_Buff_3" .duration 3 .on_hit true .on_miss false .queue true
-effect: .name "GV_Hellion_Bleeds_Buff_4" .target "performer_group" .chance 100% .buff_ids "GV_Hellion_Bleeds_AP_Buff_4" .duration 3 .on_hit true .on_miss false .queue true
-effect: .name "GV_Hellion_Bleeds_Buff_5" .target "performer_group" .chance 100% .buff_ids "GV_Hellion_Bleeds_AP_Buff_5" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_Hellion_Bleeds_Buff_1" .target "target" .chance 100% .buff_ids "GV_Hellion_Bleeds_AP_Buff_1" "GV_Hellion_Bleeds_Crit_Buff_1" "SPD2" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_Hellion_Bleeds_Buff_2" .target "target" .chance 100% .buff_ids "GV_Hellion_Bleeds_AP_Buff_2" "GV_Hellion_Bleeds_Crit_Buff_2" "SPD2" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_Hellion_Bleeds_Buff_3" .target "target" .chance 100% .buff_ids "GV_Hellion_Bleeds_AP_Buff_3" "GV_Hellion_Bleeds_Crit_Buff_3" "SPD3" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_Hellion_Bleeds_Buff_4" .target "target" .chance 100% .buff_ids "GV_Hellion_Bleeds_AP_Buff_4" "GV_Hellion_Bleeds_Crit_Buff_4" "SPD3" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "GV_Hellion_Bleeds_Buff_5" .target "target" .chance 100% .buff_ids "GV_Hellion_Bleeds_AP_Buff_5" "GV_Hellion_Bleeds_Crit_Buff_5" "SPD4" .duration 3 .on_hit true .on_miss false .queue true
 
 // Breakthrough
 
@@ -1045,6 +1047,9 @@ effect: .name "GV_Stacking_Heal_2" .target "target" .chance 100% .buff_type hp_h
 effect: .name "GV_Stacking_Heal_3" .target "target" .chance 100% .buff_type hp_heal_received_percent .buff_amount 30% .duration 3 .on_hit true .on_miss false .queue true
 effect: .name "GV_Stacking_Heal_4" .target "target" .chance 100% .buff_type hp_heal_received_percent .buff_amount 35% .duration 3 .on_hit true .on_miss false .queue true
 effect: .name "GV_Stacking_Heal_5" .target "target" .chance 100% .buff_type hp_heal_received_percent .buff_amount 40% .duration 3 .on_hit true .on_miss false .queue true
+
+// Destealth
+effect: .name "GV_Destealth_Enemies" .target "target_enemy_group" .chance 100% .unstealth 1 .on_hit true .on_miss false .apply_once true
 
 // Clear Corpses
 effect: .name "GV_Clear_Corpse_Target" .target "target" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss true .can_apply_on_death true

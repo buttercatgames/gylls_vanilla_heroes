@@ -13,7 +13,7 @@ armour: .name "grave_robber_armour_3" .icon "eqp_armour_3.png"
 armour: .name "grave_robber_armour_4" .icon "eqp_armour_4.png"
 
 combat_skill: .id "pick" .icon "pick" .anim "attack_pick" .fx "pick" .targchestfx "blood_splatter" .condensed_tooltip_stats true
-combat_skill: .id "lunge" .icon "two" .anim "attack_melee" .fx "lunge" .targchestfx "blood_splatter" .condensed_tooltip_stats true
+combat_skill: .id "lunge" .icon "two" .anim "attack_melee" .fx "lunge" .targchestfx "blood_splatter" .condensed_tooltip_stats false
 combat_skill: .id "flashing_daggers" .icon "flashing" .anim "attack_dagger" .targchestfx "flashing_daggers_target" .condensed_tooltip_stats true
 combat_skill: .id "shadow_fade" .icon "fade" .anim "attack_fade" .fx "shadow_fade" .condensed_tooltip_stats true
 combat_skill: .id "thrown_dagger" .icon "five" .anim "attack_dagger" .targchestfx "thrown_dagger_target" .condensed_tooltip_stats true

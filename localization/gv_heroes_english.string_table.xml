@@ -30,11 +30,6 @@
 		<entry id="upgrade_tree_name_highwayman.take_aim"><![CDATA[Gut Shot]]></entry>
 
 		
-		<!-- Hellion -->
-		<entry id="combat_skill_name_hellion_adrenaline_rush"><![CDATA[Indomitable Will]]></entry>
-		<entry id="upgrade_tree_name_hellion.adrenaline_rush"><![CDATA[Indomitable Will]]></entry>
-		
-		
 		<!-- Houndmaster -->
 		<entry id="combat_skill_name_houndmaster_hounds_harry"><![CDATA[Go Fetch]]></entry>
 		<entry id="upgrade_tree_name_houndmaster.hounds_harry"><![CDATA[Go Fetch]]></entry>

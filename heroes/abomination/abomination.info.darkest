@@ -43,25 +43,25 @@ combat_skill: .id "absolution" .level 3 .launch 4321 .target .is_crit_valid True
 combat_skill: .id "absolution" .level 4 .launch 4321 .target .is_crit_valid True .effect "GV_Abom_Absolution_HealStress_5" "GV_Abom_Absolution_Heal_3" .valid_modes human .is_stall_invalidating false
 
 // Rage
-combat_skill: .id "rage" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .move 0 1 .launch 321 .target 12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg" .valid_modes beast
-combat_skill: .id "rage" .level 1 .type "melee" .atk 90% .dmg 0% .crit 6% .move 0 1 .launch 321 .target 12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg" .valid_modes beast
-combat_skill: .id "rage" .level 2 .type "melee" .atk 95% .dmg 0% .crit 7% .move 0 1 .launch 321 .target 12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg" .valid_modes beast
-combat_skill: .id "rage" .level 3 .type "melee" .atk 100% .dmg 0% .crit 8% .move 0 1 .launch 321 .target 12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg" .valid_modes beast
-combat_skill: .id "rage" .level 4 .type "melee" .atk 105% .dmg 0% .crit 9% .move 0 1 .launch 321 .target 12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg" .valid_modes beast
+combat_skill: .id "rage" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .move 0 1 .launch 321 .target 12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg_1" .valid_modes beast
+combat_skill: .id "rage" .level 1 .type "melee" .atk 90% .dmg 0% .crit 6% .move 0 1 .launch 321 .target 12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg_2" .valid_modes beast
+combat_skill: .id "rage" .level 2 .type "melee" .atk 95% .dmg 0% .crit 7% .move 0 1 .launch 321 .target 12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg_3" .valid_modes beast
+combat_skill: .id "rage" .level 3 .type "melee" .atk 100% .dmg 0% .crit 8% .move 0 1 .launch 321 .target 12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg_4" .valid_modes beast
+combat_skill: .id "rage" .level 4 .type "melee" .atk 105% .dmg 0% .crit 9% .move 0 1 .launch 321 .target 12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg_5" .valid_modes beast
 
 // Rake
-combat_skill: .id "rake" .level 0 .type "melee" .atk 85% .dmg -40% .crit -2% .move 0 1 .launch 321 .target ~12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg" .valid_modes beast
-combat_skill: .id "rake" .level 1 .type "melee" .atk 90% .dmg -40% .crit -1% .move 0 1 .launch 321 .target ~12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg" .valid_modes beast
-combat_skill: .id "rake" .level 2 .type "melee" .atk 95% .dmg -40% .crit 0% .move 0 1 .launch 321 .target ~12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg" .valid_modes beast
-combat_skill: .id "rake" .level 3 .type "melee" .atk 100% .dmg -40% .crit 1% .move 0 1 .launch 321 .target ~12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg" .valid_modes beast
-combat_skill: .id "rake" .level 4 .type "melee" .atk 105% .dmg -40% .crit 2% .move 0 1 .launch 321 .target ~12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg" .valid_modes beast
+combat_skill: .id "rake" .level 0 .type "melee" .atk 85% .dmg -40% .crit -2% .move 0 1 .launch 321 .target ~12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg_1" .valid_modes beast
+combat_skill: .id "rake" .level 1 .type "melee" .atk 90% .dmg -40% .crit -1% .move 0 1 .launch 321 .target ~12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg_2" .valid_modes beast
+combat_skill: .id "rake" .level 2 .type "melee" .atk 95% .dmg -40% .crit 0% .move 0 1 .launch 321 .target ~12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg_3" .valid_modes beast
+combat_skill: .id "rake" .level 3 .type "melee" .atk 100% .dmg -40% .crit 1% .move 0 1 .launch 321 .target ~12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg_4" .valid_modes beast
+combat_skill: .id "rake" .level 4 .type "melee" .atk 105% .dmg -40% .crit 2% .move 0 1 .launch 321 .target ~12 .is_crit_valid True .effect "GV_Abom_Gain_Dmg_5" .valid_modes beast
 
 // Slam
-combat_skill: .id "slam" .level 0 .type "melee" .atk 90% .dmg -60% .crit 2% .move 0 2 .launch 432 .target 12 .is_crit_valid True .effect "Push 1A" "Stun 1" "GV_Abom_Gain_Dmg" .valid_modes beast
-combat_skill: .id "slam" .level 1 .type "melee" .atk 95% .dmg -60% .crit 3% .move 0 2 .launch 432 .target 12 .is_crit_valid True .effect "Push 1B" "Stun 2" "GV_Abom_Gain_Dmg" .valid_modes beast
-combat_skill: .id "slam" .level 2 .type "melee" .atk 100% .dmg -60% .crit 4% .move 0 2 .launch 432 .target 12 .is_crit_valid True .effect "Push 1C" "Stun 3" "GV_Abom_Gain_Dmg" .valid_modes beast
-combat_skill: .id "slam" .level 3 .type "melee" .atk 105% .dmg -60% .crit 5% .move 0 2 .launch 432 .target 12 .is_crit_valid True .effect "Push 1D" "Stun 4" "GV_Abom_Gain_Dmg" .valid_modes beast
-combat_skill: .id "slam" .level 4 .type "melee" .atk 110% .dmg -60% .crit 6% .move 0 2 .launch 432 .target 12 .is_crit_valid True .effect "Push 1E" "Stun 5" "GV_Abom_Gain_Dmg" .valid_modes beast
+combat_skill: .id "slam" .level 0 .type "melee" .atk 90% .dmg -60% .crit 2% .move 0 2 .launch 432 .target 12 .is_crit_valid True .effect "Push 1A" "Stun 1" "GV_Abom_Gain_Dmg_1" .valid_modes beast
+combat_skill: .id "slam" .level 1 .type "melee" .atk 95% .dmg -60% .crit 3% .move 0 2 .launch 432 .target 12 .is_crit_valid True .effect "Push 1B" "Stun 2" "GV_Abom_Gain_Dmg_2" .valid_modes beast
+combat_skill: .id "slam" .level 2 .type "melee" .atk 100% .dmg -60% .crit 4% .move 0 2 .launch 432 .target 12 .is_crit_valid True .effect "Push 1C" "Stun 3" "GV_Abom_Gain_Dmg_3" .valid_modes beast
+combat_skill: .id "slam" .level 3 .type "melee" .atk 105% .dmg -60% .crit 5% .move 0 2 .launch 432 .target 12 .is_crit_valid True .effect "Push 1D" "Stun 4" "GV_Abom_Gain_Dmg_4" .valid_modes beast
+combat_skill: .id "slam" .level 4 .type "melee" .atk 110% .dmg -60% .crit 6% .move 0 2 .launch 432 .target 12 .is_crit_valid True .effect "Push 1E" "Stun 5" "GV_Abom_Gain_Dmg_5" .valid_modes beast
 
 combat_move_skill: .id "move" .level 0 .type "move" .move 1 1 .launch 4321
 

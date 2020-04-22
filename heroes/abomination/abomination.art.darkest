@@ -13,7 +13,7 @@ armour: .name "abomination_armour_3" .icon "eqp_armour_3.png"
 armour: .name "abomination_armour_4" .icon "eqp_armour_4.png"
 
 combat_skill: .id "transform" .icon "one" .anim "attack_transform" .fx "transform" .condensed_tooltip_stats true
-combat_skill: .id "manacles" .icon "manacles" .anim "attack_chain" .targfx "manacles_target" .condensed_tooltip_stats true
+combat_skill: .id "manacles" .icon "manacles" .anim "attack_chain" .targfx "manacles_target" .condensed_tooltip_stats false
 combat_skill: .id "vomit" .icon "three" .anim "attack_barf" .fx "vomit" .targfx "vomit_target" .condensed_tooltip_stats true
 combat_skill: .id "absolution" .icon "four" .anim "attack_kneel" .fx "absolution" .condensed_tooltip_stats true
 combat_skill: .id "rake" .icon "rake" .anim "attack_claw" .fx "rake" .targchestfx "blood_splatter" .condensed_tooltip_stats true

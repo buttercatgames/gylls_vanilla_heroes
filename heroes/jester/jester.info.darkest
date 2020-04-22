@@ -8,11 +8,11 @@ weapon: .name "jester_weapon_2" .atk 0% .dmg 6 10 .crit 9% .spd 7 .upgradeRequir
 weapon: .name "jester_weapon_3" .atk 0% .dmg 6 11 .crit 10% .spd 7 .upgradeRequirementCode 2
 weapon: .name "jester_weapon_4" .atk 0% .dmg 7 13 .crit 11% .spd 8 .upgradeRequirementCode 3
 
-armour: .name "jester_armour_0" .def 10% .prot 0 .hp 20 .spd 0
-armour: .name "jester_armour_1" .def 15% .prot 0 .hp 24 .spd 0 .upgradeRequirementCode 0
-armour: .name "jester_armour_2" .def 20% .prot 0 .hp 28 .spd 0 .upgradeRequirementCode 1
-armour: .name "jester_armour_3" .def 25% .prot 0 .hp 32 .spd 0 .upgradeRequirementCode 2
-armour: .name "jester_armour_4" .def 30% .prot 0 .hp 36 .spd 0 .upgradeRequirementCode 3
+armour: .name "jester_armour_0" .def 15% .prot 0 .hp 19 .spd 0
+armour: .name "jester_armour_1" .def 20% .prot 0 .hp 23 .spd 0 .upgradeRequirementCode 0
+armour: .name "jester_armour_2" .def 25% .prot 0 .hp 27 .spd 0 .upgradeRequirementCode 1
+armour: .name "jester_armour_3" .def 30% .prot 0 .hp 31 .spd 0 .upgradeRequirementCode 2
+armour: .name "jester_armour_4" .def 35% .prot 0 .hp 35 .spd 0 .upgradeRequirementCode 3
 
 // Battle Ballad
 combat_skill: .id "battle_ballad" .level 0 .launch 43 .target @~1234 .is_crit_valid True .effect "GV_Jester_Group_Buff_1" .is_stall_invalidating false

@@ -13,7 +13,7 @@
 		{"event_id": "event:/char/ally/plague_doctor_disorienting_blast",	"guid_override":"{92d36f75-f421-496e-87ad-ddde5d09d58c}"},
 		{"event_id": "event:/char/ally/leper_intimidate",	"guid_override":"{12879d0a-384d-4f86-9221-00c63d60f8a6}"},
 		{"event_id": "event:/char/ally/leper_intimidate_miss",	"guid_override":"{2ec94a0f-39c3-4035-819a-462a105a6f45}"},
-		
+		{"event_id": "event:/char/ally/hellion_if_it_bleeds",	"guid_override":"{a7ccccfc-9d25-4be0-9ed5-8c0f21138771}"},
 		
         {"event_id": "event:/char/ally/houndmaster_blackjack_human",                   "guid_override":"{ecd39b1f-b818-45df-bc70-5e0f5346be88}"},
         {"event_id": "event:/char/ally/houndmaster_blackjack_miss_human",              "guid_override":"{f3c8de50-1fc3-4eb7-bc70-f0800c98c48e}"},
